@@ -404,13 +404,114 @@
     .price-row { padding: 22px 20px; }
     .play-badge img { height: 46px; }
   }
+
+  /* Cookie consent banner -- accept and reject deliberately equal weight */
+  .cookie-banner {
+    position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 1000;
+    max-width: 640px; margin: 0 auto;
+    background: var(--card-bg); color: var(--text);
+    border: 1px solid var(--border); border-radius: 14px;
+    box-shadow: 0 8px 28px rgba(31, 27, 23, 0.18);
+    padding: 16px 18px;
+    display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px;
+  }
+  .cookie-banner[hidden] { display: none; }
+  .cookie-banner p { margin: 0; flex: 1 1 280px; font-size: 14px; line-height: 1.45; color: var(--text-muted); }
+  .cookie-banner a { color: var(--accent-dark); }
+  .cookie-actions { display: flex; gap: 10px; flex: 0 0 auto; }
+  .cookie-btn {
+    font: inherit; font-size: 14px; font-weight: 600; cursor: pointer;
+    min-width: 96px; padding: 10px 16px; border-radius: 10px;
+    border: 1.5px solid var(--accent); background: var(--card-bg); color: var(--accent-dark);
+  }
+  .cookie-btn:hover, .cookie-btn:focus-visible { background: #FEF0EB; }
+  .footer-cookie-link {
+    background: none; border: 0; padding: 0; font: inherit; cursor: pointer;
+    color: inherit; text-decoration: underline;
+  }
+  @media (max-width: 480px) {
+    .cookie-actions { width: 100%; }
+    .cookie-btn { flex: 1; }
+  }
 </style>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6QXCPDB0BK"></script>
 <script>
+  // Google Analytics with Consent Mode ("basic"): everything defaults to
+  // denied, and gtag.js is only loaded after the visitor accepts in the
+  // banner -- no cookies are set and nothing is sent to Google before that.
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    analytics_storage: 'denied',
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied'
+  });
   gtag('js', new Date());
   gtag('config', 'G-6QXCPDB0BK');
+
+  (function () {
+    var KEY = 'readycv_cookie_consent';
+    var MAX_AGE_MS = 365 * 24 * 60 * 60 * 1000; // ask again after 12 months
+
+    function readChoice() {
+      try {
+        var c = JSON.parse(localStorage.getItem(KEY) || 'null');
+        if (c && (c.v === 'granted' || c.v === 'denied') && Date.now() - c.t < MAX_AGE_MS) return c.v;
+      } catch (e) {}
+      return null;
+    }
+    function saveChoice(v) {
+      try { localStorage.setItem(KEY, JSON.stringify({ v: v, t: Date.now() })); } catch (e) {}
+    }
+    function loadGa() {
+      if (window.__readycvGaLoaded) return;
+      window.__readycvGaLoaded = true;
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-6QXCPDB0BK';
+      document.head.appendChild(s);
+    }
+    function deleteGaCookies() {
+      document.cookie.split(';').forEach(function (c) {
+        var name = c.split('=')[0].trim();
+        if (name.indexOf('_ga') !== 0) return;
+        ['', '; domain=' + location.hostname, '; domain=.' + location.hostname.replace(/^www\./, '')].forEach(function (d) {
+          document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/' + d;
+        });
+      });
+    }
+    function banner() { return document.getElementById('cookie-banner'); }
+    function hideBanner() { var b = banner(); if (b) b.hidden = true; }
+
+    window.readycvConsent = {
+      accept: function () {
+        saveChoice('granted');
+        gtag('consent', 'update', { analytics_storage: 'granted' });
+        loadGa();
+        hideBanner();
+      },
+      reject: function () {
+        saveChoice('denied');
+        gtag('consent', 'update', { analytics_storage: 'denied' });
+        deleteGaCookies();
+        hideBanner();
+      },
+      open: function () { var b = banner(); if (b) b.hidden = false; }
+    };
+
+    var choice = readChoice();
+    if (choice === 'granted') {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+      loadGa();
+    } else {
+      // No (valid) consent: remove any _ga cookies left over from before the
+      // banner existed, or from a consent that has since expired/been withdrawn.
+      deleteGaCookies();
+      if (choice === null) {
+        document.addEventListener('DOMContentLoaded', window.readycvConsent.open);
+      }
+    }
+  })();
 </script>
 </head>
 <body>
@@ -546,8 +647,17 @@
     <div class="footer-contact">Kontakt oss: <a href="mailto:fogvshop@gmail.com">fogvshop@gmail.com</a></div>
     <div class="footer-contact">Ikke fornøyd? Kontakt oss på <a href="mailto:fogvshop@gmail.com">fogvshop@gmail.com</a> så finner vi en løsning.</div>
     <div class="footer-logo">ReadyCV<span style="color:#E8501A">.</span> — © 2026</div>
+    <div class="footer-contact"><button type="button" class="footer-cookie-link" onclick="readycvConsent.open()">Cookie-innstillinger</button></div>
   </div>
 </footer>
+
+<div id="cookie-banner" class="cookie-banner" role="dialog" aria-live="polite" aria-label="Samtykke til informasjonskapsler" hidden>
+  <p>Vi vil gjerne bruke Google Analytics-informasjonskapsler for å se hvordan nettsiden brukes. Ingenting lagres eller sendes før du godtar. <a href="/privacy-policy.html#analyse">Les mer</a>.</p>
+  <div class="cookie-actions">
+    <button type="button" class="cookie-btn" onclick="readycvConsent.reject()">Avvis</button>
+    <button type="button" class="cookie-btn" onclick="readycvConsent.accept()">Godta</button>
+  </div>
+</div>
 
 </body>
 </html>
