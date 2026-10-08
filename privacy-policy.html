@@ -100,9 +100,11 @@
       <li><strong>Profilinformasjon</strong> — navn, arbeidserfaring, utdanning og ferdigheter du selv legger inn for å generere søknader.</li>
       <li><strong>CV-innhold</strong> — tekst du laster opp eller fyller inn manuelt.</li>
       <li><strong>Jobbsøknader og analyser</strong> — lenker til jobbannonser, AI-genererte analyser og statusoppdateringer du registrerer.</li>
-      <li><strong>Intervjusvar</strong> — tekstsvar du skriver under intervjutrening. Disse brukes bare til å gi deg tilbakemelding.</li>
-      <li><strong>Anonymisert statistikk</strong> — valgfritt. Hvis du samtykker, deles aggregert og ikke-sporbar statistikk om søknadsutfall.</li>
+      <li><strong>Intervjusvar</strong> — svar du skriver eller sier inn (lydopptak, se punkt 3) under intervjutrening. Disse brukes bare til å gi deg tilbakemelding.</li>
+      <li><strong>Bruksstatistikk</strong> — appen registrerer hvilke funksjoner som brukes (for eksempel at en analyse startes eller en CV genereres), med tidspunkt, en tilfeldig enhets-ID og – hvis du er innlogget – en intern bruker-ID. Navn, e-postadresse og CV-innhold lagres ikke i denne statistikken. Den logges uavhengig av samtykkevalget nedenfor, og brukes til å rette feil og forbedre appen.</li>
+      <li><strong>Søknadsutfall i fellesstatistikk</strong> — valgfritt. Hvis du samtykker, tas statusene du registrerer (søkt, intervju, fått jobb) med i samlet statistikk for alle brukere, uten navn eller e-post.</li>
     </ul>
+    <p><strong>Bruk uten konto (anonym profil)</strong> — du kan bruke ReadyCV uten å logge inn. Profilen lagres da hos oss uten e-postadresse, og beskyttes med en tilfeldig nøkkel som bare ligger på enheten din. Uten nøkkelen får ingen – heller ikke andre brukere – tilgang til profilen. Sletter du appen eller appens data, forsvinner nøkkelen, og du kommer ikke lenger inn i den anonyme profilen.</p>
     <p>Vi samler <strong>ikke</strong> inn presis lokasjonsdata (GPS), kontakter, kameraopptak eller annen informasjon fra enheten din. Se punkt 3 for unntakene knyttet til IP-adresse: landgjenkjenning i appen, og – bare hvis du samtykker – besøksstatistikk på nettsiden.</p>
 
     <h2>2. Hvordan vi bruker dataene</h2>
@@ -115,17 +117,25 @@
 
     <h2>3. Tredjeparts tjenester vi bruker</h2>
 
-    <p><strong>Supabase</strong> — brukes til sikker lagring av kontodata og profilinformasjon. Supabase er GDPR-sertifisert og lagrer data i Europa. Les mer på <a href="https://supabase.com/privacy" target="_blank">supabase.com/privacy</a>.</p>
+    <p><strong>Render (drift og lagring)</strong> — ReadyCVs server og database driftes hos Render Services, Inc. i <strong>USA (datasenter i Oregon)</strong>. Her lagres kontoen din, profilen, CV-innholdet, opplastede dokumenter, jobbanalyser, genererte søknader og PDF-er. Les mer på <a href="https://render.com/privacy" target="_blank">render.com/privacy</a>.</p>
 
-    <p><strong>Anthropic Claude API</strong> — AI-modellen (Claude) som analyserer jobbsøknader, gir tilbakemelding og driver intervjutreningen. Følgende innhold sendes til Claude API hos Anthropic for å generere svar: <strong>CV-innholdet ditt</strong>, <strong>tekst fra jobbannonser</strong> du legger inn, og <strong>intervjusvarene</strong> dine. Anthropic er en selvstendig tredjepart som behandler disse dataene på våre vegne for å levere AI-analysen, og lagrer ikke innholdet for trening av egne modeller. Les mer på <a href="https://www.anthropic.com/privacy" target="_blank">anthropic.com/privacy</a>.</p>
+    <p><strong>Anthropic Claude API</strong> — AI-modellen (Claude) som analyserer jobbsøknader, gir tilbakemelding og driver intervjutreningen. Følgende innhold sendes til Claude API hos Anthropic for å generere svar: <strong>CV-innholdet ditt</strong>, <strong>tekst fra jobbannonser</strong> du legger inn, og <strong>intervjusvarene</strong> dine. Anthropic holder til i USA og behandler disse dataene på våre vegne for å levere AI-analysen, og lagrer ikke innholdet for trening av egne modeller. Les mer på <a href="https://www.anthropic.com/privacy" target="_blank">anthropic.com/privacy</a>.</p>
 
     <p><strong>Betalingsbehandling:</strong> Vi bruker Stripe (stripe.com) for sikker betalingsbehandling. Ved kjøp deles betalingsinformasjon (kortnummer, navn, e-post) med Stripe. Vi lagrer ikke kortinformasjon selv. Stripes personvernerklæring finnes på <a href="https://stripe.com/privacy" target="_blank">stripe.com/privacy</a>.</p>
+
+    <p><strong>Google Play Billing</strong> — kjøp av abonnement eller 7-dagers tilgang i Android-appen håndteres av Google Play. Google behandler betalingsinformasjonen din; vi mottar bare en kjøpsreferanse og status (aktivt, fornyet, utløpt) for å gi deg tilgang. Les mer på <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>.</p>
+
+    <p><strong>Google-innlogging</strong> — velger du «Logg inn med Google», mottar vi navnet og e-postadressen din fra Google for å opprette eller finne kontoen din.</p>
+
+    <p><strong>OpenAI og Microsoft Azure (tale i intervjutrening)</strong> — bruker du mikrofonen i intervjutreningen, sendes lydopptaket av svaret ditt til OpenAI for å gjøres om til tekst. Når intervjuspørsmål leses høyt, sendes spørsmålsteksten til Microsoft Azure Speech for å lages om til tale. Dette skjer bare når du selv bruker talefunksjonene. Les mer på <a href="https://openai.com/policies/privacy-policy" target="_blank">openai.com/policies/privacy-policy</a> og <a href="https://privacy.microsoft.com" target="_blank">privacy.microsoft.com</a>.</p>
 
     <p><strong>Resend</strong> — brukes til å sende e-poster fra oss til deg (innloggingskoder og de korte service-e-postene nevnt i punkt 1). E-postadressen din (og navnet ditt, hvis du har lagt det inn) deles med Resend for å kunne levere disse e-postene. Les mer på <a href="https://resend.com/legal/privacy-policy" target="_blank">resend.com/legal/privacy-policy</a>.</p>
 
     <p><strong>IP-basert landgjenkjenning</strong> — når appen åpnes, slår vi opp hvilket land IP-adressen din tilsynelatende tilhører (via tjenesten ip-api.com), for å vise riktig prisvaluta og foreslå riktig appspråk automatisk. IP-adressen lagres ikke og brukes kun forbigående til dette oppslaget.</p>
 
     <p id="analyse"><strong>Google Analytics og informasjonskapsler (kun nettsiden readycvapp.no)</strong> — hvis du godtar det i samtykkebanneret, bruker nettsiden Google Analytics 4 for å se hvordan den brukes: hvilke sider som besøkes, omtrent hvor lenge, hvilken nettleser og enhetstype, og omtrentlig land/region. Google Analytics setter da informasjonskapslene <code>_ga</code> og <code>_ga_6QXCPDB0BK</code> i nettleseren din (varighet opptil 2 år). Google Analytics lagrer ikke IP-adressen din. Statistikken er kun til eget bruk for å forbedre nettsiden, og brukes ikke til annonsering eller personlig tilpasset reklame. Leverandør er Google Ireland Limited; data kan bli overført til USA under EU–US Data Privacy Framework. Statistikkdata oppbevares i Google Analytics i inntil 14 måneder. <strong>Uten samtykke lastes ikke Google Analytics, og ingen informasjonskapsler settes.</strong> Du kan når som helst endre eller trekke tilbake samtykket via «Cookie-innstillinger» nederst på nettsiden – trekker du det tilbake, slettes informasjonskapslene. Selve ReadyCV-appen bruker ikke Google Analytics. Les mer på <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>.</p>
+
+    <p><strong>Overføring til land utenfor EU/EØS</strong> — Render, Anthropic, Stripe, Google, OpenAI, Microsoft og Resend er amerikanske selskaper, og data kan bli behandlet i USA. Overføringen skjer på grunnlag av EU–US Data Privacy Framework der leverandøren er sertifisert, og ellers EUs standard personvernbestemmelser i leverandørens databehandleravtale.</p>
 
     <div class="highlight">
       Ved å bruke AI-funksjonene i appen (f.eks. søknadsanalyse eller intervjutrening) samtykker du til at det aktuelle innholdet (CV, jobbannonsetekst og/eller intervjusvar) sendes til og behandles av Anthropic Claude API som beskrevet over.
@@ -137,8 +147,11 @@
 
     <h2>4. Hvor lenge vi lagrer data</h2>
     <p>
-      Dataene dine lagres så lenge kontoen din er aktiv. Hvis du sletter kontoen din,
-      slettes all informasjon knyttet til den innen 30 dager.
+      Dataene dine lagres så lenge kontoen din er aktiv. Når du sletter kontoen i appen,
+      slettes profilen, CV-innholdet, opplastede dokumenter, jobbanalyser, genererte søknader
+      og PDF-er umiddelbart. Kopier i sikkerhetskopier hos Render forsvinner i løpet av inntil
+      7 dager. Kvitteringer og kjøpsreferanser beholdes så lenge bokføringsloven krever (inntil
+      5 år), uten CV-innhold. Les mer på <a href="/slett-konto.html">readycvapp.no/slett-konto.html</a>.
     </p>
 
     <h2>5. Dine rettigheter</h2>
@@ -153,8 +166,12 @@
 
     <h2>6. Slett konto og data</h2>
     <p>
-      Du kan slette kontoen din og alle tilknyttede data direkte i appen under
-      <strong>Profil → Innstillinger → Slett konto</strong>.
+      Du kan slette kontoen din og alle tilknyttede data direkte i appen: logg inn, gå til
+      <strong>Profil</strong> og trykk <strong>«Slett konto»</strong> nederst på siden.
+      Full veiledning, også for anonyme profiler, finner du på
+      <a href="/slett-konto.html">readycvapp.no/slett-konto.html</a>. En anonym profil du brukte før du
+      opprettet konto, er ikke koblet til kontoen og slettes ikke sammen med den – den er låst bak nøkkelen
+      på enheten din, og vi sletter den når du ber om det på e-post.
     </p>
     <p>
       Du kan også sende en e-post til oss (se kontaktinformasjon under), så sletter vi
@@ -168,8 +185,8 @@
     <h2>7. Sikkerhet</h2>
     <p>
       Vi bruker kryptert kommunikasjon (HTTPS) for all dataoverføring. Innlogging skjer
-      via engangskoder på e-post — ingen passord lagres. Tilgang til databasen er
-      begrenset og loggføres.
+      via engangskoder på e-post eller Google — ingen passord lagres. Anonyme profiler kan bare
+      åpnes med nøkkelen som ligger på enheten din. Tilgang til databasen er begrenset.
     </p>
 
     <h2>8. Kontakt oss</h2>
