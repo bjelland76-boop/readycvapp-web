@@ -1,0 +1,54 @@
+# Manuell publisering (trengs bare når AUTO_PUBLISH=false): publiserer
+# godkjente utkast (approved: true) i aktive språk som ligger på main, bygger
+# artikkelsidene og sitemap.xml, og pusher til main. Startes manuelt:
+# Actions → Publiser godkjente utkast → Run workflow.
+name: Publiser godkjente utkast
+
+on:
+  workflow_dispatch:
+    inputs:
+      articles:
+        description: 'Valgfritt: bestemte utkast, f.eks. "no/cv-uten-erfaring en/cv-with-no-experience" (tomt = alle med approved: true)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: content-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Tester
+        run: npm test
+
+      - name: Publiser
+        env:
+          IN_ARTICLES: ${{ inputs.articles }}
+        run: |
+          # shellcheck disable=SC2086
+          node scripts/publish-drafts.mjs $IN_ARTICLES || echo "::warning::Noen utkast ble ikke publisert (se «IKKE publisert» i loggen)"
+
+      - name: Commit og push til main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "Ingenting å publisere."; exit 0; fi
+          git commit -m "Publiser godkjente artikler ($(date -u +%F))"
+          git push origin HEAD:main
+          GH_TOKEN="${{ github.token }}" gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds" >/dev/null || echo "::warning::Klarte ikke å starte Pages-bygget"
+

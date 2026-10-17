@@ -1,0 +1,233 @@
+{
+  "_info": "Ett objekt per språk. Bare code og name er påkrevd; resten har standardverdier (se scripts/lib/config.mjs). Slå et språk av/på med enabled. Nytt språk på én linje, f.eks. {\"code\": \"de\", \"name\": \"Deutsch\", \"market\": \"Jobbsøkere i Tyskland\", \"enabled\": false}.",
+  "languages": [
+    {
+      "code": "no",
+      "name": "Norsk",
+      "englishName": "Norwegian (Bokmål)",
+      "enabled": true,
+      "htmlLang": "nb",
+      "hreflang": "no",
+      "ogLocale": "nb_NO",
+      "market": "Jobbsøkere i Norge",
+      "marketNotes": "Write for job seekers in Norway, in natural Norwegian Bokmål. Norwegian conventions: a 'søknad' (cover letter, usually max one page) plus a CV in reverse chronological order; applications are usually submitted through the employer's or recruiter's online form; a photo in the CV is optional and common but not expected. Job portals you may mention by name: FINN.no (Finn jobb), arbeidsplassen.no (run by NAV), LinkedIn. NAV is the public employment and welfare service. Do not state NAV rules, benefit amounts, deadlines or legal requirements.",
+      "portals": [
+        "https://www.finn.no/job",
+        "https://arbeidsplassen.nav.no",
+        "https://www.nav.no",
+        "https://www.linkedin.com"
+      ],
+      "wordMin": 800,
+      "wordMax": 1500,
+      "ui": {
+        "articles": "Artikler",
+        "home": "Forside",
+        "faq": "Ofte stilte spørsmål",
+        "published": "Publisert",
+        "updated": "Oppdatert",
+        "otherLanguages": "Les på andre språk",
+        "related": "Les også",
+        "ctaTitle": "Prøv ReadyCV gratis",
+        "ctaText": "Last opp CV-en din, lim inn en stillingsannonse og få en ærlig vurdering av hvor godt du passer – og en CV og søknad tilpasset jobben.",
+        "ctaButton": "Start gratis",
+        "playLabel": "Last ned på Google Play",
+        "hubTitle": "Artikler om CV, søknad og jobbintervju",
+        "hubDescription": "Praktiske råd om CV, jobbsøknad og intervju for deg som søker jobb i Norge.",
+        "privacy": "Personvern",
+        "cookieSettings": "Cookie-innstillinger",
+        "cookieText": "Vi vil gjerne bruke Google Analytics-informasjonskapsler for å se hvordan nettsiden brukes. Ingenting lagres eller sendes før du godtar.",
+        "cookieMore": "Les mer",
+        "cookieAccept": "Godta",
+        "cookieReject": "Avvis",
+        "cookieLabel": "Samtykke til informasjonskapsler"
+      },
+      "bannedTerms": [
+        "fancy"
+      ]
+    },
+    {
+      "code": "en",
+      "name": "English",
+      "englishName": "English",
+      "enabled": true,
+      "htmlLang": "en",
+      "hreflang": "en",
+      "ogLocale": "en_GB",
+      "market": "People applying for jobs in Norway in English: international students, newcomers, labour migrants and international job seekers",
+      "marketNotes": "Write in clear, plain international English for people who are applying for jobs IN NORWAY in English: international students, newcomers, labour migrants and international job seekers. Do not write for a general or British audience. Every article must give concrete Norwegian guidance where relevant: where to find jobs (FINN.no, arbeidsplassen.no run by NAV, LinkedIn); Norwegian CV norms (reverse chronological order, usually one to two pages, a photo is optional and not required, references are commonly listed with name, role and phone number or offered on request); the Norwegian job application (søknad), usually max one page, direct, honest and modest, addressed to a named contact person when the ad gives one; that many ads ask for Norwegian language skills, and how to describe your own Norwegian level honestly (for example with the CEFR scale A1–C2 if you know your level, or plain words such as 'basic', 'conversational', 'fluent', and what you are doing to improve). It is fine to explain Norwegian words the reader will meet in ads (søknad, søknadsfrist, stillingsannonse, referanser). Do NOT state rules about work permits, residence, NAV benefits, taxes, salaries or language-test requirements; if something cannot be verified, leave it out. Avoid British-specific or US-specific terms; in particular never use 'charity shop', 'food bank', 'BSc', 'dissertation' or 'modules', and never 'secondary school' on its own – write 'second-hand shop', 'upper secondary school (videregående skole)', 'bachelor's degree', 'thesis' or 'courses' instead.",
+      "portals": [
+        "https://www.finn.no/job",
+        "https://arbeidsplassen.nav.no",
+        "https://www.nav.no",
+        "https://www.linkedin.com"
+      ],
+      "wordMin": 800,
+      "wordMax": 1500,
+      "ui": {
+        "articles": "Articles",
+        "home": "Home",
+        "faq": "Frequently asked questions",
+        "published": "Published",
+        "updated": "Updated",
+        "otherLanguages": "Read in other languages",
+        "related": "Read next",
+        "ctaTitle": "Try ReadyCV for free",
+        "ctaText": "Upload your CV, paste a job ad and get an honest assessment of how well you fit – plus a CV and cover letter tailored to the job.",
+        "ctaButton": "Start for free",
+        "playLabel": "Get it on Google Play",
+        "hubTitle": "Articles on CVs, applications and interviews for jobs in Norway",
+        "hubDescription": "Practical advice in English for international job seekers applying for jobs in Norway.",
+        "privacy": "Privacy (Norwegian)",
+        "cookieSettings": "Cookie settings",
+        "cookieText": "We would like to use Google Analytics cookies to see how this website is used. Nothing is stored or sent until you accept.",
+        "cookieMore": "Read more",
+        "cookieAccept": "Accept",
+        "cookieReject": "Reject",
+        "cookieLabel": "Cookie consent"
+      },
+      "bannedTerms": [
+        "charity shop",
+        "food bank",
+        "secondary school",
+        "BSc",
+        "dissertation",
+        "modules"
+      ]
+    },
+    {
+      "code": "da",
+      "name": "Dansk",
+      "englishName": "Danish",
+      "enabled": false,
+      "htmlLang": "da",
+      "hreflang": "da",
+      "ogLocale": "da_DK",
+      "market": "Jobsøgende i Danmark",
+      "marketNotes": "Write for job seekers in Denmark, in natural Danish (not Norwegian). Danish conventions: an 'ansøgning' (motivated application, usually max one page) plus a CV; many employers ask for both; a photo in the CV is common in Denmark but optional. Job portals you may mention by name: Jobindex, Jobnet (jobnet.dk, the public job portal), LinkedIn. Unemployment insurance funds are called 'a-kasse' and the municipal job centres 'jobcenter'. Do not state rules, amounts, deadlines or legal requirements about a-kasse, dagpenge or jobcenter obligations.",
+      "portals": [
+        "https://www.jobindex.dk",
+        "https://jobnet.dk",
+        "https://www.linkedin.com"
+      ],
+      "wordMin": 800,
+      "wordMax": 1500,
+      "ui": {
+        "articles": "Artikler",
+        "home": "Forside",
+        "faq": "Ofte stillede spørgsmål",
+        "published": "Udgivet",
+        "updated": "Opdateret",
+        "otherLanguages": "Læs på andre sprog",
+        "related": "Læs også",
+        "ctaTitle": "Prøv ReadyCV gratis",
+        "ctaText": "Upload dit CV, indsæt et jobopslag og få en ærlig vurdering af, hvor godt du passer – og et CV og en ansøgning tilpasset jobbet.",
+        "ctaButton": "Start gratis",
+        "playLabel": "Hent den på Google Play",
+        "hubTitle": "Artikler om CV, ansøgning og jobsamtale",
+        "hubDescription": "Praktiske råd om CV, ansøgning og jobsamtale til dig, der søger job i Danmark.",
+        "privacy": "Privatliv (norsk)",
+        "cookieSettings": "Cookie-indstillinger",
+        "cookieText": "Vi vil gerne bruge Google Analytics-cookies til at se, hvordan hjemmesiden bruges. Intet gemmes eller sendes, før du accepterer.",
+        "cookieMore": "Læs mere",
+        "cookieAccept": "Accepter",
+        "cookieReject": "Afvis",
+        "cookieLabel": "Samtykke til cookies"
+      },
+      "bannedTerms": [
+        "fancy"
+      ]
+    },
+    {
+      "code": "sv",
+      "name": "Svenska",
+      "englishName": "Swedish",
+      "enabled": false,
+      "htmlLang": "sv",
+      "hreflang": "sv",
+      "ogLocale": "sv_SE",
+      "market": "Arbetssökande i Sverige",
+      "marketNotes": "Write for job seekers in Sweden, in natural Swedish. Swedish conventions: a 'personligt brev' (personal letter, usually max one page, focused on who you are and why this job) plus a CV; many employers use online application forms; a photo in the CV is optional. Job portals you may mention by name: Platsbanken (run by Arbetsförmedlingen), LinkedIn. Do not state rules, amounts, deadlines or legal requirements about Arbetsförmedlingen, a-kassa or activity reporting.",
+      "portals": [
+        "https://arbetsformedlingen.se",
+        "https://arbetsformedlingen.se/platsbanken",
+        "https://www.linkedin.com"
+      ],
+      "wordMin": 800,
+      "wordMax": 1500,
+      "ui": {
+        "articles": "Artiklar",
+        "home": "Startsida",
+        "faq": "Vanliga frågor",
+        "published": "Publicerad",
+        "updated": "Uppdaterad",
+        "otherLanguages": "Läs på andra språk",
+        "related": "Läs också",
+        "ctaTitle": "Prova ReadyCV gratis",
+        "ctaText": "Ladda upp ditt CV, klistra in en platsannons och få en ärlig bedömning av hur väl du passar – och ett CV och personligt brev anpassat efter jobbet.",
+        "ctaButton": "Börja gratis",
+        "playLabel": "Ladda ned på Google Play",
+        "hubTitle": "Artiklar om CV, personligt brev och anställningsintervju",
+        "hubDescription": "Praktiska råd om CV, personligt brev och intervju för dig som söker jobb i Sverige.",
+        "privacy": "Integritet (norska)",
+        "cookieSettings": "Cookie-inställningar",
+        "cookieText": "Vi vill gärna använda cookies från Google Analytics för att se hur webbplatsen används. Inget sparas eller skickas förrän du godkänner.",
+        "cookieMore": "Läs mer",
+        "cookieAccept": "Godkänn",
+        "cookieReject": "Avvisa",
+        "cookieLabel": "Samtycke till cookies"
+      },
+      "bannedTerms": [
+        "fancy"
+      ]
+    },
+    {
+      "code": "vi",
+      "name": "Tiếng Việt",
+      "englishName": "Vietnamese",
+      "enabled": false,
+      "htmlLang": "vi",
+      "hreflang": "vi",
+      "ogLocale": "vi_VN",
+      "market": "Người tìm việc Việt Nam, ở Việt Nam và ở nước ngoài (đặc biệt Bắc Âu)",
+      "marketNotes": "Write in natural Vietnamese with full diacritics, for two groups: job seekers in Vietnam, and Vietnamese people looking for work abroad, especially in the Nordic countries (Norway, Sweden, Denmark). In Vietnam, job portals you may mention by name are TopCV and VietnamWorks, plus LinkedIn; Vietnamese CVs often include more personal details (date of birth, photo) than Nordic CVs do, and a CV for a Nordic employer should follow Nordic norms. Explain differences practically. Do not state visa, work-permit, salary or legal rules for any country. When the article covers the Nordic countries, name the concrete portals: FINN.no and arbeidsplassen.no (NAV) in Norway, Platsbanken (Arbetsförmedlingen) in Sweden, Jobindex and Jobnet in Denmark.",
+      "portals": [
+        "https://www.topcv.vn",
+        "https://www.vietnamworks.com",
+        "https://www.linkedin.com",
+        "https://www.finn.no/job",
+        "https://arbeidsplassen.nav.no",
+        "https://arbetsformedlingen.se/platsbanken",
+        "https://www.jobindex.dk",
+        "https://jobnet.dk"
+      ],
+      "wordMin": 1200,
+      "wordMax": 2600,
+      "wordNote": "Vietnamesisk telles i stavelser (ord skilt med mellomrom), derfor høyere tall.",
+      "ui": {
+        "articles": "Bài viết",
+        "home": "Trang chủ",
+        "faq": "Câu hỏi thường gặp",
+        "published": "Đăng ngày",
+        "updated": "Cập nhật",
+        "otherLanguages": "Đọc bằng ngôn ngữ khác",
+        "related": "Đọc thêm",
+        "ctaTitle": "Dùng thử ReadyCV miễn phí",
+        "ctaText": "Tải CV của bạn lên, dán tin tuyển dụng và nhận đánh giá trung thực về mức độ phù hợp – cùng CV và thư xin việc được điều chỉnh theo công việc.",
+        "ctaButton": "Bắt đầu miễn phí",
+        "playLabel": "Tải trên Google Play",
+        "hubTitle": "Bài viết về CV, thư xin việc và phỏng vấn",
+        "hubDescription": "Lời khuyên thực tế về CV, hồ sơ xin việc và phỏng vấn – ở Việt Nam và ở Bắc Âu.",
+        "privacy": "Quyền riêng tư (tiếng Na Uy)",
+        "cookieSettings": "Cài đặt cookie",
+        "cookieText": "Chúng tôi muốn dùng cookie của Google Analytics để xem trang web được sử dụng như thế nào. Không có gì được lưu hoặc gửi đi trước khi bạn đồng ý.",
+        "cookieMore": "Đọc thêm",
+        "cookieAccept": "Đồng ý",
+        "cookieReject": "Từ chối",
+        "cookieLabel": "Đồng ý sử dụng cookie"
+      },
+      "bannedTerms": [
+        "order"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "_info": "Innstillinger for innholdsrutinen. Tallene kan også overstyres med miljøvariabler/GitHub-variabler med samme navn i store bokstaver (se README.md).",
+  "siteUrl": "https://readycvapp.no",
+  "appUrl": "https://app.aerlig.no",
+  "_appUrl": "Samme webapp som https://jobbsoker-ai-app-full-frontend.onrender.com (forsiden bruker begge). app.aerlig.no er domenet appen og Stripe-returen bruker, så innlogging og anonym profil følger med.",
+  "playUrl": "https://play.google.com/store/apps/details?id=com.aerlig.app",
+  "maxArticlesPerLanguagePerWeek": 3,
+  "maxArticlesPerRun": 2,
+  "maxActiveLanguages": 2,
+  "maxAttemptsPerTopic": 3,
+  "model": "claude-opus-5-5",
+  "reviewModel": "claude-opus-5-5",
+  "gaMeasurementId": "G-6QXCPDB0BK",
+  "product": "ReadyCV (also called Ærlig) is an app for job seekers, available on the web and as an Android app. What it does: (1) Upload your CV (PDF, Word .docx or a photo) and the app fills in your profile. (2) Paste a link to or the text of a job ad and get an honest match score and an honest assessment of how well you fit, including strengths and what is missing – it can also tell you not to apply. (3) Generate a CV and cover letter tailored to that specific job, as PDF in several templates, in Norwegian, English, Swedish, Danish or Vietnamese. (4) Practise job interviews with questions tailored to the job, answering by voice or text, and get feedback (requires login). The app interface is available in 9 languages. You can start for free without an account; there is a monthly subscription and a 7-day pass. Never promise results (jobs, interviews), never claim features beyond this list, and never state prices.",
+  "ctaPromises": [
+    "paste a job ad (link or text) into ReadyCV",
+    "get an honest assessment of how well you fit the job (match score, strengths, what is missing)",
+    "get a CV and a job application tailored to that job",
+    "start for free without an account",
+    "upload your existing CV and have it analysed"
+  ],
+  "_ctaPromises": "Det eneste app-boksene (cta_*) og artiklene får love om appen. Endre listen her hvis appen får nye funksjoner.",
+  "maxApiCallsPerRun": 24,
+  "_maxApiCallsPerRun": "Kostnadsgrense: maks antall kall til Anthropic per kjøring (en artikkel bruker 2–4). Når grensen nås, stopper kjøringen pent, og det opprettes en Issue."
+}
