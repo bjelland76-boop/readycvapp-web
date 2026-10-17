@@ -15,8 +15,9 @@ approved: false
 generated_at: "2026-10-17T10:24:15.794Z"
 model: "claude-opus-5-5"
 words: 1321
-review_local_fit: 5
-review_notes: "The article is strongly localised, with Norwegian application terms, FINN.no, arbeidsplassen.no, the custom of calling the contact person, attester and the CEFR level guidance, and its examples use placeholders (Y AS, Z University). The CTAs stay within the verified features, and the note that the a"
+review_local_fit: 4
+review_notes: "The article is strongly localised: it covers søknad, søknadsfrist, attester, vitnemål, FINN.no and arbeidsplassen.no, plus the culture of calling the contact person. The CV section (Mistake 6) is fairly generic and could name Norwegian specifics, for example how to present a foreign education or tha"
+reviewed_at: "2026-10-17T10:54:45.485Z"
 ---
 
 If you are applying for jobs in Norway in English, small mistakes can make a good candidate look like a poor fit. Many of these mistakes come from writing the way you would in another country. A Norwegian job application (*søknad*) is usually short, direct and honest. This guide goes through the most common mistakes and shows how to fix each one, with examples you can adapt.
@@ -31,7 +32,7 @@ It is tempting to write one good letter and send it to every job ad (*stillingsa
 
 **After:**
 
-> I am applying for the warehouse assistant position at Y AS because your ad mentions early shifts and forklift work. I have two years of experience from a warehouse in Poland, including forklift driving, and I am happy to work early mornings.
+> I am applying for the warehouse assistant position at Y AS because your ad mentions early shifts and forklift work. I have two years of experience working in a warehouse in Poland, including forklift driving, and I am happy to work early mornings.
 
 The fix is simple: pick two or three requirements from the ad and show, with concrete examples, that you meet them. Use the employer's name and the job title they use.
 
@@ -82,7 +83,7 @@ Be specific and honest. If you know your level on the CEFR scale (A1 to C2), use
 
 If the job is clearly English-speaking, a short line is enough:
 
-> I speak English fluently and basic Norwegian, which I am actively improving.
+> I speak fluent English and basic Norwegian, which I am actively improving.
 
 <!-- cta -->
 
@@ -116,7 +117,7 @@ Sending dozens of applications to jobs you only half match can be tiring and dis
 
 If you want a second opinion, you can paste the ad into [ReadyCV](https://app.aerlig.no/?utm_source=readycvapp&utm_medium=artikkel&utm_campaign=job-application-norway-mistakes) and get an honest assessment of your strengths and gaps. Sometimes that means it is better not to apply. When you do apply and you are missing one requirement, say so honestly and show how you plan to close the gap:
 
-> I do not yet have a Norwegian driving licence, but I have booked my first lessons and expect to complete it this spring.
+> I do not yet have a Norwegian driving licence, but I have booked my first lessons and expect to get it this spring.
 
 ## Summary
 

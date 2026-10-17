@@ -3,9 +3,9 @@ lang: "vi"
 slug: "loi-khi-viet-ho-so-xin-viec"
 group: "application-mistakes"
 keyword: "lỗi khi viết hồ sơ xin việc"
-title: "Lỗi khi viết hồ sơ xin việc thường gặp và cách sửa"
+title: "Lỗi thường gặp khi viết hồ sơ xin việc và cách sửa"
 description: "Bảy lỗi khi viết hồ sơ xin việc dễ khiến CV bị bỏ qua, từ CV chung chung đến thư xin việc sáo rỗng. Kèm ví dụ sửa trước – sau cho Việt Nam và Bắc Âu."
-h1: "7 lỗi khi viết hồ sơ xin việc thường gặp và cách sửa từng lỗi"
+h1: "7 lỗi thường gặp khi viết hồ sơ xin việc và cách sửa từng lỗi"
 cta_mid_text: "Muốn biết CV của bạn đã khớp với tin tuyển dụng chưa? Dán tin vào ReadyCV để nhận đánh giá trung thực về điểm mạnh và những gì còn thiếu."
 cta_mid_button: "Kiểm tra mức độ phù hợp"
 cta_end_title: "Sửa lỗi trước khi bấm nộp hồ sơ"
@@ -16,7 +16,8 @@ generated_at: "2026-10-17T10:37:37.631Z"
 model: "claude-opus-5-5"
 words: 1847
 review_local_fit: 4
-review_notes: "Strong Vietnamese-market grounding with concrete before/after examples and a useful Vietnam-vs-Nordic CV comparison. The Nordic part lacks local portals or concrete application-culture details (e.g. NAV/FINN, Arbetsförmedlingen, Jobindex), so it falls short of a 5."
+review_notes: "Bài viết sát với người tìm việc Việt Nam, có trang tuyển dụng trong nước và Bắc Âu cùng ví dụ trước – sau cụ thể. Phần Bắc Âu còn hơi ngắn, chẳng hạn chưa nhắc đến chuyện các nước Bắc Âu thường nộp hồ sơ qua biểu mẫu trên web; câu 'Thường sẽ đáng hơn nếu bạn chọn ít vị trí hơn' có thể viết mượt hơn "
+reviewed_at: "2026-10-17T10:55:13.778Z"
 ---
 
 Bạn đã gửi đi nhiều hồ sơ mà vẫn chưa nhận được cuộc gọi nào? Nguyên nhân thường không nằm ở năng lực của bạn. Nhiều khi đó là những lỗi nhỏ trong CV và thư xin việc khiến nhà tuyển dụng không thấy rõ bạn phù hợp ở điểm nào. Bài viết này đi qua bảy lỗi khi viết hồ sơ xin việc mà người tìm việc ở Việt Nam hay mắc, cùng cách sửa cụ thể. Bài cũng có phần dành cho những ai đang nộp đơn vào Na Uy, Thụy Điển hay Đan Mạch.
@@ -94,9 +95,11 @@ Những điểm nên thay đổi khi viết CV cho nhà tuyển dụng Bắc Âu
 - Cân nhắc kỹ việc để ảnh. Nhiều nhà tuyển dụng ở đây không cần ảnh, và CV vẫn được xem là đầy đủ khi không có ảnh.
 - Thêm phần tóm tắt ngắn ở đầu, nói rõ bạn làm nghề gì và mạnh ở mảng nào.
 - Ghi rõ trình độ ngôn ngữ, ví dụ tiếng Anh thành thạo và tiếng Na Uy đang học ở trình độ cơ bản.
-- Thêm một dòng mô tả ngắn sau tên công ty Việt Nam để người đọc hình dung được quy mô và lĩnh vực, ví dụ: *Công ty Y – nhà phân phối hàng tiêu dùng tại TP. Hồ Chí Minh*. Với bằng cấp, ghi cả tên tiếng Anh, ví dụ: *Cử nhân Kế toán (Bachelor in Accounting), Đại học Z*.
+- Thêm một dòng mô tả ngắn sau tên công ty Việt Nam để người đọc hình dung được quy mô và lĩnh vực, ví dụ: *Công ty Y – nhà phân phối hàng tiêu dùng tại TP. Hồ Chí Minh*. Với bằng cấp, ghi cả tên tiếng Anh, ví dụ: *Cử nhân Kế toán (Bachelor's degree in Accounting), Đại học Z*.
 
-Giọng văn trong thư xin việc cũng khác. Thư xin việc ở Việt Nam thường mở đầu trang trọng bằng “Kính gửi Quý công ty”. Thư cho nhà tuyển dụng Bắc Âu thường thẳng thắn hơn: bạn chào trực tiếp người phụ trách nếu biết tên, rồi đi ngay vào lý do bạn quan tâm. Không cần khiêm tốn quá mức. Hãy nói rõ điều bạn làm được, kèm ví dụ.
+Khi tìm việc ở Na Uy, bạn có thể xem tin trên [FINN.no](https://www.finn.no/job) và [arbeidsplassen.no](https://arbeidsplassen.nav.no) của NAV; ở Thụy Điển là [Platsbanken](https://arbetsformedlingen.se/platsbanken), ở Đan Mạch là [Jobindex](https://www.jobindex.dk) và [Jobnet](https://jobnet.dk).
+
+Giọng văn trong thư xin việc cũng khác. Thư xin việc ở Việt Nam thường mở đầu trang trọng bằng “Kính gửi Quý công ty”. Thư cho nhà tuyển dụng Bắc Âu thường thẳng thắn hơn: bạn chào trực tiếp người phụ trách nếu biết tên, rồi đi ngay vào lý do bạn quan tâm. Giọng văn nên khiêm tốn nhưng không tự hạ thấp mình hay quá khách sáo: hãy nói rõ điều bạn làm được, kèm ví dụ.
 
 ## 6. Bỏ qua từ khóa trong tin tuyển dụng
 

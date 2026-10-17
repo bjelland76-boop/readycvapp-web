@@ -40,7 +40,10 @@
         "cookieAccept": "Godta",
         "cookieReject": "Avvis",
         "cookieLabel": "Samtykke til informasjonskapsler"
-      }
+      },
+      "bannedTerms": [
+        "fancy"
+      ]
     },
     {
       "code": "en",
@@ -100,11 +103,10 @@
       "hreflang": "da",
       "ogLocale": "da_DK",
       "market": "Jobsøgende i Danmark",
-      "marketNotes": "Write for job seekers in Denmark, in natural Danish (not Norwegian). Danish conventions: an 'ansøgning' (motivated application, usually max one page) plus a CV; many employers ask for both; a photo in the CV is common in Denmark but optional. Job portals you may mention by name: Jobindex, Jobnet (the public job portal), LinkedIn. Unemployment insurance funds are called 'a-kasse' and the municipal job centres 'jobcenter'. Do not state rules, amounts, deadlines or legal requirements about a-kasse, dagpenge or jobcenter obligations.",
+      "marketNotes": "Write for job seekers in Denmark, in natural Danish (not Norwegian). Danish conventions: an 'ansøgning' (motivated application, usually max one page) plus a CV; many employers ask for both; a photo in the CV is common in Denmark but optional. Job portals you may mention by name: Jobindex, Jobnet (jobnet.dk, the public job portal), LinkedIn. Unemployment insurance funds are called 'a-kasse' and the municipal job centres 'jobcenter'. Do not state rules, amounts, deadlines or legal requirements about a-kasse, dagpenge or jobcenter obligations.",
       "portals": [
         "https://www.jobindex.dk",
-        "https://job.jobnet.dk",
-        "https://www.jobnet.dk",
+        "https://jobnet.dk",
         "https://www.linkedin.com"
       ],
       "wordMin": 800,
@@ -130,7 +132,10 @@
         "cookieAccept": "Accepter",
         "cookieReject": "Afvis",
         "cookieLabel": "Samtykke til cookies"
-      }
+      },
+      "bannedTerms": [
+        "fancy"
+      ]
     },
     {
       "code": "sv",
@@ -170,7 +175,10 @@
         "cookieAccept": "Godkänn",
         "cookieReject": "Avvisa",
         "cookieLabel": "Samtycke till cookies"
-      }
+      },
+      "bannedTerms": [
+        "fancy"
+      ]
     },
     {
       "code": "vi",
@@ -181,11 +189,16 @@
       "hreflang": "vi",
       "ogLocale": "vi_VN",
       "market": "Người tìm việc Việt Nam, ở Việt Nam và ở nước ngoài (đặc biệt Bắc Âu)",
-      "marketNotes": "Write in natural Vietnamese with full diacritics, for two groups: job seekers in Vietnam, and Vietnamese people looking for work abroad, especially in the Nordic countries (Norway, Sweden, Denmark). In Vietnam, job portals you may mention by name are TopCV and VietnamWorks, plus LinkedIn; Vietnamese CVs often include more personal details (date of birth, photo) than Nordic CVs do, and a CV for a Nordic employer should follow Nordic norms. Explain differences practically. Do not state visa, work-permit, salary or legal rules for any country.",
+      "marketNotes": "Write in natural Vietnamese with full diacritics, for two groups: job seekers in Vietnam, and Vietnamese people looking for work abroad, especially in the Nordic countries (Norway, Sweden, Denmark). In Vietnam, job portals you may mention by name are TopCV and VietnamWorks, plus LinkedIn; Vietnamese CVs often include more personal details (date of birth, photo) than Nordic CVs do, and a CV for a Nordic employer should follow Nordic norms. Explain differences practically. Do not state visa, work-permit, salary or legal rules for any country. When the article covers the Nordic countries, name the concrete portals: FINN.no and arbeidsplassen.no (NAV) in Norway, Platsbanken (Arbetsförmedlingen) in Sweden, Jobindex and Jobnet in Denmark.",
       "portals": [
         "https://www.topcv.vn",
         "https://www.vietnamworks.com",
-        "https://www.linkedin.com"
+        "https://www.linkedin.com",
+        "https://www.finn.no/job",
+        "https://arbeidsplassen.nav.no",
+        "https://arbetsformedlingen.se/platsbanken",
+        "https://www.jobindex.dk",
+        "https://jobnet.dk"
       ],
       "wordMin": 1200,
       "wordMax": 2600,
@@ -211,7 +224,10 @@
         "cookieAccept": "Đồng ý",
         "cookieReject": "Từ chối",
         "cookieLabel": "Đồng ý sử dụng cookie"
-      }
+      },
+      "bannedTerms": [
+        "order"
+      ]
     }
   ]
 }

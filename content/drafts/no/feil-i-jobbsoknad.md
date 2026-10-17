@@ -16,14 +16,15 @@ generated_at: "2026-10-17T10:26:35.672Z"
 model: "claude-opus-5-5"
 words: 1088
 review_local_fit: 4
-review_notes: "A solid, local article with concrete before-and-after examples and Norwegian application norms (one page, «Hei Kari», fagbrev requirements), but it does not mention Arbeidsplassen/NAV or Norwegian language skills, which many job seekers in Norway need. Minor points: the anglicism «fancy» and inconsi"
+review_notes: "Strongly local, with FINN.no, fagbrev, lærlingplass, helsefagarbeider, idrettslag/dugnad and «Hei Kari», but it could mention arbeidsplassen.no or common søknadsskjema systems for full marks. As a matter of style, «akkurat denne stillingen» is repeated in two consecutive sentences in section 1 and c"
+reviewed_at: "2026-10-17T10:52:48.879Z"
 ---
 
 Du kan ha akkurat den erfaringen arbeidsgiveren ser etter og likevel bli valgt bort, fordi søknaden ikke får det fram. Heldigvis er de fleste feil i en jobbsøknad lette å rette når du først ser dem. Her går vi gjennom tabbene som går igjen, med konkrete eksempler på hvordan du skriver bedre.
 
 ## 1. Søknaden kunne vært sendt til hvem som helst
 
-Den vanligste feilen er en søknad uten noe som knytter den til akkurat denne stillingen. Den som leser, merker fort om teksten er skrevet for dem eller kopiert fra forrige søknad.
+Den vanligste feilen er en søknad uten noe som knytter den til akkurat denne stillingen. Den som leser, merker fort om teksten er skrevet for akkurat denne stillingen eller kopiert fra forrige søknad.
 
 > **Før:** Jeg søker herved stillingen og mener jeg vil passe godt inn i deres bedrift.
 
@@ -77,7 +78,7 @@ Hold søknaden på maks én side. En oversiktlig oppbygning kan være:
 3. **Hvorfor denne arbeidsgiveren:** hva som gjør at du vil jobbe akkurat der.
 4. **Avslutning:** en kort setning om at du gjerne forteller mer i et intervju.
 
-Kutt det som ikke svarer på annonsen. Har Jonas jobbet både som avisbud, lagermedarbeider og lærling, og søker lærlingplass som elektriker, er det lærlingtiden og det praktiske arbeidet på lageret som fortjener plassen.
+Kutt det som ikke svarer på annonsen. Har Jonas jobbet både som avisbud og lagermedarbeider, har elektrofag fra videregående og søker lærlingplass som elektriker, er det elektrofaget og det praktiske arbeidet på lageret som fortjener plassen.
 
 ## 6. Slurvefeil som koster
 
@@ -88,14 +89,14 @@ Små feil kan gi inntrykk av at du ikke bryr deg, selv når det ikke stemmer. G�
 - Er navnet på kontaktpersonen riktig stavet?
 - Har du lest teksten høyt for å finne skrivefeil og lange setninger?
 - Er e-postadressen din seriøs, for eksempel fornavn.etternavn?
-- Har filen et ryddig navn, som «Soknad_Ingrid_Haugen.pdf»?
+- Har filen et ryddig navn, som «Soknad_Sara_Haugen.pdf»?
 - Har du lastet opp riktig fil i søknadsskjemaet?
 
 La gjerne noen andre lese søknaden. Andre ser ofte feil som du selv har lest forbi mange ganger.
 
 ## Oppsummering
 
-De fleste feil i en jobbsøknad handler om det samme: teksten er ikke skrevet for akkurat denne stillingen. Les annonsen nøye, åpne med hvem du er og hvorfor du søker, vis egenskapene dine med eksempler, hold deg til én side og sjekk detaljene før du sender. Gjør du det, skiller søknaden din seg ut. Ikke fordi den er spesielt fancy, men fordi den treffer.
+De fleste feil i en jobbsøknad handler om det samme: teksten er ikke skrevet for akkurat denne stillingen. Les annonsen nøye, åpne med hvem du er og hvorfor du søker, vis egenskapene dine med eksempler, hold deg til én side og sjekk detaljene før du sender. Gjør du det, skiller søknaden din seg ut. Ikke fordi den er pyntet, men fordi den treffer.
 
 <!-- faq -->
 
@@ -113,7 +114,7 @@ Det kommer an på hva du mangler. Mangler du ett av flere ønsker, kan det godt 
 
 ### Hvordan bør jeg starte søknaden: «Hei» eller «Til den det måtte angå»?
 
-Står det en kontaktperson i annonsen, er «Hei, Kari» eller «Hei Kari Nilsen» naturlig i Norge. «Til den det måtte angå» virker stivt og upersonlig. Finner du ikke noe navn, kan du gå rett på innledningen.
+Står det en kontaktperson i annonsen, er «Hei Kari» eller «Hei Kari Nilsen» naturlig i Norge. «Til den det måtte angå» virker stivt og upersonlig. Finner du ikke noe navn, kan du gå rett på innledningen.
 
 ### Trenger jeg søknad når skjemaet bare har felt for CV?
 

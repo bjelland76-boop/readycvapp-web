@@ -101,7 +101,7 @@ function workspace() {
 // Async: the fake API runs in this process and must keep answering.
 async function run(dir, script, args) {
   const { stdout } = await promisify(execFile)(process.execPath, [join(REPO, 'scripts', script), ...args], {
-    env: { ...process.env, MAX_ARTICLES_PER_LANGUAGE_PER_WEEK: '', MAX_ARTICLES_PER_RUN: '', MAX_ACTIVE_LANGUAGES: '', CONTENT_ROOT: dir, ANTHROPIC_API_KEY: 'test-key', ANTHROPIC_BASE_URL: base },
+    env: { ...process.env, CONTENT_SKIP_LINKCHECK: '1', MAX_ARTICLES_PER_LANGUAGE_PER_WEEK: '', MAX_ARTICLES_PER_RUN: '', MAX_ACTIVE_LANGUAGES: '', CONTENT_ROOT: dir, ANTHROPIC_API_KEY: 'test-key', ANTHROPIC_BASE_URL: base },
     encoding: 'utf8',
     timeout: 60_000,
   });

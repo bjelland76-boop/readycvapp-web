@@ -16,7 +16,8 @@ generated_at: "2026-10-17T10:23:24.868Z"
 model: "claude-opus-5-5"
 words: 1492
 review_local_fit: 4
-review_notes: "The article is strongly localised, with FINN.no, arbeidsplassen.no/NAV, CEFR levels, modesty norms and Norwegian application terms, and its app mentions stay within verified features. Small gaps: it does not cover whether to state work or residence permit status, or Norwegian test certificates such "
+review_notes: "The phrase 'optional and not required' is redundant and appears twice (body and FAQ); 'A photo is optional' is enough. Local fit could be stronger with a word on Norwegian grade transcripts (vitnemål) or how employers view foreign degrees."
+reviewed_at: "2026-10-17T10:55:50.024Z"
 ---
 
 Writing your first CV can feel impossible when the section called *Work experience* is empty. Maybe you are an international student, you recently moved to Norway, or you have never had a paid job. Everyone has to start somewhere, and many entry-level jobs are open to people applying for the first time. Your CV needs to show what you can already do, how you learn and why you fit this particular job.
@@ -83,7 +84,7 @@ You can do the same with your coursework:
 
 **After:**
 > Group project, Z University
-> Planned a social media campaign for an invented local café together with fellow students. I was responsible for the schedule and for presenting our results to the class.
+> Planned a social media campaign for a fictional local café together with fellow students. Responsible for the schedule and for presenting our results to the class.
 
 ## Write a skills section that says something real
 
@@ -123,11 +124,11 @@ Good places to look for job ads include [FINN.no](https://www.finn.no/job), [arb
 
 Before you send your CV, read the ad and underline the words that describe the person they want. Then adjust your CV:
 
-- Move the most relevant experience to the top.
+- Keep the order of entries, but put the points that matter most for this job first within each entry and in your profile.
 - Use some of the same words as the ad, as long as they are true for you.
 - Remove items that have nothing to do with the job.
 
-If an ad for a care home asks for someone who is patient and caring, your experience helping an elderly grandparent belongs near the top. If a warehouse ad mentions physical work and early shifts, your newspaper route matters more than your marketing project.
+If an ad for a care home asks for someone who is patient and caring, mention your experience helping an elderly grandparent in your profile and describe it well. If a warehouse ad mentions physical work and early shifts, give your newspaper route more space than your marketing project.
 
 Remember that in Norway you usually send a short application letter (*søknad*) with your CV. Keep it to one page, be direct and modest, and address it to the named contact person when the ad gives one. If you want help comparing your CV with a specific ad, you can paste the ad into [ReadyCV](https://app.aerlig.no/?utm_source=readycvapp&utm_medium=artikkel&utm_campaign=cv-norway-no-experience) and get an honest view of where you fit and what is missing.
 
@@ -153,7 +154,7 @@ You can also write *References available on request* if you prefer.
 - Describe what you did and what it shows, not just a title.
 - Name concrete skills instead of generic qualities.
 - State your Norwegian level honestly and show that you are improving.
-- Adapt the CV to each job ad, and add references people can actually call.
+- Adapt the CV to each job ad, and list references or offer them on request.
 
 A first CV is never perfect. Each version you write, and each ad you read carefully, makes the next one stronger.
 

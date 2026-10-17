@@ -13,8 +13,10 @@ import { DRAFTS, PUBLISHED, ROOT, articlePath, loadLanguages, loadSite, loadTopi
 import { normalize, offlineCheck } from './lib/drafts.mjs';
 import { serializeDoc } from './lib/frontmatter.mjs';
 import { buildSite, readArticles } from './lib/site.mjs';
+import { checkUrls, linkCheckEnabled } from './lib/linkcheck.mjs';
+import { externalUrls } from './generate.mjs';
 
-export function main(argv = process.argv.slice(2), log = console.log) {
+export async function main(argv = process.argv.slice(2), log = console.log) {
   const all = argv.includes('--all');
   const wanted = argv.filter((a) => !a.startsWith('--'));
   const site = loadSite();
@@ -36,6 +38,10 @@ export function main(argv = process.argv.slice(2), log = console.log) {
     const body = normalize(d.body, site, d.slug);
     const check = offlineCheck({ ...d, body }, lang, site);
     if (!check.ok) { refused.push(`${d.lang}/${d.slug}: ${check.problems.join('; ')}`); continue; }
+    if (linkCheckEnabled()) {
+      const dead = await checkUrls(externalUrls(body, site, d.slug));
+      if (dead.length) { refused.push(`${d.lang}/${d.slug}: ${dead.join('; ')}`); continue; }
+    }
     const now = new Date().toISOString();
     const { body: _b, path, approved, lang: _l, ...meta } = d;
     const out = { lang: d.lang, ...meta, published_at: d.published_at || now, updated_at: now };
@@ -56,11 +62,8 @@ export function main(argv = process.argv.slice(2), log = console.log) {
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
-  try {
-    const { refused } = main();
-    process.exit(refused.length ? 2 : 0);
-  } catch (e) {
+  main().then(({ refused }) => process.exit(refused.length ? 2 : 0)).catch((e) => {
     console.error(`[publish] ${e.message}`);
     process.exit(1);
-  }
+  });
 }

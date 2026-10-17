@@ -131,3 +131,35 @@ test('British terms (en), vague sentences, and the review: fit >= 4, organisatio
   assert.ok(checkReview({ ...ok, cta_overpromises: ['ReadyCV bygger profilen din fra skole og frivillig arbeid.'] })[0].includes('lover mer'));
   assert.ok(checkReview({ ...ok, vague_sentences: ['Each country has its own portals.'] })[0].includes('vag'));
 });
+
+test('link check: dead links and redirects to another host are stopped, bot protection is accepted', async () => {
+  const { createServer } = await import('node:http');
+  const { checkUrl } = await import('../lib/linkcheck.mjs');
+  const srv = createServer((req, res) => {
+    const port = srv.address().port;
+    if (req.url === '/ok') { res.writeHead(200); res.end('ok'); }
+    else if (req.url === '/bot') { res.writeHead(403); res.end('cf'); }
+    else if (req.url === '/moved') { res.writeHead(301, { location: `http://localhost:${port}/ok` }); res.end(); }
+    else if (req.url === '/same') { res.writeHead(301, { location: '/ok' }); res.end(); }
+    else { res.writeHead(404); res.end('no'); }
+  });
+  await new Promise((r) => srv.listen(0, '127.0.0.1', r));
+  const b = `http://127.0.0.1:${srv.address().port}`;
+  try {
+    assert.equal(await checkUrl(`${b}/ok`), null);
+    assert.equal(await checkUrl(`${b}/bot`), null);
+    assert.equal(await checkUrl(`${b}/same`), null);
+    assert.match(await checkUrl(`${b}/gone`), /finnes ikke \(404\)/);
+    assert.match(await checkUrl(`${b}/moved`), /videresender/);
+    assert.match(await checkUrl('http://127.0.0.1:1/x'), /svarer ikke/);
+  } finally {
+    srv.close();
+  }
+});
+
+test('review: language errors and contradictions stop the draft', async () => {
+  const { checkReview } = await import('../lib/quality.mjs');
+  const ok = { language_correct: true, reads_as_translation: false, local_market_fit: 5, unverifiable_claims: [], invented_quotes: false };
+  assert.ok(checkReview({ ...ok, language_errors: ['i en russestyre -> i et russestyre'] })[0].startsWith('språkfeil'));
+  assert.ok(checkReview({ ...ok, contradictions: ['senaste först vs mest relevanta först'] })[0].startsWith('motsigelse'));
+});

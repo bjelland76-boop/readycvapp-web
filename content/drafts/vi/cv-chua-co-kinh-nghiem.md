@@ -3,7 +3,7 @@ lang: "vi"
 slug: "cv-chua-co-kinh-nghiem"
 group: "cv-without-experience"
 keyword: "cv chưa có kinh nghiệm"
-title: "CV chưa có kinh nghiệm: cách viết vẫn gây ấn tượng"
+title: "CV chưa có kinh nghiệm: cách viết để vẫn gây ấn tượng"
 description: "Hướng dẫn viết CV chưa có kinh nghiệm: viết gì về học tập, dự án, việc làm thêm, tình nguyện, và làm CV thế nào khi ứng tuyển ở Bắc Âu."
 h1: "Cách viết CV khi chưa có kinh nghiệm làm việc: biến những gì bạn đã làm thành điểm mạnh"
 cta_mid_text: "Muốn biết CV chưa có kinh nghiệm của bạn đã hợp với một tin tuyển dụng cụ thể chưa? Dán tin đó vào ReadyCV để nhận đánh giá thẳng thắn về điểm mạnh và những gì còn thiếu."
@@ -16,7 +16,8 @@ generated_at: "2026-10-17T10:35:13.470Z"
 model: "claude-opus-5-5"
 words: 1672
 review_local_fit: 4
-review_notes: "The article fits Vietnamese CV norms well, with good before/after examples and a useful section on Nordic differences. That section names no Nordic job portals (for example NAV or FINN.no), and loanwords like 'order' and 'check-in' are acceptable but could be swapped for Vietnamese equivalents."
+review_notes: "Bài viết tự nhiên, sát với người đọc Việt Nam và có phần riêng cho Bắc Âu với cổng việc làm cụ thể. Phần Bắc Âu có thể nêu thêm ví dụ về cách ghi trình độ tiếng Na Uy theo thang CEFR (A2, B1) hoặc gợi ý thư xin việc (søknad) để hoàn chỉnh hơn."
+reviewed_at: "2026-10-17T10:53:31.988Z"
 ---
 
 Bạn vừa tốt nghiệp, đang học năm cuối, hoặc mới sang Na Uy và chưa từng đi làm chính thức? Nhìn mục “Kinh nghiệm làm việc” trống trơn, nhiều bạn thấy nản và ngại nộp hồ sơ. Thực ra, với vị trí thực tập hay nhân viên mới, nhà tuyển dụng thường không chờ bạn có nhiều năm kinh nghiệm. Họ muốn biết bạn đã học được gì, đã tự tay làm được gì và có hợp với công việc này không.
@@ -35,7 +36,7 @@ Sau:
 
 > Sinh viên năm cuối ngành Marketing, Đại học Z. Đã thực hành viết nội dung mạng xã hội qua đồ án môn học và câu lạc bộ của trường. Mong muốn được làm thực tập sinh Marketing tại Công ty Y để học cách lên kế hoạch cho một chiến dịch thực tế.
 
-Câu “sau” nói rõ bạn là ai và đã làm được gì. Nó cũng nói bạn muốn gì ở đúng công ty này. Hai đến ba câu là đủ. Hãy sửa đoạn này cho từng công việc bạn nộp, đừng dùng một bản cho mọi nơi.
+Đoạn “sau” nói rõ bạn là ai và đã làm được gì. Nó cũng nói bạn muốn gì ở đúng công ty này. Hai đến ba câu là đủ. Hãy sửa đoạn này cho từng công việc bạn nộp, đừng dùng một bản cho mọi nơi.
 
 ## Đưa học vấn lên trước và viết cho đầy đủ
 
@@ -48,7 +49,7 @@ Khi chưa có kinh nghiệm, học vấn là phần mạnh nhất của bạn, n
 
 Ví dụ, Lan học Quản trị khách sạn có thể viết:
 
-> Cử nhân Quản trị khách sạn, Đại học Z (2020–2024). Khóa luận: Cải thiện trải nghiệm check-in cho khách nước ngoài tại một khách sạn ba sao ở Đà Nẵng.
+> Cử nhân Quản trị khách sạn, Đại học Z (2020–2024). Khóa luận: Cải thiện trải nghiệm làm thủ tục nhận phòng cho khách nước ngoài tại một khách sạn ba sao ở Đà Nẵng.
 
 Điểm trung bình chỉ nên ghi khi điểm của bạn tốt hoặc tin tuyển dụng có yêu cầu.
 
@@ -58,7 +59,7 @@ Ví dụ, Lan học Quản trị khách sạn có thể viết:
 
 1. Đồ án nhóm, bài tập lớn, cuộc thi khởi nghiệp của trường
 2. Việc làm thêm: phục vụ quán cà phê, bán hàng ở siêu thị, gia sư, giao hàng
-3. Dự án cá nhân: trang web tự làm, kênh nội dung, cửa hàng bán online nhỏ
+3. Dự án cá nhân: trang web tự làm, kênh nội dung, cửa hàng bán hàng trực tuyến nhỏ
 4. Thực tập ngắn hạn, kể cả thực tập không lương
 
 Bạn có thể đặt tên mục là “Dự án và kinh nghiệm thực tế” thay cho “Kinh nghiệm làm việc”. Với mỗi mục, hãy viết bạn đã làm gì và việc đó dẫn đến kết quả gì, đừng chỉ ghi tên công việc.
@@ -69,7 +70,7 @@ Trước:
 
 Sau:
 
-> Nhân viên phục vụ bán thời gian, quán cà phê ở quận Bình Thạnh (2022–2023). Nhận order và xử lý thanh toán vào giờ cao điểm, hướng dẫn nhân viên mới làm quen với quy trình, giải quyết phàn nàn của khách một cách bình tĩnh.
+> Nhân viên phục vụ bán thời gian, quán cà phê ở quận Bình Thạnh (2022–2023). Nhận gọi món và xử lý thanh toán vào giờ cao điểm, hướng dẫn nhân viên mới làm quen với quy trình, giải quyết phàn nàn của khách một cách bình tĩnh.
 
 Công việc tưởng như không liên quan vẫn cho thấy những điều nhà tuyển dụng nào cũng cần. Đó là sự đúng giờ, khả năng làm việc dưới áp lực và cách bạn giao tiếp với khách hàng.
 
@@ -108,9 +109,9 @@ Nếu bạn đang sống ở Na Uy, Thụy Điển hay Đan Mạch và tìm vi�
 - Viết bằng ngôn ngữ của tin tuyển dụng. Tin bằng tiếng Anh thì viết tiếng Anh, tin bằng tiếng Na Uy thì nên viết tiếng Na Uy nếu bạn đủ khả năng
 - Ghi trung thực trình độ ngôn ngữ, ví dụ: tiếng Na Uy đang học, giao tiếp được trong tình huống hằng ngày
 - Giọng văn ngắn gọn, khiêm tốn, không phóng đại. Câu chữ hoa mỹ thường gây phản tác dụng
-- Thêm mục người tham chiếu, chẳng hạn giáo viên hướng dẫn hoặc chủ quán nơi bạn làm thêm, hoặc ghi “có thể cung cấp khi được yêu cầu”
+- Thêm mục người tham khảo, chẳng hạn giáo viên hướng dẫn hoặc chủ quán nơi bạn làm thêm, hoặc ghi “có thể cung cấp khi được yêu cầu”
 
-Với CV chưa có kinh nghiệm, độ dài một trang là hợp lý ở cả Việt Nam lẫn Bắc Âu. Bạn cũng nên giữ hồ sơ trên [LinkedIn](https://www.linkedin.com) khớp với nội dung CV.
+Ở Na Uy, nhiều tin tuyển dụng được đăng trên [FINN.no](https://www.finn.no/job) và [arbeidsplassen.no](https://arbeidsplassen.nav.no) của NAV; ở Thụy Điển có [Platsbanken](https://arbetsformedlingen.se/platsbanken), ở Đan Mạch có [Jobindex](https://www.jobindex.dk). Với CV chưa có kinh nghiệm, độ dài một trang là hợp lý ở cả Việt Nam lẫn Bắc Âu. Bạn cũng nên giữ hồ sơ trên [LinkedIn](https://www.linkedin.com) khớp với nội dung CV.
 
 ## Tóm tắt
 

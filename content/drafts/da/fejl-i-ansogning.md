@@ -16,7 +16,8 @@ generated_at: "2026-10-17T10:30:39.445Z"
 model: "claude-opus-5-5"
 words: 1290
 review_local_fit: 4
-review_notes: "The article fits the Danish market well, with Jobindex, A/S, daginstitution, truckcertifikat, »Kære« and the advice to call the contact person before applying. It could reach a 5 with more Danish-specific guidance, such as Jobnet, the a-kasse or jobcentre, and Danish norms for one-page applications."
+review_notes: "A strong, locally anchored article. It could mention Jobnet or the Danish tradition of calling the contact person before applying even more explicitly, and »fortælle CV'et en gang til« could become »genfortælle CV'et«."
+reviewed_at: "2026-10-17T10:55:38.029Z"
 ---
 
 En ansøgning behøver ikke at indeholde én stor brøler for at blive valgt fra. Små og velkendte fejl kan tilsammen få den til at ligne alle de andre. Mange af de typiske fejl i en ansøgning er heldigvis nemme at rette, når du ved, hvad du skal kigge efter. Her gennemgår vi faldgruberne med konkrete eksempler på, hvordan du kan skrive det bedre.
@@ -92,7 +93,7 @@ Selv en stærk ansøgning kan blive trukket ned af småfejl. Her er de klassiske
 
 - **Forkert virksomhedsnavn.** Det sker let, når man genbruger en gammel ansøgning. Søg i dokumentet efter navnet på den forrige virksomhed, før du sender.
 - **»Til rette vedkommende«.** Står der en kontaktperson i annoncen, så skriv til vedkommende ved navn, fx »Kære Lene Christensen«.
-- **For lang tekst.** En ansøgning bør som regel holde sig til én side. Kan du ikke være der, er du sandsynligvis ved at gentage CV'et.
+- **For lang tekst.** En ansøgning bør som regel holde sig til én side. Kan du ikke holde dig til én side, gentager du sandsynligvis CV'et.
 - **Stavefejl og tastefejl.** Læs teksten højt, eller bed en ven om at læse den. Man overser let sine egne fejl.
 - **Kedelig afslutning.** »Jeg håber at høre fra jer« er fint, men en afslutning, der knytter sig til jobbet, er stærkere: »Jeg vil gerne fortælle mere om, hvordan jeg kan hjælpe jer med at få det nye system godt i gang.«
 - **Rodede filer.** Send som PDF, medmindre annoncen beder om andet, og giv filen et sigende navn, fx *Ansoegning_Sara_Nielsen_Lagerassistent.pdf* frem for *ansøgning_endelig_v3.docx*.

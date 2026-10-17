@@ -18,7 +18,14 @@ import { DRAFTS, PUBLISHED, ROOT, activeLanguages, articlePath, loadLanguages, l
 import { serializeDoc } from './lib/frontmatter.mjs';
 import { FAQ_MARKER, parseBlocks, splitFaq, toPlainText } from './lib/markdown.mjs';
 import { CTA_FIELDS, TITLE_MAX, DESCRIPTION_MAX, runChecks } from './lib/quality.mjs';
-import { insertCtaMarker, withAppUtm } from './lib/links.mjs';
+import { appLink, insertCtaMarker, withAppUtm } from './lib/links.mjs';
+import { checkUrls, linkCheckEnabled } from './lib/linkcheck.mjs';
+import { linksIn } from './lib/markdown.mjs';
+
+// Every absolute link in the article plus the URL of the two app boxes.
+export function externalUrls(body, site, slug) {
+  return [...linksIn(body).map((l) => l.url).filter((u) => /^https?:\/\//.test(u)), appLink(site, slug)];
+}
 import { readArticles } from './lib/site.mjs';
 
 const WEEK_MS = 7 * 24 * 3600 * 1000;
@@ -67,6 +74,7 @@ Write as a native ${lang.englishName}-speaking career adviser who knows this job
 
 EXAMPLES
 Use only invented or generic names in examples: placeholders such as "X videregående skole", "Y AS", "Z University", or descriptions such as "a local sports club", "a supermarket", "a care home", and invented first names. Never name real schools, universities, sports clubs, companies, shops, chains or real people in examples or as example employers. (Job portals and public services such as ${lang.portals.map((u) => new URL(u).hostname.replace(/^www\./, '')).join(', ') || 'LinkedIn'} may be named as what they are.)
+Write correct, idiomatic ${lang.englishName} without unnecessary English loanwords, do not gender generic roles ("the employer", "the recruiter"), and keep the advice consistent throughout the article.
 Be concrete: never write vague sentences such as "each country has its own portals" or "it varies from country to country" – give the concrete example for this market instead, or leave it out.
 ${(lang.bannedTerms || []).length ? `Never use these terms: ${lang.bannedTerms.map((t) => `"${t}"`).join(', ')}.` : ''}
 
@@ -126,13 +134,13 @@ The same topic already exists in other languages, with these section headings. D
 ${ctx.siblings.map((x) => `[${x.lang}] ${x.headings.join(' | ')}`).join('\n')}` : ''}`;
 }
 
-function reviewerSystem(lang, site) {
+export function reviewerSystem(lang, site) {
   return `You are a strict native ${lang.englishName} editor and career adviser for this audience: ${lang.market}.
 
 Verified facts about the app the article promotes (statements that match these are TRUE, never list them as unverifiable):
 ${site.product}
 Review the article below and answer with one JSON object only:
-{"language_correct": true|false, "language_detected": "<ISO code>", "reads_as_translation": true|false, "translation_evidence": "<short>", "local_market_fit": 1-5, "unverifiable_claims": ["<exact sentence>", ...], "invented_quotes": true|false, "real_organizations": ["<name>", ...], "vague_sentences": ["<exact sentence>", ...], "cta_overpromises": ["<exact sentence>", ...], "notes": "<max 2 sentences>"}
+{"language_correct": true|false, "language_detected": "<ISO code>", "reads_as_translation": true|false, "translation_evidence": "<short>", "local_market_fit": 1-5, "unverifiable_claims": ["<exact sentence>", ...], "invented_quotes": true|false, "real_organizations": ["<name>", ...], "vague_sentences": ["<exact sentence>", ...], "cta_overpromises": ["<exact sentence>", ...], "language_errors": ["<exact phrase> -> <correction>", ...], "contradictions": ["<short description>", ...], "notes": "<max 2 sentences>"}
 
 - language_correct: the whole text is natural ${lang.englishName} (${lang.code}) – for Norwegian: Bokmål, not Danish/Swedish/Nynorsk.
 - reads_as_translation: true if wording, idioms, examples or structure feel translated from another language (calques, foreign idioms, examples from another country), or if the structure mirrors the sibling-article headings given below one to one.
@@ -141,10 +149,13 @@ Review the article below and answer with one JSON object only:
 - invented_quotes: true if the text quotes or attributes statements to real people, companies or organisations.
 - real_organizations: names of REAL schools, universities, sports clubs, companies, shops, chains or real people used in examples or as example employers. Job portals and public services named as what they are (e.g. NAV, FINN.no, LinkedIn) and the app ReadyCV are fine, and so are placeholders like "X videregående skole" or invented first names. Empty list if none.
 - vague_sentences: sentences that wave at something generic where the reader needs a concrete example (e.g. "each country has its own portals", "it depends on the country"). Empty list if none.
-- cta_overpromises: sentences in the app boxes or anywhere in the text that promise something about ReadyCV beyond exactly these: ${(site.ctaPromises || []).join('; ')}. Empty list if none.`;
+- cta_overpromises: sentences in the app boxes or anywhere in the text that promise something about ReadyCV beyond exactly these: ${(site.ctaPromises || []).join('; ')}. Empty list if none.
+- language_errors: every grammar or agreement error (e.g. wrong gender of a noun), unnatural wording, unnecessary English loanword in a non-English text (e.g. "fancy", "order"), or needless gendering of a generic role (e.g. calling "the employer" "she"). Empty list if none.
+- contradictions: advice that contradicts other advice in the same article (e.g. "most recent first" in one place and "most relevant first, even if not the most recent" in another), or inconsistent wording for the same thing. Empty list if none.
+Every concrete problem you notice must go into one of these lists – do not only mention it in "notes". But list only clear errors that a native editor would have to correct before publishing; do NOT list style preferences, alternative wordings or possible improvements (put those in "notes").`;
 }
 
-function reviewerUser(meta, body, siblings) {
+export function reviewerUser(meta, body, siblings) {
   const sib = siblings.length
     ? siblings.map((s) => `[${s.lang}] ${s.headings.join(' | ')}`).join('\n')
     : '(none)';
@@ -155,7 +166,9 @@ TITLE: ${meta.title}
 DESCRIPTION: ${meta.description}
 H1: ${meta.h1}
 APP BOX (middle): ${meta.cta_mid_text} [${meta.cta_mid_button}]
-APP BOX (end): ${meta.cta_end_title} – ${meta.cta_end_text} [${meta.cta_end_button}]
+APP BOX (end), title: ${meta.cta_end_title}
+APP BOX (end), text: ${meta.cta_end_text}
+APP BOX (end), button: ${meta.cta_end_button}
 
 ${body}`;
 }
@@ -175,7 +188,7 @@ export function ctaMeta(json) {
   return Object.fromEntries(CTA_FIELDS.map((f) => [f, String(json[f] || '').trim()]));
 }
 
-function headings(body) {
+export function headings(body) {
   return parseBlocks(splitFaq(body).main).filter((b) => b.type === 'h2').map((b) => b.text);
 }
 
@@ -204,11 +217,16 @@ async function writeOne(topic, lang, site, ctx, log) {
       model: site.reviewModel,
       system: reviewerSystem(lang, site),
       user: reviewerUser(meta, body, ctx.siblings),
-      maxTokens: 2000,
+      maxTokens: 6000,
     });
     let review;
     try { review = extractJson(reviewText.text); } catch { review = null; }
     const result = runChecks({ meta, body, lang, linkContext: ctx.linkContext, corpus: ctx.corpus, review });
+    if (result.ok && linkCheckEnabled()) {
+      // Open every link (portals and the app box URL) before saving.
+      const dead = await checkUrls(externalUrls(body, site, topic.slug));
+      if (dead.length) Object.assign(result, { ok: false, problems: dead.map((d) => `lenker: ${d}`) });
+    }
     log(`  [${lang.code}/${topic.slug}] runde ${round + 1}: ${result.ok ? 'OK' : `${result.problems.length} problem(er)`} (${result.words} ord, ${usage.output_tokens || '?'} tokens)`);
     last = { ...result, meta, body, review };
     if (result.ok) return last;

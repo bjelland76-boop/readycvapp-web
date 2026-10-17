@@ -313,6 +313,8 @@ export function checkReview(review, { minLocalFit = 4 } = {}) {
   for (const o of list('real_organizations')) p.push(`ekte organisasjon/person i eksemplene: «${String(o).slice(0, 100)}»`);
   for (const s of list('vague_sentences')) p.push(`vag setning: «${String(s).slice(0, 160)}»`);
   for (const s of list('cta_overpromises')) p.push(`lover mer enn appen gjør: «${String(s).slice(0, 160)}»`);
+  for (const s of list('language_errors')) p.push(`språkfeil: «${String(s).slice(0, 160)}»`);
+  for (const s of list('contradictions')) p.push(`motsigelse i rådene: «${String(s).slice(0, 160)}»`);
   return p;
 }
 

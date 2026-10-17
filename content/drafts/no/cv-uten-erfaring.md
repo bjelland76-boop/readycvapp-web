@@ -16,10 +16,11 @@ generated_at: "2026-10-17T10:25:28.647Z"
 model: "claude-opus-5-5"
 words: 1147
 review_local_fit: 5
-review_notes: "One small grammar error to fix: «i en russestyre» should be «i et russestyre». Otherwise a concrete, well-localised article with realistic before/after examples, relevant Norwegian portals and CTAs that stay within the app's actual features."
+review_notes: "«En arbeidsgiver som ansetter i en førstegangsjobb» er litt klosset og kunne skrives om til «En arbeidsgiver som ansetter noen i deres første jobb». «En lærer, en kontaktlærer» i FAQ-en er noe overlappende, men ingen av delene er feil som må rettes."
+reviewed_at: "2026-10-17T10:52:35.465Z"
 ---
 
-Første jobbsøknad kan føles som en blindvei. Du trenger erfaring for å få jobb, men du trenger en jobb for å få erfaring. Likevel har du mer å vise til enn du tror. En arbeidsgiver som ansetter i en førstegangsjobb forventer ikke en lang arbeidshistorikk. Hun vil se at du er pålitelig, lærer raskt og faktisk vil ha jobben.
+Første jobbsøknad kan føles som en umulig oppgave. Du trenger erfaring for å få jobb, men du trenger en jobb for å få erfaring. Likevel har du mer å vise til enn du tror. En arbeidsgiver som ansetter i en førstegangsjobb forventer ikke en lang arbeidshistorikk. Arbeidsgiveren vil se at du er pålitelig, lærer raskt og faktisk vil ha jobben.
 
 Her får du konkrete råd om hvordan du bygger opp en CV uten erfaring. Du får også eksempler du kan bruke direkte.
 
@@ -61,7 +62,7 @@ Mange glemmer at erfaring ikke bare er lønnet arbeid med fast kontrakt. Arbeids
 - Har du stått i kiosken på dugnad eller jobbet på loppemarked?
 - Har du vært barnevakt, gått tur med naboens hund eller måkt snø for noen?
 - Har du hatt sommerjobb gjennom kommunen eller hjulpet til i familiebedriften?
-- Har du hatt verv i en russestyre, et korps eller en ungdomsklubb?
+- Har du hatt verv i et russestyre, et korps eller en ungdomsklubb?
 
 Sett det opp på samme måte som en jobb: tidsrom, rolle, sted og hva du gjorde.
 
@@ -101,7 +102,7 @@ Profilen er det første arbeidsgiveren leser. Den skal fortelle hvem du er og hv
 
 Eksempel for Ingrid, som søker deltidsjobb i en dagligvarebutikk:
 
-> Jeg er 17 år og går andre året på X videregående skole. Jeg er vant til å ha faste forpliktelser ved siden av skolen gjennom trenerjobben min i et lokalt idrettslag. Nå ønsker jeg en deltidsjobb der jeg kan møte kunder, lære butikkdrift og bidra i et godt team.
+> Jeg er 17 år og går andre året på X videregående skole. Jeg er vant til å ha faste forpliktelser ved siden av skolen gjennom trenervervet mitt i et lokalt idrettslag. Nå ønsker jeg en deltidsjobb der jeg kan møte kunder, lære butikkdrift og bidra i et godt team.
 
 Eksempel for Mathias, som søker sommerjobb på et sykehjem:
 

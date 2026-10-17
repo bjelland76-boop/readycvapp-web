@@ -16,7 +16,8 @@ generated_at: "2026-10-17T10:33:58.010Z"
 model: "claude-opus-5-5"
 words: 1234
 review_local_fit: 4
-review_notes: "Section 5 says dates should run with the most recent first, while section 7 says to put the most relevant first even if it is not the most recent, so this should be harmonised. Local fit could be stronger with Swedish specifics such as references, Arbetsförmedlingen's role or 'kontaktperson' practic"
+review_notes: "Starkt lokalt anpassad med Platsbanken, svensk syn på det personliga brevet och frivilligt foto. Den kunde nå 5 med mer konkret svensk vägledning, till exempel om ansökningssystem och referenser, och \"hittade ofta fel innan de betalades ut\" kunde förenklas till \"innan de betalades\"."
+reviewed_at: "2026-10-17T10:53:17.861Z"
 ---
 
 Du kan vara rätt person för jobbet och ändå bli bortsorterad. Ofta beror det inte på bristande erfarenhet utan på små och stora misstag i ansökan som gör det svårt för rekryteraren att se vad du kan. Den goda nyheten är att de flesta felen är lätta att rätta när du väl vet vad du ska leta efter. Här går vi igenom de vanligaste misstagen, med exempel på hur du gör i stället.
@@ -31,7 +32,7 @@ Så här märks det:
 
 Meningen kunde stå i vilken ansökan som helst. Jämför med en version skriven för en tjänst som butikssäljare i en sportbutik:
 
-> Jag har tränat friidrott i tio år och hjälper gärna kunder att hitta rätt löparsko. Under min sommar i en livsmedelsbutik lärde jag mig att hålla ordning i kassan även när kön är lång.
+> Jag har tränat friidrott i tio år och hjälper gärna kunder att hitta rätt löparsko. Under mitt sommarjobb i en livsmedelsbutik lärde jag mig att hålla ordning i kassan även när kön är lång.
 
 Du behöver inte skriva om allt varje gång. Behåll en grund, men byt alltid ut inledningen och de två till tre exempel som bäst matchar annonsen.
 
@@ -107,13 +108,13 @@ Annonser på [Platsbanken](https://arbetsformedlingen.se/platsbanken) och [Linke
 
 ## 7. CV:t är svårt att skumma
 
-En rekryterare läser sällan ett CV från början till slut första gången. Om det viktigaste göms i långa stycken eller längst ner riskerar du att det aldrig blir sett. Ett CV på en till två sidor räcker för de flesta.
+En rekryterare läser sällan ett CV från början till slut första gången. Om det viktigaste göms i långa stycken eller längst ner riskerar du att det aldrig syns. Ett CV på en till två sidor räcker för de flesta.
 
 Gör ditt CV lätt att skumma:
 
 - Tydliga rubriker: Erfarenhet, Utbildning, Kompetenser
 - Korta punkter med resultat, inte bara arbetsuppgifter
-- Det mest relevanta först, även om det inte är det senaste
+- Det mest relevanta högt upp: i profilen och som första punkt under varje anställning
 - Foto är frivilligt – välj det du känner dig trygg med
 
 ## Sammanfattning
@@ -140,4 +141,4 @@ Du kan ha ett grund-CV, men det lönar sig att justera det för varje jobb. Flyt
 
 ### Hur skriver jag om jag saknar arbetslivserfarenhet?
 
-Använd exempel från skola, praktik, föreningsliv, extrajobb eller ideellt arbete. Visa konkreta situationer där du tagit ansvar, samarbetat eller löst problem. Det viktiga är att koppla exemplen till det jobbet kräver.
+Använd exempel från skola, praktik, föreningsliv, extrajobb eller ideellt arbete. Visa konkreta situationer där du tagit ansvar, samarbetat eller löst problem. Det viktiga är att koppla exemplen till det som jobbet kräver.

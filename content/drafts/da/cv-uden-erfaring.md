@@ -15,15 +15,16 @@ approved: false
 generated_at: "2026-10-17T10:28:34.614Z"
 model: "claude-opus-5-5"
 words: 1170
-review_local_fit: 4
-review_notes: "Clearly written for Danish job seekers, with HHX, studieretningsprojekt, erhvervspraktik, hygiejnebevis, Jobindex/Jobnet and Danish photo norms. Small gaps: it says nothing about the typical Danish application process for elevpladser (e.g. Lærepladsen.dk) or the norms for unsolicited applications."
+review_local_fit: 5
+review_notes: "CV-linjen \"Hjælpetræner for U11-fodbold, en lokal idrætsforening\" kunne flyde bedre som \"... i en lokal idrætsforening\". Rådet om at skrive den nyeste uddannelse først og rådet om at sortere eksempler efter relevans kunne med fordel præciseres, så læseren ikke opfatter dem som modstridende."
+reviewed_at: "2026-10-17T10:51:42.390Z"
 ---
 
 Dit første CV kan ligne en blank side, hvis du ikke har haft et rigtigt job endnu. Arbejdsgivere, der søger elever, studerende og nyuddannede, ved godt, at du ikke har mange års erfaring bag dig. De leder efter tegn på, at du er til at regne med, lærer hurtigt og kan samarbejde. Dit CV skal vise de tegn med konkrete eksempler, ikke med flotte ord.
 
 Her får du en praktisk gennemgang af, hvordan du bygger et CV uden erfaring op. Rådene virker, uanset om du søger et studiejob i et supermarked, en vikarstilling på et plejehjem eller din første elevplads.
 
-## Sæt uddannelsen øverst
+## Sæt uddannelsen før erfaringen
 
 Når du ikke har meget erhvervserfaring, er din uddannelse dit stærkeste kort. Placér den lige efter dine kontaktoplysninger og din korte profil. Skriv den nyeste først, og tag kun det med, der siger noget om dig.
 
@@ -95,7 +96,7 @@ Har du lært noget på egen hånd, for eksempel at redigere video eller bygge en
 
 ## Tilpas CV'et til det enkelte jobopslag
 
-Det samme CV passer sjældent lige godt til alle job. Læs jobopslaget på for eksempel [Jobindex](https://www.jobindex.dk) eller [Jobnet](https://job.jobnet.dk) grundigt, og streg de ord under, som arbejdsgiveren bruger. Søger et supermarked en, der er god til kundeservice, så flyt dine eksempler med kundekontakt op. Søger et plejehjem en, der er rolig og omsorgsfuld, så fremhæv babysitningen eller dit frivillige arbejde med mennesker.
+Det samme CV passer sjældent lige godt til alle job. Læs jobopslaget på for eksempel [Jobindex](https://www.jobindex.dk) eller [Jobnet](https://jobnet.dk) grundigt, og streg de ord under, som arbejdsgiveren bruger. Søger et supermarked en, der er god til kundeservice, så flyt dine eksempler med kundekontakt op. Søger et plejehjem en, der er rolig og omsorgsfuld, så fremhæv babysitningen eller dit frivillige arbejde med mennesker.
 
 Freja søger både job i en tøjbutik og som ufaglært afløser i en børnehave. Hun bruger de samme oplysninger, men ændrer profilen og rækkefølgen af sine eksempler, så det vigtigste for hvert job står øverst.
 
@@ -109,11 +110,11 @@ Et CV uden erfaring fylder som regel én side. Det er helt fint, og det er bedre
 4. Gem CV'et som PDF, så layoutet ikke ændrer sig.
 5. Læs korrektur, eller få en anden til at læse det igennem.
 
-Mange arbejdsgivere beder om både CV og ansøgning. CV'et viser, hvad du har lavet, mens ansøgningen på højst en side forklarer, hvorfor du vil have netop dette job.
+Mange arbejdsgivere beder om både CV og ansøgning. CV'et viser, hvad du har lavet, mens ansøgningen på højst én side forklarer, hvorfor du vil have netop dette job.
 
 ## Opsummering
 
-Et godt CV uden erfaring handler om at vise værdi gennem det, du allerede har gjort. Sæt uddannelsen øverst, skriv en kort profil rettet mod jobbet, tag fritidsjob, frivilligt arbejde og foreningsliv med, og beskriv konkrete opgaver frem for titler. Tilpas CV'et til hvert jobopslag, og hold det på én side. Så får arbejdsgiveren et klart billede af, hvem du er, og hvad du kan bidrage med.
+Et godt CV uden erfaring handler om at vise værdi gennem det, du allerede har gjort. Sæt uddannelsen før erfaringen, skriv en kort profil rettet mod jobbet, tag fritidsjob, frivilligt arbejde og foreningsliv med, og beskriv konkrete opgaver frem for titler. Tilpas CV'et til hvert jobopslag, og hold det på én side. Så får arbejdsgiveren et klart billede af, hvem du er, og hvad du kan bidrage med.
 
 <!-- faq -->
 
@@ -135,4 +136,4 @@ Det kan være en god idé, hvis du har nogen, der kan sige noget om dig, for eks
 
 ### Skal jeg også skrive en ansøgning?
 
-Mange arbejdsgivere beder om både CV og ansøgning, så det er klogt at have begge klar. Ansøgningen skal være kort, højst en side, og forklare, hvorfor du søger netop dette job. Brug eksempler fra dit CV, men gentag det ikke ord for ord.
+Mange arbejdsgivere beder om både CV og ansøgning, så det er klogt at have begge klar. Ansøgningen skal være kort, højst én side, og forklare, hvorfor du søger netop dette job. Brug eksempler fra dit CV, men gentag det ikke ord for ord.

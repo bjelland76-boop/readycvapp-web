@@ -95,6 +95,8 @@ Et utkast stoppes ved:
 - **Vage setninger:** for eksempel «each country has its own portals» uten et konkret eksempel.
 - **App-løfter:** app-boksene og teksten får bare love det som står i `ctaPromises` i `content/site.json`: lime inn en annonse, få vurdering av hvor godt du passer, få CV og søknad tilpasset jobben, starte gratis uten konto, og laste opp en eksisterende CV for analyse.
 - **Lokal tilpasning:** Kontrollen må gi minst 4 av 5.
+- **Språkfeil og motsigelser:** grammatikk- og samsvarsfeil, unødvendige engelske lånord, kjønning av generelle roller («arbeidsgiveren … hun») og råd som motsier hverandre i samme artikkel. Kontrollen skal bare stoppe tydelige feil, ikke stilvalg.
+- **Lenker som ikke virker:** Alle lenker åpnes før utkastet lagres og før det publiseres. Lenker som ikke svarer, gir 404/410 eller 5xx, eller som videresender til en annen adresse, stoppes. 401, 403 og 429 godtas, fordi de som regel er bot-beskyttelse som vanlige nettlesere kommer forbi.
 - **Oversatt preg:** En egen kontroll med modellen vurderer om teksten er naturlig skrevet for markedet, om den ser oversatt ut, og om den inneholder påstander som ikke kan bekreftes.
 - **Webapp-lenken:** manglende app-boks (tekst eller plassering), feil UTM, mer enn én ekstra app-lenke, eller lenker utenfor tillatt-listen (appen, egne publiserte artikler og portalene i `languages.json`).
 
@@ -138,4 +140,7 @@ ANTHROPIC_API_KEY=... npm run generate -- --lang da,sv,vi --count 2 --include-di
 npm run publish-drafts                     # publiser godkjente utkast
 npm run refresh-drafts                     # oppdater eksisterende utkast med nye app-lenker/UTM
 npm run build-site                         # bygg artikkelsidene og sitemap på nytt
+npm run check-links                        # åpne alle lenker i utkast, publiserte artikler og portaler
+ANTHROPIC_API_KEY=... npm run review-drafts                        # full kvalitetssjekk (med kontrollmodellen) etter håndredigering
+ANTHROPIC_API_KEY=... npm run review-drafts -- no/cv-uten-erfaring  # bare ett utkast
 ```

@@ -16,7 +16,8 @@ generated_at: "2026-10-17T10:39:01.966Z"
 model: "claude-opus-5-5"
 words: 1136
 review_local_fit: 5
-review_notes: "Starkt lokalt förankrad text med konkreta före/efter-exempel och svenska skol- och praktikbegrepp, och CTA:erna håller sig inom appens verifierade funktioner. Liten inkonsekvens: läsaren ska först ”stryka under” egenskaper i annonsen men senare hänvisas till det hen ”ringade in”."
+review_notes: "A strong, locally anchored article with concrete before/after examples and Swedish portals. Possible improvement: the summary names only ”Erfarenheter” as the new heading, while the body also suggests ”Praktik och uppdrag”; and the ”stresstålig och social” example could match the before example belo"
+reviewed_at: "2026-10-17T10:54:59.846Z"
 ---
 
 Du ska söka ditt första riktiga jobb, öppnar ett tomt dokument och fastnar direkt på rubriken ”Arbetslivserfarenhet”. Det är en vanlig känsla, men den bygger på ett missförstånd. Arbetsgivare som anställer någon utan tidigare jobb vet att du inte har några anställningar att visa. De vill ta reda på om du är pålitlig, lär dig snabbt och passar för just det här jobbet. Ett bra CV utan erfarenhet ger dem svar på de frågorna med det du faktiskt har gjort.
@@ -29,16 +30,16 @@ Skriv ner tre till fem sådana egenskaper. Sedan letar du efter tillfällen i di
 
 ## Leta efter erfarenhet som inte kallas jobb
 
-De flesta som tror att de saknar erfarenhet har mer än de tror. Gå igenom den här listan och anteckna allt som passar in:
+Många som tror att de saknar erfarenhet har mer än de tror. Gå igenom den här listan och anteckna allt som passar in:
 
 - **Prao och APL** – praktik under grundskolan eller gymnasiet räknas, särskilt om den gjordes i samma bransch som jobbet du söker.
-- **Gymnasiearbetet eller större skolprojekt** – här har du planerat, tagit ansvar och hållit en deadline.
+- **Gymnasiearbetet eller större skolprojekt** – här har du planerat, tagit ansvar och hållit en tidsplan.
 - **Elevföretag** – har du drivit ett företag i skolan har du sålt, räknat och samarbetat.
 - **Föreningsliv** – tränare för ett knattelag, kassör i elevrådet eller funktionär på cuper i en lokal idrottsförening.
 - **Informella uppdrag** – barnvakt åt grannar, snöskottning, hjälpa till i en släktings verksamhet.
 - **Ansvar hemma** – att regelbundet hämta yngre syskon eller hjälpa en äldre släkting kan visa att du är pålitlig, om det passar jobbet.
 
-Allt behöver inte stå med. Välj det som säger något om de egenskaper du ringade in i annonsen.
+Allt behöver inte stå med. Välj det som säger något om de egenskaper du strök under i annonsen.
 
 ## Byt rubrik och ordning
 
@@ -93,7 +94,7 @@ Här är ett förkortat exempel på hur Linnea, som går sista året på barn- o
 
 > **Erfarenheter**
 > 2024 APL på en förskola, fyra veckor. Höll i samlingar och hjälpte till vid måltider och vila.
-> 2021–2025 Ledare för knattelag i en lokal fotbollsförening.
+> 2021–2025 Ledare för ett knattelag i en lokal fotbollsförening. Planerade träningar och höll kontakt med föräldrarna.
 > 2020–2025 Barnvakt åt två familjer i grannskapet, regelbundet på kvällar.
 
 > **Kunskaper och språk**
@@ -116,7 +117,7 @@ CV:t visar vad du har gjort. Det personliga brevet förklarar vem du är och var
 ## Sammanfattning
 
 - Utgå från annonsen och välj tre till fem egenskaper som du vill bevisa.
-- Räkna med praktik, skolprojekt, föreningsliv och informella uppdrag.
+- Räkna in praktik, skolprojekt, föreningsliv och informella uppdrag.
 - Byt rubriken till ”Erfarenheter” så att inget avsnitt står tomt.
 - Beskriv vad du gjorde, med verb och konkreta detaljer.
 - Håll CV:t på en sida och anpassa det till varje jobb.
