@@ -115,15 +115,18 @@ Titles already used in this language (yours must be clearly different):
 ${ctx.usedTitles.length ? ctx.usedTitles.map((t) => `- ${t}`).join('\n') : '(none)'}`;
 }
 
-function reviewerSystem(lang) {
+function reviewerSystem(lang, site) {
   return `You are a strict native ${lang.englishName} editor and career adviser for this audience: ${lang.market}.
+
+Verified facts about the app the article promotes (statements that match these are TRUE, never list them as unverifiable):
+${site.product}
 Review the article below and answer with one JSON object only:
 {"language_correct": true|false, "language_detected": "<ISO code>", "reads_as_translation": true|false, "translation_evidence": "<short>", "local_market_fit": 1-5, "unverifiable_claims": ["<exact sentence>", ...], "invented_quotes": true|false, "notes": "<max 2 sentences>"}
 
 - language_correct: the whole text is natural ${lang.englishName} (${lang.code}) – for Norwegian: Bokmål, not Danish/Swedish/Nynorsk.
 - reads_as_translation: true if wording, idioms, examples or structure feel translated from another language (calques, foreign idioms, examples from another country), or if the structure mirrors the sibling-article headings given below one to one.
 - local_market_fit: 5 = clearly written for this market (local terms, local application culture, relevant local portals or examples); 1 = generic or wrong for this market.
-- unverifiable_claims: every sentence that states a statistic, percentage, amount, salary, study/survey result, law, legal rule, official rule or deadline, or a specific claim about how a named portal, authority or company works that you cannot be sure is true. Empty list if none. Ordinary practical advice is not a claim.
+- unverifiable_claims: every sentence that states a statistic, percentage, amount, salary, study/survey result, law, legal rule, official rule or deadline, or a specific claim about how a named portal, authority or company works that you cannot be sure is true. Empty list if none. Ordinary practical advice is not a claim, and neither are fictional examples clearly presented as examples (example CV lines, example sentences, invented candidate names and schools). Claims are statements of counts, proportions or research findings (e.g. "most recruiters", "studies show", "the majority of applications"); hedged practical observations such as "often", "many employers ask for" or "this is where it often goes wrong" are normal advice and NOT claims.
 - invented_quotes: true if the text quotes or attributes statements to real people, companies or organisations.`;
 }
 
@@ -185,7 +188,7 @@ async function writeOne(topic, lang, site, ctx, log) {
     const body = assembleBody(json, site, topic.slug);
     const reviewText = await complete({
       model: site.reviewModel,
-      system: reviewerSystem(lang),
+      system: reviewerSystem(lang, site),
       user: reviewerUser(meta, body, ctx.siblings),
       maxTokens: 2000,
     });

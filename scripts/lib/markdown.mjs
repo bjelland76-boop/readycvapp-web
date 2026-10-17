@@ -71,7 +71,7 @@ export function parseBlocks(md) {
   const flush = () => {
     if (para.length) blocks.push({ type: 'p', text: para.join(' ') });
     if (list) blocks.push(list);
-    if (quote) blocks.push({ type: 'quote', text: quote.join(' ') });
+    if (quote) blocks.push({ type: 'quote', text: quote.join(' '), lines: quote });
     para = [];
     list = null;
     quote = null;
@@ -124,7 +124,8 @@ export function renderBlocks(blocks, linkFilter) {
       case 'h3': return `<h3>${t(b.text)}</h3>`;
       case 'ul': return `<ul>${b.items.map((i) => `<li>${t(i)}</li>`).join('')}</ul>`;
       case 'ol': return `<ol>${b.items.map((i) => `<li>${t(i)}</li>`).join('')}</ol>`;
-      case 'quote': return `<blockquote>${t(b.text)}</blockquote>`;
+      // Each quoted line keeps its own line (example CV entries, letters).
+      case 'quote': return `<blockquote>${(b.lines || [b.text]).map(t).join('<br>')}</blockquote>`;
       default: return `<p>${t(b.text)}</p>`;
     }
   }).join('\n');

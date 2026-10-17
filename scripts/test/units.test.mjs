@@ -91,6 +91,8 @@ test('language heuristic separates no / da / sv / en / vi', () => {
   assert.deepEqual(checkLanguage(sv, 'sv'), []);
   assert.deepEqual(checkLanguage(en, 'en'), []);
   assert.deepEqual(checkLanguage(vi, 'vi'), []);
+  const daDet = 'Det er helt i orden, hvis du ikke har arbejdet før. Det vigtige er, at du viser, hvad du kan, og det kan du gøre med eksempler fra skolen. Det gælder også fritidsjob, og det ved arbejdsgiveren godt.';
+  assert.deepEqual(checkLanguage(daDet, 'da'), [], 'Danish with many "det" is still Danish');
   assert.ok(checkLanguage(da, 'no').length, 'Danish is not Norwegian');
   assert.ok(checkLanguage(no, 'da').length, 'Norwegian is not Danish');
   assert.ok(checkLanguage(en, 'vi').length);

@@ -10,13 +10,15 @@
       "purpose": "Hjelpe førstegangssøkere å lage en CV som viser verdi uten arbeidserfaring.",
       "appAngle": "Upload what you have (school, volunteering, part-time) and let ReadyCV structure it into a profile and a tailored CV.",
       "priority": 1,
-      "status": "queued",
+      "status": "draft",
       "translations": {
         "en": "cv-with-no-experience",
         "da": "cv-uden-erfaring",
         "sv": "cv-utan-erfarenhet",
         "vi": "cv-chua-co-kinh-nghiem"
-      }
+      },
+      "drafted_at": "2026-10-17T09:35:26.231Z",
+      "draft": "content/drafts/no/cv-uten-erfaring.md"
     },
     {
       "group": "cv-without-experience",
@@ -27,13 +29,15 @@
       "purpose": "Hjelpe førstegangssøkere å lage en CV som viser verdi uten arbeidserfaring.",
       "appAngle": "Upload what you have (school, volunteering, part-time) and let ReadyCV structure it into a profile and a tailored CV.",
       "priority": 1,
-      "status": "queued",
+      "status": "draft",
       "translations": {
         "no": "cv-uten-erfaring",
         "da": "cv-uden-erfaring",
         "sv": "cv-utan-erfarenhet",
         "vi": "cv-chua-co-kinh-nghiem"
-      }
+      },
+      "drafted_at": "2026-10-17T09:38:36.967Z",
+      "draft": "content/drafts/en/cv-with-no-experience.md"
     },
     {
       "group": "cv-without-experience",
@@ -44,13 +48,17 @@
       "purpose": "Hjelpe førstegangssøkere å lage en CV som viser verdi uten arbeidserfaring.",
       "appAngle": "Upload what you have (school, volunteering, part-time) and let ReadyCV structure it into a profile and a tailored CV.",
       "priority": 1,
-      "status": "queued",
+      "status": "draft",
       "translations": {
         "no": "cv-uten-erfaring",
         "en": "cv-with-no-experience",
         "sv": "cv-utan-erfarenhet",
         "vi": "cv-chua-co-kinh-nghiem"
-      }
+      },
+      "attempts": 1,
+      "last_attempt_at": "2026-10-17T09:42:39.962Z",
+      "drafted_at": "2026-10-17T09:55:30.537Z",
+      "draft": "content/drafts/da/cv-uden-erfaring.md"
     },
     {
       "group": "cv-without-experience",
@@ -61,13 +69,17 @@
       "purpose": "Hjelpe førstegangssøkere å lage en CV som viser verdi uten arbeidserfaring.",
       "appAngle": "Upload what you have (school, volunteering, part-time) and let ReadyCV structure it into a profile and a tailored CV.",
       "priority": 1,
-      "status": "queued",
+      "status": "draft",
       "translations": {
         "no": "cv-uten-erfaring",
         "en": "cv-with-no-experience",
         "da": "cv-uden-erfaring",
         "vi": "cv-chua-co-kinh-nghiem"
-      }
+      },
+      "attempts": 1,
+      "last_attempt_at": "2026-10-17T09:57:12.827Z",
+      "drafted_at": "2026-10-17T10:03:37.583Z",
+      "draft": "content/drafts/sv/cv-utan-erfarenhet.md"
     },
     {
       "group": "cv-without-experience",
@@ -78,13 +90,15 @@
       "purpose": "Hjelpe førstegangssøkere å lage en CV som viser verdi uten arbeidserfaring.",
       "appAngle": "Upload what you have (school, volunteering, part-time) and let ReadyCV structure it into a profile and a tailored CV.",
       "priority": 1,
-      "status": "queued",
+      "status": "draft",
       "translations": {
         "no": "cv-uten-erfaring",
         "en": "cv-with-no-experience",
         "da": "cv-uden-erfaring",
         "sv": "cv-utan-erfarenhet"
-      }
+      },
+      "drafted_at": "2026-10-17T09:49:01.111Z",
+      "draft": "content/drafts/vi/cv-chua-co-kinh-nghiem.md"
     },
     {
       "group": "application-mistakes",
@@ -95,13 +109,17 @@
       "purpose": "Vise de vanligste feilene i jobbsøknader og hvordan de rettes.",
       "appAngle": "The honest match score shows whether the application actually answers the ad before you send it.",
       "priority": 2,
-      "status": "queued",
+      "status": "draft",
       "translations": {
         "en": "job-application-mistakes",
         "da": "fejl-i-ansogning",
         "sv": "misstag-i-ansokan",
         "vi": "loi-khi-viet-ho-so-xin-viec"
-      }
+      },
+      "attempts": 1,
+      "last_attempt_at": "2026-10-17T09:52:09.846Z",
+      "drafted_at": "2026-10-17T10:01:01.592Z",
+      "draft": "content/drafts/no/feil-i-jobbsoknad.md"
     },
     {
       "group": "application-mistakes",
@@ -112,13 +130,17 @@
       "purpose": "Vise de vanligste feilene i jobbsøknader og hvordan de rettes.",
       "appAngle": "The honest match score shows whether the application actually answers the ad before you send it.",
       "priority": 2,
-      "status": "queued",
+      "status": "draft",
       "translations": {
         "no": "feil-i-jobbsoknad",
         "da": "fejl-i-ansogning",
         "sv": "misstag-i-ansokan",
         "vi": "loi-khi-viet-ho-so-xin-viec"
-      }
+      },
+      "attempts": 1,
+      "last_attempt_at": "2026-10-17T09:53:40.774Z",
+      "drafted_at": "2026-10-17T10:02:28.439Z",
+      "draft": "content/drafts/en/job-application-mistakes.md"
     },
     {
       "group": "application-mistakes",
@@ -129,13 +151,15 @@
       "purpose": "Vise de vanligste feilene i jobbsøknader og hvordan de rettes.",
       "appAngle": "The honest match score shows whether the application actually answers the ad before you send it.",
       "priority": 2,
-      "status": "queued",
+      "status": "draft",
       "translations": {
         "no": "feil-i-jobbsoknad",
         "en": "job-application-mistakes",
         "sv": "misstag-i-ansokan",
         "vi": "loi-khi-viet-ho-so-xin-viec"
-      }
+      },
+      "drafted_at": "2026-10-17T09:44:21.304Z",
+      "draft": "content/drafts/da/fejl-i-ansogning.md"
     },
     {
       "group": "application-mistakes",
@@ -146,13 +170,17 @@
       "purpose": "Vise de vanligste feilene i jobbsøknader og hvordan de rettes.",
       "appAngle": "The honest match score shows whether the application actually answers the ad before you send it.",
       "priority": 2,
-      "status": "queued",
+      "status": "draft",
       "translations": {
         "no": "feil-i-jobbsoknad",
         "en": "job-application-mistakes",
         "da": "fejl-i-ansogning",
         "vi": "loi-khi-viet-ho-so-xin-viec"
-      }
+      },
+      "attempts": 1,
+      "last_attempt_at": "2026-10-17T09:47:55.458Z",
+      "drafted_at": "2026-10-17T09:58:55.430Z",
+      "draft": "content/drafts/sv/misstag-i-ansokan.md"
     },
     {
       "group": "application-mistakes",
@@ -163,13 +191,15 @@
       "purpose": "Vise de vanligste feilene i jobbsøknader og hvordan de rettes.",
       "appAngle": "The honest match score shows whether the application actually answers the ad before you send it.",
       "priority": 2,
-      "status": "queued",
+      "status": "draft",
       "translations": {
         "no": "feil-i-jobbsoknad",
         "en": "job-application-mistakes",
         "da": "fejl-i-ansogning",
         "sv": "misstag-i-ansokan"
-      }
+      },
+      "drafted_at": "2026-10-17T09:50:09.919Z",
+      "draft": "content/drafts/vi/loi-khi-viet-ho-so-xin-viec.md"
     },
     {
       "group": "interview-questions",

@@ -164,8 +164,8 @@ export function checkNumbers(body) {
 // Function words that tell the Scandinavian languages (and English) apart.
 const MARKERS = {
   no: ['hva', 'noen', 'mye', 'søknad', 'søknaden', 'søknader', 'gjennom', 'mer', 'etter', 'av', 'deg', 'jobb', 'jobben', 'kanskje', 'hvorfor', 'stillingen', 'vil', 'skal', 'fra', 'ikke'],
-  da: ['hvad', 'nogle', 'meget', 'ansøgning', 'ansøgningen', 'ansøgninger', 'gennem', 'mere', 'efter', 'af', 'dig', 'job', 'jobbet', 'måske', 'hvorfor', 'stillingen', 'vil', 'skal', 'fra', 'ikke'],
-  sv: ['inte', 'och', 'att', 'är', 'jag', 'hur', 'också', 'några', 'mycket', 'ansökan', 'genom', 'kanske', 'vad', 'varför', 'jobbet', 'tjänsten', 'från', 'ska', 'dig', 'det'],
+  da: ['hvad', 'nogle', 'meget', 'ansøgning', 'ansøgningen', 'ansøgninger', 'gennem', 'mere', 'efter', 'af', 'dig', 'job', 'jobbet', 'måske', 'hvorfor', 'stillingen', 'vil', 'skal', 'fra', 'ikke', 'arbejde', 'gøre', 'nogen', 'hvilke'],
+  sv: ['inte', 'och', 'att', 'är', 'jag', 'hur', 'också', 'några', 'mycket', 'ansökan', 'genom', 'kanske', 'vad', 'varför', 'jobbet', 'tjänsten', 'från', 'ska', 'dig', 'arbete', 'göra', 'någon'],
   en: ['the', 'and', 'you', 'your', 'of', 'is', 'that', 'with', 'for', 'not', 'what', 'how', 'this', 'are', 'from'],
 };
 // Weight only the words that are unique to one language.
