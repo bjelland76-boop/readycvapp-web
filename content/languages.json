@@ -11,7 +11,12 @@
       "ogLocale": "nb_NO",
       "market": "Jobbsøkere i Norge",
       "marketNotes": "Write for job seekers in Norway, in natural Norwegian Bokmål. Norwegian conventions: a 'søknad' (cover letter, usually max one page) plus a CV in reverse chronological order; applications are usually submitted through the employer's or recruiter's online form; a photo in the CV is optional and common but not expected. Job portals you may mention by name: FINN.no (Finn jobb), arbeidsplassen.no (run by NAV), LinkedIn. NAV is the public employment and welfare service. Do not state NAV rules, benefit amounts, deadlines or legal requirements.",
-      "portals": ["https://www.finn.no/job", "https://arbeidsplassen.nav.no", "https://www.nav.no", "https://www.linkedin.com"],
+      "portals": [
+        "https://www.finn.no/job",
+        "https://arbeidsplassen.nav.no",
+        "https://www.nav.no",
+        "https://www.linkedin.com"
+      ],
       "wordMin": 800,
       "wordMax": 1500,
       "ui": {
@@ -45,9 +50,14 @@
       "htmlLang": "en",
       "hreflang": "en",
       "ogLocale": "en_GB",
-      "market": "Internasjonale jobbsøkere",
-      "marketNotes": "Write in clear international English (British spelling) for job seekers in many countries, including people applying for jobs abroad and non-native speakers. Explain that CV and cover letter conventions differ by country (e.g. 'CV' vs 'résumé', photo or no photo, length) without claiming rules for specific countries you cannot verify. You may mention LinkedIn and that each country has its own large job portals, but do not invent portal names.",
-      "portals": ["https://www.linkedin.com"],
+      "market": "People applying for jobs in Norway in English: international students, newcomers, labour migrants and international job seekers",
+      "marketNotes": "Write in clear, plain international English for people who are applying for jobs IN NORWAY in English: international students, newcomers, labour migrants and international job seekers. Do not write for a general or British audience. Every article must give concrete Norwegian guidance where relevant: where to find jobs (FINN.no, arbeidsplassen.no run by NAV, LinkedIn); Norwegian CV norms (reverse chronological order, usually one to two pages, a photo is optional and not required, references are commonly listed with name, role and phone number or offered on request); the Norwegian job application (søknad), usually max one page, direct, honest and modest, addressed to a named contact person when the ad gives one; that many ads ask for Norwegian language skills, and how to describe your own Norwegian level honestly (for example with the CEFR scale A1–C2 if you know your level, or plain words such as 'basic', 'conversational', 'fluent', and what you are doing to improve). It is fine to explain Norwegian words the reader will meet in ads (søknad, søknadsfrist, stillingsannonse, referanser). Do NOT state rules about work permits, residence, NAV benefits, taxes, salaries or language-test requirements; if something cannot be verified, leave it out. Avoid British-specific or US-specific terms; in particular never use 'charity shop', 'food bank', 'BSc', 'dissertation' or 'modules', and never 'secondary school' on its own – write 'second-hand shop', 'upper secondary school (videregående skole)', 'bachelor's degree', 'thesis' or 'courses' instead.",
+      "portals": [
+        "https://www.finn.no/job",
+        "https://arbeidsplassen.nav.no",
+        "https://www.nav.no",
+        "https://www.linkedin.com"
+      ],
       "wordMin": 800,
       "wordMax": 1500,
       "ui": {
@@ -62,8 +72,8 @@
         "ctaText": "Upload your CV, paste a job ad and get an honest assessment of how well you fit – plus a CV and cover letter tailored to the job.",
         "ctaButton": "Start for free",
         "playLabel": "Get it on Google Play",
-        "hubTitle": "Articles on CVs, cover letters and interviews",
-        "hubDescription": "Practical advice on CVs, job applications and interviews for job seekers everywhere.",
+        "hubTitle": "Articles on CVs, applications and interviews for jobs in Norway",
+        "hubDescription": "Practical advice in English for international job seekers applying for jobs in Norway.",
         "privacy": "Privacy (Norwegian)",
         "cookieSettings": "Cookie settings",
         "cookieText": "We would like to use Google Analytics cookies to see how this website is used. Nothing is stored or sent until you accept.",
@@ -71,7 +81,15 @@
         "cookieAccept": "Accept",
         "cookieReject": "Reject",
         "cookieLabel": "Cookie consent"
-      }
+      },
+      "bannedTerms": [
+        "charity shop",
+        "food bank",
+        "secondary school",
+        "BSc",
+        "dissertation",
+        "modules"
+      ]
     },
     {
       "code": "da",
@@ -83,7 +101,12 @@
       "ogLocale": "da_DK",
       "market": "Jobsøgende i Danmark",
       "marketNotes": "Write for job seekers in Denmark, in natural Danish (not Norwegian). Danish conventions: an 'ansøgning' (motivated application, usually max one page) plus a CV; many employers ask for both; a photo in the CV is common in Denmark but optional. Job portals you may mention by name: Jobindex, Jobnet (the public job portal), LinkedIn. Unemployment insurance funds are called 'a-kasse' and the municipal job centres 'jobcenter'. Do not state rules, amounts, deadlines or legal requirements about a-kasse, dagpenge or jobcenter obligations.",
-      "portals": ["https://www.jobindex.dk", "https://job.jobnet.dk", "https://www.jobnet.dk", "https://www.linkedin.com"],
+      "portals": [
+        "https://www.jobindex.dk",
+        "https://job.jobnet.dk",
+        "https://www.jobnet.dk",
+        "https://www.linkedin.com"
+      ],
       "wordMin": 800,
       "wordMax": 1500,
       "ui": {
@@ -119,7 +142,11 @@
       "ogLocale": "sv_SE",
       "market": "Arbetssökande i Sverige",
       "marketNotes": "Write for job seekers in Sweden, in natural Swedish. Swedish conventions: a 'personligt brev' (personal letter, usually max one page, focused on who you are and why this job) plus a CV; many employers use online application forms; a photo in the CV is optional. Job portals you may mention by name: Platsbanken (run by Arbetsförmedlingen), LinkedIn. Do not state rules, amounts, deadlines or legal requirements about Arbetsförmedlingen, a-kassa or activity reporting.",
-      "portals": ["https://arbetsformedlingen.se", "https://arbetsformedlingen.se/platsbanken", "https://www.linkedin.com"],
+      "portals": [
+        "https://arbetsformedlingen.se",
+        "https://arbetsformedlingen.se/platsbanken",
+        "https://www.linkedin.com"
+      ],
       "wordMin": 800,
       "wordMax": 1500,
       "ui": {
@@ -155,7 +182,11 @@
       "ogLocale": "vi_VN",
       "market": "Người tìm việc Việt Nam, ở Việt Nam và ở nước ngoài (đặc biệt Bắc Âu)",
       "marketNotes": "Write in natural Vietnamese with full diacritics, for two groups: job seekers in Vietnam, and Vietnamese people looking for work abroad, especially in the Nordic countries (Norway, Sweden, Denmark). In Vietnam, job portals you may mention by name are TopCV and VietnamWorks, plus LinkedIn; Vietnamese CVs often include more personal details (date of birth, photo) than Nordic CVs do, and a CV for a Nordic employer should follow Nordic norms. Explain differences practically. Do not state visa, work-permit, salary or legal rules for any country.",
-      "portals": ["https://www.topcv.vn", "https://www.vietnamworks.com", "https://www.linkedin.com"],
+      "portals": [
+        "https://www.topcv.vn",
+        "https://www.vietnamworks.com",
+        "https://www.linkedin.com"
+      ],
       "wordMin": 1200,
       "wordMax": 2600,
       "wordNote": "Vietnamesisk telles i stavelser (ord skilt med mellomrom), derfor høyere tall.",

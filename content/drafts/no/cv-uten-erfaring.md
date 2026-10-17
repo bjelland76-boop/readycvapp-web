@@ -4,156 +4,146 @@ slug: "cv-uten-erfaring"
 group: "cv-without-experience"
 keyword: "cv uten erfaring"
 title: "CV uten erfaring: slik viser du hva du kan"
-description: "Har du ingen arbeidserfaring ennå? Slik lager du en CV med skole, frivillig arbeid og ferdigheter som viser arbeidsgiveren hva du faktisk kan."
-h1: "Slik skriver du en CV uten arbeidserfaring og likevel viser hva du kan"
-cta_mid_text: "Har du skole, verv og småjobber å vise til? Lim inn en stillingsannonse i ReadyCV og få en CV tilpasset akkurat den jobben. Du kan starte gratis uten konto."
-cta_mid_button: "Lag CV gratis"
-cta_end_title: "Se hvor godt du passer til jobben"
-cta_end_text: "Lim inn annonsen og få en ærlig vurdering av styrkene dine og hva som mangler. Du kan starte gratis uten konto."
-cta_end_button: "Prøv ReadyCV"
+description: "Skal du skrive CV uten erfaring? Her får du konkrete tips til hva du kan ta med, hvordan du formulerer deg og eksempler du kan bruke i din første CV."
+h1: "CV uten erfaring: slik lager du en CV som viser hva du kan"
+cta_mid_text: "Lim inn stillingsannonsen, og få en ærlig vurdering av hvor godt du passer, med styrker og hva som mangler. Du kan starte gratis uten konto."
+cta_mid_button: "Sjekk hvor godt du passer"
+cta_end_title: "Lag din første CV til en konkret jobb"
+cta_end_text: "Lim inn annonsen i ReadyCV og få en CV og en søknad tilpasset akkurat den stillingen. Gratis å starte, uten konto."
+cta_end_button: "Prøv ReadyCV gratis"
 approved: false
-generated_at: "2026-10-17T09:35:26.231Z"
+generated_at: "2026-10-17T10:25:28.647Z"
 model: "claude-opus-5-5"
-words: 1169
+words: 1147
 review_local_fit: 5
-review_notes: "The text is natural and well adapted to young Norwegian job seekers, with relevant portals (FINN, arbeidsplassen.no) and local application culture. The statements about photos and cover letters are general practice, not verifiable claims."
+review_notes: "One small grammar error to fix: «i en russestyre» should be «i et russestyre». Otherwise a concrete, well-localised article with realistic before/after examples, relevant Norwegian portals and CTAs that stay within the app's actual features."
 ---
 
-Første gang du skal skrive CV, kan siden virke tom. Du har kanskje gått på skolen, trent på et idrettslag og passet småsøsken, men aldri hatt en ordentlig jobb. Det er helt vanlig. Når en arbeidsgiver lyser ut en helgejobb i butikk, en sommerjobb eller en stilling som tilkallingsvikar, regner de ofte med at mange søkere er nye i arbeidslivet. De ser etter tegn på at du møter opp, tar ansvar og lærer fort. En god CV uten erfaring viser nettopp det, med det du allerede har gjort.
+Første jobbsøknad kan føles som en blindvei. Du trenger erfaring for å få jobb, men du trenger en jobb for å få erfaring. Likevel har du mer å vise til enn du tror. En arbeidsgiver som ansetter i en førstegangsjobb forventer ikke en lang arbeidshistorikk. Hun vil se at du er pålitelig, lærer raskt og faktisk vil ha jobben.
 
-## Begynn med en kort profiltekst
+Her får du konkrete råd om hvordan du bygger opp en CV uten erfaring. Du får også eksempler du kan bruke direkte.
 
-Øverst i CV-en, rett under navn og kontaktinformasjon, kan du skrive to til fire setninger om hvem du er og hva du søker. Her bestemmer du førsteinntrykket. Unngå tomme ord og skriv heller noe konkret.
+## Velg en oppbygging som løfter det du har
 
-**Før:**
+I Norge er det vanlig å sette opp CV-en i omvendt kronologisk rekkefølge, med det nyeste øverst. Det gjelder også deg. Du kan likevel endre rekkefølgen på seksjonene, slik at det sterkeste kommer først. Når du mangler arbeidserfaring, fungerer denne rekkefølgen godt:
 
-> Jeg er en blid og positiv jente på 17 år som søker jobb.
+1. Kontaktinformasjon (navn, telefon, e-post, gjerne bosted)
+2. Kort profil, to til fire setninger
+3. Utdanning
+4. Frivillig arbeid, verv og småjobber
+5. Ferdigheter og språk
+6. Interesser (kort, og bare hvis det sier noe om deg)
 
-**Etter:**
+Hold deg til én side. Det er bedre med en kort og ryddig CV enn en lang CV fylt med tomme ord. Bilde er valgfritt i Norge. Velger du å ta det med, bør det være et nøytralt og tydelig portrett.
 
-> Elev på vg2 helse- og oppvekstfag med erfaring som frivillig leirleder for barn. Vant til å ta ansvar, holde avtaler og samarbeide med både voksne og barn. Søker helgejobb i barnehage eller SFO.
+## Gjør utdanningen konkret
 
-Den andre versjonen sier hva du kan, hvor du står og hva du vil. Alt dette kan arbeidsgiveren finne igjen i resten av CV-en.
-
-## La utdanningen gjøre jobben
-
-Når du mangler arbeidserfaring, bør utdanningen stå øverst. Ikke nøy deg med skolens navn og årstall. Ta med det som er relevant for jobben du søker:
-
-- linje og programfag
-- prosjekter eller oppgaver du er stolt av
-- utplassering eller praksis, for eksempel gjennom yrkesfaglig fordypning
-- verv på skolen, som elevråd eller russestyre
-
-Et eksempel kan se slik ut:
-
-> **2022–2025 Studiespesialisering, Kongsberg videregående skole**
-> - Programfag: matematikk R1 og R2, informasjonsteknologi
-> - Lagde ny nettside for elevrådet sammen med to medelever
-> - Medlem av elevrådet i ett år, ansvarlig for å planlegge skolens juleavslutning
-
-Karakterer trenger du bare ta med hvis de er gode, eller hvis annonsen ber om dem.
-
-## Erfaring er mer enn lønnet arbeid
-
-Dette er det viktigste rådet: Du har sannsynligvis mer erfaring enn du tror. Alt der du har hatt ansvar, fulgt opp avtaler eller jobbet sammen med andre, kan høre hjemme i CV-en. Tenk for eksempel på:
-
-- trener eller hjelpetrener for et barnelag
-- vakter i kiosken på hjemmekamper
-- dugnader, loppemarked og basarer
-- korps, kor eller teatergruppe
-- barnevakt eller leksehjelp
-- avislevering eller snømåking for naboer
-- hjelp på familiens gård, hytteutleie eller bedrift
-
-Du kan kalle seksjonen «Frivillig arbeid og verv» eller bare «Erfaring». Beskriv hva du faktisk gjorde.
+Når du er ny i arbeidslivet, er utdanningen ofte det viktigste du har. Ikke skriv bare navnet på skolen. Vis hva du faktisk har gjort der.
 
 **Før:**
 
-> Hjalp til i kiosken.
+> 2022–2025: X videregående skole, studiespesialisering
 
 **Etter:**
 
-> 2023–2024 Kioskvakt, Byåsen IL
-> - Solgte mat og drikke på hjemmekamper, tok betalt med kort og Vipps
-> - Telte opp kassen etter vakta og sa fra når varer holdt på å gå tomme
+> 2022–2025: X videregående skole, studiespesialisering med realfag
+> – Fordypning i matematikk og kjemi
+> – Elevrådsrepresentant for klassen i to år
+> – Ledet gruppeprosjekt om gjenvinning, der vi presenterte forslag for skoleledelsen
 
-En butikksjef som leser dette, ser at du har stått bak en disk, håndtert penger og tatt ansvar.
+Du kan også nevne relevante fag, et godt resultat i et fag som passer stillingen, eller kurs du har tatt, for eksempel førstehjelpskurs eller et nettkurs i Excel.
+
+## Frivillig arbeid, verv og småjobber teller
+
+Mange glemmer at erfaring ikke bare er lønnet arbeid med fast kontrakt. Arbeidsgivere ser etter de samme egenskapene uansett hvor du har vist dem. Tenk gjennom dette:
+
+- Har du vært trener eller hjelpetrener i et lokalt idrettslag?
+- Har du stått i kiosken på dugnad eller jobbet på loppemarked?
+- Har du vært barnevakt, gått tur med naboens hund eller måkt snø for noen?
+- Har du hatt sommerjobb gjennom kommunen eller hjulpet til i familiebedriften?
+- Har du hatt verv i en russestyre, et korps eller en ungdomsklubb?
+
+Sett det opp på samme måte som en jobb: tidsrom, rolle, sted og hva du gjorde.
+
+**Før:**
+
+> Har trent fotball
+
+**Etter:**
+
+> 2023–i dag: Hjelpetrener, jentelag 10 år, et lokalt idrettslag
+> – Planlegger og leder ukentlige treninger sammen med hovedtrener
+> – Har ansvar for kontakt med foreldre før kamper
+
+Det siste eksempelet viser ansvar, samarbeid og at du møter opp hver uke. Det er nettopp det en butikksjef eller en leder på et sykehjem ser etter.
 
 <!-- cta -->
 
-## Vis ferdigheter med bevis
+## Vis ferdighetene i stedet for å liste dem
 
-Mange skriver en liste med ord som «ansvarsfull, punktlig, sosial». Det sier lite, fordi alle kan skrive det. Knytt heller hver egenskap til noe du har gjort.
+«Pliktoppfyllende, sosial og løsningsorientert» står i utrolig mange CV-er. Ordene i seg selv overbeviser ingen. Knytt hver egenskap til noe du har gjort.
 
-- **Punktlig:** Har levert aviser tre morgener i uka i to år.
-- **Ansvarsfull:** Har hatt fast ansvar for to barn etter skolen hver tirsdag og torsdag.
-- **God til å samarbeide:** Planla klasseturen sammen med fire andre elever.
+**Før:**
 
-I tillegg kan du ha en kort seksjon med praktiske ferdigheter som arbeidsgivere ofte spør etter:
+> Ferdigheter: ansvarsfull, flink med folk, god på data
 
-- språk, for eksempel norsk, engelsk og eventuelt morsmål
-- førerkort, hvis du har det
-- kurs, som førstehjelpskurs eller trenerkurs
-- digitale verktøy du kan, som Word, Excel eller enkel bilderedigering
+**Etter:**
+
+> – Vant til å ha ansvar for barn gjennom fast barnevaktjobb siden 2023
+> – Trygg i møte med nye mennesker, blant annet fra salg i kiosken på hjemmekamper
+> – God i Word, Excel og PowerPoint fra skolearbeid
+
+Ta også med språk. Snakker du flere språk hjemme, eller har du lært engelsk eller tysk godt på skolen, skriv det og angi nivået ærlig. Har du førerkort, er det ofte nyttig å nevne.
+
+## Skriv en kort profil øverst
+
+Profilen er det første arbeidsgiveren leser. Den skal fortelle hvem du er og hva du ser etter, uten å unnskylde at du mangler erfaring. Unngå setninger som «Jeg har dessverre ingen arbeidserfaring». Fokuser heller på det du kan tilby.
+
+Eksempel for Ingrid, som søker deltidsjobb i en dagligvarebutikk:
+
+> Jeg er 17 år og går andre året på X videregående skole. Jeg er vant til å ha faste forpliktelser ved siden av skolen gjennom trenerjobben min i et lokalt idrettslag. Nå ønsker jeg en deltidsjobb der jeg kan møte kunder, lære butikkdrift og bidra i et godt team.
+
+Eksempel for Mathias, som søker sommerjobb på et sykehjem:
+
+> Jeg er ferdig med første året på helse- og oppvekstfag og ønsker å bruke sommeren på å lære mer i praksis. Jeg er rolig, tålmodig og liker å hjelpe andre. Det har jeg erfart gjennom å følge opp besteforeldrene mine i hverdagen.
 
 ## Tilpass CV-en til hver stilling
 
-Du trenger ikke skrive en helt ny CV for hver søknad, men du bør endre rekkefølgen og hva du legger vekt på. Les annonsen nøye og se hva arbeidsgiveren ber om.
+En generell CV sendt til alle stillinger blir fort utydelig. Les stillingsannonsen på for eksempel [Finn jobb](https://www.finn.no/job) eller [arbeidsplassen.no](https://arbeidsplassen.nav.no) nøye. Noter hvilke egenskaper arbeidsgiveren nevner. Flytt deretter de mest relevante punktene høyere opp, og bruk gjerne noen av de samme ordene.
 
-Tenk deg at Mathias søker to jobber:
+Søker du i en butikk, bør kundekontakt og pålitelighet komme frem. Søker du i en barnehage, er erfaring med barn viktigst. Det er det samme innholdet, bare med ulik vekt.
 
-1. **Butikkmedarbeider i en dagligvarebutikk:** Da løfter han fram kioskvakten, at han er vant til kundekontakt, og at han kan jobbe kvelder og helger.
-2. **Assistent på SFO:** Da kommer erfaringen som hjelpetrener for et fotballag med åtteåringer først, sammen med førstehjelpskurset.
+Sjekkliste før du sender:
 
-Bruk gjerne de samme ordene som står i annonsen, så lenge de stemmer for deg. Står det «serviceinnstilt», bør leseren raskt finne et eksempel på at du har gitt god service.
+- Står telefonnummer og e-post riktig?
+- Har du lest korrektur, gjerne med hjelp fra noen andre?
+- Passer profilen til akkurat denne stillingen?
+- Er CV-en lagret som PDF med et ryddig filnavn, for eksempel «CV_Ingrid_Hansen.pdf»?
 
-Ledige stillinger for nybegynnere finner du blant annet på [FINN jobb](https://www.finn.no/job) og [arbeidsplassen.no](https://arbeidsplassen.nav.no).
-
-## Oppsett, lengde og små detaljer
-
-En CV uten erfaring bør være kort og ryddig. Én side holder som regel godt. Noen enkle grep:
-
-- **Kontaktinformasjon øverst:** navn, telefonnummer, e-post og bosted. Bruk en e-postadresse med navnet ditt, ikke en gammel adresse med kallenavn.
-- **Omvendt kronologisk rekkefølge:** det nyeste først, både under utdanning og erfaring.
-- **Bilde er valgfritt:** Det er vanlig i Norge, men ikke forventet. Velger du bilde, bør det være et nøytralt portrett.
-- **Referanser:** En trener, lærer, leirsjef eller noen du har gjort faste oppdrag for, kan være gode referanser. Spør dem alltid først.
-- **Lagre som PDF:** Gi filen et tydelig navn, for eksempel «CV Sofie Hansen».
-
-Les korrektur, eller be noen andre gjøre det. Skrivefeil trekker ned, særlig når CV-en er kort.
+Vil du se hvordan bakgrunnen din passer mot en konkret annonse, kan du lime den inn i [ReadyCV](https://app.aerlig.no/?utm_source=readycvapp&utm_medium=artikkel&utm_campaign=cv-uten-erfaring). Der får du en ærlig vurdering av hvor godt du passer.
 
 ## Oppsummering
 
-Når du lager en CV uten erfaring, handler det om å vise fram det du har gjort, ikke å unnskylde det du mangler.
-
-- Skriv en konkret profiltekst øverst.
-- Sett utdanningen først og fyll den med prosjekter, praksis og verv.
-- Ta med frivillig arbeid, dugnad, trening og småjobber som erfaring.
-- Bevis egenskapene dine med eksempler.
-- Tilpass rekkefølgen og vektleggingen til hver stilling.
-- Hold det på én side og lagre som PDF.
+En god CV uten erfaring handler om å vise hva du har gjort, ikke om å beklage det du ikke har gjort. Gjør utdanningen konkret. Ta med frivillig arbeid, verv og småjobber. Knytt hver ferdighet til et eksempel, og skriv en kort profil som peker fremover. Tilpass CV-en til hver stilling og hold den på én side. Da gir du arbeidsgiveren en god grunn til å invitere deg til en samtale.
 
 <!-- faq -->
 
-### Hva skriver jeg under «Erfaring» når jeg aldri har hatt jobb?
-
-Bruk frivillig arbeid, verv, dugnader, trening av barnelag, barnevakt eller faste småoppdrag for naboer. Skriv hva du gjorde og hvilket ansvar du hadde, akkurat som for en vanlig jobb. Du kan kalle seksjonen «Frivillig arbeid og verv» hvis du synes det passer bedre.
-
-### Hvem kan jeg bruke som referanse?
-
-En lærer, kontaktlærer, trener, leirleder eller en familie du har vært barnevakt for kan alle være gode referanser. Det viktigste er at personen kjenner deg fra en situasjon der du har hatt ansvar. Spør alltid om lov før du oppgir navn og telefonnummer.
-
-### Bør jeg ta med karakterene mine?
-
-Det er ikke nødvendig, med mindre annonsen ber om det. Har du gode karakterer i fag som er relevante for jobben, kan du gjerne nevne dem. Ellers er det ofte lurere å bruke plassen på prosjekter og erfaring.
-
 ### Hvor lang bør en CV uten erfaring være?
 
-Én side er nesten alltid nok. Det er bedre med en kort CV der alt er relevant og konkret, enn en lang CV full av generelle ord. Arbeidsgiveren skal raskt se hvem du er og hva du kan bidra med.
+Én side er nok for de fleste førstegangssøkere. Det viktigste er at innholdet er konkret og relevant, ikke at siden er full. Heller kort og ryddig enn fylt opp med generelle ord.
 
 ### Må jeg ha bilde i CV-en?
 
-Nei, bilde er valgfritt i Norge. Mange har det, men det er ikke forventet. Hvis du tar med bilde, velg et nøytralt og tydelig portrett med rolig bakgrunn.
+Nei, i Norge er bilde valgfritt. Mange tar det med, men det er ikke forventet. Velger du bilde, bruk et nøytralt portrett med god belysning, ikke et feriebilde.
 
-### Trenger jeg søknad også, eller holder det med CV?
+### Kan jeg ta med barnevakt og annen uformell jobbing?
 
-Som regel ber arbeidsgiveren om både søknad og CV. Søknaden er en sjanse til å forklare hvorfor du vil ha akkurat denne jobben og hvorfor du passer, selv uten erfaring. Hold den på maks én side og vis til konkrete eksempler fra CV-en.
+Ja, det er helt vanlig når du søker din første jobb. Skriv hvor lenge du har gjort det og hva du hadde ansvar for. Det viser at noen har stolt på deg, og det er verdifullt for en arbeidsgiver.
+
+### Hvem kan jeg oppgi som referanse når jeg aldri har hatt jobb?
+
+Du kan spørre en lærer, en kontaktlærer, en trener eller en leder i et frivillig verv. Spør alltid personen først. Det er også greit å skrive «Referanser oppgis på forespørsel».
+
+### Bør jeg skrive i søknaden at jeg mangler erfaring?
+
+Det trenger du ikke å trekke frem. Arbeidsgiveren ser det uansett av CV-en. Bruk heller søknaden til å forklare hvorfor du vil ha akkurat denne jobben og hva du har lært gjennom skole, fritid og frivillig arbeid.

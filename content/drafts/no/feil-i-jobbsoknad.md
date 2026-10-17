@@ -3,139 +3,118 @@ lang: "no"
 slug: "feil-i-jobbsoknad"
 group: "application-mistakes"
 keyword: "feil i jobbsøknad"
-title: "Feil i jobbsøknad: 6 tabber og hvordan du unngår dem"
-description: "Generell tekst, en kopi av CV-en og krav du ikke svarer på. Se seks typiske feil i jobbsøknaden, med eksempler på hvordan du skriver dem om."
+title: "Feil i jobbsøknad: vanlige tabber og hvordan du retter dem"
+description: "Generisk tekst, svak åpning og slurvefeil koster. Se de vanligste feilene i jobbsøknaden, med før- og etter-eksempler du kan bruke med en gang."
 h1: "Vanlige feil i jobbsøknaden og hvordan du unngår dem"
-cta_mid_text: "Lim inn stillingsannonsen og last opp CV-en din, så får du en ærlig vurdering av hva du dekker og hva som mangler. Det er gratis å prøve og krever ingen innlogging."
-cta_mid_button: "Sjekk hvor godt du passer"
-cta_end_title: "Få hjelp med søknaden før du sender"
-cta_end_text: "ReadyCV lager en søknad og en CV som er tilpasset annonsen du har valgt, som PDF. Prøv gratis, uten konto."
-cta_end_button: "Lag en tilpasset søknad"
+cta_mid_text: "Lim inn stillingsannonsen i ReadyCV og få en ærlig vurdering av hvor godt du passer: styrker, hva som mangler og en matchscore. Du kan starte gratis uten konto."
+cta_mid_button: "Sjekk om du passer"
+cta_end_title: "Skriv en søknad som treffer stillingen"
+cta_end_text: "Last opp CV-en din, lim inn annonsen og få en CV og søknad tilpasset akkurat den jobben. Gratis å prøve, uten konto."
+cta_end_button: "Prøv ReadyCV gratis"
 approved: false
-generated_at: "2026-10-17T10:01:01.592Z"
+generated_at: "2026-10-17T10:26:35.672Z"
 model: "claude-opus-5-5"
-words: 1186
-review_local_fit: 5
-review_notes: "The language is natural and correct, and the app descriptions match the verified features without promising results or stating prices. Small stylistic touch-up: the comma in «Jeg forteller gjerne mer om hvordan jeg kan bidra, i et intervju» reads slightly stiff and can be removed."
+words: 1088
+review_local_fit: 4
+review_notes: "A solid, local article with concrete before-and-after examples and Norwegian application norms (one page, «Hei Kari», fagbrev requirements), but it does not mention Arbeidsplassen/NAV or Norwegian language skills, which many job seekers in Norway need. Minor points: the anglicism «fancy» and inconsi"
 ---
 
-Du har funnet en stilling som passer, skrevet søknaden og trykket på send. Så hører du ingenting. Ofte handler det ikke om at du er feil person for jobben. Søknaden fikk rett og slett ikke frem hvorfor du passer. Heldigvis er feil i jobbsøknaden lette å rette når du vet hva du skal se etter.
-
-Under går vi gjennom seks feil som går igjen hos jobbsøkere i Norge. Til hver av dem får du konkrete eksempler på hvordan du kan skrive teksten om.
+Du kan ha akkurat den erfaringen arbeidsgiveren ser etter og likevel bli valgt bort, fordi søknaden ikke får det fram. Heldigvis er de fleste feil i en jobbsøknad lette å rette når du først ser dem. Her går vi gjennom tabbene som går igjen, med konkrete eksempler på hvordan du skriver bedre.
 
 ## 1. Søknaden kunne vært sendt til hvem som helst
 
-En feil mange gjør, er å skrive én generell søknad og bare bytte ut navnet på arbeidsgiveren. Den som leser, merker fort at teksten ikke er skrevet til akkurat dem.
+Den vanligste feilen er en søknad uten noe som knytter den til akkurat denne stillingen. Den som leser, merker fort om teksten er skrevet for dem eller kopiert fra forrige søknad.
 
-**Før:**
+> **Før:** Jeg søker herved stillingen og mener jeg vil passe godt inn i deres bedrift.
 
-> Jeg er en engasjert og løsningsorientert person som trives med varierte arbeidsoppgaver og samarbeid med andre.
+> **Etter:** Jeg søker stillingen som helsefagarbeider på X sykehjem fordi dere jobber med fast primærkontakt for hver beboer. Slik har jeg jobbet de siste to årene, og jeg har sett hvor mye det betyr for tryggheten til beboerne.
 
-**Etter:**
+Finn to eller tre konkrete ting i annonsen eller på nettsiden til arbeidsgiveren som du faktisk kan si noe om. Det kan være arbeidsmåten deres, målgruppen eller en oppgave som nevnes i annonsen. Knytt dem til noe du selv har gjort.
 
-> Dere skriver at barnehagen satser på uteliv og naturglede. Som pedagogisk leder i Solsikken barnehage har jeg de siste to årene planlagt turdager for femåringene hver uke, med vekt på språk og samarbeid ute.
+## 2. Du har ikke lest annonsen godt nok
 
-Den andre versjonen viser at du har lest annonsen og vet noe om arbeidsplassen. Den viser også hva du faktisk har gjort. Les gjerne nettsiden til virksomheten, og trekk frem én konkret ting som gjør at du vil jobbe akkurat der.
+Mange skriver om det de selv er mest stolte av, ikke om det arbeidsgiveren ber om. Les annonsen grundig før du skriver én eneste setning, og skill mellom **krav** og **ønsker**.
 
-## 2. Du gjentar CV-en i fortellende form
+En enkel metode:
 
-Søknaden og CV-en har ulike oppgaver. CV-en viser *hva* du har gjort. Søknaden skal forklare *hvorfor* det gjør deg egnet for denne stillingen. Mange skriver i stedet arbeidshistorikken sin på nytt, bare med hele setninger.
+1. Skriv opp alle kravene og ønskene fra annonsen i en liste.
+2. Merk hvilke du kan vise til med et konkret eksempel.
+3. Merk hvilke du mangler, og tenk over om du kan si noe ærlig om dem, for eksempel at du er i gang med et kurs.
+4. Vurder om stillingen er realistisk for deg før du bruker en hel kveld på søknaden.
 
-**Før:**
+Bruk gjerne de samme ordene som annonsen. Står det «kundebehandling», skriver du om kundebehandling, ikke bare «service». Da blir det lettere for leseren å se at du treffer.
 
-> Fra 2019 til 2021 jobbet jeg på et lager i Groruddalen. Deretter jobbet jeg i en dagligvarebutikk, og siden 2023 har jeg jobbet som kundebehandler.
+## 3. Åpningen er svak
 
-**Etter:**
+Første avsnitt avgjør ofte om resten blir lest nøye. Likevel starter mange søknader med en setning som ikke sier noe.
 
-> Fra lagerjobben er jeg vant til å jobbe raskt og nøyaktig under press. I kundeservice har jeg lært å roe ned misfornøyde kunder. Begge deler blir viktig i en travel ekspedisjon som deres.
+> **Før:** Jeg viser til annonse på FINN.no og ønsker med dette å søke på stillingen som butikkmedarbeider.
 
-Velg to eller tre erfaringer som er mest relevante, og knytt dem direkte til oppgavene i annonsen.
+> **Etter:** Jeg har stått i kassa og fylt på varer i en dagligvarebutikk ved siden av videregående, og nå vil jeg gjerne ta neste steg som fast butikkmedarbeider hos Y AS.
 
-## 3. Søknaden handler om deg, ikke om hva du kan bidra med
-
-Det er lett å skrive om hva jobben vil gi deg: utvikling, nye utfordringer, en kortere arbeidsvei. Arbeidsgiveren er mer opptatt av hva du kan gjøre for dem.
-
-**Før:**
-
-> Jeg søker denne stillingen fordi jeg ønsker å utvikle meg og lære mer om regnskap.
-
-**Etter:**
-
-> Jeg har ført regnskap for tre små bedrifter og kan raskt ta over fakturering og avstemming, slik at dere får frigjort tid til rådgivning.
-
-Du kan gjerne si at du vil lære. Men la det komme etter at du har vist hva du har å tilby.
+Si hvem du er og hvorfor du søker i løpet av de to første setningene. Hvor du fant annonsen, er sjelden det viktigste.
 
 <!-- cta -->
 
-## 4. Du svarer ikke på kravene i annonsen
+## 4. Du påstår i stedet for å vise
 
-En stillingsannonse er i praksis en liste over det arbeidsgiveren trenger. Hvis det står «førerkort klasse B», «erfaring med turnus» eller «gode norskkunnskaper muntlig og skriftlig», bør leseren slippe å lete etter svaret.
+«Strukturert, fleksibel, løsningsorientert og en god lagspiller.» Slike lister står i utallige søknader og er nesten umulige å huske. Ord som beskriver deg selv, får først vekt når du viser dem med en situasjon.
 
-Slik kan du sjekke søknaden din:
+> **Før:** Jeg er svært strukturert og jobber godt under press.
 
-1. Marker alle krav og ønsker i annonsen.
-2. Skriv en kort liste over hvor i søknaden eller CV-en du svarer på hvert punkt.
-3. Står et viktig krav uten svar? Legg til en setning eller to.
-4. Mangler du noe? Si det ærlig, og vis hvordan du veier opp for det.
+> **Etter:** Som lagleder i et lokalt idrettslag hadde jeg ansvar for kampoppsett, dugnadslister og kontakt med foreldrene. Da vi arrangerte cup for første gang, laget jeg en plan som gjorde at alle visste hva de skulle gjøre hele helga.
 
-> Jeg har ikke jobbet turnus tidligere, men har i to år hatt kveldsvakter og helgevakter ved siden av studiene, og jeg er fleksibel med arbeidstid.
+En grei oppskrift er **egenskap + situasjon + hva det førte til**. Velg to eller tre egenskaper som passer stillingen, og vis dem, i stedet for å ramse opp ti.
 
-Det er vanskelig å lese sin egen søknad med friske øyne. Da kan det hjelpe å få en ærlig vurdering av hvor godt du faktisk passer til annonsen før du sender, for eksempel i [ReadyCV](https://app.aerlig.no/?utm_source=readycvapp&utm_medium=artikkel&utm_campaign=feil-i-jobbsoknad), som viser både styrkene dine og hva som mangler.
+## 5. Søknaden gjentar CV-en og blir for lang
 
-## 5. Åpningen er tam og avslutningen er uklar
+CV-en gir oversikten. Søknaden skal forklare hvorfor du passer og hvorfor du vil ha akkurat denne jobben. Går du gjennom alle tidligere jobber i tur og orden, blir søknaden lang og kjedelig, og leseren får det samme to ganger.
 
-Mange søknader starter med en setning som ikke sier noe:
+Hold søknaden på maks én side. En oversiktlig oppbygning kan være:
 
-> Jeg viser til deres annonse på FINN.no og søker herved stillingen som lagermedarbeider.
+1. **Innledning:** hvem du er og hva du søker.
+2. **Hvorfor du passer:** to eller tre konkrete eksempler som svarer på kravene.
+3. **Hvorfor denne arbeidsgiveren:** hva som gjør at du vil jobbe akkurat der.
+4. **Avslutning:** en kort setning om at du gjerne forteller mer i et intervju.
 
-Stillingstittelen står allerede i emnefeltet eller i skjemaet. Bruk heller første avsnitt til å si hvorfor du er aktuell:
+Kutt det som ikke svarer på annonsen. Har Jonas jobbet både som avisbud, lagermedarbeider og lærling, og søker lærlingplass som elektriker, er det lærlingtiden og det praktiske arbeidet på lageret som fortjener plassen.
 
-> Jeg har fem års erfaring med truckkjøring og varemottak, og jeg vil gjerne bidra til at lageret deres i Drammen holder tempoet i høysesongen.
+## 6. Slurvefeil som koster
 
-Avslutningen bør være kort og vennlig. Unngå unnskyldende formuleringer som «jeg håper dere vurderer meg selv om jeg kanskje ikke har all erfaringen». Skriv heller:
+Små feil kan gi inntrykk av at du ikke bryr deg, selv når det ikke stemmer. Gå gjennom denne sjekklisten før du trykker send:
 
-> Jeg forteller gjerne mer om hvordan jeg kan bidra, i et intervju.
+- Er navnet på arbeidsgiveren riktig, og står det ikke igjen et annet firmanavn fra en gammel søknad?
+- Stemmer stillingstittelen med annonsen?
+- Er navnet på kontaktpersonen riktig stavet?
+- Har du lest teksten høyt for å finne skrivefeil og lange setninger?
+- Er e-postadressen din seriøs, for eksempel fornavn.etternavn?
+- Har filen et ryddig navn, som «Soknad_Ingrid_Haugen.pdf»?
+- Har du lastet opp riktig fil i søknadsskjemaet?
 
-## 6. Slurv med navn, lengde og detaljer
-
-Små feil kan gi inntrykk av at du ikke er nøye, særlig i stillinger der nøyaktighet er viktig. Gå gjennom denne sjekklisten før du sender:
-
-- **Riktig navn** på virksomheten og eventuell kontaktperson. Har du gjenbrukt en eldre søknad, sjekk at det gamle navnet er borte.
-- **Lengde:** Hold søknaden på maks én side. Kortere er ofte bedre enn lengre.
-- **Språk:** Les teksten høyt, eller be noen andre lese den. Vær ekstra oppmerksom på særskriving, som «jobb søknad» og «kunde service».
-- **Skjemaet:** Søker du gjennom et nettskjema hos arbeidsgiveren eller rekrutteringsbyrået, fyll ut alle feltene ordentlig, også når du laster opp søknaden som vedlegg.
-- **Filnavn og format:** Last opp PDF, og gi filen et ryddig navn, for eksempel *Soknad_Ingrid_Haugen.pdf*.
-- **Kontaktinformasjon:** Sjekk at telefonnummer og e-post er riktige, og at e-postadressen ser seriøs ut.
+La gjerne noen andre lese søknaden. Andre ser ofte feil som du selv har lest forbi mange ganger.
 
 ## Oppsummering
 
-Mange feil i en jobbsøknad har samme rot: Teksten er ikke skrevet for akkurat denne stillingen. Når du retter dem, blir søknaden både kortere og sterkere.
-
-- Skriv til én bestemt arbeidsgiver, ikke til alle.
-- Forklar hvorfor erfaringen din er relevant, i stedet for å gjenta CV-en.
-- Vis hva du kan bidra med.
-- Svar på kravene i annonsen, og vær ærlig om det du mangler.
-- Start sterkt og avslutt tydelig.
-- Sjekk navn, språk og skjema før du sender.
+De fleste feil i en jobbsøknad handler om det samme: teksten er ikke skrevet for akkurat denne stillingen. Les annonsen nøye, åpne med hvem du er og hvorfor du søker, vis egenskapene dine med eksempler, hold deg til én side og sjekk detaljene før du sender. Gjør du det, skiller søknaden din seg ut. Ikke fordi den er spesielt fancy, men fordi den treffer.
 
 <!-- faq -->
 
 ### Hvor lang bør en jobbsøknad være?
 
-I Norge er det vanlig at søknaden er på maks én side. Ofte holder det med tre eller fire korte avsnitt. Det viktigste er at hver setning sier noe om hvorfor du passer til akkurat denne stillingen.
+I Norge er det vanlig at søknaden er på maks én side. Den skal utfylle CV-en, ikke gjenta den. Blir den lengre, er det ofte et tegn på at du bør kutte det som ikke svarer direkte på annonsen.
 
-### Kan jeg bruke samme søknad på flere stillinger?
+### Kan jeg bruke samme søknad til flere stillinger?
 
-Du kan gjenbruke deler av den, for eksempel en god beskrivelse av en erfaring. Åpningen, koblingen til kravene i annonsen og begrunnelsen for hvorfor du vil jobbe der bør likevel skrives på nytt hver gang. Sjekk alltid at navnet på den forrige arbeidsgiveren ikke står igjen.
+Du kan gjerne ha en grunnmal med setninger du er fornøyd med, men hver søknad bør tilpasses. Bytt ut innledningen, eksemplene og avsnittet om hvorfor du vil jobbe akkurat der. Sjekk også ekstra nøye at gammelt firmanavn og gammel stillingstittel er fjernet.
 
-### Bør jeg søke selv om jeg ikke oppfyller alle kravene?
+### Bør jeg søke hvis jeg ikke oppfyller alle kravene?
 
-Det kan være lurt hvis du oppfyller de viktigste kravene og kan vise at du lærer raskt eller har lignende erfaring. Vær ærlig om det du mangler, og forklar hvordan du veier opp for det. Mangler du flere sentrale krav, er tiden din ofte bedre brukt på stillinger som passer bedre.
+Det kommer an på hva du mangler. Mangler du ett av flere ønsker, kan det godt være verdt å søke og vise hva du har i stedet. Mangler du et tydelig krav, som et fagbrev eller en autorisasjon, er det ofte lurt å bruke tiden på stillinger du passer bedre til.
 
-### Hva gjør jeg hvis arbeidsgiveren bare har et nettskjema og ikke ber om søknad?
+### Hvordan bør jeg starte søknaden: «Hei» eller «Til den det måtte angå»?
 
-Da er det svarene i skjemaet som fungerer som søknaden din. Bruk de samme prinsippene: vær konkret, knytt erfaringen din til annonsen og unngå generelle fraser. Er det et fritekstfelt, bør du bruke det fullt ut.
+Står det en kontaktperson i annonsen, er «Hei, Kari» eller «Hei Kari Nilsen» naturlig i Norge. «Til den det måtte angå» virker stivt og upersonlig. Finner du ikke noe navn, kan du gå rett på innledningen.
 
-### Skal jeg skrive søknaden på engelsk hvis annonsen er på engelsk?
+### Trenger jeg søknad når skjemaet bare har felt for CV?
 
-Som hovedregel bør du svare på samme språk som annonsen. Står det at du kan søke på norsk eller engelsk, velger du språket du uttrykker deg best på. Krever stillingen gode kunnskaper i ett bestemt språk, bør du heller vise det i søknaden.
+Mange søknadsskjemaer har et eget tekstfelt for søknaden eller et sted å laste den opp. Finnes det ingen slik mulighet, bør du i alle fall bruke eventuelle fritekstfelt til å si kort hvorfor du passer. Les instruksjonene i skjemaet nøye.

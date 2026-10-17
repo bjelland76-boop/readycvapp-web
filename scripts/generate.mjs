@@ -65,12 +65,20 @@ Write in ${lang.englishName} (${lang.code}) for this audience: ${lang.market}.
 ${lang.marketNotes}
 Write as a native ${lang.englishName}-speaking career adviser who knows this job market. The text must be written from scratch for this market: local examples (typical jobs, local first names, local ways of applying), local terminology and local application culture. It must never read like a translation of an article from another language.
 
+EXAMPLES
+Use only invented or generic names in examples: placeholders such as "X videregående skole", "Y AS", "Z University", or descriptions such as "a local sports club", "a supermarket", "a care home", and invented first names. Never name real schools, universities, sports clubs, companies, shops, chains or real people in examples or as example employers. (Job portals and public services such as ${lang.portals.map((u) => new URL(u).hostname.replace(/^www\./, '')).join(', ') || 'LinkedIn'} may be named as what they are.)
+Be concrete: never write vague sentences such as "each country has its own portals" or "it varies from country to country" – give the concrete example for this market instead, or leave it out.
+${(lang.bannedTerms || []).length ? `Never use these terms: ${lang.bannedTerms.map((t) => `"${t}"`).join(', ')}.` : ''}
+
 FACTS – THE MOST IMPORTANT RULE
 Do not state statistics, percentages, survey or study results, amounts of money, salaries, laws, legal paragraphs, official rules, deadlines, or quotes attributed to any person, company or organisation. Do not claim what "most recruiters" or "studies" say. If something cannot be verified, leave it out. Give practical advice as advice ("it is usually wise to ...", "many employers ask for ..."), not as facts with numbers. Allowed numbers: page counts (e.g. one to two pages), the number of items in a list, years inside an example CV. Do not describe features of job portals in detail; mentioning them by name and what they are is enough.
 
 THE PRODUCT (mention only what is true)
 ${site.product}
-The page shows two calm app boxes that link to the web app: one in the middle of the article and one at the end. You write their text (fields cta_* below), in ${lang.englishName}, fitted to THIS topic – e.g. for a CV article something like "make your CV for free", for a cover-letter article "get help with your application", for an interview article "practise the questions". Say that it is free to try and needs no login (true for everything except interview practice, which needs a free account – then do not promise "no login"). No hype, no exclamation marks in a row, never prices. Do not end the body with a sales pitch; the end box does that job. You may additionally link the app once inside the body text where it genuinely helps the reader, with the exact URL ${site.appUrl} – optional.
+The page shows two calm app boxes that link to the web app: one in the middle of the article and one at the end. You write their text (fields cta_* below), in ${lang.englishName}, fitted to THIS topic.
+The app boxes, and anything else you say ReadyCV does, may ONLY promise these things:
+${(site.ctaPromises || []).map((x) => `- ${x}`).join('\n')}
+Nothing else – for example never say that the app builds a profile from school or volunteering, writes LinkedIn texts, tracks applications, reminds you of deadlines or trains interviews. Mention that you can start for free without an account where it fits. No hype, no exclamation marks in a row, never prices. Do not end the body with a sales pitch; the end box does that job. You may additionally link the app once inside the body text where it genuinely helps the reader, with the exact URL ${site.appUrl} – optional.
 
 PRICES
 Never mention prices, amounts or what the subscription/pass costs – prices change. "Free to try" is fine.
@@ -94,7 +102,7 @@ Only one JSON object, no other text:
 - title: unique, natural, contains the main keyword, max ${TITLE_MAX} characters including spaces (the site name is NOT added).
 - description: the meta description, 120–${DESCRIPTION_MAX} characters, invites the click without clickbait.
 - h1: the page heading; may be a little longer than the title.
-- cta_mid_text: one sentence (max 200 characters) that connects the advice just given to trying the app.
+- cta_mid_text: one sentence (max 200 characters) that connects the advice just given to trying the app – only with the allowed promises above.
 - cta_mid_button / cta_end_button: 2–5 words, max 40 characters, different from each other.
 - cta_end_title: max 60 characters. cta_end_text: one or two sentences, max 200 characters, different from cta_mid_text.`;
 }
@@ -112,7 +120,10 @@ Articles already published in this language (link 1–2 that are genuinely relat
 ${internal}
 
 Titles already used in this language (yours must be clearly different):
-${ctx.usedTitles.length ? ctx.usedTitles.map((t) => `- ${t}`).join('\n') : '(none)'}`;
+${ctx.usedTitles.length ? ctx.usedTitles.map((t) => `- ${t}`).join('\n') : '(none)'}
+${ctx.siblings.length ? `
+The same topic already exists in other languages, with these section headings. Do NOT follow this structure or translate these headings – choose your own angle, order and examples for this market:
+${ctx.siblings.map((x) => `[${x.lang}] ${x.headings.join(' | ')}`).join('\n')}` : ''}`;
 }
 
 function reviewerSystem(lang, site) {
@@ -121,13 +132,16 @@ function reviewerSystem(lang, site) {
 Verified facts about the app the article promotes (statements that match these are TRUE, never list them as unverifiable):
 ${site.product}
 Review the article below and answer with one JSON object only:
-{"language_correct": true|false, "language_detected": "<ISO code>", "reads_as_translation": true|false, "translation_evidence": "<short>", "local_market_fit": 1-5, "unverifiable_claims": ["<exact sentence>", ...], "invented_quotes": true|false, "notes": "<max 2 sentences>"}
+{"language_correct": true|false, "language_detected": "<ISO code>", "reads_as_translation": true|false, "translation_evidence": "<short>", "local_market_fit": 1-5, "unverifiable_claims": ["<exact sentence>", ...], "invented_quotes": true|false, "real_organizations": ["<name>", ...], "vague_sentences": ["<exact sentence>", ...], "cta_overpromises": ["<exact sentence>", ...], "notes": "<max 2 sentences>"}
 
 - language_correct: the whole text is natural ${lang.englishName} (${lang.code}) – for Norwegian: Bokmål, not Danish/Swedish/Nynorsk.
 - reads_as_translation: true if wording, idioms, examples or structure feel translated from another language (calques, foreign idioms, examples from another country), or if the structure mirrors the sibling-article headings given below one to one.
-- local_market_fit: 5 = clearly written for this market (local terms, local application culture, relevant local portals or examples); 1 = generic or wrong for this market.
+- local_market_fit: 5 = clearly written for this market with concrete local guidance (local terms, local application culture, relevant local portals, local CV norms and examples); 4 = good and local with small gaps; 3 = partly generic; 1 = generic or wrong for this market. Be strict: an article that could have been written for any country is at most 3.
 - unverifiable_claims: every sentence that states a statistic, percentage, amount, salary, study/survey result, law, legal rule, official rule or deadline, or a specific claim about how a named portal, authority or company works that you cannot be sure is true. Empty list if none. Ordinary practical advice is not a claim, and neither are fictional examples clearly presented as examples (example CV lines, example sentences, invented candidate names and schools). Claims are statements of counts, proportions or research findings (e.g. "most recruiters", "studies show", "the majority of applications"); hedged practical observations such as "often", "many employers ask for" or "this is where it often goes wrong" are normal advice and NOT claims.
-- invented_quotes: true if the text quotes or attributes statements to real people, companies or organisations.`;
+- invented_quotes: true if the text quotes or attributes statements to real people, companies or organisations.
+- real_organizations: names of REAL schools, universities, sports clubs, companies, shops, chains or real people used in examples or as example employers. Job portals and public services named as what they are (e.g. NAV, FINN.no, LinkedIn) and the app ReadyCV are fine, and so are placeholders like "X videregående skole" or invented first names. Empty list if none.
+- vague_sentences: sentences that wave at something generic where the reader needs a concrete example (e.g. "each country has its own portals", "it depends on the country"). Empty list if none.
+- cta_overpromises: sentences in the app boxes or anywhere in the text that promise something about ReadyCV beyond exactly these: ${(site.ctaPromises || []).join('; ')}. Empty list if none.`;
 }
 
 function reviewerUser(meta, body, siblings) {

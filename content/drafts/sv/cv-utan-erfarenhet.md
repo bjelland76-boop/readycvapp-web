@@ -4,152 +4,142 @@ slug: "cv-utan-erfarenhet"
 group: "cv-without-experience"
 keyword: "cv utan erfarenhet"
 title: "CV utan erfarenhet – så visar du vad du kan"
-description: "Har du ingen arbetslivserfarenhet än? Så skriver du ett CV utan erfarenhet som lyfter skola, föreningsliv och extrajobb, med konkreta exempel."
-h1: "Så skriver du ett CV utan arbetslivserfarenhet"
-cta_mid_text: "Har du samlat skola, föreningsliv och extrajobb i ett utkast? Ladda upp det, så gör ReadyCV en profil och ett CV för jobbet du söker. Gratis att prova, utan inloggning."
-cta_mid_button: "Gör ditt CV gratis"
-cta_end_title: "Ditt första CV, anpassat till jobbet"
-cta_end_text: "Klistra in en annons och se ärligt hur väl du matchar, och få sedan CV och personligt brev anpassade till den. Gratis att prova och ingen inloggning krävs."
-cta_end_button: "Prova ReadyCV"
+description: "Ska du skriva ditt första CV utan erfarenhet? Så hittar du det du redan har gjort och formulerar det så att arbetsgivaren ser vad du kan."
+h1: "Så skriver du ett CV utan arbetslivserfarenhet – och ändå sticker ut"
+cta_mid_text: "Osäker på vad i ditt liv som passar just det här jobbet? Klistra in annonsen i ReadyCV och få en ärlig bedömning av vad som matchar och vad som saknas."
+cta_mid_button: "Testa mot en annons"
+cta_end_title: "Gör ditt första CV för rätt jobb"
+cta_end_text: "Klistra in annonsen och få ett CV och ett personligt brev anpassade till jobbet. Du kan börja gratis, utan konto."
+cta_end_button: "Börja gratis"
 approved: false
-generated_at: "2026-10-17T10:03:37.583Z"
+generated_at: "2026-10-17T10:39:01.966Z"
 model: "claude-opus-5-5"
-words: 1249
+words: 1136
 review_local_fit: 5
-review_notes: "'grundCV' should be written 'grund-CV', and 'Det väger upp när CV:t är kortare' is better as 'Det väger upp för ett kortare CV'. The app claims (upload a draft, match against an ad, tailored CV and cover letter, free without login) are consistent with the verified features."
+review_notes: "Starkt lokalt förankrad text med konkreta före/efter-exempel och svenska skol- och praktikbegrepp, och CTA:erna håller sig inom appens verifierade funktioner. Liten inkonsekvens: läsaren ska först ”stryka under” egenskaper i annonsen men senare hänvisas till det hen ”ringade in”."
 ---
 
-Att skriva sitt första CV kan kännas lite som att fylla i ett formulär där hälften av rutorna ska stå tomma. Men ett CV utan erfarenhet behöver inte vara ett tunt CV. Arbetsgivare som anställer till sommarjobb, extrajobb eller instegsjobb vet att du är i början. De letar efter tecken på att du är pålitlig, lär dig snabbt och tar ansvar. Den här guiden visar hur du hittar de tecknen i ditt eget liv och skriver fram dem tydligt.
+Du ska söka ditt första riktiga jobb, öppnar ett tomt dokument och fastnar direkt på rubriken ”Arbetslivserfarenhet”. Det är en vanlig känsla, men den bygger på ett missförstånd. Arbetsgivare som anställer någon utan tidigare jobb vet att du inte har några anställningar att visa. De vill ta reda på om du är pålitlig, lär dig snabbt och passar för just det här jobbet. Ett bra CV utan erfarenhet ger dem svar på de frågorna med det du faktiskt har gjort.
 
-## Du har mer erfarenhet än du tror
+## Börja i annonsen, inte i dokumentet
 
-Arbetslivserfarenhet är inte bara anställningar med lönespecifikation. Allt där du har tagit ansvar, samarbetat med andra eller lärt dig något praktiskt kan bli innehåll i ditt CV. Gå igenom listan och skriv ner allt som stämmer på dig:
+Innan du skriver något om dig själv bör du läsa annonsen noga och stryka under det arbetsgivaren ber om. Ett jobb i kassan på en matbutik kräver ofta servicekänsla, att du kan räkna och att du kan jobba kvällar och helger. Ett sommarvikariat på ett äldreboende kräver lugn, empati och att du följer rutiner.
 
-- **Skolan:** gymnasiearbete, grupprojekt, elevråd, UF-företag, APL eller praktik
-- **Föreningsliv:** tränare eller hjälpledare i en idrottsförening, kioskansvar på matcher, scouterna
-- **Ideellt engagemang:** läxhjälp, kyrkans ungdomsverksamhet, insamlingar
-- **Småjobb:** barnvakt, gräsklippning hos grannar, snöskottning, hundpromenader
-- **Feriearbete och kortare uppdrag:** sommarjobb via kommunen, extrajobb under julhandeln
-- **Eget ansvar hemma:** att regelbundet ta hand om yngre syskon eller hjälpa till i en familjemedlems verksamhet
+Skriv ner tre till fem sådana egenskaper. Sedan letar du efter tillfällen i ditt eget liv där du har visat dem. Då blir CV:t ett svar på annonsen och inte en lista över allt du har varit med om.
 
-Du kommer inte att använda allt. Men det är lättare att välja bort än att komma på saker i sista stund.
+## Leta efter erfarenhet som inte kallas jobb
 
-## Lägg upp CV:t så att styrkorna syns först
+De flesta som tror att de saknar erfarenhet har mer än de tror. Gå igenom den här listan och anteckna allt som passar in:
 
-När du saknar anställningar är det klokt att börja med det du faktiskt har. En ordning som brukar fungera bra för förstagångssökande:
+- **Prao och APL** – praktik under grundskolan eller gymnasiet räknas, särskilt om den gjordes i samma bransch som jobbet du söker.
+- **Gymnasiearbetet eller större skolprojekt** – här har du planerat, tagit ansvar och hållit en deadline.
+- **Elevföretag** – har du drivit ett företag i skolan har du sålt, räknat och samarbetat.
+- **Föreningsliv** – tränare för ett knattelag, kassör i elevrådet eller funktionär på cuper i en lokal idrottsförening.
+- **Informella uppdrag** – barnvakt åt grannar, snöskottning, hjälpa till i en släktings verksamhet.
+- **Ansvar hemma** – att regelbundet hämta yngre syskon eller hjälpa en äldre släkting kan visa att du är pålitlig, om det passar jobbet.
 
-1. Kontaktuppgifter (namn, telefon, e-post, ort)
-2. Kort profiltext
+Allt behöver inte stå med. Välj det som säger något om de egenskaper du ringade in i annonsen.
+
+## Byt rubrik och ordning
+
+Du behöver ingen rubrik som heter ”Arbetslivserfarenhet” om den skulle stå tom. Kalla avsnittet **Erfarenheter** eller **Praktik och uppdrag** i stället. Det är ärligt och ger plats åt det du har gjort.
+
+En ordning som brukar fungera för ett första jobb:
+
+1. Kontaktuppgifter: namn, telefonnummer, e-post och ort
+2. En kort profil på två till tre meningar
 3. Utbildning
-4. Övrig erfarenhet (förening, ideellt, småjobb, praktik)
-5. Färdigheter och språk
-6. Körkort, om du har det
-7. Intressen, om de säger något om dig
+4. Erfarenheter (praktik, föreningar, uppdrag)
+5. Kunskaper och språk
+6. Körkort, om du har ett
 
-Håll dig till en sida. En luftig, välordnad sida ger ett bättre intryck än två sidor fyllda med utfyllnad. Foto är valfritt i Sverige. Använd en seriös e-postadress, gärna med ditt namn.
+Bild är frivilligt i Sverige. Hela CV:t får gärna rymmas på en sida.
 
-## Skriv en profiltext som säger något konkret
+## Visa vad du gjorde, inte bara var du var
 
-Profiltexten är de tre, fyra raderna överst. Det är här många skriver allmänna ord som inte skiljer dem från någon annan.
-
-**Före:**
-
-> Jag är en glad, social och ansvarsfull person som gillar att jobba med människor.
-
-**Efter:**
-
-> Jag går sista året på ekonomiprogrammet och har under två säsonger varit hjälptränare för ett fotbollslag med tioåringar. Där har jag lärt mig att planera, hålla tider och ta hand om både barn och föräldrar. Nu söker jag ett extrajobb i butik där jag får möta kunder varje dag.
-
-Skillnaden är att den andra versionen *visar* ansvar och social förmåga i stället för att bara påstå det. Avsluta gärna med vad du söker, så att läsaren direkt förstår vad du vill.
-
-## Gör om vardagen till meriter
-
-Det viktigaste tricket i ett CV utan erfarenhet är att beskriva vad du gjorde och vad det ledde till, inte bara vad uppdraget hette.
+Den vanligaste svagheten i ett CV utan erfarenhet är att allt stannar vid titlar. ”Fotbollstränare” säger lite. Vad du gjorde som tränare säger mycket mer.
 
 **Före:**
 
-> Barnvakt, 2022–2024
+> Ledare i fotbollsförening 2022–2025
 
 **Efter:**
 
-> **Barnvakt åt två familjer, Umeå, 2022–2024**
-> - Hämtade två barn från förskolan tre dagar i veckan
-> - Lagade mellanmål och höll koll på läxor och läggtider
-> - Fick förtroendet att ta hand om barnen själv under helger
+> Ledare för ett knattelag med femton barn, två träningar i veckan. Planerade övningar, hade kontakt med föräldrar och ansvarade för laget på matcher.
 
-Samma sak fungerar för skolprojekt. Om Elias har drivit ett UF-företag kan han skriva:
+Samma sak gäller egenskaper. Skriv inte bara ”stresstålig och social”. Koppla orden till något du har gjort:
 
-> **UF-företag, säljansvarig, 2023–2024**
-> - Sålde egendesignade mössor på julmarknader och via Instagram
-> - Ansvarade för kassan och redovisningen av försäljningen
-> - Pitchade företaget inför jury på en regional mässa
+**Före:**
 
-Använd verb som visar handling: *ansvarade, planerade, sålde, hjälpte, organiserade, lärde ut*. Undvik siffror som du inte kan stå för, men ta gärna med sådant du vet, som hur många barn du tränade eller hur länge du höll på.
+> Jag är ansvarsfull och gillar att jobba med människor.
+
+**Efter:**
+
+> Under min APL på en förskola tog jag hand om samlingen på morgonen och fick ansvar för en grupp barn vid utevistelsen.
+
+En tumregel: varje rad i CV:t ska helst innehålla ett verb, till exempel planerade, sålde, hjälpte, organiserade eller ansvarade.
 
 <!-- cta -->
 
-## Utbildning, färdigheter och språk
+## Så kan det se ut: ett exempel
 
-Utan arbetslivserfarenhet får utbildningen ta större plats. Skriv program, skola och år, och lägg till sådant som är relevant för jobbet:
+Här är ett förkortat exempel på hur Linnea, som går sista året på barn- och fritidsprogrammet, kan skriva när hon söker sommarjobb som barnskötare.
 
-> **Ekonomiprogrammet, Dragonskolan, Umeå, 2021–2024**
-> Gymnasiearbete om hur lokala butiker använder sociala medier. Kurser i entreprenörskap och företagsekonomi.
+> **Profil**
+> Jag går sista året på barn- och fritidsprogrammet och har erfarenhet av att leda barngrupper både i skolan och på fritiden. Jag är van vid att ta ansvar och söker nu ett sommarjobb inom förskola.
 
-Under färdigheter tar du med sådant du faktiskt kan använda i jobbet. Var ärlig och konkret:
+> **Utbildning**
+> 2022–2025 Barn- och fritidsprogrammet, X gymnasium
 
-- **Språk:** svenska (modersmål), engelska (mycket goda kunskaper), arabiska (flytande i tal)
-- **Datorvana:** Word, Excel, Google Docs, Canva
-- **Övrigt:** B-körkort, grundkurs i hjärt-lungräddning
+> **Erfarenheter**
+> 2024 APL på en förskola, fyra veckor. Höll i samlingar och hjälpte till vid måltider och vila.
+> 2021–2025 Ledare för knattelag i en lokal fotbollsförening.
+> 2020–2025 Barnvakt åt två familjer i grannskapet, regelbundet på kvällar.
 
-Flerspråkighet är en verklig tillgång i många jobb, särskilt inom handel, vård och kundservice. Skriv ut det tydligt.
+> **Kunskaper och språk**
+> Svenska och engelska flytande, grundläggande arabiska. Första hjälpen för barn (kurs i skolan).
 
-Intressen kan få en rad om de säger något om dig. *Långdistanslöpning* visar uthållighet, *bygger och reparerar datorer* visar teknisk nyfikenhet. *Umgås med vänner* kan du hoppa över.
+För Ahmed, som söker extrajobb på ett lager, skulle samma struktur fungera, men han lyfter i stället fram att han har truckkort från skolan, har hjälpt till med inventering i ett elevföretag och har B-körkort.
 
-## Anpassa CV:t till varje jobb
+## Anpassa varje gång
 
-Ett grundCV är en bra start, men du får ut mer av det om du justerar det för varje ansökan. Läs annonsen noga, till exempel på [Platsbanken](https://arbetsformedlingen.se/platsbanken), och markera vad arbetsgivaren efterfrågar.
+Ett CV som är skrivet för alla jobb passar oftast inget särskilt. Byt ut profilen och flytta upp de erfarenheter som är mest relevanta för varje ansökan. När du söker på [Platsbanken](https://arbetsformedlingen.se/platsbanken) eller [LinkedIn](https://www.linkedin.com) är det också bra att använda samma ord som annonsen. Om arbetsgivaren skriver ”kundbemötande” kan du gärna använda just det ordet när du beskriver din erfarenhet.
 
-Söker Maja jobb på ett café lyfter hon fram kioskansvaret i handbollsklubben och att hon är van att stå i kassa. Söker hon i stället jobb som personlig assistent flyttar hon upp läxhjälpen och erfarenheten av att ta hand om sin morfar. Samma person, samma erfarenheter, men olika fokus.
+Vill du ha hjälp att se hur väl ditt CV matchar en annons kan du klistra in annonsen i [ReadyCV](https://app.aerlig.no/?utm_source=readycvapp&utm_medium=artikkel&utm_campaign=cv-utan-erfarenhet) och få en ärlig bedömning av vad som redan passar och vad som saknas.
 
-Kolla också om arbetsgivaren använder ett formulär på nätet. Många gör det, och då kan du ofta klistra in texter direkt från ditt CV. Därför lönar det sig att ha bra formuleringar färdiga.
+## Låt det personliga brevet bära resten
 
-Vill du ha hjälp att se hur väl du matchar en annons och få ett CV anpassat efter den kan du prova [ReadyCV](https://app.aerlig.no/?utm_source=readycvapp&utm_medium=artikkel&utm_campaign=cv-utan-erfarenhet). Där kan du också ladda upp ett första utkast och låta appen strukturera innehållet.
+CV:t visar vad du har gjort. Det personliga brevet förklarar vem du är och varför du vill ha just det här jobbet. Lägg inte energi på att be om ursäkt för att du saknar erfarenhet. Berätta i stället vad som lockar dig och vad du tar med dig:
 
-## Innan du skickar: en snabb kontroll
-
-- Står ditt telefonnummer och din e-post rätt?
-- Har du bara en sida, med tydliga rubriker?
-- Visar varje punkt något du gjorde, inte bara en titel?
-- Har du anpassat profiltexten till just det här jobbet?
-- Har någon annan läst igenom texten och letat stavfel?
-- Har du sparat filen som PDF med ditt namn i filnamnet?
+> Under min praktik på ett äldreboende märkte jag hur mycket jag tycker om att ge människor tid och uppmärksamhet. Det vill jag fortsätta med hos er i sommar.
 
 ## Sammanfattning
 
-Ett CV utan erfarenhet handlar om att hitta rätt material och beskriva det konkret. Börja med att lista allt du gjort i skolan, föreningar och på fritiden. Lägg utbildning och övrig erfarenhet högt upp, skriv en profiltext som visar i stället för att påstå och beskriv varje uppdrag med handlingsverb. Anpassa sedan innehållet efter varje annons och komplettera med ett personligt brev där du berättar varför du vill ha just det jobbet.
+- Utgå från annonsen och välj tre till fem egenskaper som du vill bevisa.
+- Räkna med praktik, skolprojekt, föreningsliv och informella uppdrag.
+- Byt rubriken till ”Erfarenheter” så att inget avsnitt står tomt.
+- Beskriv vad du gjorde, med verb och konkreta detaljer.
+- Håll CV:t på en sida och anpassa det till varje jobb.
+- Låt det personliga brevet förklara varför du söker.
 
 <!-- faq -->
 
-### Ska jag skriva att jag saknar arbetslivserfarenhet i CV:t?
-
-Nej, det behöver du inte skriva ut. Låt i stället CV:t visa det du faktiskt har gjort, som utbildning, föreningsliv och småjobb. Den som läser förstår ändå var du befinner dig, och fokus hamnar på dina styrkor.
-
-### Får jag ta med barnvakt och sådant jag gjort åt grannar?
-
-Ja, särskilt om du gjort det regelbundet under en längre tid. Det visar att någon har litat på dig och att du kan ta ansvar. Beskriv konkret vad du gjorde, så blir det en merit.
-
-### Behöver jag referenser i mitt första CV?
-
-Det räcker ofta att skriva "Referenser lämnas på begäran". Fundera ändå i förväg på vilka du kan fråga, till exempel en lärare, en tränare eller en familj du varit barnvakt åt. Fråga dem alltid innan du lämnar ut deras uppgifter.
-
-### Ska jag ha med foto i CV:t?
-
-Det är valfritt i Sverige. Väljer du att ha med en bild bör den vara tydlig, ljus och neutral, gärna med enkel bakgrund. En semesterbild eller en beskuren gruppbild gör mer skada än nytta.
-
 ### Hur långt ska ett CV utan erfarenhet vara?
 
-En sida räcker gott. Det är bättre med en välskriven och luftig sida än att fylla ut med saker som inte säger något. Lägg hellre tid på att göra varje punkt konkret.
+En sida räcker nästan alltid. Det är bättre med några få rader som säger något konkret än en lång lista som arbetsgivaren måste leta i.
 
-### Behöver jag skicka ett personligt brev också?
+### Vem kan jag ha som referens om jag aldrig har jobbat?
 
-Om annonsen ber om det, ja. Även när det inte krävs kan ett kort personligt brev hjälpa dig, eftersom du där kan förklara varför du vill ha jobbet och vad du tar med dig. Det väger upp när CV:t är kortare.
+Du kan be en lärare, din handledare från prao eller APL eller en ledare i en förening du är med i. Fråga alltid personen först. I CV:t räcker det ofta att skriva ”Referenser lämnas på begäran”.
+
+### Ska jag skriva mina betyg i CV:t?
+
+Det behövs oftast inte. Har du ett ämne med starkt betyg som passar jobbet, till exempel matematik när du söker kassajobb, kan du nämna det kort. Om arbetsgivaren vill se betyg brukar det stå i annonsen.
+
+### Måste jag ha bild i CV:t?
+
+Nej, bild är frivilligt i Sverige. Väljer du att ha med en bild bör den vara tydlig och neutral, gärna mot en ljus bakgrund.
+
+### Ska jag skriva i brevet att jag saknar erfarenhet?
+
+Du behöver inte skriva det rakt ut, arbetsgivaren ser det redan i CV:t. Lägg hellre utrymmet på vad du har gjort, vad du vill lära dig och varför jobbet intresserar dig.

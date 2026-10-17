@@ -118,7 +118,7 @@ test('generate -> draft with app boxes and UTM; nothing public yet', async () =>
   assert.match(draft, /cta_mid_button: "Lag CV-en gratis"/);
   assert.match(draft, /<!-- cta -->/);
   assert.match(draft, /https:\/\/app\.aerlig\.no\/\?utm_source=readycvapp&utm_medium=artikkel&utm_campaign=cv-uten-erfaring/);
-  assert.ok(existsSync(join(dir, 'content', 'drafts', 'en', 'cv-with-no-experience.md')));
+  assert.ok(existsSync(join(dir, 'content', 'drafts', 'en', 'cv-norway-no-experience.md')));
   const topics = JSON.parse(readFileSync(join(dir, 'content', 'topics.json'), 'utf8')).topics;
   assert.equal(topics.find((t) => t.lang === 'no' && t.slug === 'cv-uten-erfaring').status, 'draft');
   // Drafts never touch the public site.
@@ -127,7 +127,7 @@ test('generate -> draft with app boxes and UTM; nothing public yet', async () =>
   assert.ok(!existsSync(join(dir, 'no')));
 
   // Approve both, publish.
-  for (const f of ['no/cv-uten-erfaring.md', 'en/cv-with-no-experience.md']) {
+  for (const f of ['no/cv-uten-erfaring.md', 'en/cv-norway-no-experience.md']) {
     const p = join(dir, 'content', 'drafts', f);
     writeFileSync(p, readFileSync(p, 'utf8').replace('approved: false', 'approved: true'));
   }
@@ -135,7 +135,7 @@ test('generate -> draft with app boxes and UTM; nothing public yet', async () =>
   const html = readFileSync(join(dir, 'no', 'cv-uten-erfaring', 'index.html'), 'utf8');
   assert.match(html, /<html lang="nb">/);
   assert.match(html, /<meta charset="UTF-8">/);
-  assert.match(html, /hreflang="en" href="https:\/\/readycvapp\.no\/en\/cv-with-no-experience\/"/);
+  assert.match(html, /hreflang="en" href="https:\/\/readycvapp\.no\/en\/cv-norway-no-experience\/"/);
   assert.match(html, /hreflang="x-default"/);
   const appLinks = [...html.matchAll(/href="(https:\/\/app\.aerlig\.no[^"]*)"/g)].map((m) => m[1].replace(/&amp;/g, '&'));
   assert.equal(appLinks.length, 3, 'inline link + mid box + end box');
@@ -169,8 +169,8 @@ test('price in the article -> stopped, not saved', async () => {
   } finally {
     state.price = false;
   }
-  assert.ok(!existsSync(join(dir, 'content', 'drafts', 'en', 'cv-with-no-experience.md')));
-  const t = JSON.parse(readFileSync(join(dir, 'content', 'topics.json'), 'utf8')).topics.find((x) => x.lang === 'en' && x.slug === 'cv-with-no-experience');
+  assert.ok(!existsSync(join(dir, 'content', 'drafts', 'en', 'cv-norway-no-experience.md')));
+  const t = JSON.parse(readFileSync(join(dir, 'content', 'topics.json'), 'utf8')).topics.find((x) => x.lang === 'en' && x.slug === 'cv-norway-no-experience');
   assert.match(t.last_error, /priser: pris eller beløp/);
 });
 

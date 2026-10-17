@@ -4,129 +4,140 @@ slug: "misstag-i-ansokan"
 group: "application-mistakes"
 keyword: "misstag i ansökan"
 title: "Misstag i ansökan – vanliga fel och hur du undviker dem"
-description: "Generiskt brev, otydligt CV eller slarviga fel? Här är vanliga misstag i ansökan och konkreta tips på hur du rättar dem innan du skickar."
+description: "Generiska brev, slarvfel och ett CV som inte matchar annonsen. Här är de vanligaste misstagen i ansökan och konkreta sätt att rätta dem."
 h1: "Vanliga misstag i ansökan och hur du undviker dem"
-cta_mid_text: "Vill du veta om din ansökan svarar på det annonsen frågar efter? Klistra in annonsen och få en ärlig matchning, gratis och utan inloggning."
+cta_mid_text: "Osäker på om du matchar kraven? Klistra in annonsen i ReadyCV och få en ärlig bedömning av styrkor och vad som saknas – gratis att börja, utan konto."
 cta_mid_button: "Testa din matchning"
-cta_end_title: "Skicka en ansökan som träffar rätt"
-cta_end_text: "Skapa ett CV och ett personligt brev som är anpassade till jobbet du söker. Det är gratis att prova och kräver ingen inloggning."
-cta_end_button: "Skapa din ansökan"
+cta_end_title: "Gör nästa ansökan träffsäker"
+cta_end_text: "Ladda upp ditt CV och klistra in en jobbannons. Du får ett CV och ett personligt brev anpassade till just det jobbet."
+cta_end_button: "Börja gratis nu"
 approved: false
-generated_at: "2026-10-17T09:58:55.430Z"
+generated_at: "2026-10-17T10:33:58.010Z"
 model: "claude-opus-5-5"
-words: 1204
-review_local_fit: 5
-review_notes: "Well suited to the Swedish market, with Platsbanken, undersköterska, Jönköping, legitimation and the conventions of the personligt brev, and the app description matches the verified features. A minor point: the keyword phrasing \"Ett misstag i ansökan som är lätt att göra är det generiska brevet\" fee"
+words: 1234
+review_local_fit: 4
+review_notes: "Section 5 says dates should run with the most recent first, while section 7 says to put the most relevant first even if it is not the most recent, so this should be harmonised. Local fit could be stronger with Swedish specifics such as references, Arbetsförmedlingen's role or 'kontaktperson' practic"
 ---
 
-Det är lätt att lägga timmar på en ansökan och ändå skicka iväg något som inte riktigt träffar. Det kan bero på att ansökan inte visar din kompetens tydligt nog för just den arbetsgivaren. Här går vi igenom misstag som är lätta att göra i ett personligt brev, ett CV och ett ansökningsformulär. Till varje misstag får du konkreta sätt att rätta det.
+Du kan vara rätt person för jobbet och ändå bli bortsorterad. Ofta beror det inte på bristande erfarenhet utan på små och stora misstag i ansökan som gör det svårt för rekryteraren att se vad du kan. Den goda nyheten är att de flesta felen är lätta att rätta när du väl vet vad du ska leta efter. Här går vi igenom de vanligaste misstagen, med exempel på hur du gör i stället.
 
-## 1. Samma personliga brev till alla
+## 1. Du skickar samma ansökan till alla jobb
 
-Ett misstag i ansökan som är lätt att göra är det generiska brevet. Det skrivs en gång och skickas sedan till tio olika arbetsgivare med bara företagsnamnet utbytt. Ett brev som skulle kunna handla om vilket jobb som helst säger inte mycket om varför du vill ha just det här.
+Det är frestande att skriva ett bra personligt brev och sedan bara byta ut företagsnamnet. Problemet är att en rekryterare som läser många ansökningar snabbt känner igen ett standardbrev. Det signalerar att du söker brett snarare än att du vill ha just det här jobbet.
 
-**Före:**
+Så här märks det:
 
-> Jag är en driven och flexibel person som trivs med att arbeta både självständigt och i grupp. Jag söker nu nya utmaningar.
+> Jag är en driven och flexibel person som trivs med att arbeta både självständigt och i grupp.
 
-**Efter:**
+Meningen kunde stå i vilken ansökan som helst. Jämför med en version skriven för en tjänst som butikssäljare i en sportbutik:
 
-> När jag läste att ni bygger upp ett nytt lager i Jönköping blev jag nyfiken. Jag har arbetat med plock och inleveranser i tre år och har varit med när vi flyttade hela verksamheten till nya lokaler. Den erfarenheten vill jag gärna använda hos er.
+> Jag har tränat friidrott i tio år och hjälper gärna kunder att hitta rätt löparsko. Under min sommar i en livsmedelsbutik lärde jag mig att hålla ordning i kassan även när kön är lång.
 
-Skillnaden är att den andra versionen kopplar dig till just den här arbetsplatsen. Ett bra knep är att svara på två frågor i brevet: *Varför just det här jobbet?* och *Varför just jag?* Om svaren skulle passa lika bra hos en konkurrent är brevet inte tillräckligt anpassat.
+Du behöver inte skriva om allt varje gång. Behåll en grund, men byt alltid ut inledningen och de två till tre exempel som bäst matchar annonsen.
 
-## 2. Brevet upprepar bara CV:t
+## 2. Det personliga brevet upprepar CV:t
 
-CV:t visar vad du har gjort. Det personliga brevet ska visa vem du är och hur du tänker. Ett brev som bara räknar upp anställningarna en gång till slösar bort utrymmet där du kan visa dig själv.
-
-Välj i stället en eller två erfarenheter ur CV:t och berätta mer om dem. Beskriv en situation, vad du gjorde och vad det ledde till. Låt resten stå i CV:t.
-
-> I CV:t står det att jag har arbetat som undersköterska på en geriatrisk avdelning. Det jag inte kan skriva där är hur mycket jag lärde mig av att arbeta nära anhöriga i svåra skeden. Det har gjort mig lugnare och tydligare i mötet med människor.
-
-## 3. Du beskriver uppgifter i stället för resultat
-
-Ett CV fullt av arbetsuppgifter säger vad tjänsten innehöll, men inte hur bra du gjorde den. Försök formulera varje punkt så att det framgår vad som blev bättre tack vare dig.
+I Sverige är det personliga brevet just personligt. Det ska handla om vem du är och varför du söker jobbet, inte vara en uppräkning av dina tidigare anställningar. CV:t visar *vad* du har gjort. Brevet förklarar *varför* det gör dig lämplig och vad som driver dig.
 
 **Före:**
 
-- Ansvarig för kassan
-- Hjälpte kunder
-- Beställde varor
+> 2019–2022 arbetade jag som lagerarbetare på Y AB. Därefter arbetade jag på Z Logistik som truckförare.
 
 **Efter:**
 
-- Ansvarade för kassaavstämning och fick förtroendet att lära upp nya kollegor
-- Tog hand om reklamationer och fick återkommande kunder som bad om mig
-- Tog över varubeställningen och minskade antalet slutsålda varor på hyllan
+> Under mina år på lager har jag märkt att jag trivs bäst när det är högt tempo och tydliga mål. Det är en anledning till att jag söker rollen som skiftledare – jag vill ta ansvar för att hela laget når fram, inte bara jag själv.
 
-Du behöver inga exakta siffror för att visa resultat. Det räcker att visa förändring, ansvar och förtroende.
+Håll brevet till högst en sida. Hellre tre stycken som säger något än sex stycken som upprepar CV:t.
 
-<!-- cta -->
+## 3. Du svarar inte på det annonsen frågar efter
 
-## 4. Du svarar inte på det annonsen faktiskt frågar efter
-
-Det är lätt att skriva om det man själv tycker är viktigt i stället för om det arbetsgivaren efterfrågar. Annonsen är din bästa ledtråd. Läs den noggrant och stryk under både krav och meriter.
+Ett av de vanligaste misstagen i ansökan är att skriva om det du själv tycker är viktigt i stället för det arbetsgivaren efterfrågar. Läs annonsen noga och stryk under krav och önskemål. Om annonsen nämner körkort, ett visst affärssystem eller erfarenhet av äldreomsorg ska det synas tydligt i ditt CV och gärna i brevet.
 
 Gör så här:
 
-1. Skriv ner de krav och önskemål som står i annonsen, till exempel körkort, erfarenhet av ett visst system eller vana att arbeta i team.
-2. Kontrollera att varje viktigt krav syns någonstans i ditt CV eller brev.
-3. Använd gärna samma ord som annonsen. Står det *kundbemötande* kan du skriva just det, inte bara *service*.
-4. Saknar du något, var ärlig. Visa hellre att du lär dig snabbt än att hoppas att det inte märks.
+1. Lista de krav som står i annonsen.
+2. Skriv bredvid varje krav ett konkret exempel från din erfarenhet.
+3. Se till att de viktigaste exemplen syns högt upp i CV:t.
+4. Var ärlig med det du saknar – och visa hur du tänker lära dig det.
 
-Det kan vara svårt att se sin egen ansökan med nya ögon. I [ReadyCV](https://app.aerlig.no/?utm_source=readycvapp&utm_medium=artikkel&utm_campaign=misstag-i-ansokan) kan du klistra in annonsen och få en ärlig bedömning av hur väl du matchar. Där syns både dina styrkor och det som saknas, och ibland får du rådet att låta bli att söka.
+Ibland visar en sådan genomgång att du saknar flera grundkrav. Då kan det vara klokare att lägga tiden på ett jobb där du matchar bättre. Om du vill ha en andra bedömning kan du klistra in annonsen i [ReadyCV](https://app.aerlig.no/?utm_source=readycvapp&utm_medium=artikkel&utm_campaign=misstag-i-ansokan) och få en ärlig bild av hur väl du passar, inklusive vad som saknas.
 
-## 5. Slarvfel och otydlig form
+## 4. Du påstår saker utan att visa dem
 
-Stavfel, olika typsnitt och ett CV som spretar kan ge ett ofokuserat intryck, även om innehållet är bra. Det gäller särskilt jobb där noggrannhet ingår i rollen.
+"Jag är noggrann", "jag har god samarbetsförmåga" och "jag är stresstålig" säger nästan alla. Det som skiljer dig från andra sökande är beviset.
 
-Kontrollera följande innan du skickar:
+**Före:**
 
-- Rätt namn på företaget och på kontaktpersonen, till exempel att det står Lena och inte Lina
-- En seriös e-postadress, gärna i formen fornamn.efternamn
-- Ett tydligt filnamn, till exempel *CV_Sara_Lindqvist.pdf* i stället för *cv_final_ny2.pdf*
-- PDF-format, så att layouten ser likadan ut hos mottagaren
-- Samma datumformat och samma ordning i hela CV:t, gärna med det senaste först
+> Jag är noggrann och har god servicekänsla.
 
-Läs gärna texten högt eller be någon annan läsa den. Med ett par nya ögon blir det ofta lättare att hitta det du själv har läst förbi.
+**Efter:**
 
-## 6. Du följer inte instruktionerna
+> Som ekonomiassistent stämde jag av leverantörsfakturor varje vecka och hittade ofta fel innan de betalades ut. Kollegor på andra avdelningar vände sig gärna till mig när de hade frågor om sina underlag.
 
-Om arbetsgivaren använder ett ansökningsformulär på nätet kan det finnas urvalsfrågor, fält för referensnummer eller önskemål om att du ska bifoga vissa dokument. Hoppar du över en fråga eller skickar brevet till fel adress kan ansökan sorteras bort innan någon har läst den.
+Tumregel: för varje egenskap du nämner, lägg till en situation där du visade den. Har du ont om arbetslivserfarenhet fungerar exempel från studier, föreningsliv eller extrajobb lika bra.
 
-Läs igenom annonsen en extra gång innan du trycker på skicka. Kolla hur arbetsgivaren vill ha ansökan, vilka dokument som efterfrågas och vilken sista ansökningsdag som gäller. Svara på urvalsfrågorna med lika stor omsorg som på brevet, eftersom korta och slarviga svar kan dra ner helhetsintrycket. Det gäller oavsett om du har hittat jobbet på [Platsbanken](https://arbetsformedlingen.se/platsbanken), på [LinkedIn](https://www.linkedin.com) eller direkt på företagets webbplats.
+<!-- cta -->
+
+## 5. Slarvfel som skadar intrycket
+
+Stavfel, fel namn på kontaktpersonen eller fel företagsnamn kvar från förra ansökan är små saker som kan få stora konsekvenser. Särskilt i jobb där noggrannhet efterfrågas.
+
+Kontrollera alltid detta innan du skickar:
+
+- Rätt företagsnamn och tjänstetitel
+- Rätt namn på kontaktpersonen, stavat som i annonsen
+- Att dina kontaktuppgifter stämmer och att e-postadressen ser seriös ut
+- Att datum och årtal i CV:t är i rätt ordning, med det senaste först
+- Att filen heter något begripligt, till exempel *CV_Linnea_Andersson.pdf*
+
+Läs gärna texten högt eller be någon annan läsa. Man ser sällan sina egna fel efter att ha arbetat länge med en text.
+
+## 6. Du slarvar med webbformuläret
+
+Många arbetsgivare använder ansökningsformulär på nätet i stället för e-post. Det är lätt att se formuläret som en formalitet, men ofta är det just svaren där som avgör om du går vidare. Skriv inte "se CV" i fritextfälten och lämna inte frågor tomma.
+
+Några råd:
+
+- Skriv dina svar i ett separat dokument först, så förlorar du inget om sidan laddas om.
+- Svara på exakt det som frågas, kort och konkret.
+- Ladda upp CV och brev som PDF om det går, så behålls layouten.
+- Kontrollera att du laddat upp rätt version av filerna.
+
+Annonser på [Platsbanken](https://arbetsformedlingen.se/platsbanken) och [LinkedIn](https://www.linkedin.com) leder ofta vidare till arbetsgivarens eget formulär, så räkna med att det tar längre tid än bara ett klick.
+
+## 7. CV:t är svårt att skumma
+
+En rekryterare läser sällan ett CV från början till slut första gången. Om det viktigaste göms i långa stycken eller längst ner riskerar du att det aldrig blir sett. Ett CV på en till två sidor räcker för de flesta.
+
+Gör ditt CV lätt att skumma:
+
+- Tydliga rubriker: Erfarenhet, Utbildning, Kompetenser
+- Korta punkter med resultat, inte bara arbetsuppgifter
+- Det mest relevanta först, även om det inte är det senaste
+- Foto är frivilligt – välj det du känner dig trygg med
 
 ## Sammanfattning
 
-De här misstagen i ansökan går att rätta med lite tid och en kritisk genomläsning. Använd den här korta checklistan innan du skickar:
-
-- Är brevet skrivet för just det här jobbet?
-- Tillför brevet något som inte redan står i CV:t?
-- Visar CV:t vad du åstadkom och inte bara vad du gjorde?
-- Svarar ansökan på kraven i annonsen?
-- Är texten fri från slarvfel och snyggt formaterad?
-- Har du följt arbetsgivarens instruktioner?
-
-Kan du svara ja på alla frågor har du gjort det du kan för att ansökan ska bli läst på riktigt.
+De flesta misstag i ansökan handlar om att texten inte är skriven för just det jobbet. Anpassa inledning och exempel, låt brevet visa vem du är i stället för att upprepa CV:t, svara på kraven i annonsen och backa upp dina egenskaper med konkreta situationer. Avsluta med en noggrann genomläsning och ta webbformulären på lika stort allvar som själva breven. Då ger du rekryteraren en ärlig chans att se vad du faktiskt kan.
 
 <!-- faq -->
 
 ### Hur långt ska ett personligt brev vara?
 
-Ett personligt brev bör oftast inte vara längre än en sida. Det är bättre att fördjupa en eller två erfarenheter än att försöka få med allt. Blir brevet längre än så kan det vara ett tecken på att du upprepar CV:t.
+Håll dig till högst en sida. Tre till fyra korta stycken räcker oftast för att berätta vem du är, varför du söker jobbet och vad du kan bidra med. Ett kortare brev som säger något konkret gör ofta bättre intryck än ett långt och allmänt.
 
-### Måste jag ha med en bild i CV:t?
+### Är det ett misstag att söka jobb där jag inte uppfyller alla krav?
 
-Det bestämmer du själv, så länge annonsen inte säger något annat. Väljer du att ha med en bild bör den vara tydlig och neutral, gärna med en enkel bakgrund. Har du ingen bra bild är det bättre att låta bli.
+Inte nödvändigtvis. Annonser blandar ofta krav och önskemål, och saknar du något mindre kan du fortfarande vara intressant. Saknar du däremot flera grundkrav kan det vara bättre att lägga energin på jobb där du matchar tydligare.
 
-### Ska jag söka jobbet om jag inte uppfyller alla krav?
+### Ska jag ha foto i mitt CV?
 
-Det beror på vilka krav du saknar. Saknar du något som står som merit kan det vara värt att söka ändå. Saknar du ett tydligt krav, till exempel en legitimation eller ett körkort, är det klokt att fundera extra innan du söker. Var i så fall ärlig och visa hur du kan kompensera.
+I Sverige är foto frivilligt. Väljer du att ha med ett, använd en tydlig och neutral bild där du ser ut som du gör på jobbet. Det viktigaste är ändå innehållet i CV:t.
 
 ### Kan jag använda samma CV till alla ansökningar?
 
-Du kan utgå från samma grund, men det lönar sig att anpassa CV:t lite till varje jobb. Lyft fram de erfarenheter som passar annonsen bäst och använd gärna samma begrepp som arbetsgivaren. När grundversionen väl är klar går anpassningen snabbare.
+Du kan ha ett grund-CV, men det lönar sig att justera det för varje jobb. Flytta upp de erfarenheter och kompetenser som annonsen efterfrågar och ta bort sådant som inte är relevant. Små ändringar kan göra stor skillnad för hur snabbt rekryteraren ser att du passar.
 
-### Vad gör jag om jag upptäcker ett fel efter att ansökan är skickad?
+### Hur skriver jag om jag saknar arbetslivserfarenhet?
 
-Är felet litet, till exempel ett stavfel, är det oftast bäst att låta det vara. Har du angett fel telefonnummer eller bifogat fel fil kan du kontakta arbetsgivaren kort och vänligt och skicka rätt version. Ta det som en påminnelse om att läsa igenom noggrant nästa gång.
+Använd exempel från skola, praktik, föreningsliv, extrajobb eller ideellt arbete. Visa konkreta situationer där du tagit ansvar, samarbetat eller löst problem. Det viktiga är att koppla exemplen till det jobbet kräver.

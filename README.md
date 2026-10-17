@@ -37,6 +37,7 @@ Rett en publisert artikkel: rediger `content/published/<språk>/<slug>.md` og kj
 Alt styres i `content/languages.json`:
 - `"enabled": true` eller `false`.
 - Start: `no` og `en` er på, `da`, `sv` og `vi` er av.
+- Engelsk (`en`) er skrevet for folk som søker jobb **i Norge** på engelsk: utenlandske studenter, nyankomne, arbeidsinnvandrere og internasjonale jobbsøkere. Artiklene bruker norske portaler, norske CV-normer og norsk søknadsskikk.
 - Høyst `maxActiveLanguages` (2) språk brukes samtidig, i den rekkefølgen de står i filen.
 
 `enabled` gjelder både skriving og visning. Slår du av et språk, fjernes sidene for det ved neste `npm run build-site` eller publisering.
@@ -89,6 +90,11 @@ Et utkast stoppes ved:
 - **Tall og fakta:** prosenter, beløp, «x av y», lovhenvisninger og tall knyttet til «studier» eller «statistikk».
 - **Priser:** pris eller beløp hvor som helst i artikkelen eller app-boksene.
 - **Språk:** feil språk. Norsk, dansk og svensk skilles fra hverandre.
+- **Ekte organisasjoner:** navn på ekte skoler, idrettslag, bedrifter, kjeder eller personer i eksemplene. Bruk «X videregående skole», «Y AS» eller «et lokalt idrettslag». Portaler og NAV kan nevnes som det de er.
+- **Uttrykk som ikke passer markedet:** for engelsk «charity shop», «food bank», «secondary school» (alene), «BSc», «dissertation» og «modules». Listen ligger i `bannedTerms` i `languages.json`.
+- **Vage setninger:** for eksempel «each country has its own portals» uten et konkret eksempel.
+- **App-løfter:** app-boksene og teksten får bare love det som står i `ctaPromises` i `content/site.json`: lime inn en annonse, få vurdering av hvor godt du passer, få CV og søknad tilpasset jobben, starte gratis uten konto, og laste opp en eksisterende CV for analyse.
+- **Lokal tilpasning:** Kontrollen må gi minst 4 av 5.
 - **Oversatt preg:** En egen kontroll med modellen vurderer om teksten er naturlig skrevet for markedet, om den ser oversatt ut, og om den inneholder påstander som ikke kan bekreftes.
 - **Webapp-lenken:** manglende app-boks (tekst eller plassering), feil UTM, mer enn én ekstra app-lenke, eller lenker utenfor tillatt-listen (appen, egne publiserte artikler og portalene i `languages.json`).
 

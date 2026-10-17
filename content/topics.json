@@ -8,26 +8,26 @@
       "title": "Slik skriver du CV uten arbeidserfaring",
       "keyword": "cv uten erfaring",
       "purpose": "Hjelpe førstegangssøkere å lage en CV som viser verdi uten arbeidserfaring.",
-      "appAngle": "Upload what you have (school, volunteering, part-time) and let ReadyCV structure it into a profile and a tailored CV.",
+      "appAngle": "Start free without an account: paste the job ad and get a CV and application tailored to the job.",
       "priority": 1,
       "status": "draft",
       "translations": {
-        "en": "cv-with-no-experience",
+        "en": "cv-norway-no-experience",
         "da": "cv-uden-erfaring",
         "sv": "cv-utan-erfarenhet",
         "vi": "cv-chua-co-kinh-nghiem"
       },
-      "drafted_at": "2026-10-17T09:35:26.231Z",
+      "drafted_at": "2026-10-17T10:25:28.647Z",
       "draft": "content/drafts/no/cv-uten-erfaring.md"
     },
     {
       "group": "cv-without-experience",
       "lang": "en",
-      "slug": "cv-with-no-experience",
-      "title": "How to write a CV with no work experience",
-      "keyword": "cv with no experience",
+      "slug": "cv-norway-no-experience",
+      "title": "A CV for jobs in Norway when you have no work experience",
+      "keyword": "cv norway no experience",
       "purpose": "Hjelpe førstegangssøkere å lage en CV som viser verdi uten arbeidserfaring.",
-      "appAngle": "Upload what you have (school, volunteering, part-time) and let ReadyCV structure it into a profile and a tailored CV.",
+      "appAngle": "Start free without an account: paste the job ad and get a CV and application tailored to the job.",
       "priority": 1,
       "status": "draft",
       "translations": {
@@ -36,8 +36,8 @@
         "sv": "cv-utan-erfarenhet",
         "vi": "cv-chua-co-kinh-nghiem"
       },
-      "drafted_at": "2026-10-17T09:38:36.967Z",
-      "draft": "content/drafts/en/cv-with-no-experience.md"
+      "drafted_at": "2026-10-17T10:23:24.868Z",
+      "draft": "content/drafts/en/cv-norway-no-experience.md"
     },
     {
       "group": "cv-without-experience",
@@ -46,18 +46,16 @@
       "title": "Sådan skriver du et CV uden erhvervserfaring",
       "keyword": "cv uden erfaring",
       "purpose": "Hjelpe førstegangssøkere å lage en CV som viser verdi uten arbeidserfaring.",
-      "appAngle": "Upload what you have (school, volunteering, part-time) and let ReadyCV structure it into a profile and a tailored CV.",
+      "appAngle": "Start free without an account: paste the job ad and get a CV and application tailored to the job.",
       "priority": 1,
       "status": "draft",
       "translations": {
         "no": "cv-uten-erfaring",
-        "en": "cv-with-no-experience",
+        "en": "cv-norway-no-experience",
         "sv": "cv-utan-erfarenhet",
         "vi": "cv-chua-co-kinh-nghiem"
       },
-      "attempts": 1,
-      "last_attempt_at": "2026-10-17T09:42:39.962Z",
-      "drafted_at": "2026-10-17T09:55:30.537Z",
+      "drafted_at": "2026-10-17T10:28:34.614Z",
       "draft": "content/drafts/da/cv-uden-erfaring.md"
     },
     {
@@ -67,18 +65,18 @@
       "title": "Så skriver du ett CV utan arbetslivserfarenhet",
       "keyword": "cv utan erfarenhet",
       "purpose": "Hjelpe førstegangssøkere å lage en CV som viser verdi uten arbeidserfaring.",
-      "appAngle": "Upload what you have (school, volunteering, part-time) and let ReadyCV structure it into a profile and a tailored CV.",
+      "appAngle": "Start free without an account: paste the job ad and get a CV and application tailored to the job.",
       "priority": 1,
       "status": "draft",
       "translations": {
         "no": "cv-uten-erfaring",
-        "en": "cv-with-no-experience",
+        "en": "cv-norway-no-experience",
         "da": "cv-uden-erfaring",
         "vi": "cv-chua-co-kinh-nghiem"
       },
       "attempts": 1,
-      "last_attempt_at": "2026-10-17T09:57:12.827Z",
-      "drafted_at": "2026-10-17T10:03:37.583Z",
+      "last_attempt_at": "2026-10-17T10:33:01.782Z",
+      "drafted_at": "2026-10-17T10:39:01.966Z",
       "draft": "content/drafts/sv/cv-utan-erfarenhet.md"
     },
     {
@@ -88,16 +86,16 @@
       "title": "Cách viết CV khi chưa có kinh nghiệm làm việc",
       "keyword": "cv chưa có kinh nghiệm",
       "purpose": "Hjelpe førstegangssøkere å lage en CV som viser verdi uten arbeidserfaring.",
-      "appAngle": "Upload what you have (school, volunteering, part-time) and let ReadyCV structure it into a profile and a tailored CV.",
+      "appAngle": "Start free without an account: paste the job ad and get a CV and application tailored to the job.",
       "priority": 1,
       "status": "draft",
       "translations": {
         "no": "cv-uten-erfaring",
-        "en": "cv-with-no-experience",
+        "en": "cv-norway-no-experience",
         "da": "cv-uden-erfaring",
         "sv": "cv-utan-erfarenhet"
       },
-      "drafted_at": "2026-10-17T09:49:01.111Z",
+      "drafted_at": "2026-10-17T10:35:13.470Z",
       "draft": "content/drafts/vi/cv-chua-co-kinh-nghiem.md"
     },
     {
@@ -107,28 +105,26 @@
       "title": "Vanlige feil i jobbsøknaden – og hvordan du unngår dem",
       "keyword": "feil i jobbsøknad",
       "purpose": "Vise de vanligste feilene i jobbsøknader og hvordan de rettes.",
-      "appAngle": "The honest match score shows whether the application actually answers the ad before you send it.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 2,
       "status": "draft",
       "translations": {
-        "en": "job-application-mistakes",
+        "en": "job-application-norway-mistakes",
         "da": "fejl-i-ansogning",
         "sv": "misstag-i-ansokan",
         "vi": "loi-khi-viet-ho-so-xin-viec"
       },
-      "attempts": 1,
-      "last_attempt_at": "2026-10-17T09:52:09.846Z",
-      "drafted_at": "2026-10-17T10:01:01.592Z",
+      "drafted_at": "2026-10-17T10:26:35.672Z",
       "draft": "content/drafts/no/feil-i-jobbsoknad.md"
     },
     {
       "group": "application-mistakes",
       "lang": "en",
-      "slug": "job-application-mistakes",
-      "title": "Common job application mistakes and how to fix them",
-      "keyword": "job application mistakes",
+      "slug": "job-application-norway-mistakes",
+      "title": "Job application mistakes to avoid when applying in Norway",
+      "keyword": "job application norway mistakes",
       "purpose": "Vise de vanligste feilene i jobbsøknader og hvordan de rettes.",
-      "appAngle": "The honest match score shows whether the application actually answers the ad before you send it.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 2,
       "status": "draft",
       "translations": {
@@ -137,10 +133,8 @@
         "sv": "misstag-i-ansokan",
         "vi": "loi-khi-viet-ho-so-xin-viec"
       },
-      "attempts": 1,
-      "last_attempt_at": "2026-10-17T09:53:40.774Z",
-      "drafted_at": "2026-10-17T10:02:28.439Z",
-      "draft": "content/drafts/en/job-application-mistakes.md"
+      "drafted_at": "2026-10-17T10:24:15.794Z",
+      "draft": "content/drafts/en/job-application-norway-mistakes.md"
     },
     {
       "group": "application-mistakes",
@@ -149,16 +143,16 @@
       "title": "Typiske fejl i ansøgningen – og hvordan du undgår dem",
       "keyword": "fejl i ansøgning",
       "purpose": "Vise de vanligste feilene i jobbsøknader og hvordan de rettes.",
-      "appAngle": "The honest match score shows whether the application actually answers the ad before you send it.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 2,
       "status": "draft",
       "translations": {
         "no": "feil-i-jobbsoknad",
-        "en": "job-application-mistakes",
+        "en": "job-application-norway-mistakes",
         "sv": "misstag-i-ansokan",
         "vi": "loi-khi-viet-ho-so-xin-viec"
       },
-      "drafted_at": "2026-10-17T09:44:21.304Z",
+      "drafted_at": "2026-10-17T10:30:39.445Z",
       "draft": "content/drafts/da/fejl-i-ansogning.md"
     },
     {
@@ -168,18 +162,16 @@
       "title": "Vanliga misstag i ansökan och hur du undviker dem",
       "keyword": "misstag i ansökan",
       "purpose": "Vise de vanligste feilene i jobbsøknader og hvordan de rettes.",
-      "appAngle": "The honest match score shows whether the application actually answers the ad before you send it.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 2,
       "status": "draft",
       "translations": {
         "no": "feil-i-jobbsoknad",
-        "en": "job-application-mistakes",
+        "en": "job-application-norway-mistakes",
         "da": "fejl-i-ansogning",
         "vi": "loi-khi-viet-ho-so-xin-viec"
       },
-      "attempts": 1,
-      "last_attempt_at": "2026-10-17T09:47:55.458Z",
-      "drafted_at": "2026-10-17T09:58:55.430Z",
+      "drafted_at": "2026-10-17T10:33:58.010Z",
       "draft": "content/drafts/sv/misstag-i-ansokan.md"
     },
     {
@@ -189,16 +181,16 @@
       "title": "Những lỗi thường gặp trong hồ sơ xin việc và cách sửa",
       "keyword": "lỗi khi viết hồ sơ xin việc",
       "purpose": "Vise de vanligste feilene i jobbsøknader og hvordan de rettes.",
-      "appAngle": "The honest match score shows whether the application actually answers the ad before you send it.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 2,
       "status": "draft",
       "translations": {
         "no": "feil-i-jobbsoknad",
-        "en": "job-application-mistakes",
+        "en": "job-application-norway-mistakes",
         "da": "fejl-i-ansogning",
         "sv": "misstag-i-ansokan"
       },
-      "drafted_at": "2026-10-17T09:50:09.919Z",
+      "drafted_at": "2026-10-17T10:37:37.631Z",
       "draft": "content/drafts/vi/loi-khi-viet-ho-so-xin-viec.md"
     },
     {
@@ -208,11 +200,11 @@
       "title": "Vanlige intervjuspørsmål og hvordan du svarer godt",
       "keyword": "intervjuspørsmål",
       "purpose": "Gi konkrete svarstrategier på vanlige intervjuspørsmål.",
-      "appAngle": "Practise the questions out loud with ReadyCV interview practice and get feedback (requires login).",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 3,
       "status": "queued",
       "translations": {
-        "en": "common-interview-questions",
+        "en": "job-interview-norway-questions",
         "da": "sporgsmal-til-jobsamtale",
         "sv": "vanliga-intervjufragor",
         "vi": "cau-hoi-phong-van-thuong-gap"
@@ -221,11 +213,11 @@
     {
       "group": "interview-questions",
       "lang": "en",
-      "slug": "common-interview-questions",
-      "title": "Common interview questions and how to answer them",
-      "keyword": "common interview questions",
+      "slug": "job-interview-norway-questions",
+      "title": "Common job interview questions in Norway and how to answer",
+      "keyword": "job interview norway questions",
       "purpose": "Gi konkrete svarstrategier på vanlige intervjuspørsmål.",
-      "appAngle": "Practise the questions out loud with ReadyCV interview practice and get feedback (requires login).",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 3,
       "status": "queued",
       "translations": {
@@ -242,12 +234,12 @@
       "title": "Typiske spørgsmål til jobsamtalen og gode svar",
       "keyword": "spørgsmål til jobsamtale",
       "purpose": "Gi konkrete svarstrategier på vanlige intervjuspørsmål.",
-      "appAngle": "Practise the questions out loud with ReadyCV interview practice and get feedback (requires login).",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 3,
       "status": "queued",
       "translations": {
         "no": "intervjusporsmal",
-        "en": "common-interview-questions",
+        "en": "job-interview-norway-questions",
         "sv": "vanliga-intervjufragor",
         "vi": "cau-hoi-phong-van-thuong-gap"
       }
@@ -259,12 +251,12 @@
       "title": "Vanliga intervjufrågor och hur du svarar bra",
       "keyword": "vanliga intervjufrågor",
       "purpose": "Gi konkrete svarstrategier på vanlige intervjuspørsmål.",
-      "appAngle": "Practise the questions out loud with ReadyCV interview practice and get feedback (requires login).",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 3,
       "status": "queued",
       "translations": {
         "no": "intervjusporsmal",
-        "en": "common-interview-questions",
+        "en": "job-interview-norway-questions",
         "da": "sporgsmal-til-jobsamtale",
         "vi": "cau-hoi-phong-van-thuong-gap"
       }
@@ -276,12 +268,12 @@
       "title": "Các câu hỏi phỏng vấn thường gặp và cách trả lời",
       "keyword": "câu hỏi phỏng vấn thường gặp",
       "purpose": "Gi konkrete svarstrategier på vanlige intervjuspørsmål.",
-      "appAngle": "Practise the questions out loud with ReadyCV interview practice and get feedback (requires login).",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 3,
       "status": "queued",
       "translations": {
         "no": "intervjusporsmal",
-        "en": "common-interview-questions",
+        "en": "job-interview-norway-questions",
         "da": "sporgsmal-til-jobsamtale",
         "sv": "vanliga-intervjufragor"
       }
@@ -293,11 +285,11 @@
       "title": "Hva skal stå i en jobbsøknad?",
       "keyword": "hva skal stå i en søknad",
       "purpose": "Forklare hva en søknad skal inneholde, avsnitt for avsnitt.",
-      "appAngle": "ReadyCV drafts a cover letter from your profile and the ad, which you then edit in your own words.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 4,
       "status": "queued",
       "translations": {
-        "en": "what-to-include-in-a-cover-letter",
+        "en": "norwegian-cover-letter",
         "da": "hvad-skal-der-sta-i-en-ansogning",
         "sv": "vad-ska-ett-personligt-brev-innehalla",
         "vi": "thu-xin-viec-gom-nhung-gi"
@@ -306,11 +298,11 @@
     {
       "group": "what-to-include-in-cover-letter",
       "lang": "en",
-      "slug": "what-to-include-in-a-cover-letter",
-      "title": "What to include in a cover letter",
-      "keyword": "what to include in a cover letter",
+      "slug": "norwegian-cover-letter",
+      "title": "What to write in a Norwegian job application (søknad)",
+      "keyword": "norwegian cover letter",
       "purpose": "Forklare hva en søknad skal inneholde, avsnitt for avsnitt.",
-      "appAngle": "ReadyCV drafts a cover letter from your profile and the ad, which you then edit in your own words.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 4,
       "status": "queued",
       "translations": {
@@ -327,12 +319,12 @@
       "title": "Hvad skal der stå i en ansøgning?",
       "keyword": "hvad skal der stå i en ansøgning",
       "purpose": "Forklare hva en søknad skal inneholde, avsnitt for avsnitt.",
-      "appAngle": "ReadyCV drafts a cover letter from your profile and the ad, which you then edit in your own words.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 4,
       "status": "queued",
       "translations": {
         "no": "hva-skal-sta-i-en-soknad",
-        "en": "what-to-include-in-a-cover-letter",
+        "en": "norwegian-cover-letter",
         "sv": "vad-ska-ett-personligt-brev-innehalla",
         "vi": "thu-xin-viec-gom-nhung-gi"
       }
@@ -344,12 +336,12 @@
       "title": "Vad ska ett personligt brev innehålla?",
       "keyword": "vad ska ett personligt brev innehålla",
       "purpose": "Forklare hva en søknad skal inneholde, avsnitt for avsnitt.",
-      "appAngle": "ReadyCV drafts a cover letter from your profile and the ad, which you then edit in your own words.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 4,
       "status": "queued",
       "translations": {
         "no": "hva-skal-sta-i-en-soknad",
-        "en": "what-to-include-in-a-cover-letter",
+        "en": "norwegian-cover-letter",
         "da": "hvad-skal-der-sta-i-en-ansogning",
         "vi": "thu-xin-viec-gom-nhung-gi"
       }
@@ -361,12 +353,12 @@
       "title": "Thư xin việc cần có những gì?",
       "keyword": "thư xin việc gồm những gì",
       "purpose": "Forklare hva en søknad skal inneholde, avsnitt for avsnitt.",
-      "appAngle": "ReadyCV drafts a cover letter from your profile and the ad, which you then edit in your own words.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 4,
       "status": "queued",
       "translations": {
         "no": "hva-skal-sta-i-en-soknad",
-        "en": "what-to-include-in-a-cover-letter",
+        "en": "norwegian-cover-letter",
         "da": "hvad-skal-der-sta-i-en-ansogning",
         "sv": "vad-ska-ett-personligt-brev-innehalla"
       }
@@ -378,11 +370,11 @@
       "title": "Slik tilpasser du CV-en til stillingen",
       "keyword": "tilpasse cv til stilling",
       "purpose": "Lære leseren å tilpasse CV-en til hver stilling uten å pynte på sannheten.",
-      "appAngle": "Paste the job ad and ReadyCV tailors your CV to it, based only on what is in your profile.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 5,
       "status": "queued",
       "translations": {
-        "en": "tailor-cv-to-job-description",
+        "en": "tailor-cv-norwegian-job-ad",
         "da": "malrettet-cv",
         "sv": "anpassa-cv-efter-jobbet",
         "vi": "dieu-chinh-cv-theo-cong-viec"
@@ -391,11 +383,11 @@
     {
       "group": "tailor-cv-to-job",
       "lang": "en",
-      "slug": "tailor-cv-to-job-description",
-      "title": "How to tailor your CV to a job description",
-      "keyword": "tailor cv to job description",
+      "slug": "tailor-cv-norwegian-job-ad",
+      "title": "How to tailor your CV to a Norwegian job ad",
+      "keyword": "tailor cv norwegian job ad",
       "purpose": "Lære leseren å tilpasse CV-en til hver stilling uten å pynte på sannheten.",
-      "appAngle": "Paste the job ad and ReadyCV tailors your CV to it, based only on what is in your profile.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 5,
       "status": "queued",
       "translations": {
@@ -412,12 +404,12 @@
       "title": "Sådan målretter du dit CV til jobbet",
       "keyword": "målrettet cv",
       "purpose": "Lære leseren å tilpasse CV-en til hver stilling uten å pynte på sannheten.",
-      "appAngle": "Paste the job ad and ReadyCV tailors your CV to it, based only on what is in your profile.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 5,
       "status": "queued",
       "translations": {
         "no": "tilpasse-cv-til-stilling",
-        "en": "tailor-cv-to-job-description",
+        "en": "tailor-cv-norwegian-job-ad",
         "sv": "anpassa-cv-efter-jobbet",
         "vi": "dieu-chinh-cv-theo-cong-viec"
       }
@@ -429,12 +421,12 @@
       "title": "Så anpassar du ditt CV efter tjänsten",
       "keyword": "anpassa cv efter jobbet",
       "purpose": "Lære leseren å tilpasse CV-en til hver stilling uten å pynte på sannheten.",
-      "appAngle": "Paste the job ad and ReadyCV tailors your CV to it, based only on what is in your profile.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 5,
       "status": "queued",
       "translations": {
         "no": "tilpasse-cv-til-stilling",
-        "en": "tailor-cv-to-job-description",
+        "en": "tailor-cv-norwegian-job-ad",
         "da": "malrettet-cv",
         "vi": "dieu-chinh-cv-theo-cong-viec"
       }
@@ -446,12 +438,12 @@
       "title": "Cách điều chỉnh CV theo từng vị trí ứng tuyển",
       "keyword": "điều chỉnh cv theo công việc",
       "purpose": "Lære leseren å tilpasse CV-en til hver stilling uten å pynte på sannheten.",
-      "appAngle": "Paste the job ad and ReadyCV tailors your CV to it, based only on what is in your profile.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 5,
       "status": "queued",
       "translations": {
         "no": "tilpasse-cv-til-stilling",
-        "en": "tailor-cv-to-job-description",
+        "en": "tailor-cv-norwegian-job-ad",
         "da": "malrettet-cv",
         "sv": "anpassa-cv-efter-jobbet"
       }
@@ -463,11 +455,11 @@
       "title": "Jobbsøknad etter lang pause: slik forklarer du det",
       "keyword": "søknad etter lang pause",
       "purpose": "Hjelpe dem som søker jobb etter sykdom, foreldrepermisjon, omsorg eller ledighet.",
-      "appAngle": "Add the period to your profile honestly; ReadyCV helps phrase it in the CV and letter.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 6,
       "status": "queued",
       "translations": {
-        "en": "career-break-cover-letter",
+        "en": "career-break-job-norway",
         "da": "ansogning-efter-pause",
         "sv": "soka-jobb-efter-uppehall",
         "vi": "xin-viec-sau-thoi-gian-nghi"
@@ -476,11 +468,11 @@
     {
       "group": "application-after-long-break",
       "lang": "en",
-      "slug": "career-break-cover-letter",
-      "title": "Applying for jobs after a long career break",
-      "keyword": "career break cover letter",
+      "slug": "career-break-job-norway",
+      "title": "Applying for jobs in Norway after a long career break",
+      "keyword": "career break job norway",
       "purpose": "Hjelpe dem som søker jobb etter sykdom, foreldrepermisjon, omsorg eller ledighet.",
-      "appAngle": "Add the period to your profile honestly; ReadyCV helps phrase it in the CV and letter.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 6,
       "status": "queued",
       "translations": {
@@ -497,12 +489,12 @@
       "title": "Ansøgning efter en lang pause fra arbejdsmarkedet",
       "keyword": "ansøgning efter pause",
       "purpose": "Hjelpe dem som søker jobb etter sykdom, foreldrepermisjon, omsorg eller ledighet.",
-      "appAngle": "Add the period to your profile honestly; ReadyCV helps phrase it in the CV and letter.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 6,
       "status": "queued",
       "translations": {
         "no": "soknad-etter-lang-pause",
-        "en": "career-break-cover-letter",
+        "en": "career-break-job-norway",
         "sv": "soka-jobb-efter-uppehall",
         "vi": "xin-viec-sau-thoi-gian-nghi"
       }
@@ -514,12 +506,12 @@
       "title": "Söka jobb efter ett långt uppehåll",
       "keyword": "söka jobb efter uppehåll",
       "purpose": "Hjelpe dem som søker jobb etter sykdom, foreldrepermisjon, omsorg eller ledighet.",
-      "appAngle": "Add the period to your profile honestly; ReadyCV helps phrase it in the CV and letter.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 6,
       "status": "queued",
       "translations": {
         "no": "soknad-etter-lang-pause",
-        "en": "career-break-cover-letter",
+        "en": "career-break-job-norway",
         "da": "ansogning-efter-pause",
         "vi": "xin-viec-sau-thoi-gian-nghi"
       }
@@ -531,12 +523,12 @@
       "title": "Xin việc sau thời gian dài nghỉ làm",
       "keyword": "xin việc sau thời gian nghỉ",
       "purpose": "Hjelpe dem som søker jobb etter sykdom, foreldrepermisjon, omsorg eller ledighet.",
-      "appAngle": "Add the period to your profile honestly; ReadyCV helps phrase it in the CV and letter.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 6,
       "status": "queued",
       "translations": {
         "no": "soknad-etter-lang-pause",
-        "en": "career-break-cover-letter",
+        "en": "career-break-job-norway",
         "da": "ansogning-efter-pause",
         "sv": "soka-jobb-efter-uppehall"
       }
@@ -548,11 +540,11 @@
       "title": "CV-mal: slik bygger du opp en god CV",
       "keyword": "cv mal",
       "purpose": "Gi en tydelig mal for oppbygging og rekkefølge i CV-en.",
-      "appAngle": "ReadyCV builds the CV in a fixed, clear structure and several templates from your profile.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 7,
       "status": "queued",
       "translations": {
-        "en": "cv-structure",
+        "en": "norwegian-cv-format",
         "da": "cv-skabelon",
         "sv": "cv-mall",
         "vi": "mau-cv-xin-viec"
@@ -561,11 +553,11 @@
     {
       "group": "cv-structure",
       "lang": "en",
-      "slug": "cv-structure",
-      "title": "How to structure a CV: sections and order",
-      "keyword": "cv structure",
+      "slug": "norwegian-cv-format",
+      "title": "Norwegian CV format: sections, order and length",
+      "keyword": "norwegian cv format",
       "purpose": "Gi en tydelig mal for oppbygging og rekkefølge i CV-en.",
-      "appAngle": "ReadyCV builds the CV in a fixed, clear structure and several templates from your profile.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 7,
       "status": "queued",
       "translations": {
@@ -582,12 +574,12 @@
       "title": "CV-skabelon: sådan bygger du et godt CV op",
       "keyword": "cv skabelon",
       "purpose": "Gi en tydelig mal for oppbygging og rekkefølge i CV-en.",
-      "appAngle": "ReadyCV builds the CV in a fixed, clear structure and several templates from your profile.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 7,
       "status": "queued",
       "translations": {
         "no": "cv-mal",
-        "en": "cv-structure",
+        "en": "norwegian-cv-format",
         "sv": "cv-mall",
         "vi": "mau-cv-xin-viec"
       }
@@ -599,12 +591,12 @@
       "title": "CV-mall: så bygger du upp ett bra CV",
       "keyword": "cv mall",
       "purpose": "Gi en tydelig mal for oppbygging og rekkefølge i CV-en.",
-      "appAngle": "ReadyCV builds the CV in a fixed, clear structure and several templates from your profile.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 7,
       "status": "queued",
       "translations": {
         "no": "cv-mal",
-        "en": "cv-structure",
+        "en": "norwegian-cv-format",
         "da": "cv-skabelon",
         "vi": "mau-cv-xin-viec"
       }
@@ -616,12 +608,12 @@
       "title": "Mẫu CV: bố cục một CV chuẩn",
       "keyword": "mẫu cv xin việc",
       "purpose": "Gi en tydelig mal for oppbygging og rekkefølge i CV-en.",
-      "appAngle": "ReadyCV builds the CV in a fixed, clear structure and several templates from your profile.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 7,
       "status": "queued",
       "translations": {
         "no": "cv-mal",
-        "en": "cv-structure",
+        "en": "norwegian-cv-format",
         "da": "cv-skabelon",
         "sv": "cv-mall"
       }
@@ -633,11 +625,11 @@
       "title": "Hull i CV-en: slik forklarer du perioder uten jobb",
       "keyword": "hull i cv",
       "purpose": "Vise hvordan hull i CV-en kan forklares kort og ærlig.",
-      "appAngle": "The profile has a field for gaps, so the CV and letter can mention them briefly instead of hiding them.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 8,
       "status": "queued",
       "translations": {
-        "en": "gaps-in-cv",
+        "en": "cv-gaps-norway",
         "da": "huller-i-cv",
         "sv": "luckor-i-cv",
         "vi": "khoang-trong-trong-cv"
@@ -646,11 +638,11 @@
     {
       "group": "gaps-in-cv",
       "lang": "en",
-      "slug": "gaps-in-cv",
-      "title": "How to explain gaps in your CV",
-      "keyword": "gaps in cv",
+      "slug": "cv-gaps-norway",
+      "title": "Explaining CV gaps to Norwegian employers",
+      "keyword": "cv gaps norway",
       "purpose": "Vise hvordan hull i CV-en kan forklares kort og ærlig.",
-      "appAngle": "The profile has a field for gaps, so the CV and letter can mention them briefly instead of hiding them.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 8,
       "status": "queued",
       "translations": {
@@ -667,12 +659,12 @@
       "title": "Huller i CV: sådan forklarer du perioder uden job",
       "keyword": "huller i cv",
       "purpose": "Vise hvordan hull i CV-en kan forklares kort og ærlig.",
-      "appAngle": "The profile has a field for gaps, so the CV and letter can mention them briefly instead of hiding them.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 8,
       "status": "queued",
       "translations": {
         "no": "hull-i-cv",
-        "en": "gaps-in-cv",
+        "en": "cv-gaps-norway",
         "sv": "luckor-i-cv",
         "vi": "khoang-trong-trong-cv"
       }
@@ -684,12 +676,12 @@
       "title": "Luckor i CV:t – så förklarar du dem",
       "keyword": "luckor i cv",
       "purpose": "Vise hvordan hull i CV-en kan forklares kort og ærlig.",
-      "appAngle": "The profile has a field for gaps, so the CV and letter can mention them briefly instead of hiding them.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 8,
       "status": "queued",
       "translations": {
         "no": "hull-i-cv",
-        "en": "gaps-in-cv",
+        "en": "cv-gaps-norway",
         "da": "huller-i-cv",
         "vi": "khoang-trong-trong-cv"
       }
@@ -701,12 +693,12 @@
       "title": "Khoảng trống trong CV: giải thích thế nào cho khéo",
       "keyword": "khoảng trống trong cv",
       "purpose": "Vise hvordan hull i CV-en kan forklares kort og ærlig.",
-      "appAngle": "The profile has a field for gaps, so the CV and letter can mention them briefly instead of hiding them.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 8,
       "status": "queued",
       "translations": {
         "no": "hull-i-cv",
-        "en": "gaps-in-cv",
+        "en": "cv-gaps-norway",
         "da": "huller-i-cv",
         "sv": "luckor-i-cv"
       }
@@ -718,11 +710,11 @@
       "title": "Styrker og svakheter i jobbintervju: gode svar",
       "keyword": "styrker og svakheter intervju",
       "purpose": "Gi gode og ærlige svar på spørsmålet om styrker og svakheter.",
-      "appAngle": "Practise the answer in ReadyCV interview practice and get feedback on how it comes across.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 9,
       "status": "queued",
       "translations": {
-        "en": "strengths-and-weaknesses-interview",
+        "en": "strengths-weaknesses-interview-norway",
         "da": "styrker-og-svagheder-jobsamtale",
         "sv": "styrkor-och-svagheter-intervju",
         "vi": "diem-manh-diem-yeu-khi-phong-van"
@@ -731,11 +723,11 @@
     {
       "group": "strengths-and-weaknesses",
       "lang": "en",
-      "slug": "strengths-and-weaknesses-interview",
-      "title": "How to answer \"What are your strengths and weaknesses?\"",
-      "keyword": "strengths and weaknesses interview",
+      "slug": "strengths-weaknesses-interview-norway",
+      "title": "Strengths and weaknesses in a Norwegian job interview",
+      "keyword": "strengths weaknesses interview norway",
       "purpose": "Gi gode og ærlige svar på spørsmålet om styrker og svakheter.",
-      "appAngle": "Practise the answer in ReadyCV interview practice and get feedback on how it comes across.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 9,
       "status": "queued",
       "translations": {
@@ -752,12 +744,12 @@
       "title": "Styrker og svagheder til jobsamtalen",
       "keyword": "styrker og svagheder jobsamtale",
       "purpose": "Gi gode og ærlige svar på spørsmålet om styrker og svakheter.",
-      "appAngle": "Practise the answer in ReadyCV interview practice and get feedback on how it comes across.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 9,
       "status": "queued",
       "translations": {
         "no": "styrker-og-svakheter-intervju",
-        "en": "strengths-and-weaknesses-interview",
+        "en": "strengths-weaknesses-interview-norway",
         "sv": "styrkor-och-svagheter-intervju",
         "vi": "diem-manh-diem-yeu-khi-phong-van"
       }
@@ -769,12 +761,12 @@
       "title": "Styrkor och svagheter på intervjun – så svarar du",
       "keyword": "styrkor och svagheter intervju",
       "purpose": "Gi gode og ærlige svar på spørsmålet om styrker og svakheter.",
-      "appAngle": "Practise the answer in ReadyCV interview practice and get feedback on how it comes across.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 9,
       "status": "queued",
       "translations": {
         "no": "styrker-og-svakheter-intervju",
-        "en": "strengths-and-weaknesses-interview",
+        "en": "strengths-weaknesses-interview-norway",
         "da": "styrker-og-svagheder-jobsamtale",
         "vi": "diem-manh-diem-yeu-khi-phong-van"
       }
@@ -786,12 +778,12 @@
       "title": "Trả lời câu hỏi điểm mạnh và điểm yếu khi phỏng vấn",
       "keyword": "điểm mạnh điểm yếu khi phỏng vấn",
       "purpose": "Gi gode og ærlige svar på spørsmålet om styrker og svakheter.",
-      "appAngle": "Practise the answer in ReadyCV interview practice and get feedback on how it comes across.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 9,
       "status": "queued",
       "translations": {
         "no": "styrker-og-svakheter-intervju",
-        "en": "strengths-and-weaknesses-interview",
+        "en": "strengths-weaknesses-interview-norway",
         "da": "styrker-og-svagheder-jobsamtale",
         "sv": "styrkor-och-svagheter-intervju"
       }
@@ -803,11 +795,11 @@
       "title": "«Fortell litt om deg selv» – slik svarer du",
       "keyword": "fortell om deg selv intervju",
       "purpose": "Lage en enkel oppskrift på svaret på «fortell litt om deg selv».",
-      "appAngle": "Interview practice in ReadyCV usually starts with this question, tailored to the job.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 10,
       "status": "queued",
       "translations": {
-        "en": "tell-me-about-yourself",
+        "en": "tell-me-about-yourself-interview-norway",
         "da": "fortael-om-dig-selv-jobsamtale",
         "sv": "beratta-om-dig-sjalv-intervju",
         "vi": "gioi-thieu-ban-than-khi-phong-van"
@@ -816,11 +808,11 @@
     {
       "group": "tell-me-about-yourself",
       "lang": "en",
-      "slug": "tell-me-about-yourself",
-      "title": "How to answer \"Tell me about yourself\"",
-      "keyword": "tell me about yourself",
+      "slug": "tell-me-about-yourself-interview-norway",
+      "title": "\"Tell me about yourself\" in a job interview in Norway",
+      "keyword": "tell me about yourself interview norway",
       "purpose": "Lage en enkel oppskrift på svaret på «fortell litt om deg selv».",
-      "appAngle": "Interview practice in ReadyCV usually starts with this question, tailored to the job.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 10,
       "status": "queued",
       "translations": {
@@ -837,12 +829,12 @@
       "title": "\"Fortæl lidt om dig selv\" – sådan svarer du",
       "keyword": "fortæl om dig selv jobsamtale",
       "purpose": "Lage en enkel oppskrift på svaret på «fortell litt om deg selv».",
-      "appAngle": "Interview practice in ReadyCV usually starts with this question, tailored to the job.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 10,
       "status": "queued",
       "translations": {
         "no": "fortell-om-deg-selv-intervju",
-        "en": "tell-me-about-yourself",
+        "en": "tell-me-about-yourself-interview-norway",
         "sv": "beratta-om-dig-sjalv-intervju",
         "vi": "gioi-thieu-ban-than-khi-phong-van"
       }
@@ -854,12 +846,12 @@
       "title": "\"Berätta om dig själv\" – så svarar du på intervjun",
       "keyword": "berätta om dig själv intervju",
       "purpose": "Lage en enkel oppskrift på svaret på «fortell litt om deg selv».",
-      "appAngle": "Interview practice in ReadyCV usually starts with this question, tailored to the job.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 10,
       "status": "queued",
       "translations": {
         "no": "fortell-om-deg-selv-intervju",
-        "en": "tell-me-about-yourself",
+        "en": "tell-me-about-yourself-interview-norway",
         "da": "fortael-om-dig-selv-jobsamtale",
         "vi": "gioi-thieu-ban-than-khi-phong-van"
       }
@@ -871,12 +863,12 @@
       "title": "Trả lời câu \"Hãy giới thiệu về bản thân\"",
       "keyword": "giới thiệu bản thân khi phỏng vấn",
       "purpose": "Lage en enkel oppskrift på svaret på «fortell litt om deg selv».",
-      "appAngle": "Interview practice in ReadyCV usually starts with this question, tailored to the job.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 10,
       "status": "queued",
       "translations": {
         "no": "fortell-om-deg-selv-intervju",
-        "en": "tell-me-about-yourself",
+        "en": "tell-me-about-yourself-interview-norway",
         "da": "fortael-om-dig-selv-jobsamtale",
         "sv": "beratta-om-dig-sjalv-intervju"
       }
@@ -888,11 +880,11 @@
       "title": "Spørsmål du kan stille arbeidsgiver i intervjuet",
       "keyword": "spørsmål til arbeidsgiver intervju",
       "purpose": "Gi leseren gode spørsmål å stille arbeidsgiver i intervjuet.",
-      "appAngle": "The job analysis in ReadyCV highlights what the ad is unclear about, which makes good questions.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 11,
       "status": "queued",
       "translations": {
-        "en": "questions-to-ask-in-an-interview",
+        "en": "questions-to-ask-employer-norway",
         "da": "sporgsmal-til-arbejdsgiver",
         "sv": "fragor-att-stalla-pa-intervju",
         "vi": "cau-hoi-cho-nha-tuyen-dung"
@@ -901,11 +893,11 @@
     {
       "group": "questions-to-ask-employer",
       "lang": "en",
-      "slug": "questions-to-ask-in-an-interview",
-      "title": "Good questions to ask at the end of an interview",
-      "keyword": "questions to ask in an interview",
+      "slug": "questions-to-ask-employer-norway",
+      "title": "Questions to ask a Norwegian employer in the interview",
+      "keyword": "questions to ask employer norway",
       "purpose": "Gi leseren gode spørsmål å stille arbeidsgiver i intervjuet.",
-      "appAngle": "The job analysis in ReadyCV highlights what the ad is unclear about, which makes good questions.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 11,
       "status": "queued",
       "translations": {
@@ -922,12 +914,12 @@
       "title": "Spørgsmål du kan stille til jobsamtalen",
       "keyword": "spørgsmål til arbejdsgiver",
       "purpose": "Gi leseren gode spørsmål å stille arbeidsgiver i intervjuet.",
-      "appAngle": "The job analysis in ReadyCV highlights what the ad is unclear about, which makes good questions.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 11,
       "status": "queued",
       "translations": {
         "no": "sporsmal-til-arbeidsgiver-intervju",
-        "en": "questions-to-ask-in-an-interview",
+        "en": "questions-to-ask-employer-norway",
         "sv": "fragor-att-stalla-pa-intervju",
         "vi": "cau-hoi-cho-nha-tuyen-dung"
       }
@@ -939,12 +931,12 @@
       "title": "Frågor att ställa till arbetsgivaren på intervjun",
       "keyword": "frågor att ställa på intervju",
       "purpose": "Gi leseren gode spørsmål å stille arbeidsgiver i intervjuet.",
-      "appAngle": "The job analysis in ReadyCV highlights what the ad is unclear about, which makes good questions.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 11,
       "status": "queued",
       "translations": {
         "no": "sporsmal-til-arbeidsgiver-intervju",
-        "en": "questions-to-ask-in-an-interview",
+        "en": "questions-to-ask-employer-norway",
         "da": "sporgsmal-til-arbejdsgiver",
         "vi": "cau-hoi-cho-nha-tuyen-dung"
       }
@@ -956,12 +948,12 @@
       "title": "Những câu nên hỏi nhà tuyển dụng khi phỏng vấn",
       "keyword": "câu hỏi cho nhà tuyển dụng",
       "purpose": "Gi leseren gode spørsmål å stille arbeidsgiver i intervjuet.",
-      "appAngle": "The job analysis in ReadyCV highlights what the ad is unclear about, which makes good questions.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 11,
       "status": "queued",
       "translations": {
         "no": "sporsmal-til-arbeidsgiver-intervju",
-        "en": "questions-to-ask-in-an-interview",
+        "en": "questions-to-ask-employer-norway",
         "da": "sporgsmal-til-arbejdsgiver",
         "sv": "fragor-att-stalla-pa-intervju"
       }
@@ -973,11 +965,11 @@
       "title": "Slik leser du en stillingsannonse",
       "keyword": "stillingsannonse krav",
       "purpose": "Lære leseren å tolke en stillingsannonse: krav, ønsker og det som står mellom linjene.",
-      "appAngle": "Paste the ad into ReadyCV to see requirements, what you match and what is missing.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 12,
       "status": "queued",
       "translations": {
-        "en": "how-to-read-a-job-description",
+        "en": "norwegian-job-ad",
         "da": "jobopslag-krav",
         "sv": "platsannons-krav",
         "vi": "doc-tin-tuyen-dung"
@@ -986,11 +978,11 @@
     {
       "group": "read-job-ad",
       "lang": "en",
-      "slug": "how-to-read-a-job-description",
-      "title": "How to read a job advert and spot what matters",
-      "keyword": "how to read a job description",
+      "slug": "norwegian-job-ad",
+      "title": "How to read a Norwegian job ad (stillingsannonse)",
+      "keyword": "norwegian job ad",
       "purpose": "Lære leseren å tolke en stillingsannonse: krav, ønsker og det som står mellom linjene.",
-      "appAngle": "Paste the ad into ReadyCV to see requirements, what you match and what is missing.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 12,
       "status": "queued",
       "translations": {
@@ -1007,12 +999,12 @@
       "title": "Sådan læser du et jobopslag",
       "keyword": "jobopslag krav",
       "purpose": "Lære leseren å tolke en stillingsannonse: krav, ønsker og det som står mellom linjene.",
-      "appAngle": "Paste the ad into ReadyCV to see requirements, what you match and what is missing.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 12,
       "status": "queued",
       "translations": {
         "no": "stillingsannonse-krav",
-        "en": "how-to-read-a-job-description",
+        "en": "norwegian-job-ad",
         "sv": "platsannons-krav",
         "vi": "doc-tin-tuyen-dung"
       }
@@ -1024,12 +1016,12 @@
       "title": "Så läser du en platsannons",
       "keyword": "platsannons krav",
       "purpose": "Lære leseren å tolke en stillingsannonse: krav, ønsker og det som står mellom linjene.",
-      "appAngle": "Paste the ad into ReadyCV to see requirements, what you match and what is missing.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 12,
       "status": "queued",
       "translations": {
         "no": "stillingsannonse-krav",
-        "en": "how-to-read-a-job-description",
+        "en": "norwegian-job-ad",
         "da": "jobopslag-krav",
         "vi": "doc-tin-tuyen-dung"
       }
@@ -1041,12 +1033,12 @@
       "title": "Cách đọc tin tuyển dụng để biết nhà tuyển dụng cần gì",
       "keyword": "đọc tin tuyển dụng",
       "purpose": "Lære leseren å tolke en stillingsannonse: krav, ønsker og det som står mellom linjene.",
-      "appAngle": "Paste the ad into ReadyCV to see requirements, what you match and what is missing.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 12,
       "status": "queued",
       "translations": {
         "no": "stillingsannonse-krav",
-        "en": "how-to-read-a-job-description",
+        "en": "norwegian-job-ad",
         "da": "jobopslag-krav",
         "sv": "platsannons-krav"
       }
@@ -1058,11 +1050,11 @@
       "title": "Bør du søke når du ikke oppfyller alle kravene?",
       "keyword": "søke jobb uten alle kvalifikasjoner",
       "purpose": "Hjelpe leseren å vurdere om de skal søke når de ikke oppfyller alle krav.",
-      "appAngle": "The honest match score tells you whether the gap is small enough to apply – or not.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 13,
       "status": "queued",
       "translations": {
-        "en": "apply-without-meeting-all-requirements",
+        "en": "apply-job-norway-requirements",
         "da": "soge-job-uden-alle-kvalifikationer",
         "sv": "soka-jobb-utan-alla-krav",
         "vi": "ung-tuyen-khi-chua-du-yeu-cau"
@@ -1071,11 +1063,11 @@
     {
       "group": "apply-without-all-requirements",
       "lang": "en",
-      "slug": "apply-without-meeting-all-requirements",
-      "title": "Should you apply if you don't meet every requirement?",
-      "keyword": "apply without meeting all requirements",
+      "slug": "apply-job-norway-requirements",
+      "title": "Applying in Norway when you don't meet every requirement",
+      "keyword": "apply job norway requirements",
       "purpose": "Hjelpe leseren å vurdere om de skal søke når de ikke oppfyller alle krav.",
-      "appAngle": "The honest match score tells you whether the gap is small enough to apply – or not.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 13,
       "status": "queued",
       "translations": {
@@ -1092,12 +1084,12 @@
       "title": "Skal du søge, selvom du ikke opfylder alle krav?",
       "keyword": "søge job uden alle kvalifikationer",
       "purpose": "Hjelpe leseren å vurdere om de skal søke når de ikke oppfyller alle krav.",
-      "appAngle": "The honest match score tells you whether the gap is small enough to apply – or not.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 13,
       "status": "queued",
       "translations": {
         "no": "soke-jobb-uten-alle-kvalifikasjoner",
-        "en": "apply-without-meeting-all-requirements",
+        "en": "apply-job-norway-requirements",
         "sv": "soka-jobb-utan-alla-krav",
         "vi": "ung-tuyen-khi-chua-du-yeu-cau"
       }
@@ -1109,12 +1101,12 @@
       "title": "Ska du söka om du inte uppfyller alla krav?",
       "keyword": "söka jobb utan alla krav",
       "purpose": "Hjelpe leseren å vurdere om de skal søke når de ikke oppfyller alle krav.",
-      "appAngle": "The honest match score tells you whether the gap is small enough to apply – or not.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 13,
       "status": "queued",
       "translations": {
         "no": "soke-jobb-uten-alle-kvalifikasjoner",
-        "en": "apply-without-meeting-all-requirements",
+        "en": "apply-job-norway-requirements",
         "da": "soge-job-uden-alle-kvalifikationer",
         "vi": "ung-tuyen-khi-chua-du-yeu-cau"
       }
@@ -1126,12 +1118,12 @@
       "title": "Có nên ứng tuyển khi không đáp ứng đủ yêu cầu?",
       "keyword": "ứng tuyển khi chưa đủ yêu cầu",
       "purpose": "Hjelpe leseren å vurdere om de skal søke når de ikke oppfyller alle krav.",
-      "appAngle": "The honest match score tells you whether the gap is small enough to apply – or not.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 13,
       "status": "queued",
       "translations": {
         "no": "soke-jobb-uten-alle-kvalifikasjoner",
-        "en": "apply-without-meeting-all-requirements",
+        "en": "apply-job-norway-requirements",
         "da": "soge-job-uden-alle-kvalifikationer",
         "sv": "soka-jobb-utan-alla-krav"
       }
@@ -1143,11 +1135,11 @@
       "title": "Referanser i CV-en: hvem, hvordan og når",
       "keyword": "referanser cv",
       "purpose": "Forklare hvordan man velger, spør og oppgir referanser.",
-      "appAngle": "Store references once in your ReadyCV profile; they are included in the CV when relevant.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 14,
       "status": "queued",
       "translations": {
-        "en": "cv-references",
+        "en": "references-norwegian-cv",
         "da": "referencer-cv",
         "sv": "referenser-cv",
         "vi": "nguoi-tham-chieu-trong-cv"
@@ -1156,11 +1148,11 @@
     {
       "group": "references",
       "lang": "en",
-      "slug": "cv-references",
-      "title": "References: who to ask and how to list them",
-      "keyword": "cv references",
+      "slug": "references-norwegian-cv",
+      "title": "References on a Norwegian CV: who to list and how",
+      "keyword": "references norwegian cv",
       "purpose": "Forklare hvordan man velger, spør og oppgir referanser.",
-      "appAngle": "Store references once in your ReadyCV profile; they are included in the CV when relevant.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 14,
       "status": "queued",
       "translations": {
@@ -1177,12 +1169,12 @@
       "title": "Referencer i CV: hvem og hvordan",
       "keyword": "referencer cv",
       "purpose": "Forklare hvordan man velger, spør og oppgir referanser.",
-      "appAngle": "Store references once in your ReadyCV profile; they are included in the CV when relevant.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 14,
       "status": "queued",
       "translations": {
         "no": "referanser-cv",
-        "en": "cv-references",
+        "en": "references-norwegian-cv",
         "sv": "referenser-cv",
         "vi": "nguoi-tham-chieu-trong-cv"
       }
@@ -1194,12 +1186,12 @@
       "title": "Referenser i CV:t – vem och hur",
       "keyword": "referenser cv",
       "purpose": "Forklare hvordan man velger, spør og oppgir referanser.",
-      "appAngle": "Store references once in your ReadyCV profile; they are included in the CV when relevant.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 14,
       "status": "queued",
       "translations": {
         "no": "referanser-cv",
-        "en": "cv-references",
+        "en": "references-norwegian-cv",
         "da": "referencer-cv",
         "vi": "nguoi-tham-chieu-trong-cv"
       }
@@ -1211,12 +1203,12 @@
       "title": "Người tham chiếu trong CV: chọn ai và ghi thế nào",
       "keyword": "người tham chiếu trong cv",
       "purpose": "Forklare hvordan man velger, spør og oppgir referanser.",
-      "appAngle": "Store references once in your ReadyCV profile; they are included in the CV when relevant.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 14,
       "status": "queued",
       "translations": {
         "no": "referanser-cv",
-        "en": "cv-references",
+        "en": "references-norwegian-cv",
         "da": "referencer-cv",
         "sv": "referenser-cv"
       }
@@ -1228,11 +1220,11 @@
       "title": "Åpen søknad: slik søker du uten utlyst stilling",
       "keyword": "åpen søknad",
       "purpose": "Lære leseren å skrive en åpen søknad til en bedrift uten utlyst stilling.",
-      "appAngle": "Your ReadyCV profile gives you a ready base CV for an unsolicited application.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 15,
       "status": "queued",
       "translations": {
-        "en": "speculative-application",
+        "en": "open-application-norway",
         "da": "uopfordret-ansogning",
         "sv": "spontanansokan",
         "vi": "thu-xin-viec-tu-ung-tuyen"
@@ -1241,11 +1233,11 @@
     {
       "group": "unsolicited-application",
       "lang": "en",
-      "slug": "speculative-application",
-      "title": "How to write a speculative job application",
-      "keyword": "speculative application",
+      "slug": "open-application-norway",
+      "title": "Open applications (åpen søknad) to Norwegian employers",
+      "keyword": "open application norway",
       "purpose": "Lære leseren å skrive en åpen søknad til en bedrift uten utlyst stilling.",
-      "appAngle": "Your ReadyCV profile gives you a ready base CV for an unsolicited application.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 15,
       "status": "queued",
       "translations": {
@@ -1262,12 +1254,12 @@
       "title": "Uopfordret ansøgning: sådan gør du",
       "keyword": "uopfordret ansøgning",
       "purpose": "Lære leseren å skrive en åpen søknad til en bedrift uten utlyst stilling.",
-      "appAngle": "Your ReadyCV profile gives you a ready base CV for an unsolicited application.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 15,
       "status": "queued",
       "translations": {
         "no": "apen-soknad",
-        "en": "speculative-application",
+        "en": "open-application-norway",
         "sv": "spontanansokan",
         "vi": "thu-xin-viec-tu-ung-tuyen"
       }
@@ -1279,12 +1271,12 @@
       "title": "Spontanansökan – så gör du",
       "keyword": "spontanansökan",
       "purpose": "Lære leseren å skrive en åpen søknad til en bedrift uten utlyst stilling.",
-      "appAngle": "Your ReadyCV profile gives you a ready base CV for an unsolicited application.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 15,
       "status": "queued",
       "translations": {
         "no": "apen-soknad",
-        "en": "speculative-application",
+        "en": "open-application-norway",
         "da": "uopfordret-ansogning",
         "vi": "thu-xin-viec-tu-ung-tuyen"
       }
@@ -1296,12 +1288,12 @@
       "title": "Thư xin việc khi công ty chưa đăng tuyển",
       "keyword": "thư xin việc tự ứng tuyển",
       "purpose": "Lære leseren å skrive en åpen søknad til en bedrift uten utlyst stilling.",
-      "appAngle": "Your ReadyCV profile gives you a ready base CV for an unsolicited application.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 15,
       "status": "queued",
       "translations": {
         "no": "apen-soknad",
-        "en": "speculative-application",
+        "en": "open-application-norway",
         "da": "uopfordret-ansogning",
         "sv": "spontanansokan"
       }
@@ -1313,11 +1305,11 @@
       "title": "Oppfølging etter jobbintervju",
       "keyword": "oppfølging etter intervju",
       "purpose": "Gi en enkel plan for oppfølging etter intervjuet.",
-      "appAngle": "Track the status of each application in ReadyCV so you know when to follow up.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 16,
       "status": "queued",
       "translations": {
-        "en": "follow-up-after-interview",
+        "en": "follow-up-interview-norway",
         "da": "opfolgning-efter-jobsamtale",
         "sv": "folja-upp-efter-intervju",
         "vi": "sau-buoi-phong-van"
@@ -1326,11 +1318,11 @@
     {
       "group": "follow-up-after-interview",
       "lang": "en",
-      "slug": "follow-up-after-interview",
-      "title": "How to follow up after a job interview",
-      "keyword": "follow up after interview",
+      "slug": "follow-up-interview-norway",
+      "title": "Following up after a job interview in Norway",
+      "keyword": "follow up interview norway",
       "purpose": "Gi en enkel plan for oppfølging etter intervjuet.",
-      "appAngle": "Track the status of each application in ReadyCV so you know when to follow up.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 16,
       "status": "queued",
       "translations": {
@@ -1347,12 +1339,12 @@
       "title": "Opfølgning efter jobsamtalen",
       "keyword": "opfølgning efter jobsamtale",
       "purpose": "Gi en enkel plan for oppfølging etter intervjuet.",
-      "appAngle": "Track the status of each application in ReadyCV so you know when to follow up.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 16,
       "status": "queued",
       "translations": {
         "no": "oppfolging-etter-intervju",
-        "en": "follow-up-after-interview",
+        "en": "follow-up-interview-norway",
         "sv": "folja-upp-efter-intervju",
         "vi": "sau-buoi-phong-van"
       }
@@ -1364,12 +1356,12 @@
       "title": "Följ upp efter anställningsintervjun",
       "keyword": "följa upp efter intervju",
       "purpose": "Gi en enkel plan for oppfølging etter intervjuet.",
-      "appAngle": "Track the status of each application in ReadyCV so you know when to follow up.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 16,
       "status": "queued",
       "translations": {
         "no": "oppfolging-etter-intervju",
-        "en": "follow-up-after-interview",
+        "en": "follow-up-interview-norway",
         "da": "opfolgning-efter-jobsamtale",
         "vi": "sau-buoi-phong-van"
       }
@@ -1381,12 +1373,12 @@
       "title": "Nên làm gì sau buổi phỏng vấn",
       "keyword": "sau buổi phỏng vấn",
       "purpose": "Gi en enkel plan for oppfølging etter intervjuet.",
-      "appAngle": "Track the status of each application in ReadyCV so you know when to follow up.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 16,
       "status": "queued",
       "translations": {
         "no": "oppfolging-etter-intervju",
-        "en": "follow-up-after-interview",
+        "en": "follow-up-interview-norway",
         "da": "opfolgning-efter-jobsamtale",
         "sv": "folja-upp-efter-intervju"
       }
@@ -1398,11 +1390,11 @@
       "title": "Fikk du avslag? Slik bruker du det videre",
       "keyword": "avslag på jobbsøknad",
       "purpose": "Hjelpe leseren å takle avslag og be om nyttig tilbakemelding.",
-      "appAngle": "Use the honest assessment to see what to strengthen before the next application.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 17,
       "status": "queued",
       "translations": {
-        "en": "job-rejection",
+        "en": "job-rejection-norway",
         "da": "afslag-pa-ansogning",
         "sv": "avslag-pa-jobbansokan",
         "vi": "bi-tu-choi-phong-van"
@@ -1411,11 +1403,11 @@
     {
       "group": "handling-rejection",
       "lang": "en",
-      "slug": "job-rejection",
-      "title": "How to handle job rejection and ask for feedback",
-      "keyword": "job rejection",
+      "slug": "job-rejection-norway",
+      "title": "Rejected after applying in Norway? What to do next",
+      "keyword": "job rejection norway",
       "purpose": "Hjelpe leseren å takle avslag og be om nyttig tilbakemelding.",
-      "appAngle": "Use the honest assessment to see what to strengthen before the next application.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 17,
       "status": "queued",
       "translations": {
@@ -1432,12 +1424,12 @@
       "title": "Fik du afslag? Sådan kommer du videre",
       "keyword": "afslag på ansøgning",
       "purpose": "Hjelpe leseren å takle avslag og be om nyttig tilbakemelding.",
-      "appAngle": "Use the honest assessment to see what to strengthen before the next application.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 17,
       "status": "queued",
       "translations": {
         "no": "avslag-pa-jobbsoknad",
-        "en": "job-rejection",
+        "en": "job-rejection-norway",
         "sv": "avslag-pa-jobbansokan",
         "vi": "bi-tu-choi-phong-van"
       }
@@ -1449,12 +1441,12 @@
       "title": "Fick du nej? Så går du vidare",
       "keyword": "avslag på jobbansökan",
       "purpose": "Hjelpe leseren å takle avslag og be om nyttig tilbakemelding.",
-      "appAngle": "Use the honest assessment to see what to strengthen before the next application.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 17,
       "status": "queued",
       "translations": {
         "no": "avslag-pa-jobbsoknad",
-        "en": "job-rejection",
+        "en": "job-rejection-norway",
         "da": "afslag-pa-ansogning",
         "vi": "bi-tu-choi-phong-van"
       }
@@ -1466,12 +1458,12 @@
       "title": "Bị từ chối sau phỏng vấn: làm gì tiếp theo",
       "keyword": "bị từ chối phỏng vấn",
       "purpose": "Hjelpe leseren å takle avslag og be om nyttig tilbakemelding.",
-      "appAngle": "Use the honest assessment to see what to strengthen before the next application.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 17,
       "status": "queued",
       "translations": {
         "no": "avslag-pa-jobbsoknad",
-        "en": "job-rejection",
+        "en": "job-rejection-norway",
         "da": "afslag-pa-ansogning",
         "sv": "avslag-pa-jobbansokan"
       }
@@ -1483,11 +1475,11 @@
       "title": "Lønnsforhandling ved nytt jobbtilbud",
       "keyword": "lønnsforhandling",
       "purpose": "Gi leseren en metode for lønnssamtalen uten tall eller løfter.",
-      "appAngle": "Not a direct app feature; link naturally to preparing for the interview with ReadyCV.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 18,
       "status": "queued",
       "translations": {
-        "en": "salary-negotiation",
+        "en": "salary-negotiation-norway",
         "da": "lonforhandling",
         "sv": "loneforhandling",
         "vi": "dam-phan-luong"
@@ -1496,11 +1488,11 @@
     {
       "group": "salary-negotiation",
       "lang": "en",
-      "slug": "salary-negotiation",
-      "title": "How to negotiate salary for a new job",
-      "keyword": "salary negotiation",
+      "slug": "salary-negotiation-norway",
+      "title": "Talking about salary in a Norwegian job offer",
+      "keyword": "salary negotiation norway",
       "purpose": "Gi leseren en metode for lønnssamtalen uten tall eller løfter.",
-      "appAngle": "Not a direct app feature; link naturally to preparing for the interview with ReadyCV.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 18,
       "status": "queued",
       "translations": {
@@ -1517,12 +1509,12 @@
       "title": "Lønforhandling ved nyt job",
       "keyword": "lønforhandling",
       "purpose": "Gi leseren en metode for lønnssamtalen uten tall eller løfter.",
-      "appAngle": "Not a direct app feature; link naturally to preparing for the interview with ReadyCV.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 18,
       "status": "queued",
       "translations": {
         "no": "lonnsforhandling",
-        "en": "salary-negotiation",
+        "en": "salary-negotiation-norway",
         "sv": "loneforhandling",
         "vi": "dam-phan-luong"
       }
@@ -1534,12 +1526,12 @@
       "title": "Löneförhandling vid nytt jobb",
       "keyword": "löneförhandling",
       "purpose": "Gi leseren en metode for lønnssamtalen uten tall eller løfter.",
-      "appAngle": "Not a direct app feature; link naturally to preparing for the interview with ReadyCV.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 18,
       "status": "queued",
       "translations": {
         "no": "lonnsforhandling",
-        "en": "salary-negotiation",
+        "en": "salary-negotiation-norway",
         "da": "lonforhandling",
         "vi": "dam-phan-luong"
       }
@@ -1551,12 +1543,12 @@
       "title": "Cách đàm phán lương khi nhận việc mới",
       "keyword": "đàm phán lương",
       "purpose": "Gi leseren en metode for lønnssamtalen uten tall eller løfter.",
-      "appAngle": "Not a direct app feature; link naturally to preparing for the interview with ReadyCV.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 18,
       "status": "queued",
       "translations": {
         "no": "lonnsforhandling",
-        "en": "salary-negotiation",
+        "en": "salary-negotiation-norway",
         "da": "lonforhandling",
         "sv": "loneforhandling"
       }
@@ -1568,11 +1560,11 @@
       "title": "Slik får du en LinkedIn-profil som hjelper jobbsøket",
       "keyword": "linkedin profil tips",
       "purpose": "Vise hvordan en LinkedIn-profil støtter jobbsøket.",
-      "appAngle": "Keep your experience in your ReadyCV profile and reuse the wording on LinkedIn.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 19,
       "status": "queued",
       "translations": {
-        "en": "linkedin-profile-tips",
+        "en": "linkedin-norway-jobs",
         "da": "linkedin-profil",
         "sv": "linkedin-profil-tips",
         "vi": "ho-so-linkedin"
@@ -1581,11 +1573,11 @@
     {
       "group": "linkedin-profile",
       "lang": "en",
-      "slug": "linkedin-profile-tips",
-      "title": "How to improve your LinkedIn profile for job hunting",
-      "keyword": "linkedin profile tips",
+      "slug": "linkedin-norway-jobs",
+      "title": "A LinkedIn profile for job hunting in Norway",
+      "keyword": "linkedin norway jobs",
       "purpose": "Vise hvordan en LinkedIn-profil støtter jobbsøket.",
-      "appAngle": "Keep your experience in your ReadyCV profile and reuse the wording on LinkedIn.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 19,
       "status": "queued",
       "translations": {
@@ -1602,12 +1594,12 @@
       "title": "Sådan styrker du din LinkedIn-profil",
       "keyword": "linkedin profil",
       "purpose": "Vise hvordan en LinkedIn-profil støtter jobbsøket.",
-      "appAngle": "Keep your experience in your ReadyCV profile and reuse the wording on LinkedIn.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 19,
       "status": "queued",
       "translations": {
         "no": "linkedin-profil-tips",
-        "en": "linkedin-profile-tips",
+        "en": "linkedin-norway-jobs",
         "sv": "linkedin-profil-tips",
         "vi": "ho-so-linkedin"
       }
@@ -1619,12 +1611,12 @@
       "title": "Så förbättrar du din LinkedIn-profil",
       "keyword": "linkedin profil tips",
       "purpose": "Vise hvordan en LinkedIn-profil støtter jobbsøket.",
-      "appAngle": "Keep your experience in your ReadyCV profile and reuse the wording on LinkedIn.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 19,
       "status": "queued",
       "translations": {
         "no": "linkedin-profil-tips",
-        "en": "linkedin-profile-tips",
+        "en": "linkedin-norway-jobs",
         "da": "linkedin-profil",
         "vi": "ho-so-linkedin"
       }
@@ -1636,12 +1628,12 @@
       "title": "Tối ưu hồ sơ LinkedIn để tìm việc",
       "keyword": "hồ sơ linkedin",
       "purpose": "Vise hvordan en LinkedIn-profil støtter jobbsøket.",
-      "appAngle": "Keep your experience in your ReadyCV profile and reuse the wording on LinkedIn.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 19,
       "status": "queued",
       "translations": {
         "no": "linkedin-profil-tips",
-        "en": "linkedin-profile-tips",
+        "en": "linkedin-norway-jobs",
         "da": "linkedin-profil",
         "sv": "linkedin-profil-tips"
       }
@@ -1653,11 +1645,11 @@
       "title": "Bilde i CV-en – ja eller nei?",
       "keyword": "bilde i cv",
       "purpose": "Avklare om man bør ha bilde i CV-en i dette markedet.",
-      "appAngle": "ReadyCV lets you choose per document whether the photo is included.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 20,
       "status": "queued",
       "translations": {
-        "en": "photo-on-cv",
+        "en": "photo-cv-norway",
         "da": "billede-i-cv",
         "sv": "bild-i-cv",
         "vi": "anh-trong-cv"
@@ -1666,11 +1658,11 @@
     {
       "group": "photo-in-cv",
       "lang": "en",
-      "slug": "photo-on-cv",
-      "title": "Should you put a photo on your CV?",
-      "keyword": "photo on cv",
+      "slug": "photo-cv-norway",
+      "title": "Photo on your CV in Norway: optional, not required",
+      "keyword": "photo cv norway",
       "purpose": "Avklare om man bør ha bilde i CV-en i dette markedet.",
-      "appAngle": "ReadyCV lets you choose per document whether the photo is included.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 20,
       "status": "queued",
       "translations": {
@@ -1687,12 +1679,12 @@
       "title": "Billede i CV – ja eller nej?",
       "keyword": "billede i cv",
       "purpose": "Avklare om man bør ha bilde i CV-en i dette markedet.",
-      "appAngle": "ReadyCV lets you choose per document whether the photo is included.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 20,
       "status": "queued",
       "translations": {
         "no": "bilde-i-cv",
-        "en": "photo-on-cv",
+        "en": "photo-cv-norway",
         "sv": "bild-i-cv",
         "vi": "anh-trong-cv"
       }
@@ -1704,12 +1696,12 @@
       "title": "Bild i CV:t – ja eller nej?",
       "keyword": "bild i cv",
       "purpose": "Avklare om man bør ha bilde i CV-en i dette markedet.",
-      "appAngle": "ReadyCV lets you choose per document whether the photo is included.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 20,
       "status": "queued",
       "translations": {
         "no": "bilde-i-cv",
-        "en": "photo-on-cv",
+        "en": "photo-cv-norway",
         "da": "billede-i-cv",
         "vi": "anh-trong-cv"
       }
@@ -1721,12 +1713,12 @@
       "title": "Có nên dán ảnh vào CV không?",
       "keyword": "ảnh trong cv",
       "purpose": "Avklare om man bør ha bilde i CV-en i dette markedet.",
-      "appAngle": "ReadyCV lets you choose per document whether the photo is included.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 20,
       "status": "queued",
       "translations": {
         "no": "bilde-i-cv",
-        "en": "photo-on-cv",
+        "en": "photo-cv-norway",
         "da": "billede-i-cv",
         "sv": "bild-i-cv"
       }
@@ -1738,11 +1730,11 @@
       "title": "Hvor lang bør en CV være?",
       "keyword": "hvor lang cv",
       "purpose": "Svare på hvor lang en CV bør være og hva som kan kuttes.",
-      "appAngle": "Tailoring in ReadyCV keeps what is relevant for the job, which keeps the CV short.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 21,
       "status": "queued",
       "translations": {
-        "en": "how-long-should-a-cv-be",
+        "en": "cv-length-norway",
         "da": "hvor-langt-skal-et-cv-vaere",
         "sv": "hur-langt-cv",
         "vi": "cv-dai-bao-nhieu-trang"
@@ -1751,11 +1743,11 @@
     {
       "group": "cv-length",
       "lang": "en",
-      "slug": "how-long-should-a-cv-be",
-      "title": "How long should a CV be?",
-      "keyword": "how long should a cv be",
+      "slug": "cv-length-norway",
+      "title": "How long should a CV be for Norwegian employers?",
+      "keyword": "cv length norway",
       "purpose": "Svare på hvor lang en CV bør være og hva som kan kuttes.",
-      "appAngle": "Tailoring in ReadyCV keeps what is relevant for the job, which keeps the CV short.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 21,
       "status": "queued",
       "translations": {
@@ -1772,12 +1764,12 @@
       "title": "Hvor langt skal et CV være?",
       "keyword": "hvor langt skal et cv være",
       "purpose": "Svare på hvor lang en CV bør være og hva som kan kuttes.",
-      "appAngle": "Tailoring in ReadyCV keeps what is relevant for the job, which keeps the CV short.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 21,
       "status": "queued",
       "translations": {
         "no": "hvor-lang-cv",
-        "en": "how-long-should-a-cv-be",
+        "en": "cv-length-norway",
         "sv": "hur-langt-cv",
         "vi": "cv-dai-bao-nhieu-trang"
       }
@@ -1789,12 +1781,12 @@
       "title": "Hur långt ska ett CV vara?",
       "keyword": "hur långt cv",
       "purpose": "Svare på hvor lang en CV bør være og hva som kan kuttes.",
-      "appAngle": "Tailoring in ReadyCV keeps what is relevant for the job, which keeps the CV short.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 21,
       "status": "queued",
       "translations": {
         "no": "hvor-lang-cv",
-        "en": "how-long-should-a-cv-be",
+        "en": "cv-length-norway",
         "da": "hvor-langt-skal-et-cv-vaere",
         "vi": "cv-dai-bao-nhieu-trang"
       }
@@ -1806,12 +1798,12 @@
       "title": "CV nên dài bao nhiêu trang?",
       "keyword": "cv dài bao nhiêu trang",
       "purpose": "Svare på hvor lang en CV bør være og hva som kan kuttes.",
-      "appAngle": "Tailoring in ReadyCV keeps what is relevant for the job, which keeps the CV short.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 21,
       "status": "queued",
       "translations": {
         "no": "hvor-lang-cv",
-        "en": "how-long-should-a-cv-be",
+        "en": "cv-length-norway",
         "da": "hvor-langt-skal-et-cv-vaere",
         "sv": "hur-langt-cv"
       }
@@ -1823,11 +1815,11 @@
       "title": "Nøkkelord i CV-en og digitale rekrutteringssystemer",
       "keyword": "nøkkelord cv",
       "purpose": "Forklare nøkkelord og digitale søknadssystemer uten mytene.",
-      "appAngle": "ReadyCV mirrors the ad's own wording where it truthfully matches your profile.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 22,
       "status": "queued",
       "translations": {
-        "en": "ats-cv-keywords",
+        "en": "cv-keywords-norway",
         "da": "nogleord-cv",
         "sv": "nyckelord-cv",
         "vi": "tu-khoa-cv-ats"
@@ -1836,11 +1828,11 @@
     {
       "group": "keywords-and-ats",
       "lang": "en",
-      "slug": "ats-cv-keywords",
-      "title": "CV keywords and applicant tracking systems explained",
-      "keyword": "ats cv keywords",
+      "slug": "cv-keywords-norway",
+      "title": "Keywords in your CV for Norwegian online application forms",
+      "keyword": "cv keywords norway",
       "purpose": "Forklare nøkkelord og digitale søknadssystemer uten mytene.",
-      "appAngle": "ReadyCV mirrors the ad's own wording where it truthfully matches your profile.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 22,
       "status": "queued",
       "translations": {
@@ -1857,12 +1849,12 @@
       "title": "Nøgleord i CV og digitale rekrutteringssystemer",
       "keyword": "nøgleord cv",
       "purpose": "Forklare nøkkelord og digitale søknadssystemer uten mytene.",
-      "appAngle": "ReadyCV mirrors the ad's own wording where it truthfully matches your profile.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 22,
       "status": "queued",
       "translations": {
         "no": "nokkelord-cv",
-        "en": "ats-cv-keywords",
+        "en": "cv-keywords-norway",
         "sv": "nyckelord-cv",
         "vi": "tu-khoa-cv-ats"
       }
@@ -1874,12 +1866,12 @@
       "title": "Nyckelord i CV:t och rekryteringssystem",
       "keyword": "nyckelord cv",
       "purpose": "Forklare nøkkelord og digitale søknadssystemer uten mytene.",
-      "appAngle": "ReadyCV mirrors the ad's own wording where it truthfully matches your profile.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 22,
       "status": "queued",
       "translations": {
         "no": "nokkelord-cv",
-        "en": "ats-cv-keywords",
+        "en": "cv-keywords-norway",
         "da": "nogleord-cv",
         "vi": "tu-khoa-cv-ats"
       }
@@ -1891,12 +1883,12 @@
       "title": "Từ khóa trong CV và hệ thống lọc hồ sơ ATS",
       "keyword": "từ khóa cv ats",
       "purpose": "Forklare nøkkelord og digitale søknadssystemer uten mytene.",
-      "appAngle": "ReadyCV mirrors the ad's own wording where it truthfully matches your profile.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 22,
       "status": "queued",
       "translations": {
         "no": "nokkelord-cv",
-        "en": "ats-cv-keywords",
+        "en": "cv-keywords-norway",
         "da": "nogleord-cv",
         "sv": "nyckelord-cv"
       }
@@ -1908,11 +1900,11 @@
       "title": "Bytte bransje: slik skriver du CV og søknad",
       "keyword": "bytte karriere",
       "purpose": "Hjelpe karrierebyttere å vise relevant kompetanse fra en annen bransje.",
-      "appAngle": "The match analysis shows which of your skills transfer to the new field and what is missing.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 23,
       "status": "queued",
       "translations": {
-        "en": "career-change-cv",
+        "en": "career-change-norway",
         "da": "brancheskift",
         "sv": "byta-bransch",
         "vi": "chuyen-nganh"
@@ -1921,11 +1913,11 @@
     {
       "group": "career-change",
       "lang": "en",
-      "slug": "career-change-cv",
-      "title": "Changing careers: how to write your CV",
-      "keyword": "career change cv",
+      "slug": "career-change-norway",
+      "title": "Changing careers after moving to Norway",
+      "keyword": "career change norway",
       "purpose": "Hjelpe karrierebyttere å vise relevant kompetanse fra en annen bransje.",
-      "appAngle": "The match analysis shows which of your skills transfer to the new field and what is missing.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 23,
       "status": "queued",
       "translations": {
@@ -1942,12 +1934,12 @@
       "title": "Skift af branche: CV og ansøgning",
       "keyword": "brancheskift",
       "purpose": "Hjelpe karrierebyttere å vise relevant kompetanse fra en annen bransje.",
-      "appAngle": "The match analysis shows which of your skills transfer to the new field and what is missing.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 23,
       "status": "queued",
       "translations": {
         "no": "bytte-karriere",
-        "en": "career-change-cv",
+        "en": "career-change-norway",
         "sv": "byta-bransch",
         "vi": "chuyen-nganh"
       }
@@ -1959,12 +1951,12 @@
       "title": "Byta bransch – så skriver du CV och brev",
       "keyword": "byta bransch",
       "purpose": "Hjelpe karrierebyttere å vise relevant kompetanse fra en annen bransje.",
-      "appAngle": "The match analysis shows which of your skills transfer to the new field and what is missing.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 23,
       "status": "queued",
       "translations": {
         "no": "bytte-karriere",
-        "en": "career-change-cv",
+        "en": "career-change-norway",
         "da": "brancheskift",
         "vi": "chuyen-nganh"
       }
@@ -1976,12 +1968,12 @@
       "title": "Chuyển ngành: viết CV và thư xin việc thế nào",
       "keyword": "chuyển ngành",
       "purpose": "Hjelpe karrierebyttere å vise relevant kompetanse fra en annen bransje.",
-      "appAngle": "The match analysis shows which of your skills transfer to the new field and what is missing.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 23,
       "status": "queued",
       "translations": {
         "no": "bytte-karriere",
-        "en": "career-change-cv",
+        "en": "career-change-norway",
         "da": "brancheskift",
         "sv": "byta-bransch"
       }
@@ -1993,11 +1985,11 @@
       "title": "Sommerjobb og første jobb: søknad for ungdom",
       "keyword": "sommerjobb søknad",
       "purpose": "Gi elever og studenter konkrete råd for første jobb og sommerjobb.",
-      "appAngle": "Students can start without an account and build a first CV from school and spare-time activities.",
+      "appAngle": "Start free without an account: paste the job ad and get a CV and application tailored to the job.",
       "priority": 24,
       "status": "queued",
       "translations": {
-        "en": "first-job-application",
+        "en": "student-job-norway",
         "da": "studiejob-ansogning",
         "sv": "sommarjobb-ansokan",
         "vi": "viec-lam-them-sinh-vien"
@@ -2006,11 +1998,11 @@
     {
       "group": "first-job-students",
       "lang": "en",
-      "slug": "first-job-application",
-      "title": "How to apply for your first job as a student",
-      "keyword": "first job application",
+      "slug": "student-job-norway",
+      "title": "Part-time and summer jobs in Norway for international students",
+      "keyword": "student job norway",
       "purpose": "Gi elever og studenter konkrete råd for første jobb og sommerjobb.",
-      "appAngle": "Students can start without an account and build a first CV from school and spare-time activities.",
+      "appAngle": "Start free without an account: paste the job ad and get a CV and application tailored to the job.",
       "priority": 24,
       "status": "queued",
       "translations": {
@@ -2027,12 +2019,12 @@
       "title": "Fritidsjob og studiejob: din første ansøgning",
       "keyword": "studiejob ansøgning",
       "purpose": "Gi elever og studenter konkrete råd for første jobb og sommerjobb.",
-      "appAngle": "Students can start without an account and build a first CV from school and spare-time activities.",
+      "appAngle": "Start free without an account: paste the job ad and get a CV and application tailored to the job.",
       "priority": 24,
       "status": "queued",
       "translations": {
         "no": "sommerjobb-soknad",
-        "en": "first-job-application",
+        "en": "student-job-norway",
         "sv": "sommarjobb-ansokan",
         "vi": "viec-lam-them-sinh-vien"
       }
@@ -2044,12 +2036,12 @@
       "title": "Sommarjobb och första jobbet – så söker du",
       "keyword": "sommarjobb ansökan",
       "purpose": "Gi elever og studenter konkrete råd for første jobb og sommerjobb.",
-      "appAngle": "Students can start without an account and build a first CV from school and spare-time activities.",
+      "appAngle": "Start free without an account: paste the job ad and get a CV and application tailored to the job.",
       "priority": 24,
       "status": "queued",
       "translations": {
         "no": "sommerjobb-soknad",
-        "en": "first-job-application",
+        "en": "student-job-norway",
         "da": "studiejob-ansogning",
         "vi": "viec-lam-them-sinh-vien"
       }
@@ -2061,12 +2053,12 @@
       "title": "Xin việc làm thêm và việc đầu tiên cho sinh viên",
       "keyword": "việc làm thêm sinh viên",
       "purpose": "Gi elever og studenter konkrete råd for første jobb og sommerjobb.",
-      "appAngle": "Students can start without an account and build a first CV from school and spare-time activities.",
+      "appAngle": "Start free without an account: paste the job ad and get a CV and application tailored to the job.",
       "priority": 24,
       "status": "queued",
       "translations": {
         "no": "sommerjobb-soknad",
-        "en": "first-job-application",
+        "en": "student-job-norway",
         "da": "studiejob-ansogning",
         "sv": "sommarjobb-ansokan"
       }
@@ -2078,11 +2070,11 @@
       "title": "Søknad på deltidsjobb og ekstravakter",
       "keyword": "deltidsjobb søknad",
       "purpose": "Gi råd om søknader til deltids- og ekstrajobber.",
-      "appAngle": "A short, tailored CV from ReadyCV fits the quick applications typical for part-time jobs.",
+      "appAngle": "Start free without an account: paste the job ad and get a CV and application tailored to the job.",
       "priority": 25,
       "status": "queued",
       "translations": {
-        "en": "part-time-job-application",
+        "en": "part-time-job-norway",
         "da": "deltidsjob-ansogning",
         "sv": "extrajobb-ansokan",
         "vi": "viec-lam-ban-thoi-gian"
@@ -2091,11 +2083,11 @@
     {
       "group": "part-time-jobs",
       "lang": "en",
-      "slug": "part-time-job-application",
-      "title": "Applying for part-time jobs: what employers look for",
-      "keyword": "part time job application",
+      "slug": "part-time-job-norway",
+      "title": "Applying for part-time jobs in Norway",
+      "keyword": "part time job norway",
       "purpose": "Gi råd om søknader til deltids- og ekstrajobber.",
-      "appAngle": "A short, tailored CV from ReadyCV fits the quick applications typical for part-time jobs.",
+      "appAngle": "Start free without an account: paste the job ad and get a CV and application tailored to the job.",
       "priority": 25,
       "status": "queued",
       "translations": {
@@ -2112,12 +2104,12 @@
       "title": "Ansøgning til deltidsjob",
       "keyword": "deltidsjob ansøgning",
       "purpose": "Gi råd om søknader til deltids- og ekstrajobber.",
-      "appAngle": "A short, tailored CV from ReadyCV fits the quick applications typical for part-time jobs.",
+      "appAngle": "Start free without an account: paste the job ad and get a CV and application tailored to the job.",
       "priority": 25,
       "status": "queued",
       "translations": {
         "no": "deltidsjobb-soknad",
-        "en": "part-time-job-application",
+        "en": "part-time-job-norway",
         "sv": "extrajobb-ansokan",
         "vi": "viec-lam-ban-thoi-gian"
       }
@@ -2129,12 +2121,12 @@
       "title": "Söka extrajobb och deltidsjobb",
       "keyword": "extrajobb ansökan",
       "purpose": "Gi råd om søknader til deltids- og ekstrajobber.",
-      "appAngle": "A short, tailored CV from ReadyCV fits the quick applications typical for part-time jobs.",
+      "appAngle": "Start free without an account: paste the job ad and get a CV and application tailored to the job.",
       "priority": 25,
       "status": "queued",
       "translations": {
         "no": "deltidsjobb-soknad",
-        "en": "part-time-job-application",
+        "en": "part-time-job-norway",
         "da": "deltidsjob-ansogning",
         "vi": "viec-lam-ban-thoi-gian"
       }
@@ -2146,12 +2138,12 @@
       "title": "Ứng tuyển việc bán thời gian",
       "keyword": "việc làm bán thời gian",
       "purpose": "Gi råd om søknader til deltids- og ekstrajobber.",
-      "appAngle": "A short, tailored CV from ReadyCV fits the quick applications typical for part-time jobs.",
+      "appAngle": "Start free without an account: paste the job ad and get a CV and application tailored to the job.",
       "priority": 25,
       "status": "queued",
       "translations": {
         "no": "deltidsjobb-soknad",
-        "en": "part-time-job-application",
+        "en": "part-time-job-norway",
         "da": "deltidsjob-ansogning",
         "sv": "extrajobb-ansokan"
       }
@@ -2163,11 +2155,11 @@
       "title": "Jobbintervju på video: praktiske råd",
       "keyword": "videointervju",
       "purpose": "Gi praktiske råd for intervju på video.",
-      "appAngle": "Practising answers out loud in ReadyCV interview practice helps on camera too.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 26,
       "status": "queued",
       "translations": {
-        "en": "video-interview-tips",
+        "en": "video-interview-norway",
         "da": "jobsamtale-video",
         "sv": "digital-intervju",
         "vi": "phong-van-online"
@@ -2176,11 +2168,11 @@
     {
       "group": "video-interview",
       "lang": "en",
-      "slug": "video-interview-tips",
-      "title": "Video interview tips that actually help",
-      "keyword": "video interview tips",
+      "slug": "video-interview-norway",
+      "title": "Video interviews with Norwegian employers",
+      "keyword": "video interview norway",
       "purpose": "Gi praktiske råd for intervju på video.",
-      "appAngle": "Practising answers out loud in ReadyCV interview practice helps on camera too.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 26,
       "status": "queued",
       "translations": {
@@ -2197,12 +2189,12 @@
       "title": "Jobsamtale over video: gode råd",
       "keyword": "jobsamtale video",
       "purpose": "Gi praktiske råd for intervju på video.",
-      "appAngle": "Practising answers out loud in ReadyCV interview practice helps on camera too.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 26,
       "status": "queued",
       "translations": {
         "no": "videointervju",
-        "en": "video-interview-tips",
+        "en": "video-interview-norway",
         "sv": "digital-intervju",
         "vi": "phong-van-online"
       }
@@ -2214,12 +2206,12 @@
       "title": "Digital intervju – tips inför videointervjun",
       "keyword": "digital intervju",
       "purpose": "Gi praktiske råd for intervju på video.",
-      "appAngle": "Practising answers out loud in ReadyCV interview practice helps on camera too.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 26,
       "status": "queued",
       "translations": {
         "no": "videointervju",
-        "en": "video-interview-tips",
+        "en": "video-interview-norway",
         "da": "jobsamtale-video",
         "vi": "phong-van-online"
       }
@@ -2231,12 +2223,12 @@
       "title": "Phỏng vấn online qua video: mẹo thực tế",
       "keyword": "phỏng vấn online",
       "purpose": "Gi praktiske råd for intervju på video.",
-      "appAngle": "Practising answers out loud in ReadyCV interview practice helps on camera too.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 26,
       "status": "queued",
       "translations": {
         "no": "videointervju",
-        "en": "video-interview-tips",
+        "en": "video-interview-norway",
         "da": "jobsamtale-video",
         "sv": "digital-intervju"
       }
@@ -2248,11 +2240,11 @@
       "title": "Slik forbereder du deg til jobbintervju",
       "keyword": "forberede seg til jobbintervju",
       "purpose": "Gi en sjekkliste for forberedelsene til et jobbintervju.",
-      "appAngle": "ReadyCV generates practice questions from the job ad you are preparing for.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 27,
       "status": "queued",
       "translations": {
-        "en": "how-to-prepare-for-an-interview",
+        "en": "prepare-job-interview-norway",
         "da": "forberedelse-til-jobsamtale",
         "sv": "forbereda-sig-infor-intervju",
         "vi": "chuan-bi-phong-van"
@@ -2261,11 +2253,11 @@
     {
       "group": "prepare-for-interview",
       "lang": "en",
-      "slug": "how-to-prepare-for-an-interview",
-      "title": "How to prepare for a job interview: a checklist",
-      "keyword": "how to prepare for an interview",
+      "slug": "prepare-job-interview-norway",
+      "title": "How to prepare for a job interview in Norway",
+      "keyword": "prepare job interview norway",
       "purpose": "Gi en sjekkliste for forberedelsene til et jobbintervju.",
-      "appAngle": "ReadyCV generates practice questions from the job ad you are preparing for.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 27,
       "status": "queued",
       "translations": {
@@ -2282,12 +2274,12 @@
       "title": "Sådan forbereder du dig til jobsamtalen",
       "keyword": "forberedelse til jobsamtale",
       "purpose": "Gi en sjekkliste for forberedelsene til et jobbintervju.",
-      "appAngle": "ReadyCV generates practice questions from the job ad you are preparing for.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 27,
       "status": "queued",
       "translations": {
         "no": "forberede-seg-til-jobbintervju",
-        "en": "how-to-prepare-for-an-interview",
+        "en": "prepare-job-interview-norway",
         "sv": "forbereda-sig-infor-intervju",
         "vi": "chuan-bi-phong-van"
       }
@@ -2299,12 +2291,12 @@
       "title": "Så förbereder du dig inför anställningsintervjun",
       "keyword": "förbereda sig inför intervju",
       "purpose": "Gi en sjekkliste for forberedelsene til et jobbintervju.",
-      "appAngle": "ReadyCV generates practice questions from the job ad you are preparing for.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 27,
       "status": "queued",
       "translations": {
         "no": "forberede-seg-til-jobbintervju",
-        "en": "how-to-prepare-for-an-interview",
+        "en": "prepare-job-interview-norway",
         "da": "forberedelse-til-jobsamtale",
         "vi": "chuan-bi-phong-van"
       }
@@ -2316,12 +2308,12 @@
       "title": "Chuẩn bị cho buổi phỏng vấn xin việc",
       "keyword": "chuẩn bị phỏng vấn",
       "purpose": "Gi en sjekkliste for forberedelsene til et jobbintervju.",
-      "appAngle": "ReadyCV generates practice questions from the job ad you are preparing for.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 27,
       "status": "queued",
       "translations": {
         "no": "forberede-seg-til-jobbintervju",
-        "en": "how-to-prepare-for-an-interview",
+        "en": "prepare-job-interview-norway",
         "da": "forberedelse-til-jobsamtale",
         "sv": "forbereda-sig-infor-intervju"
       }
@@ -2333,11 +2325,11 @@
       "title": "Overførbare ferdigheter: slik får du dem frem",
       "keyword": "overførbare ferdigheter",
       "purpose": "Vise hvordan overførbare ferdigheter beskrives med eksempler.",
-      "appAngle": "The match analysis points out strengths you already have that the ad asks for.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 28,
       "status": "queued",
       "translations": {
-        "en": "transferable-skills",
+        "en": "foreign-experience-cv-norway",
         "da": "overforbare-kompetencer",
         "sv": "overforbara-kompetenser",
         "vi": "ky-nang-chuyen-doi"
@@ -2346,11 +2338,11 @@
     {
       "group": "transferable-skills",
       "lang": "en",
-      "slug": "transferable-skills",
-      "title": "Transferable skills: how to show them on your CV",
-      "keyword": "transferable skills",
+      "slug": "foreign-experience-cv-norway",
+      "title": "Showing skills from abroad to Norwegian employers",
+      "keyword": "foreign experience cv norway",
       "purpose": "Vise hvordan overførbare ferdigheter beskrives med eksempler.",
-      "appAngle": "The match analysis points out strengths you already have that the ad asks for.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 28,
       "status": "queued",
       "translations": {
@@ -2367,12 +2359,12 @@
       "title": "Overførbare kompetencer i CV og ansøgning",
       "keyword": "overførbare kompetencer",
       "purpose": "Vise hvordan overførbare ferdigheter beskrives med eksempler.",
-      "appAngle": "The match analysis points out strengths you already have that the ad asks for.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 28,
       "status": "queued",
       "translations": {
         "no": "overforbare-ferdigheter",
-        "en": "transferable-skills",
+        "en": "foreign-experience-cv-norway",
         "sv": "overforbara-kompetenser",
         "vi": "ky-nang-chuyen-doi"
       }
@@ -2384,12 +2376,12 @@
       "title": "Överförbara kompetenser – så lyfter du dem",
       "keyword": "överförbara kompetenser",
       "purpose": "Vise hvordan overførbare ferdigheter beskrives med eksempler.",
-      "appAngle": "The match analysis points out strengths you already have that the ad asks for.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 28,
       "status": "queued",
       "translations": {
         "no": "overforbare-ferdigheter",
-        "en": "transferable-skills",
+        "en": "foreign-experience-cv-norway",
         "da": "overforbare-kompetencer",
         "vi": "ky-nang-chuyen-doi"
       }
@@ -2401,12 +2393,12 @@
       "title": "Kỹ năng chuyển đổi: cách thể hiện trong CV",
       "keyword": "kỹ năng chuyển đổi",
       "purpose": "Vise hvordan overførbare ferdigheter beskrives med eksempler.",
-      "appAngle": "The match analysis points out strengths you already have that the ad asks for.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 28,
       "status": "queued",
       "translations": {
         "no": "overforbare-ferdigheter",
-        "en": "transferable-skills",
+        "en": "foreign-experience-cv-norway",
         "da": "overforbare-kompetencer",
         "sv": "overforbara-kompetenser"
       }
@@ -2418,11 +2410,11 @@
       "title": "Resultater i CV-en: skriv det du fikk til",
       "keyword": "resultater i cv",
       "purpose": "Lære leseren å skrive resultater i stedet for arbeidsoppgaver.",
-      "appAngle": "ReadyCV only uses what you have written in your profile, so concrete results there give a stronger CV.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 29,
       "status": "queued",
       "translations": {
-        "en": "cv-achievements-examples",
+        "en": "cv-achievements-norway",
         "da": "resultater-i-cv",
         "sv": "resultat-i-cv",
         "vi": "thanh-tich-trong-cv"
@@ -2431,11 +2423,11 @@
     {
       "group": "achievements-in-cv",
       "lang": "en",
-      "slug": "cv-achievements-examples",
-      "title": "How to write achievements on your CV",
-      "keyword": "cv achievements examples",
+      "slug": "cv-achievements-norway",
+      "title": "Results, not duties: a CV that works in Norway",
+      "keyword": "cv achievements norway",
       "purpose": "Lære leseren å skrive resultater i stedet for arbeidsoppgaver.",
-      "appAngle": "ReadyCV only uses what you have written in your profile, so concrete results there give a stronger CV.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 29,
       "status": "queued",
       "translations": {
@@ -2452,12 +2444,12 @@
       "title": "Resultater i dit CV frem for opgaver",
       "keyword": "resultater i cv",
       "purpose": "Lære leseren å skrive resultater i stedet for arbeidsoppgaver.",
-      "appAngle": "ReadyCV only uses what you have written in your profile, so concrete results there give a stronger CV.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 29,
       "status": "queued",
       "translations": {
         "no": "resultater-i-cv",
-        "en": "cv-achievements-examples",
+        "en": "cv-achievements-norway",
         "sv": "resultat-i-cv",
         "vi": "thanh-tich-trong-cv"
       }
@@ -2469,12 +2461,12 @@
       "title": "Resultat i CV:t i stället för arbetsuppgifter",
       "keyword": "resultat i cv",
       "purpose": "Lære leseren å skrive resultater i stedet for arbeidsoppgaver.",
-      "appAngle": "ReadyCV only uses what you have written in your profile, so concrete results there give a stronger CV.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 29,
       "status": "queued",
       "translations": {
         "no": "resultater-i-cv",
-        "en": "cv-achievements-examples",
+        "en": "cv-achievements-norway",
         "da": "resultater-i-cv",
         "vi": "thanh-tich-trong-cv"
       }
@@ -2486,12 +2478,12 @@
       "title": "Ghi thành tích thay vì liệt kê nhiệm vụ trong CV",
       "keyword": "thành tích trong cv",
       "purpose": "Lære leseren å skrive resultater i stedet for arbeidsoppgaver.",
-      "appAngle": "ReadyCV only uses what you have written in your profile, so concrete results there give a stronger CV.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 29,
       "status": "queued",
       "translations": {
         "no": "resultater-i-cv",
-        "en": "cv-achievements-examples",
+        "en": "cv-achievements-norway",
         "da": "resultater-i-cv",
         "sv": "resultat-i-cv"
       }
@@ -2503,11 +2495,11 @@
       "title": "Sende søknad på e-post: emne, tekst og vedlegg",
       "keyword": "sende søknad på e-post",
       "purpose": "Vise hvordan man sender søknad på e-post: emnefelt, tekst, vedlegg.",
-      "appAngle": "ReadyCV produces the CV and letter as PDF files that are ready to attach.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 30,
       "status": "queued",
       "translations": {
-        "en": "how-to-email-a-job-application",
+        "en": "email-job-application-norway",
         "da": "send-ansogning-pa-mail",
         "sv": "skicka-ansokan-via-mejl",
         "vi": "gui-cv-qua-email"
@@ -2516,11 +2508,11 @@
     {
       "group": "email-application",
       "lang": "en",
-      "slug": "how-to-email-a-job-application",
-      "title": "How to email a job application",
-      "keyword": "how to email a job application",
+      "slug": "email-job-application-norway",
+      "title": "Sending a job application by email in Norway",
+      "keyword": "email job application norway",
       "purpose": "Vise hvordan man sender søknad på e-post: emnefelt, tekst, vedlegg.",
-      "appAngle": "ReadyCV produces the CV and letter as PDF files that are ready to attach.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 30,
       "status": "queued",
       "translations": {
@@ -2537,12 +2529,12 @@
       "title": "Send ansøgning på mail: emne, tekst og bilag",
       "keyword": "send ansøgning på mail",
       "purpose": "Vise hvordan man sender søknad på e-post: emnefelt, tekst, vedlegg.",
-      "appAngle": "ReadyCV produces the CV and letter as PDF files that are ready to attach.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 30,
       "status": "queued",
       "translations": {
         "no": "sende-soknad-pa-e-post",
-        "en": "how-to-email-a-job-application",
+        "en": "email-job-application-norway",
         "sv": "skicka-ansokan-via-mejl",
         "vi": "gui-cv-qua-email"
       }
@@ -2554,12 +2546,12 @@
       "title": "Skicka ansökan via mejl – ämnesrad och bilagor",
       "keyword": "skicka ansökan via mejl",
       "purpose": "Vise hvordan man sender søknad på e-post: emnefelt, tekst, vedlegg.",
-      "appAngle": "ReadyCV produces the CV and letter as PDF files that are ready to attach.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 30,
       "status": "queued",
       "translations": {
         "no": "sende-soknad-pa-e-post",
-        "en": "how-to-email-a-job-application",
+        "en": "email-job-application-norway",
         "da": "send-ansogning-pa-mail",
         "vi": "gui-cv-qua-email"
       }
@@ -2571,12 +2563,12 @@
       "title": "Gửi hồ sơ xin việc qua email đúng cách",
       "keyword": "gửi cv qua email",
       "purpose": "Vise hvordan man sender søknad på e-post: emnefelt, tekst, vedlegg.",
-      "appAngle": "ReadyCV produces the CV and letter as PDF files that are ready to attach.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 30,
       "status": "queued",
       "translations": {
         "no": "sende-soknad-pa-e-post",
-        "en": "how-to-email-a-job-application",
+        "en": "email-job-application-norway",
         "da": "send-ansogning-pa-mail",
         "sv": "skicka-ansokan-via-mejl"
       }
@@ -2588,11 +2580,11 @@
       "title": "Kort søknad: når holder det med noen få avsnitt?",
       "keyword": "kort søknad",
       "purpose": "Lære leseren å skrive en kort og presis søknad når det er nok.",
-      "appAngle": "ReadyCV recommends a length and tone for the letter from the type of job.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 31,
       "status": "queued",
       "translations": {
-        "en": "short-cover-letter",
+        "en": "short-application-norway",
         "da": "kort-ansogning",
         "sv": "kort-personligt-brev",
         "vi": "thu-xin-viec-ngan"
@@ -2601,11 +2593,11 @@
     {
       "group": "short-application",
       "lang": "en",
-      "slug": "short-cover-letter",
-      "title": "How to write a short cover letter that works",
-      "keyword": "short cover letter",
+      "slug": "short-application-norway",
+      "title": "A short job application for Norwegian employers",
+      "keyword": "short application norway",
       "purpose": "Lære leseren å skrive en kort og presis søknad når det er nok.",
-      "appAngle": "ReadyCV recommends a length and tone for the letter from the type of job.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 31,
       "status": "queued",
       "translations": {
@@ -2622,12 +2614,12 @@
       "title": "Kort ansøgning: når færre ord er bedre",
       "keyword": "kort ansøgning",
       "purpose": "Lære leseren å skrive en kort og presis søknad når det er nok.",
-      "appAngle": "ReadyCV recommends a length and tone for the letter from the type of job.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 31,
       "status": "queued",
       "translations": {
         "no": "kort-soknad",
-        "en": "short-cover-letter",
+        "en": "short-application-norway",
         "sv": "kort-personligt-brev",
         "vi": "thu-xin-viec-ngan"
       }
@@ -2639,12 +2631,12 @@
       "title": "Kort personligt brev som ändå sticker ut",
       "keyword": "kort personligt brev",
       "purpose": "Lære leseren å skrive en kort og presis søknad når det er nok.",
-      "appAngle": "ReadyCV recommends a length and tone for the letter from the type of job.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 31,
       "status": "queued",
       "translations": {
         "no": "kort-soknad",
-        "en": "short-cover-letter",
+        "en": "short-application-norway",
         "da": "kort-ansogning",
         "vi": "thu-xin-viec-ngan"
       }
@@ -2656,12 +2648,12 @@
       "title": "Viết thư xin việc ngắn gọn mà vẫn thuyết phục",
       "keyword": "thư xin việc ngắn",
       "purpose": "Lære leseren å skrive en kort og presis søknad når det er nok.",
-      "appAngle": "ReadyCV recommends a length and tone for the letter from the type of job.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 31,
       "status": "queued",
       "translations": {
         "no": "kort-soknad",
-        "en": "short-cover-letter",
+        "en": "short-application-norway",
         "da": "kort-ansogning",
         "sv": "kort-personligt-brev"
       }
@@ -2673,11 +2665,11 @@
       "title": "Jobbsøking over 50: slik viser du erfaringen din",
       "keyword": "jobbsøking over 50",
       "purpose": "Hjelpe seniorer å vise erfaring uten å bli avfeid som «for gamle».",
-      "appAngle": "Tailoring in ReadyCV highlights the most relevant parts of a long career for each job.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 32,
       "status": "queued",
       "translations": {
-        "en": "job-search-over-50",
+        "en": "job-search-norway-over-50",
         "da": "jobsogning-over-50",
         "sv": "soka-jobb-over-50",
         "vi": "tim-viec-tuoi-50"
@@ -2686,11 +2678,11 @@
     {
       "group": "jobseekers-over-50",
       "lang": "en",
-      "slug": "job-search-over-50",
-      "title": "Job hunting over 50: a CV that shows experience",
-      "keyword": "job search over 50",
+      "slug": "job-search-norway-over-50",
+      "title": "Job hunting in Norway over 50 as a newcomer",
+      "keyword": "job search norway over 50",
       "purpose": "Hjelpe seniorer å vise erfaring uten å bli avfeid som «for gamle».",
-      "appAngle": "Tailoring in ReadyCV highlights the most relevant parts of a long career for each job.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 32,
       "status": "queued",
       "translations": {
@@ -2707,12 +2699,12 @@
       "title": "Jobsøgning som 50+: vis din erfaring",
       "keyword": "jobsøgning over 50",
       "purpose": "Hjelpe seniorer å vise erfaring uten å bli avfeid som «for gamle».",
-      "appAngle": "Tailoring in ReadyCV highlights the most relevant parts of a long career for each job.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 32,
       "status": "queued",
       "translations": {
         "no": "jobbsoking-over-50",
-        "en": "job-search-over-50",
+        "en": "job-search-norway-over-50",
         "sv": "soka-jobb-over-50",
         "vi": "tim-viec-tuoi-50"
       }
@@ -2724,12 +2716,12 @@
       "title": "Söka jobb efter 50 – så visar du din erfarenhet",
       "keyword": "söka jobb över 50",
       "purpose": "Hjelpe seniorer å vise erfaring uten å bli avfeid som «for gamle».",
-      "appAngle": "Tailoring in ReadyCV highlights the most relevant parts of a long career for each job.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 32,
       "status": "queued",
       "translations": {
         "no": "jobbsoking-over-50",
-        "en": "job-search-over-50",
+        "en": "job-search-norway-over-50",
         "da": "jobsogning-over-50",
         "vi": "tim-viec-tuoi-50"
       }
@@ -2741,12 +2733,12 @@
       "title": "Tìm việc khi đã ngoài 50 tuổi",
       "keyword": "tìm việc tuổi 50",
       "purpose": "Hjelpe seniorer å vise erfaring uten å bli avfeid som «for gamle».",
-      "appAngle": "Tailoring in ReadyCV highlights the most relevant parts of a long career for each job.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 32,
       "status": "queued",
       "translations": {
         "no": "jobbsoking-over-50",
-        "en": "job-search-over-50",
+        "en": "job-search-norway-over-50",
         "da": "jobsogning-over-50",
         "sv": "soka-jobb-over-50"
       }
@@ -2758,11 +2750,11 @@
       "title": "Språkferdigheter i CV-en: slik oppgir du nivået",
       "keyword": "språk i cv",
       "purpose": "Vise hvordan man beskriver språkferdigheter ærlig i CV-en.",
-      "appAngle": "Add languages with level in your ReadyCV profile; they appear in every CV you generate.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 33,
       "status": "queued",
       "translations": {
-        "en": "language-skills-on-cv",
+        "en": "norwegian-language-level-cv",
         "da": "sprog-i-cv",
         "sv": "sprakkunskaper-cv",
         "vi": "trinh-do-ngoai-ngu-trong-cv"
@@ -2771,11 +2763,11 @@
     {
       "group": "language-skills-in-cv",
       "lang": "en",
-      "slug": "language-skills-on-cv",
-      "title": "How to list language skills on your CV",
-      "keyword": "language skills on cv",
+      "slug": "norwegian-language-level-cv",
+      "title": "How to describe your Norwegian level honestly on a CV",
+      "keyword": "norwegian language level cv",
       "purpose": "Vise hvordan man beskriver språkferdigheter ærlig i CV-en.",
-      "appAngle": "Add languages with level in your ReadyCV profile; they appear in every CV you generate.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 33,
       "status": "queued",
       "translations": {
@@ -2792,12 +2784,12 @@
       "title": "Sprogkundskaber i CV: sådan angiver du niveau",
       "keyword": "sprog i cv",
       "purpose": "Vise hvordan man beskriver språkferdigheter ærlig i CV-en.",
-      "appAngle": "Add languages with level in your ReadyCV profile; they appear in every CV you generate.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 33,
       "status": "queued",
       "translations": {
         "no": "sprak-i-cv",
-        "en": "language-skills-on-cv",
+        "en": "norwegian-language-level-cv",
         "sv": "sprakkunskaper-cv",
         "vi": "trinh-do-ngoai-ngu-trong-cv"
       }
@@ -2809,12 +2801,12 @@
       "title": "Språkkunskaper i CV:t – så anger du nivå",
       "keyword": "språkkunskaper cv",
       "purpose": "Vise hvordan man beskriver språkferdigheter ærlig i CV-en.",
-      "appAngle": "Add languages with level in your ReadyCV profile; they appear in every CV you generate.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 33,
       "status": "queued",
       "translations": {
         "no": "sprak-i-cv",
-        "en": "language-skills-on-cv",
+        "en": "norwegian-language-level-cv",
         "da": "sprog-i-cv",
         "vi": "trinh-do-ngoai-ngu-trong-cv"
       }
@@ -2826,12 +2818,12 @@
       "title": "Ghi trình độ ngoại ngữ trong CV thế nào cho đúng",
       "keyword": "trình độ ngoại ngữ trong cv",
       "purpose": "Vise hvordan man beskriver språkferdigheter ærlig i CV-en.",
-      "appAngle": "Add languages with level in your ReadyCV profile; they appear in every CV you generate.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 33,
       "status": "queued",
       "translations": {
         "no": "sprak-i-cv",
-        "en": "language-skills-on-cv",
+        "en": "norwegian-language-level-cv",
         "da": "sprog-i-cv",
         "sv": "sprakkunskaper-cv"
       }
@@ -2843,11 +2835,11 @@
       "title": "Ferdigheter i CV-en: hva bør du ta med?",
       "keyword": "ferdigheter cv",
       "purpose": "Lære leseren å skrive en ferdighetsliste som er konkret og troverdig.",
-      "appAngle": "Skills in your ReadyCV profile are matched against the ad in the job analysis.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 34,
       "status": "queued",
       "translations": {
-        "en": "skills-for-cv",
+        "en": "cv-skills-norway",
         "da": "kompetencer-cv",
         "sv": "kompetenser-cv",
         "vi": "ky-nang-trong-cv"
@@ -2856,11 +2848,11 @@
     {
       "group": "skills-section",
       "lang": "en",
-      "slug": "skills-for-cv",
-      "title": "What skills to put on a CV (with examples)",
-      "keyword": "skills for cv",
+      "slug": "cv-skills-norway",
+      "title": "Skills section on a CV for jobs in Norway",
+      "keyword": "cv skills norway",
       "purpose": "Lære leseren å skrive en ferdighetsliste som er konkret og troverdig.",
-      "appAngle": "Skills in your ReadyCV profile are matched against the ad in the job analysis.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 34,
       "status": "queued",
       "translations": {
@@ -2877,12 +2869,12 @@
       "title": "Kompetencer i CV: hvad skal med?",
       "keyword": "kompetencer cv",
       "purpose": "Lære leseren å skrive en ferdighetsliste som er konkret og troverdig.",
-      "appAngle": "Skills in your ReadyCV profile are matched against the ad in the job analysis.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 34,
       "status": "queued",
       "translations": {
         "no": "ferdigheter-cv",
-        "en": "skills-for-cv",
+        "en": "cv-skills-norway",
         "sv": "kompetenser-cv",
         "vi": "ky-nang-trong-cv"
       }
@@ -2894,12 +2886,12 @@
       "title": "Kompetenser i CV:t – vad ska du ta med?",
       "keyword": "kompetenser cv",
       "purpose": "Lære leseren å skrive en ferdighetsliste som er konkret og troverdig.",
-      "appAngle": "Skills in your ReadyCV profile are matched against the ad in the job analysis.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 34,
       "status": "queued",
       "translations": {
         "no": "ferdigheter-cv",
-        "en": "skills-for-cv",
+        "en": "cv-skills-norway",
         "da": "kompetencer-cv",
         "vi": "ky-nang-trong-cv"
       }
@@ -2911,12 +2903,12 @@
       "title": "Nên ghi những kỹ năng nào vào CV?",
       "keyword": "kỹ năng trong cv",
       "purpose": "Lære leseren å skrive en ferdighetsliste som er konkret og troverdig.",
-      "appAngle": "Skills in your ReadyCV profile are matched against the ad in the job analysis.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 34,
       "status": "queued",
       "translations": {
         "no": "ferdigheter-cv",
-        "en": "skills-for-cv",
+        "en": "cv-skills-norway",
         "da": "kompetencer-cv",
         "sv": "kompetenser-cv"
       }
@@ -2928,11 +2920,11 @@
       "title": "Utdanning, kurs og sertifikater i CV-en",
       "keyword": "utdanning i cv",
       "purpose": "Vise hvordan utdanning, kurs og sertifikater føres opp.",
-      "appAngle": "The ReadyCV profile has fields for education and documents such as certificates.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 35,
       "status": "queued",
       "translations": {
-        "en": "education-on-cv",
+        "en": "foreign-education-cv-norway",
         "da": "uddannelse-i-cv",
         "sv": "utbildning-i-cv",
         "vi": "hoc-van-trong-cv"
@@ -2941,11 +2933,11 @@
     {
       "group": "education-section",
       "lang": "en",
-      "slug": "education-on-cv",
-      "title": "How to list education and courses on your CV",
-      "keyword": "education on cv",
+      "slug": "foreign-education-cv-norway",
+      "title": "Listing foreign education on a Norwegian CV",
+      "keyword": "foreign education cv norway",
       "purpose": "Vise hvordan utdanning, kurs og sertifikater føres opp.",
-      "appAngle": "The ReadyCV profile has fields for education and documents such as certificates.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 35,
       "status": "queued",
       "translations": {
@@ -2962,12 +2954,12 @@
       "title": "Uddannelse og kurser i CV",
       "keyword": "uddannelse i cv",
       "purpose": "Vise hvordan utdanning, kurs og sertifikater føres opp.",
-      "appAngle": "The ReadyCV profile has fields for education and documents such as certificates.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 35,
       "status": "queued",
       "translations": {
         "no": "utdanning-i-cv",
-        "en": "education-on-cv",
+        "en": "foreign-education-cv-norway",
         "sv": "utbildning-i-cv",
         "vi": "hoc-van-trong-cv"
       }
@@ -2979,12 +2971,12 @@
       "title": "Utbildning och kurser i CV:t",
       "keyword": "utbildning i cv",
       "purpose": "Vise hvordan utdanning, kurs og sertifikater føres opp.",
-      "appAngle": "The ReadyCV profile has fields for education and documents such as certificates.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 35,
       "status": "queued",
       "translations": {
         "no": "utdanning-i-cv",
-        "en": "education-on-cv",
+        "en": "foreign-education-cv-norway",
         "da": "uddannelse-i-cv",
         "vi": "hoc-van-trong-cv"
       }
@@ -2996,12 +2988,12 @@
       "title": "Ghi học vấn, khóa học và chứng chỉ trong CV",
       "keyword": "học vấn trong cv",
       "purpose": "Vise hvordan utdanning, kurs og sertifikater føres opp.",
-      "appAngle": "The ReadyCV profile has fields for education and documents such as certificates.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 35,
       "status": "queued",
       "translations": {
         "no": "utdanning-i-cv",
-        "en": "education-on-cv",
+        "en": "foreign-education-cv-norway",
         "da": "uddannelse-i-cv",
         "sv": "utbildning-i-cv"
       }
@@ -3013,11 +3005,11 @@
       "title": "Ingen svar på jobbsøknaden? Dette kan du gjøre",
       "keyword": "ikke hørt noe etter søknad",
       "purpose": "Gi råd når man ikke hører noe etter å ha søkt.",
-      "appAngle": "Mark applications as sent in ReadyCV to keep track of which ones to follow up.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 36,
       "status": "queued",
       "translations": {
-        "en": "no-response-after-job-application",
+        "en": "no-reply-job-application-norway",
         "da": "intet-svar-pa-ansogning",
         "sv": "inget-svar-pa-ansokan",
         "vi": "khong-nhan-duoc-phan-hoi-xin-viec"
@@ -3026,11 +3018,11 @@
     {
       "group": "no-reply-after-applying",
       "lang": "en",
-      "slug": "no-response-after-job-application",
-      "title": "No response after applying? What to do next",
-      "keyword": "no response after job application",
+      "slug": "no-reply-job-application-norway",
+      "title": "No answer after applying for a job in Norway?",
+      "keyword": "no reply job application norway",
       "purpose": "Gi råd når man ikke hører noe etter å ha søkt.",
-      "appAngle": "Mark applications as sent in ReadyCV to keep track of which ones to follow up.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 36,
       "status": "queued",
       "translations": {
@@ -3047,12 +3039,12 @@
       "title": "Intet svar på din ansøgning? Det kan du gøre",
       "keyword": "intet svar på ansøgning",
       "purpose": "Gi råd når man ikke hører noe etter å ha søkt.",
-      "appAngle": "Mark applications as sent in ReadyCV to keep track of which ones to follow up.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 36,
       "status": "queued",
       "translations": {
         "no": "ikke-hort-noe-etter-soknad",
-        "en": "no-response-after-job-application",
+        "en": "no-reply-job-application-norway",
         "sv": "inget-svar-pa-ansokan",
         "vi": "khong-nhan-duoc-phan-hoi-xin-viec"
       }
@@ -3064,12 +3056,12 @@
       "title": "Inget svar på ansökan? Det här kan du göra",
       "keyword": "inget svar på ansökan",
       "purpose": "Gi råd når man ikke hører noe etter å ha søkt.",
-      "appAngle": "Mark applications as sent in ReadyCV to keep track of which ones to follow up.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 36,
       "status": "queued",
       "translations": {
         "no": "ikke-hort-noe-etter-soknad",
-        "en": "no-response-after-job-application",
+        "en": "no-reply-job-application-norway",
         "da": "intet-svar-pa-ansogning",
         "vi": "khong-nhan-duoc-phan-hoi-xin-viec"
       }
@@ -3081,12 +3073,12 @@
       "title": "Nộp hồ sơ mà không thấy phản hồi: nên làm gì?",
       "keyword": "không nhận được phản hồi xin việc",
       "purpose": "Gi råd når man ikke hører noe etter å ha søkt.",
-      "appAngle": "Mark applications as sent in ReadyCV to keep track of which ones to follow up.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 36,
       "status": "queued",
       "translations": {
         "no": "ikke-hort-noe-etter-soknad",
-        "en": "no-response-after-job-application",
+        "en": "no-reply-job-application-norway",
         "da": "intet-svar-pa-ansogning",
         "sv": "inget-svar-pa-ansokan"
       }
@@ -3098,11 +3090,11 @@
       "title": "«Hvorfor vil du jobbe hos oss?» – gode svar",
       "keyword": "hvorfor vil du jobbe her",
       "purpose": "Hjelpe leseren å svare overbevisende på «hvorfor vil du jobbe her?».",
-      "appAngle": "The job analysis in ReadyCV summarises what the employer asks for, which feeds a specific answer.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 37,
       "status": "queued",
       "translations": {
-        "en": "why-do-you-want-to-work-here",
+        "en": "why-work-here-interview-norway",
         "da": "hvorfor-vil-du-arbejde-hos-os",
         "sv": "varfor-vill-du-jobba-hos-oss",
         "vi": "vi-sao-muon-lam-o-cong-ty"
@@ -3111,11 +3103,11 @@
     {
       "group": "why-do-you-want-this-job",
       "lang": "en",
-      "slug": "why-do-you-want-to-work-here",
-      "title": "How to answer \"Why do you want to work here?\"",
-      "keyword": "why do you want to work here",
+      "slug": "why-work-here-interview-norway",
+      "title": "\"Why do you want to work here?\" in a Norwegian interview",
+      "keyword": "why work here interview norway",
       "purpose": "Hjelpe leseren å svare overbevisende på «hvorfor vil du jobbe her?».",
-      "appAngle": "The job analysis in ReadyCV summarises what the employer asks for, which feeds a specific answer.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 37,
       "status": "queued",
       "translations": {
@@ -3132,12 +3124,12 @@
       "title": "\"Hvorfor vil du arbejde hos os?\" – gode svar",
       "keyword": "hvorfor vil du arbejde hos os",
       "purpose": "Hjelpe leseren å svare overbevisende på «hvorfor vil du jobbe her?».",
-      "appAngle": "The job analysis in ReadyCV summarises what the employer asks for, which feeds a specific answer.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 37,
       "status": "queued",
       "translations": {
         "no": "hvorfor-vil-du-jobbe-her",
-        "en": "why-do-you-want-to-work-here",
+        "en": "why-work-here-interview-norway",
         "sv": "varfor-vill-du-jobba-hos-oss",
         "vi": "vi-sao-muon-lam-o-cong-ty"
       }
@@ -3149,12 +3141,12 @@
       "title": "\"Varför vill du jobba hos oss?\" – så svarar du",
       "keyword": "varför vill du jobba hos oss",
       "purpose": "Hjelpe leseren å svare overbevisende på «hvorfor vil du jobbe her?».",
-      "appAngle": "The job analysis in ReadyCV summarises what the employer asks for, which feeds a specific answer.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 37,
       "status": "queued",
       "translations": {
         "no": "hvorfor-vil-du-jobbe-her",
-        "en": "why-do-you-want-to-work-here",
+        "en": "why-work-here-interview-norway",
         "da": "hvorfor-vil-du-arbejde-hos-os",
         "vi": "vi-sao-muon-lam-o-cong-ty"
       }
@@ -3166,12 +3158,12 @@
       "title": "Trả lời câu \"Vì sao bạn muốn làm ở công ty chúng tôi?\"",
       "keyword": "vì sao muốn làm ở công ty",
       "purpose": "Hjelpe leseren å svare overbevisende på «hvorfor vil du jobbe her?».",
-      "appAngle": "The job analysis in ReadyCV summarises what the employer asks for, which feeds a specific answer.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 37,
       "status": "queued",
       "translations": {
         "no": "hvorfor-vil-du-jobbe-her",
-        "en": "why-do-you-want-to-work-here",
+        "en": "why-work-here-interview-norway",
         "da": "hvorfor-vil-du-arbejde-hos-os",
         "sv": "varfor-vill-du-jobba-hos-oss"
       }
@@ -3183,11 +3175,11 @@
       "title": "Arbeidsprøver, tester og case i rekruttering",
       "keyword": "arbeidsprøve intervju",
       "purpose": "Forberede leseren på arbeidsprøver, tester og caseoppgaver.",
-      "appAngle": "Not a direct app feature; link to general interview practice in ReadyCV.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 38,
       "status": "queued",
       "translations": {
-        "en": "case-interview-preparation",
+        "en": "recruitment-tests-norway",
         "da": "test-til-jobsamtale",
         "sv": "tester-rekrytering",
         "vi": "bai-test-tuyen-dung"
@@ -3196,11 +3188,11 @@
     {
       "group": "tests-and-case-interviews",
       "lang": "en",
-      "slug": "case-interview-preparation",
-      "title": "Assessment tests and case interviews: how to prepare",
-      "keyword": "case interview preparation",
+      "slug": "recruitment-tests-norway",
+      "title": "Tests and work samples in Norwegian recruitment",
+      "keyword": "recruitment tests norway",
       "purpose": "Forberede leseren på arbeidsprøver, tester og caseoppgaver.",
-      "appAngle": "Not a direct app feature; link to general interview practice in ReadyCV.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 38,
       "status": "queued",
       "translations": {
@@ -3217,12 +3209,12 @@
       "title": "Test og cases i rekrutteringen",
       "keyword": "test til jobsamtale",
       "purpose": "Forberede leseren på arbeidsprøver, tester og caseoppgaver.",
-      "appAngle": "Not a direct app feature; link to general interview practice in ReadyCV.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 38,
       "status": "queued",
       "translations": {
         "no": "arbeidsprove-intervju",
-        "en": "case-interview-preparation",
+        "en": "recruitment-tests-norway",
         "sv": "tester-rekrytering",
         "vi": "bai-test-tuyen-dung"
       }
@@ -3234,12 +3226,12 @@
       "title": "Tester och case i rekryteringen – så förbereder du dig",
       "keyword": "tester rekrytering",
       "purpose": "Forberede leseren på arbeidsprøver, tester og caseoppgaver.",
-      "appAngle": "Not a direct app feature; link to general interview practice in ReadyCV.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 38,
       "status": "queued",
       "translations": {
         "no": "arbeidsprove-intervju",
-        "en": "case-interview-preparation",
+        "en": "recruitment-tests-norway",
         "da": "test-til-jobsamtale",
         "vi": "bai-test-tuyen-dung"
       }
@@ -3251,12 +3243,12 @@
       "title": "Bài test và bài tập tình huống khi tuyển dụng",
       "keyword": "bài test tuyển dụng",
       "purpose": "Forberede leseren på arbeidsprøver, tester og caseoppgaver.",
-      "appAngle": "Not a direct app feature; link to general interview practice in ReadyCV.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 38,
       "status": "queued",
       "translations": {
         "no": "arbeidsprove-intervju",
-        "en": "case-interview-preparation",
+        "en": "recruitment-tests-norway",
         "da": "test-til-jobsamtale",
         "sv": "tester-rekrytering"
       }
@@ -3268,11 +3260,11 @@
       "title": "Frivillig arbeid og verv i CV-en",
       "keyword": "frivillig arbeid cv",
       "purpose": "Vise hvordan frivillig arbeid og verv gir verdi i CV-en.",
-      "appAngle": "Add volunteering to your ReadyCV profile; the tailoring decides when it is relevant.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 39,
       "status": "queued",
       "translations": {
-        "en": "volunteer-experience-on-cv",
+        "en": "volunteering-cv-norway",
         "da": "frivilligt-arbejde-cv",
         "sv": "ideellt-arbete-cv",
         "vi": "hoat-dong-tinh-nguyen-trong-cv"
@@ -3281,11 +3273,11 @@
     {
       "group": "volunteering-in-cv",
       "lang": "en",
-      "slug": "volunteer-experience-on-cv",
-      "title": "How to put volunteering on your CV",
-      "keyword": "volunteer experience on cv",
+      "slug": "volunteering-cv-norway",
+      "title": "Volunteering in Norway and how to put it on your CV",
+      "keyword": "volunteering cv norway",
       "purpose": "Vise hvordan frivillig arbeid og verv gir verdi i CV-en.",
-      "appAngle": "Add volunteering to your ReadyCV profile; the tailoring decides when it is relevant.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 39,
       "status": "queued",
       "translations": {
@@ -3302,12 +3294,12 @@
       "title": "Frivilligt arbejde i CV",
       "keyword": "frivilligt arbejde cv",
       "purpose": "Vise hvordan frivillig arbeid og verv gir verdi i CV-en.",
-      "appAngle": "Add volunteering to your ReadyCV profile; the tailoring decides when it is relevant.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 39,
       "status": "queued",
       "translations": {
         "no": "frivillig-arbeid-cv",
-        "en": "volunteer-experience-on-cv",
+        "en": "volunteering-cv-norway",
         "sv": "ideellt-arbete-cv",
         "vi": "hoat-dong-tinh-nguyen-trong-cv"
       }
@@ -3319,12 +3311,12 @@
       "title": "Ideellt arbete och föreningsuppdrag i CV:t",
       "keyword": "ideellt arbete cv",
       "purpose": "Vise hvordan frivillig arbeid og verv gir verdi i CV-en.",
-      "appAngle": "Add volunteering to your ReadyCV profile; the tailoring decides when it is relevant.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 39,
       "status": "queued",
       "translations": {
         "no": "frivillig-arbeid-cv",
-        "en": "volunteer-experience-on-cv",
+        "en": "volunteering-cv-norway",
         "da": "frivilligt-arbejde-cv",
         "vi": "hoat-dong-tinh-nguyen-trong-cv"
       }
@@ -3336,12 +3328,12 @@
       "title": "Ghi hoạt động tình nguyện vào CV",
       "keyword": "hoạt động tình nguyện trong cv",
       "purpose": "Vise hvordan frivillig arbeid og verv gir verdi i CV-en.",
-      "appAngle": "Add volunteering to your ReadyCV profile; the tailoring decides when it is relevant.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 39,
       "status": "queued",
       "translations": {
         "no": "frivillig-arbeid-cv",
-        "en": "volunteer-experience-on-cv",
+        "en": "volunteering-cv-norway",
         "da": "frivilligt-arbejde-cv",
         "sv": "ideellt-arbete-cv"
       }
@@ -3353,11 +3345,11 @@
       "title": "Kan du bruke KI til å skrive jobbsøknaden?",
       "keyword": "ki jobbsøknad",
       "purpose": "Vise hvordan KI kan brukes ærlig og klokt i jobbsøknader.",
-      "appAngle": "ReadyCV is an example: it works from your own profile and you review every text before sending.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 40,
       "status": "queued",
       "translations": {
-        "en": "ai-cover-letter",
+        "en": "ai-job-application-norway",
         "da": "ai-ansogning",
         "sv": "ai-personligt-brev",
         "vi": "dung-ai-viet-cv"
@@ -3366,11 +3358,11 @@
     {
       "group": "using-ai-for-applications",
       "lang": "en",
-      "slug": "ai-cover-letter",
-      "title": "Using AI to write your CV and cover letter – the honest way",
-      "keyword": "ai cover letter",
+      "slug": "ai-job-application-norway",
+      "title": "Using AI to apply for jobs in Norway – honestly",
+      "keyword": "ai job application norway",
       "purpose": "Vise hvordan KI kan brukes ærlig og klokt i jobbsøknader.",
-      "appAngle": "ReadyCV is an example: it works from your own profile and you review every text before sending.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 40,
       "status": "queued",
       "translations": {
@@ -3387,12 +3379,12 @@
       "title": "Kan du bruge AI til din ansøgning?",
       "keyword": "ai ansøgning",
       "purpose": "Vise hvordan KI kan brukes ærlig og klokt i jobbsøknader.",
-      "appAngle": "ReadyCV is an example: it works from your own profile and you review every text before sending.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 40,
       "status": "queued",
       "translations": {
         "no": "ki-jobbsoknad",
-        "en": "ai-cover-letter",
+        "en": "ai-job-application-norway",
         "sv": "ai-personligt-brev",
         "vi": "dung-ai-viet-cv"
       }
@@ -3404,12 +3396,12 @@
       "title": "Kan du använda AI för ditt personliga brev?",
       "keyword": "ai personligt brev",
       "purpose": "Vise hvordan KI kan brukes ærlig og klokt i jobbsøknader.",
-      "appAngle": "ReadyCV is an example: it works from your own profile and you review every text before sending.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 40,
       "status": "queued",
       "translations": {
         "no": "ki-jobbsoknad",
-        "en": "ai-cover-letter",
+        "en": "ai-job-application-norway",
         "da": "ai-ansogning",
         "vi": "dung-ai-viet-cv"
       }
@@ -3421,12 +3413,12 @@
       "title": "Dùng AI viết CV và thư xin việc sao cho trung thực",
       "keyword": "dùng ai viết cv",
       "purpose": "Vise hvordan KI kan brukes ærlig og klokt i jobbsøknader.",
-      "appAngle": "ReadyCV is an example: it works from your own profile and you review every text before sending.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 40,
       "status": "queued",
       "translations": {
         "no": "ki-jobbsoknad",
-        "en": "ai-cover-letter",
+        "en": "ai-job-application-norway",
         "da": "ai-ansogning",
         "sv": "ai-personligt-brev"
       }
@@ -3438,11 +3430,11 @@
       "title": "Passer jeg til jobben? Slik vurderer du det ærlig",
       "keyword": "passer jeg til jobben",
       "purpose": "Hjelpe leseren å vurdere ærlig om de passer til en stilling før de søker.",
-      "appAngle": "This is exactly the honest match score in ReadyCV – mention it naturally once.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 41,
       "status": "queued",
       "translations": {
-        "en": "am-i-qualified-for-this-job",
+        "en": "job-fit-norway",
         "da": "passer-jeg-til-jobbet",
         "sv": "passar-jag-for-jobbet",
         "vi": "co-phu-hop-voi-cong-viec"
@@ -3451,11 +3443,11 @@
     {
       "group": "do-i-fit-the-job",
       "lang": "en",
-      "slug": "am-i-qualified-for-this-job",
-      "title": "Am I a good fit for this job? An honest checklist",
-      "keyword": "am i qualified for this job",
+      "slug": "job-fit-norway",
+      "title": "Am I a good fit for this job in Norway? An honest check",
+      "keyword": "job fit norway",
       "purpose": "Hjelpe leseren å vurdere ærlig om de passer til en stilling før de søker.",
-      "appAngle": "This is exactly the honest match score in ReadyCV – mention it naturally once.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 41,
       "status": "queued",
       "translations": {
@@ -3472,12 +3464,12 @@
       "title": "Passer jeg til jobbet? Sådan vurderer du det",
       "keyword": "passer jeg til jobbet",
       "purpose": "Hjelpe leseren å vurdere ærlig om de passer til en stilling før de søker.",
-      "appAngle": "This is exactly the honest match score in ReadyCV – mention it naturally once.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 41,
       "status": "queued",
       "translations": {
         "no": "passer-jeg-til-jobben",
-        "en": "am-i-qualified-for-this-job",
+        "en": "job-fit-norway",
         "sv": "passar-jag-for-jobbet",
         "vi": "co-phu-hop-voi-cong-viec"
       }
@@ -3489,12 +3481,12 @@
       "title": "Passar jag för jobbet? Så bedömer du det ärligt",
       "keyword": "passar jag för jobbet",
       "purpose": "Hjelpe leseren å vurdere ærlig om de passer til en stilling før de søker.",
-      "appAngle": "This is exactly the honest match score in ReadyCV – mention it naturally once.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 41,
       "status": "queued",
       "translations": {
         "no": "passer-jeg-til-jobben",
-        "en": "am-i-qualified-for-this-job",
+        "en": "job-fit-norway",
         "da": "passer-jeg-til-jobbet",
         "vi": "co-phu-hop-voi-cong-viec"
       }
@@ -3506,12 +3498,12 @@
       "title": "Mình có phù hợp với công việc này không?",
       "keyword": "có phù hợp với công việc",
       "purpose": "Hjelpe leseren å vurdere ærlig om de passer til en stilling før de søker.",
-      "appAngle": "This is exactly the honest match score in ReadyCV – mention it naturally once.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 41,
       "status": "queued",
       "translations": {
         "no": "passer-jeg-til-jobben",
-        "en": "am-i-qualified-for-this-job",
+        "en": "job-fit-norway",
         "da": "passer-jeg-til-jobbet",
         "sv": "passar-jag-for-jobbet"
       }
@@ -3523,11 +3515,11 @@
       "title": "Nettverk og det skjulte arbeidsmarkedet",
       "keyword": "skjulte arbeidsmarkedet",
       "purpose": "Gi konkrete grep for nettverk og det skjulte arbeidsmarkedet.",
-      "appAngle": "Have a ready CV from ReadyCV when a contact asks you to send one.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 42,
       "status": "queued",
       "translations": {
-        "en": "hidden-job-market",
+        "en": "hidden-job-market-norway",
         "da": "det-skjulte-jobmarked",
         "sv": "dolda-arbetsmarknaden",
         "vi": "mang-luoi-quan-he-tim-viec"
@@ -3536,11 +3528,11 @@
     {
       "group": "networking-hidden-jobs",
       "lang": "en",
-      "slug": "hidden-job-market",
-      "title": "Networking and the hidden job market",
-      "keyword": "hidden job market",
+      "slug": "hidden-job-market-norway",
+      "title": "Networking and the hidden job market in Norway",
+      "keyword": "hidden job market norway",
       "purpose": "Gi konkrete grep for nettverk og det skjulte arbeidsmarkedet.",
-      "appAngle": "Have a ready CV from ReadyCV when a contact asks you to send one.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 42,
       "status": "queued",
       "translations": {
@@ -3557,12 +3549,12 @@
       "title": "Netværk og det skjulte jobmarked",
       "keyword": "det skjulte jobmarked",
       "purpose": "Gi konkrete grep for nettverk og det skjulte arbeidsmarkedet.",
-      "appAngle": "Have a ready CV from ReadyCV when a contact asks you to send one.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 42,
       "status": "queued",
       "translations": {
         "no": "skjulte-arbeidsmarkedet",
-        "en": "hidden-job-market",
+        "en": "hidden-job-market-norway",
         "sv": "dolda-arbetsmarknaden",
         "vi": "mang-luoi-quan-he-tim-viec"
       }
@@ -3574,12 +3566,12 @@
       "title": "Nätverka och den dolda arbetsmarknaden",
       "keyword": "dolda arbetsmarknaden",
       "purpose": "Gi konkrete grep for nettverk og det skjulte arbeidsmarkedet.",
-      "appAngle": "Have a ready CV from ReadyCV when a contact asks you to send one.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 42,
       "status": "queued",
       "translations": {
         "no": "skjulte-arbeidsmarkedet",
-        "en": "hidden-job-market",
+        "en": "hidden-job-market-norway",
         "da": "det-skjulte-jobmarked",
         "vi": "mang-luoi-quan-he-tim-viec"
       }
@@ -3591,12 +3583,12 @@
       "title": "Xây dựng mạng lưới quan hệ để tìm việc",
       "keyword": "mạng lưới quan hệ tìm việc",
       "purpose": "Gi konkrete grep for nettverk og det skjulte arbeidsmarkedet.",
-      "appAngle": "Have a ready CV from ReadyCV when a contact asks you to send one.",
+      "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 42,
       "status": "queued",
       "translations": {
         "no": "skjulte-arbeidsmarkedet",
-        "en": "hidden-job-market",
+        "en": "hidden-job-market-norway",
         "da": "det-skjulte-jobmarked",
         "sv": "dolda-arbetsmarknaden"
       }
@@ -3608,11 +3600,11 @@
       "title": "Profiltekst i CV-en: eksempler og oppskrift",
       "keyword": "profiltekst cv",
       "purpose": "Lære leseren å skrive en kort profiltekst øverst i CV-en.",
-      "appAngle": "ReadyCV writes the summary for each job from your profile; you can edit it.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 43,
       "status": "queued",
       "translations": {
-        "en": "cv-personal-statement",
+        "en": "cv-profile-summary-norway",
         "da": "profiltekst-cv",
         "sv": "profiltext-cv",
         "vi": "muc-tieu-nghe-nghiep-trong-cv"
@@ -3621,11 +3613,11 @@
     {
       "group": "personal-profile-summary",
       "lang": "en",
-      "slug": "cv-personal-statement",
-      "title": "How to write a personal statement for your CV",
-      "keyword": "cv personal statement",
+      "slug": "cv-profile-summary-norway",
+      "title": "The profile summary on a Norwegian CV",
+      "keyword": "cv profile summary norway",
       "purpose": "Lære leseren å skrive en kort profiltekst øverst i CV-en.",
-      "appAngle": "ReadyCV writes the summary for each job from your profile; you can edit it.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 43,
       "status": "queued",
       "translations": {
@@ -3642,12 +3634,12 @@
       "title": "Profiltekst i CV: eksempler",
       "keyword": "profiltekst cv",
       "purpose": "Lære leseren å skrive en kort profiltekst øverst i CV-en.",
-      "appAngle": "ReadyCV writes the summary for each job from your profile; you can edit it.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 43,
       "status": "queued",
       "translations": {
         "no": "profiltekst-cv",
-        "en": "cv-personal-statement",
+        "en": "cv-profile-summary-norway",
         "sv": "profiltext-cv",
         "vi": "muc-tieu-nghe-nghiep-trong-cv"
       }
@@ -3659,12 +3651,12 @@
       "title": "Profiltext i CV:t – exempel och tips",
       "keyword": "profiltext cv",
       "purpose": "Lære leseren å skrive en kort profiltekst øverst i CV-en.",
-      "appAngle": "ReadyCV writes the summary for each job from your profile; you can edit it.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 43,
       "status": "queued",
       "translations": {
         "no": "profiltekst-cv",
-        "en": "cv-personal-statement",
+        "en": "cv-profile-summary-norway",
         "da": "profiltekst-cv",
         "vi": "muc-tieu-nghe-nghiep-trong-cv"
       }
@@ -3676,12 +3668,12 @@
       "title": "Viết phần giới thiệu bản thân (mục tiêu nghề nghiệp) trong CV",
       "keyword": "mục tiêu nghề nghiệp trong cv",
       "purpose": "Lære leseren å skrive en kort profiltekst øverst i CV-en.",
-      "appAngle": "ReadyCV writes the summary for each job from your profile; you can edit it.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 43,
       "status": "queued",
       "translations": {
         "no": "profiltekst-cv",
-        "en": "cv-personal-statement",
+        "en": "cv-profile-summary-norway",
         "da": "profiltekst-cv",
         "sv": "profiltext-cv"
       }
@@ -3693,11 +3685,11 @@
       "title": "Søknadsfrist: når bør du sende søknaden?",
       "keyword": "søknadsfrist",
       "purpose": "Gi råd om når man bør søke og hvordan man holder orden på frister.",
-      "appAngle": "ReadyCV can remind you of the application deadline it finds in the ad.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 44,
       "status": "queued",
       "translations": {
-        "en": "job-application-deadline",
+        "en": "application-deadline-norway",
         "da": "ansogningsfrist",
         "sv": "sista-ansokningsdag",
         "vi": "han-nop-ho-so"
@@ -3706,11 +3698,11 @@
     {
       "group": "application-deadline-and-timing",
       "lang": "en",
-      "slug": "job-application-deadline",
-      "title": "When to apply: deadlines and timing",
-      "keyword": "job application deadline",
+      "slug": "application-deadline-norway",
+      "title": "Application deadlines (søknadsfrist) in Norway",
+      "keyword": "application deadline norway",
       "purpose": "Gi råd om når man bør søke og hvordan man holder orden på frister.",
-      "appAngle": "ReadyCV can remind you of the application deadline it finds in the ad.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 44,
       "status": "queued",
       "translations": {
@@ -3727,12 +3719,12 @@
       "title": "Ansøgningsfrist: hvornår skal du søge?",
       "keyword": "ansøgningsfrist",
       "purpose": "Gi råd om når man bør søke og hvordan man holder orden på frister.",
-      "appAngle": "ReadyCV can remind you of the application deadline it finds in the ad.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 44,
       "status": "queued",
       "translations": {
         "no": "soknadsfrist",
-        "en": "job-application-deadline",
+        "en": "application-deadline-norway",
         "sv": "sista-ansokningsdag",
         "vi": "han-nop-ho-so"
       }
@@ -3744,12 +3736,12 @@
       "title": "Sista ansökningsdag – när ska du söka?",
       "keyword": "sista ansökningsdag",
       "purpose": "Gi råd om når man bør søke og hvordan man holder orden på frister.",
-      "appAngle": "ReadyCV can remind you of the application deadline it finds in the ad.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 44,
       "status": "queued",
       "translations": {
         "no": "soknadsfrist",
-        "en": "job-application-deadline",
+        "en": "application-deadline-norway",
         "da": "ansogningsfrist",
         "vi": "han-nop-ho-so"
       }
@@ -3761,12 +3753,12 @@
       "title": "Hạn nộp hồ sơ: khi nào nên nộp?",
       "keyword": "hạn nộp hồ sơ",
       "purpose": "Gi råd om når man bør søke og hvordan man holder orden på frister.",
-      "appAngle": "ReadyCV can remind you of the application deadline it finds in the ad.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 44,
       "status": "queued",
       "translations": {
         "no": "soknadsfrist",
-        "en": "job-application-deadline",
+        "en": "application-deadline-norway",
         "da": "ansogningsfrist",
         "sv": "sista-ansokningsdag"
       }
@@ -3778,7 +3770,7 @@
       "title": "Slik bruker du arbeidsplassen.no i jobbsøket",
       "keyword": "arbeidsplassen.no",
       "purpose": "Bruke arbeidsplassen.no og NAV-tjenestene i jobbsøket uten å påstå regler.",
-      "appAngle": "Use the ads you find on arbeidsplassen.no in ReadyCV to tailor your application.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 4,
       "status": "queued",
       "translations": {}
@@ -3790,7 +3782,7 @@
       "title": "Søke jobb på FINN: slik får du mer ut av det",
       "keyword": "finn jobb",
       "purpose": "Søke smart på FINN jobb: søk, varsler, og hurtigsøknader.",
-      "appAngle": "Paste a FINN ad link into ReadyCV for an honest match before applying.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 7,
       "status": "queued",
       "translations": {}
@@ -3802,7 +3794,7 @@
       "title": "Norsk søknadsskikk: tone, lengde og form",
       "keyword": "hvordan skrive søknad",
       "purpose": "Forklare norsk søknadsskikk: tone, lengde, du-form og ærlighet.",
-      "appAngle": "ReadyCV writes in Norwegian application style by default.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 10,
       "status": "queued",
       "translations": {}
@@ -3814,7 +3806,7 @@
       "title": "Sådan bruger du Jobindex i din jobsøgning",
       "keyword": "jobindex",
       "purpose": "Søge job på Jobindex: søgning, jobagenter og ansøgning.",
-      "appAngle": "Paste a Jobindex ad into ReadyCV to see your match before you apply.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 13,
       "status": "queued",
       "translations": {}
@@ -3826,7 +3818,7 @@
       "title": "Jobnet: sådan finder du job og bruger dit CV",
       "keyword": "jobnet",
       "purpose": "Bruge Jobnet og CV på Jobnet uten å påstå regler.",
-      "appAngle": "Keep your master CV in ReadyCV and tailor it for each job you find on Jobnet.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 16,
       "status": "queued",
       "translations": {}
@@ -3838,7 +3830,7 @@
       "title": "Dansk ansøgningskultur: sådan skriver du som en dansker",
       "keyword": "skriv en god ansøgning",
       "purpose": "Forklare dansk ansøgningskultur: motivation, tone og CV-tradition.",
-      "appAngle": "ReadyCV writes Danish applications in Danish, not Norwegian.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 19,
       "status": "queued",
       "translations": {}
@@ -3850,7 +3842,7 @@
       "title": "Så hittar du jobb i Platsbanken",
       "keyword": "platsbanken",
       "purpose": "Söka jobb i Platsbanken effektivt.",
-      "appAngle": "Paste a Platsbanken ad into ReadyCV to tailor your CV and personal letter.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 22,
       "status": "queued",
       "translations": {}
@@ -3862,7 +3854,7 @@
       "title": "Personligt brev på svenskt sätt – personligt men professionellt",
       "keyword": "personligt brev",
       "purpose": "Forklare den svenske tradisjonen for personligt brev.",
-      "appAngle": "ReadyCV writes the personal letter in Swedish with a personal tone.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 25,
       "status": "queued",
       "translations": {}
@@ -3874,7 +3866,7 @@
       "title": "CV och ansökningar när du är inskriven hos Arbetsförmedlingen",
       "keyword": "arbetsförmedlingen cv",
       "purpose": "Hvordan CV og søknad henger sammen med Arbetsförmedlingens tjenester, uten regler.",
-      "appAngle": "Keep a master CV in ReadyCV and adapt it per job.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 28,
       "status": "queued",
       "translations": {}
@@ -3886,7 +3878,7 @@
       "title": "Tìm việc hiệu quả trên TopCV và VietnamWorks",
       "keyword": "tìm việc trên topcv",
       "purpose": "Tìm việc trên TopCV và VietnamWorks hiệu quả.",
-      "appAngle": "Paste an ad from TopCV or VietnamWorks into ReadyCV for an honest match.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 31,
       "status": "queued",
       "translations": {}
@@ -3898,7 +3890,7 @@
       "title": "Xin việc ở Na Uy và Bắc Âu: CV khác Việt Nam thế nào?",
       "keyword": "xin việc ở na uy",
       "purpose": "Råd til vietnamesere som søker jobb i Norden: CV-normer, språk, tone (ingen visum- eller lønnsregler).",
-      "appAngle": "ReadyCV writes CVs in Norwegian, Swedish, Danish or English for Nordic employers.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 34,
       "status": "queued",
       "translations": {}
@@ -3910,32 +3902,44 @@
       "title": "Viết CV tiếng Anh cho công ty nước ngoài",
       "keyword": "cv tiếng anh",
       "purpose": "Skrive CV på engelsk for internasjonale selskaper.",
-      "appAngle": "ReadyCV can generate the CV in English from the same profile.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 37,
       "status": "queued",
       "translations": {}
     },
     {
-      "group": "applying-abroad",
+      "group": "finding-jobs-in-norway",
       "lang": "en",
-      "slug": "applying-for-jobs-abroad",
-      "title": "Applying for jobs abroad: adapting your CV to another country",
-      "keyword": "applying for jobs abroad",
-      "purpose": "Råd til internasjonale søkere som søker jobb i et annet land.",
-      "appAngle": "ReadyCV can write the CV in the language of the job ad.",
+      "slug": "find-jobs-in-norway",
+      "title": "Where to find jobs in Norway: FINN.no, arbeidsplassen.no and LinkedIn",
+      "keyword": "find jobs in norway",
+      "purpose": "Hvor man finner jobber i Norge: FINN.no, arbeidsplassen.no (NAV), LinkedIn – uten regler.",
+      "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 40,
       "status": "queued",
       "translations": {}
     },
     {
-      "group": "cv-vs-resume",
+      "group": "english-cv-for-norway",
       "lang": "en",
-      "slug": "cv-vs-resume",
-      "title": "CV vs résumé: what is the difference?",
-      "keyword": "cv vs resume",
-      "purpose": "Forklare forskjellen på CV og résumé.",
-      "appAngle": "ReadyCV produces a CV; tailor it to the job ad you paste in.",
+      "slug": "english-job-norway",
+      "title": "Applying in English in Norway: when it works and when it doesn't",
+      "keyword": "english job norway",
+      "purpose": "Når en engelsk CV fungerer i Norge, og når annonsen krever norsk.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 43,
+      "status": "queued",
+      "translations": {}
+    },
+    {
+      "group": "norwegian-application-culture",
+      "lang": "en",
+      "slug": "norwegian-application-culture",
+      "title": "Norwegian job application culture explained for newcomers",
+      "keyword": "norwegian application culture",
+      "purpose": "Norsk søknadsskikk forklart for utlendinger: tone, lengde, ærlighet, du-form.",
+      "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
+      "priority": 46,
       "status": "queued",
       "translations": {}
     }

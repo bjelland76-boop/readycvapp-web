@@ -105,3 +105,29 @@ test('duplicate and meta checks', () => {
   assert.ok(checkMeta({ title: 'x'.repeat(61), description: 'y'.repeat(100), h1: 'h' }).some((p) => p.includes('tittelen')));
   assert.ok(checkMeta({ title: 't', description: 'y'.repeat(156), h1: 'h' }).some((p) => p.includes('description')));
 });
+
+test('real organisations in examples are stopped, placeholders pass', async () => {
+  const { checkRealOrganizations } = await import('../lib/quality.mjs');
+  for (const t of ['Elev ved Kongsberg videregående skole.', 'Hjelpetrener i Byåsen IL.', 'Bachelor, University of Oslo.', 'Sommerjobb på Rema 1000.',
+    'Elev på Katedralskolan gymnasium.', 'Tốt nghiệp Đại học Bách Khoa.']) assert.ok(checkRealOrganizations(t).length, t);
+  for (const t of ['Elev ved X videregående skole.', 'Trener i et lokalt idrettslag.', 'Butikkmedarbeider i Y AS.', 'I finished Upper Secondary School.',
+    'Søk på FINN.no og arbeidsplassen.no fra NAV.', 'Tốt nghiệp Đại học X.']) assert.deepEqual(checkRealOrganizations(t), [], t);
+});
+
+test('British terms (en), vague sentences, and the review: fit >= 4, organisations, over-promises', async () => {
+  const { checkBannedTerms, checkVague, checkReview } = await import('../lib/quality.mjs');
+  const terms = ['charity shop', 'food bank', 'secondary school', 'BSc', 'dissertation', 'modules'];
+  assert.ok(checkBannedTerms('I volunteered in a charity shop.', terms).length);
+  assert.ok(checkBannedTerms('BSc in Biology, dissertation on bees.', terms).length);
+  assert.ok(checkBannedTerms('I finished secondary school.', terms).length);
+  assert.deepEqual(checkBannedTerms('I finished upper secondary school (videregående skole) and a bachelor\'s degree.', terms), []);
+  assert.ok(checkVague('Each country has its own job portals.').length);
+  assert.ok(checkVague('Hvert land har sine egne regler for CV.').length);
+  assert.deepEqual(checkVague('In Norway, most job ads are on FINN.no and arbeidsplassen.no.'), []);
+  const ok = { language_correct: true, reads_as_translation: false, local_market_fit: 4, unverifiable_claims: [], invented_quotes: false };
+  assert.deepEqual(checkReview(ok), []);
+  assert.ok(checkReview({ ...ok, local_market_fit: 3 })[0].includes('3 av 5'));
+  assert.ok(checkReview({ ...ok, real_organizations: ['Byåsen IL'] })[0].includes('Byåsen IL'));
+  assert.ok(checkReview({ ...ok, cta_overpromises: ['ReadyCV bygger profilen din fra skole og frivillig arbeid.'] })[0].includes('lover mer'));
+  assert.ok(checkReview({ ...ok, vague_sentences: ['Each country has its own portals.'] })[0].includes('vag'));
+});

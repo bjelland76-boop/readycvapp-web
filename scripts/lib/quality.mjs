@@ -223,8 +223,82 @@ export function checkDuplicate(body, title, corpus, { threshold = 0.15 } = {}) {
   return p;
 }
 
+// Words the market must not see (languages.json "bannedTerms"), e.g.
+// British school/charity terms in the English articles for Norway.
+// "upper secondary school" is the usual English name of videregående and
+// is allowed.
+export function checkBannedTerms(text, terms = []) {
+  const plain = toPlainText(text);
+  const p = [];
+  for (const term of terms) {
+    const re = new RegExp(`(?<![\\p{L}])${term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?![\\p{L}])`, 'giu');
+    for (const m of plain.matchAll(re)) {
+      if (/secondary school/i.test(term) && /upper\s+$/i.test(plain.slice(Math.max(0, m.index - 6), m.index))) continue;
+      p.push(`ord som ikke passer markedet: «${m[0]}»`);
+      break;
+    }
+  }
+  return p;
+}
+
+// Placeholders and ordinary words that may stand before "skole", "AS" etc.
+const ORG_OK = new Set(['x', 'y', 'z', 'abc', 'xyz', 'eksempel', 'example', 'den', 'det', 'din', 'ditt', 'en', 'et', 'ei', 'min', 'mitt',
+  'vår', 'vores', 'the', 'a', 'an', 'your', 'my', 'our', 'local', 'lokal', 'lokale', 'samme', 'ny', 'nye', 'hver', 'annen', 'någon',
+  'denne', 'dette', 'this', 'that', 'any', 'some', 'ett', 'samma', 'egen', 'egne', 'eget',
+  // Generic school types written with capitals in English ("Upper Secondary School").
+  'upper', 'secondary', 'lower', 'primary', 'high', 'middle', 'junior', 'vocational', 'international', 'adult', 'language', 'business']);
+const ORG_SUFFIX = 'videregående skole|videregående|vgs|ungdomsskole|barneskole|grundskole|skole|skule|gymnasium|gymnasiet|gymnasieskola|skola|skolan|'
+  + 'universitet|Universitet|høgskole|Høgskole|högskola|University|College|School|IL|IF|IK|FK|BK|SK|FF|AS|ASA|A/S|ApS|AB|Ltd|Inc|kommune|kommun';
+const NAME = "[A-ZÆØÅÄÖÜ][\\p{L}'’-]+";
+const ORG_RES = [
+  new RegExp(`(?<![\\p{L}])(${NAME}(?: ${NAME})?) (?:${ORG_SUFFIX})(?![\\p{L}])`, 'gu'),
+  new RegExp(`(?:Universitetet|Høgskolen|Høgskulen|University|Universität) (?:i|of|på) (${NAME})`, 'gu'),
+  new RegExp(`(?:Trường (?:THPT|THCS|Đại học|Cao đẳng)|Đại học|Công ty(?: TNHH| cổ phần)?) (${NAME}(?: ${NAME})?)`, 'gu'),
+];
+// Well-known chains and employers that turn up in example CVs.
+const KNOWN_ORGS = ['Rema 1000', 'Kiwi', 'Coop', 'Meny', 'Bunnpris', 'Joker', 'Elkjøp', 'IKEA', "McDonald's",
+  'Burger King', 'Narvesen', '7-Eleven', 'Circle K', 'Vinmonopolet', 'XXL', 'Clas Ohlson', 'Telenor', 'Equinor', 'DNB', 'Posten', 'Netto',
+  'Føtex', 'Bilka', 'Lidl', 'ICA', 'Hemköp', 'Willys', 'Systembolaget', 'Matas', 'H&M', 'Starbucks', 'Tesco', 'Walmart', 'Espresso House',
+  'NTNU', 'UiO', 'UiB', 'UiT', 'OsloMet', 'NHH', 'NMBU', 'KTH', 'DTU', 'Vinamilk', 'Viettel', 'Vingroup'];
+
+export function checkRealOrganizations(text) {
+  const plain = toPlainText(text);
+  const found = new Set();
+  for (const re of ORG_RES) {
+    for (const m of plain.matchAll(re)) {
+      if (m[1].split(' ').every((w) => ORG_OK.has(w.toLowerCase()))) continue;
+      found.add(m[0]);
+    }
+  }
+  for (const o of KNOWN_ORGS) {
+    const re = new RegExp(`(?<![\\p{L}\\p{N}])${o.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?![\\p{L}\\p{N}])`, 'u');
+    if (re.test(plain)) found.add(o);
+  }
+  return [...found].map((n) => `ekte organisasjonsnavn i teksten (bruk oppdiktede/generiske navn): «${n}»`);
+}
+
+// Sentences that wave at something instead of giving a concrete example.
+const VAGUE_RES = [
+  /\b(?:each|every) country has (?:its|their) own\b/i,
+  /\b(?:varies|vary|differ|differs) (?:from country to country|by country|between countries)\b/i,
+  /\bdepending on the country\b/i,
+  /\bhvert land har (?:sine|sitt|sin) egn/i,
+  /\b(?:varierer|variere) fra land til land\b/i,
+  /\bvarje land har (?:sina|sitt|sin) egn/i,
+  /\bvarierar (?:mellan länder|från land till land)\b/i,
+  /mỗi (?:quốc gia|nước) (?:đều )?(?:có|lại có) .{0,20}riêng/i,
+];
+export function checkVague(text) {
+  const p = [];
+  for (const s of toPlainText(text).match(SENTENCE_RE) || []) {
+    if (VAGUE_RES.some((re) => re.test(s))) p.push(`vag setning uten konkrete eksempler: «${s.trim().slice(0, 140)}»`);
+  }
+  return p;
+}
+
 // The model reviewer's verdict (see generate.mjs, reviewArticle).
-export function checkReview(review, { minLocalFit = 3 } = {}) {
+// local_market_fit must be at least 4 of 5.
+export function checkReview(review, { minLocalFit = 4 } = {}) {
   if (!review || typeof review !== 'object') return ['mangler språkvurdering fra kontrollen'];
   const p = [];
   if (review.language_correct !== true) p.push(`feil språk ifølge kontrollen (${review.language_detected || 'ukjent'})`);
@@ -235,6 +309,10 @@ export function checkReview(review, { minLocalFit = 3 } = {}) {
     p.push(`påstand som ikke kan bekreftes: «${String(c).slice(0, 160)}»`);
   }
   if (review.invented_quotes === true) p.push('inneholder sitater som ser oppdiktet ut');
+  const list = (k) => (Array.isArray(review[k]) ? review[k] : []).filter((x) => String(x || '').trim());
+  for (const o of list('real_organizations')) p.push(`ekte organisasjon/person i eksemplene: «${String(o).slice(0, 100)}»`);
+  for (const s of list('vague_sentences')) p.push(`vag setning: «${String(s).slice(0, 160)}»`);
+  for (const s of list('cta_overpromises')) p.push(`lover mer enn appen gjør: «${String(s).slice(0, 160)}»`);
   return p;
 }
 
@@ -250,6 +328,9 @@ export function runChecks({ meta, body, lang, linkContext, corpus, review }) {
     tall: checkNumbers(body),
     språk: checkLanguage(`${body}\n\n${ctaText}`, lang.code),
     duplikat: checkDuplicate(body, meta.title, corpus),
+    begreper: checkBannedTerms(`${body}\n\n${ctaText}\n\n${meta.title}. ${meta.description}`, lang.bannedTerms || []),
+    organisasjoner: checkRealOrganizations(`${body}\n\n${ctaText}`),
+    vagt: checkVague(body),
   };
   if (review !== undefined) groups.kontroll = checkReview(review);
   const problems = Object.entries(groups).flatMap(([k, ps]) => ps.map((x) => `${k}: ${x}`));
