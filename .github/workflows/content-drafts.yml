@@ -1,0 +1,122 @@
+# Skriver nye artikkelutkast to ganger i uka og samler dem i ÉN pull request
+# (grenen content/drafts) som du går gjennom selv. Ingenting publiseres,
+# med mindre repo-variabelen AUTO_PUBLISH er satt til true.
+#
+# Variabler (Settings → Secrets and variables → Actions → Variables), alle valgfrie:
+#   AUTO_PUBLISH                         false (standard) | true
+#   CONTENT_ENABLED                      true (standard) | false = rutinen står stille
+#   MAX_ARTICLES_PER_LANGUAGE_PER_WEEK   standard fra content/site.json (3)
+#   MAX_ARTICLES_PER_RUN                 standard fra content/site.json (2)
+#   MAX_ACTIVE_LANGUAGES                 standard fra content/site.json (2)
+#   CONTENT_MODEL                        standard fra content/site.json
+# Hemmelighet (Secrets): ANTHROPIC_API_KEY
+name: Artikkelutkast
+
+on:
+  schedule:
+    - cron: '0 5 * * 1,4' # mandag og torsdag kl. 05:00 UTC
+  workflow_dispatch:
+    inputs:
+      languages:
+        description: 'Språk, f.eks. "no,en" (tomt = aktive språk i content/languages.json)'
+        required: false
+        default: ''
+      count:
+        description: 'Antall per språk denne gangen (tomt = standard; ukegrensen gjelder uansett)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: content-drafts
+  cancel-in-progress: false
+
+env:
+  DRAFT_BRANCH: content/drafts
+  AUTO_PUBLISH: ${{ vars.AUTO_PUBLISH || 'false' }}
+  MAX_ARTICLES_PER_LANGUAGE_PER_WEEK: ${{ vars.MAX_ARTICLES_PER_LANGUAGE_PER_WEEK }}
+  MAX_ARTICLES_PER_RUN: ${{ vars.MAX_ARTICLES_PER_RUN }}
+  MAX_ACTIVE_LANGUAGES: ${{ vars.MAX_ACTIVE_LANGUAGES }}
+  CONTENT_MODEL: ${{ vars.CONTENT_MODEL }}
+
+jobs:
+  drafts:
+    if: ${{ vars.CONTENT_ENABLED != 'false' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Git-identitet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Fortsett i åpen utkast-PR, eller start en ny fra main
+        if: ${{ env.AUTO_PUBLISH != 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          open=$(gh pr list --head "$DRAFT_BRANCH" --state open --json number --jq 'length')
+          if [ "$open" != "0" ]; then
+            git fetch origin "$DRAFT_BRANCH"
+            git checkout -B "$DRAFT_BRANCH" "origin/$DRAFT_BRANCH"
+            git merge --no-edit origin/main
+          else
+            git checkout -B "$DRAFT_BRANCH" origin/main
+          fi
+
+      - name: Tester
+        run: npm test
+
+      - name: Skriv utkast
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          IN_LANGUAGES: ${{ inputs.languages }}
+          IN_COUNT: ${{ inputs.count }}
+        run: |
+          args=(--report "$RUNNER_TEMP/report.md")
+          [ -n "$IN_LANGUAGES" ] && args+=(--lang "$IN_LANGUAGES")
+          [ -n "$IN_COUNT" ] && args+=(--count "$IN_COUNT")
+          node scripts/generate.mjs "${args[@]}"
+
+      - name: Publiser automatisk (bare når AUTO_PUBLISH=true)
+        if: ${{ env.AUTO_PUBLISH == 'true' }}
+        run: |
+          node scripts/publish-drafts.mjs --all || echo "::warning::Noen utkast ble ikke publisert (se loggen)"
+          git add -A
+          if git diff --cached --quiet; then echo "Ingenting nytt."; exit 0; fi
+          git commit -m "Artikler publisert automatisk ($(date -u +%F))"
+          git push origin HEAD:main
+
+      - name: Commit utkast og åpne/oppdater pull request
+        if: ${{ env.AUTO_PUBLISH != 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add -A content
+          if git diff --cached --quiet; then echo "Ingen nye utkast."; exit 0; fi
+          git commit -m "Artikkelutkast $(date -u +%F)"
+          git push origin "HEAD:$DRAFT_BRANCH"
+          open=$(gh pr list --head "$DRAFT_BRANCH" --state open --json number --jq '.[0].number // empty')
+          {
+            echo "Nye artikkelutkast fra innholdsrutinen. **Ingenting er publisert.**"
+            echo
+            echo "Slik godkjenner du: åpne utkastet under *Files changed*, endre \`approved: false\` til \`approved: true\` (eller slett filen hvis du ikke vil ha den), og merge. Kjør så workflowen **Publiser godkjente utkast** (eller \`npm run publish-drafts\` lokalt)."
+            echo
+            cat "$RUNNER_TEMP/report.md"
+          } > "$RUNNER_TEMP/body.md"
+          if [ -z "$open" ]; then
+            gh pr create --base main --head "$DRAFT_BRANCH" --title "Artikkelutkast til gjennomgang" --body-file "$RUNNER_TEMP/body.md"
+          else
+            gh pr comment "$open" --body-file "$RUNNER_TEMP/body.md"
+          fi

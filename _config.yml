@@ -1,0 +1,13 @@
+# GitHub Pages (Jekyll) – bare for å holde arbeidsfilene utenfor nettsiden.
+# Sider uten front matter (alle .html-filene her) kopieres uendret, slik som før.
+# Utkast (content/drafts) og artikkelkilder blir aldri publisert som sider.
+exclude:
+  - content
+  - scripts
+  - package.json
+  - package-lock.json
+  - node_modules
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

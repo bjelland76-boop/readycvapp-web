@@ -1,0 +1,16 @@
+{
+  "name": "readycvapp-web",
+  "private": true,
+  "description": "readycvapp.no – landingsside og artikkelrutine (ingen avhengigheter, Node 20+)",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "generate": "node scripts/generate.mjs",
+    "publish-drafts": "node scripts/publish-drafts.mjs",
+    "refresh-drafts": "node scripts/refresh-drafts.mjs",
+    "build-site": "node scripts/build-site.mjs",
+    "test": "node --test scripts/test/*.test.mjs"
+  }
+}
