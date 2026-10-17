@@ -11,13 +11,14 @@ cta_mid_button: "Check how well you fit"
 cta_end_title: "Make your first CV fit the job you want"
 cta_end_text: "Start for free without an account: paste the job ad and get a CV and job application tailored to that job."
 cta_end_button: "Start for free"
-approved: true
 generated_at: "2026-10-17T10:23:24.868Z"
 model: "claude-opus-5-5"
 words: 1492
 review_local_fit: 4
 review_notes: "The phrase 'optional and not required' is redundant and appears twice (body and FAQ); 'A photo is optional' is enough. Local fit could be stronger with a word on Norwegian grade transcripts (vitnemål) or how employers view foreign degrees."
 reviewed_at: "2026-10-17T10:55:50.024Z"
+published_at: "2026-10-17T11:20:49.575Z"
+updated_at: "2026-10-17T11:20:49.575Z"
 ---
 
 Writing your first CV can feel impossible when the section called *Work experience* is empty. Maybe you are an international student, you recently moved to Norway, or you have never had a paid job. Everyone has to start somewhere, and many entry-level jobs are open to people applying for the first time. Your CV needs to show what you can already do, how you learn and why you fit this particular job.

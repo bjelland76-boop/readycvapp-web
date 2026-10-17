@@ -11,13 +11,14 @@ cta_mid_button: "Sjekk om du passer"
 cta_end_title: "Skriv en søknad som treffer stillingen"
 cta_end_text: "Last opp CV-en din, lim inn annonsen og få en CV og søknad tilpasset akkurat den jobben. Gratis å prøve, uten konto."
 cta_end_button: "Prøv ReadyCV gratis"
-approved: true
 generated_at: "2026-10-17T10:26:35.672Z"
 model: "claude-opus-5-5"
 words: 1088
 review_local_fit: 4
 review_notes: "Strongly local, with FINN.no, fagbrev, lærlingplass, helsefagarbeider, idrettslag/dugnad and «Hei Kari», but it could mention arbeidsplassen.no or common søknadsskjema systems for full marks. As a matter of style, «akkurat denne stillingen» is repeated in two consecutive sentences in section 1 and c"
 reviewed_at: "2026-10-17T10:52:48.879Z"
+published_at: "2026-10-17T11:20:50.054Z"
+updated_at: "2026-10-17T11:20:50.054Z"
 ---
 
 Du kan ha akkurat den erfaringen arbeidsgiveren ser etter og likevel bli valgt bort, fordi søknaden ikke får det fram. Heldigvis er de fleste feil i en jobbsøknad lette å rette når du først ser dem. Her går vi gjennom tabbene som går igjen, med konkrete eksempler på hvordan du skriver bedre.

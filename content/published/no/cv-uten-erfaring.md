@@ -11,13 +11,14 @@ cta_mid_button: "Sjekk hvor godt du passer"
 cta_end_title: "Lag din første CV til en konkret jobb"
 cta_end_text: "Lim inn annonsen i ReadyCV og få en CV og en søknad tilpasset akkurat den stillingen. Gratis å starte, uten konto."
 cta_end_button: "Prøv ReadyCV gratis"
-approved: true
 generated_at: "2026-10-17T10:25:28.647Z"
 model: "claude-opus-5-5"
 words: 1147
 review_local_fit: 5
 review_notes: "«En arbeidsgiver som ansetter i en førstegangsjobb» er litt klosset og kunne skrives om til «En arbeidsgiver som ansetter noen i deres første jobb». «En lærer, en kontaktlærer» i FAQ-en er noe overlappende, men ingen av delene er feil som må rettes."
 reviewed_at: "2026-10-17T10:52:35.465Z"
+published_at: "2026-10-17T11:20:49.896Z"
+updated_at: "2026-10-17T11:20:49.896Z"
 ---
 
 Første jobbsøknad kan føles som en umulig oppgave. Du trenger erfaring for å få jobb, men du trenger en jobb for å få erfaring. Likevel har du mer å vise til enn du tror. En arbeidsgiver som ansetter i en førstegangsjobb forventer ikke en lang arbeidshistorikk. Arbeidsgiveren vil se at du er pålitelig, lærer raskt og faktisk vil ha jobben.

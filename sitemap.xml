@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://readycvapp.no/</loc>
     <lastmod>2026-09-14</lastmod>
@@ -17,5 +17,69 @@
     <lastmod>2026-09-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://readycvapp.no/no/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://readycvapp.no/en/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://readycvapp.no/en/cv-norway-no-experience/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/cv-norway-no-experience/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/cv-uten-erfaring/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://readycvapp.no/en/job-application-norway-mistakes/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/job-application-norway-mistakes/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/feil-i-jobbsoknad/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://readycvapp.no/en/job-interview-norway-questions/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/job-interview-norway-questions/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/intervjusporsmal/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://readycvapp.no/no/cv-uten-erfaring/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/cv-norway-no-experience/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/cv-uten-erfaring/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://readycvapp.no/no/feil-i-jobbsoknad/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/job-application-norway-mistakes/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/feil-i-jobbsoknad/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://readycvapp.no/no/intervjusporsmal/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/job-interview-norway-questions/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/intervjusporsmal/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

@@ -10,7 +10,7 @@
       "purpose": "Hjelpe førstegangssøkere å lage en CV som viser verdi uten arbeidserfaring.",
       "appAngle": "Start free without an account: paste the job ad and get a CV and application tailored to the job.",
       "priority": 1,
-      "status": "draft",
+      "status": "published",
       "translations": {
         "en": "cv-norway-no-experience",
         "da": "cv-uden-erfaring",
@@ -18,7 +18,8 @@
         "vi": "cv-chua-co-kinh-nghiem"
       },
       "drafted_at": "2026-10-17T10:25:28.647Z",
-      "draft": "content/drafts/no/cv-uten-erfaring.md"
+      "published_at": "2026-10-17T11:20:49.896Z",
+      "url": "/no/cv-uten-erfaring/"
     },
     {
       "group": "cv-without-experience",
@@ -29,7 +30,7 @@
       "purpose": "Hjelpe førstegangssøkere å lage en CV som viser verdi uten arbeidserfaring.",
       "appAngle": "Start free without an account: paste the job ad and get a CV and application tailored to the job.",
       "priority": 1,
-      "status": "draft",
+      "status": "published",
       "translations": {
         "no": "cv-uten-erfaring",
         "da": "cv-uden-erfaring",
@@ -37,7 +38,8 @@
         "vi": "cv-chua-co-kinh-nghiem"
       },
       "drafted_at": "2026-10-17T10:23:24.868Z",
-      "draft": "content/drafts/en/cv-norway-no-experience.md"
+      "published_at": "2026-10-17T11:20:49.575Z",
+      "url": "/en/cv-norway-no-experience/"
     },
     {
       "group": "cv-without-experience",
@@ -107,7 +109,7 @@
       "purpose": "Vise de vanligste feilene i jobbsøknader og hvordan de rettes.",
       "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 2,
-      "status": "draft",
+      "status": "published",
       "translations": {
         "en": "job-application-norway-mistakes",
         "da": "fejl-i-ansogning",
@@ -115,7 +117,8 @@
         "vi": "loi-khi-viet-ho-so-xin-viec"
       },
       "drafted_at": "2026-10-17T10:26:35.672Z",
-      "draft": "content/drafts/no/feil-i-jobbsoknad.md"
+      "published_at": "2026-10-17T11:20:50.054Z",
+      "url": "/no/feil-i-jobbsoknad/"
     },
     {
       "group": "application-mistakes",
@@ -126,7 +129,7 @@
       "purpose": "Vise de vanligste feilene i jobbsøknader og hvordan de rettes.",
       "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 2,
-      "status": "draft",
+      "status": "published",
       "translations": {
         "no": "feil-i-jobbsoknad",
         "da": "fejl-i-ansogning",
@@ -134,7 +137,8 @@
         "vi": "loi-khi-viet-ho-so-xin-viec"
       },
       "drafted_at": "2026-10-17T10:24:15.794Z",
-      "draft": "content/drafts/en/job-application-norway-mistakes.md"
+      "published_at": "2026-10-17T11:20:49.735Z",
+      "url": "/en/job-application-norway-mistakes/"
     },
     {
       "group": "application-mistakes",
@@ -202,13 +206,16 @@
       "purpose": "Gi konkrete svarstrategier på vanlige intervjuspørsmål.",
       "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 3,
-      "status": "queued",
+      "status": "published",
       "translations": {
         "en": "job-interview-norway-questions",
         "da": "sporgsmal-til-jobsamtale",
         "sv": "vanliga-intervjufragor",
         "vi": "cau-hoi-phong-van-thuong-gap"
-      }
+      },
+      "drafted_at": "2026-10-17T11:19:02.485Z",
+      "published_at": "2026-10-17T11:20:50.081Z",
+      "url": "/no/intervjusporsmal/"
     },
     {
       "group": "interview-questions",
@@ -219,13 +226,16 @@
       "purpose": "Gi konkrete svarstrategier på vanlige intervjuspørsmål.",
       "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 3,
-      "status": "queued",
+      "status": "published",
       "translations": {
         "no": "intervjusporsmal",
         "da": "sporgsmal-til-jobsamtale",
         "sv": "vanliga-intervjufragor",
         "vi": "cau-hoi-phong-van-thuong-gap"
-      }
+      },
+      "drafted_at": "2026-10-17T11:20:48.447Z",
+      "published_at": "2026-10-17T11:20:50.111Z",
+      "url": "/en/job-interview-norway-questions/"
     },
     {
       "group": "interview-questions",

@@ -11,13 +11,14 @@ cta_mid_button: "Check your fit"
 cta_end_title: "Write fewer, better applications"
 cta_end_text: "Paste a job ad into ReadyCV for an honest match assessment, then get a CV and application tailored to that job. Start for free without an account."
 cta_end_button: "Try ReadyCV for free"
-approved: true
 generated_at: "2026-10-17T10:24:15.794Z"
 model: "claude-opus-5-5"
 words: 1321
 review_local_fit: 4
 review_notes: "The article is strongly localised: it covers søknad, søknadsfrist, attester, vitnemål, FINN.no and arbeidsplassen.no, plus the culture of calling the contact person. The CV section (Mistake 6) is fairly generic and could name Norwegian specifics, for example how to present a foreign education or tha"
 reviewed_at: "2026-10-17T10:54:45.485Z"
+published_at: "2026-10-17T11:20:49.735Z"
+updated_at: "2026-10-17T11:20:49.735Z"
 ---
 
 If you are applying for jobs in Norway in English, small mistakes can make a good candidate look like a poor fit. Many of these mistakes come from writing the way you would in another country. A Norwegian job application (*søknad*) is usually short, direct and honest. This guide goes through the most common mistakes and shows how to fix each one, with examples you can adapt.
