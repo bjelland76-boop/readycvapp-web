@@ -7,7 +7,7 @@
   "maxArticlesPerLanguagePerWeek": 3,
   "maxArticlesPerRun": 2,
   "maxActiveLanguages": 2,
-  "maxAttemptsPerTopic": 2,
+  "maxAttemptsPerTopic": 3,
   "model": "claude-opus-5-5",
   "reviewModel": "claude-opus-5-5",
   "gaMeasurementId": "G-6QXCPDB0BK",
@@ -19,5 +19,7 @@
     "start for free without an account",
     "upload your existing CV and have it analysed"
   ],
-  "_ctaPromises": "Det eneste app-boksene (cta_*) og artiklene får love om appen. Endre listen her hvis appen får nye funksjoner."
+  "_ctaPromises": "Det eneste app-boksene (cta_*) og artiklene får love om appen. Endre listen her hvis appen får nye funksjoner.",
+  "maxApiCallsPerRun": 24,
+  "_maxApiCallsPerRun": "Kostnadsgrense: maks antall kall til Anthropic per kjøring (en artikkel bruker 2–4). Når grensen nås, stopper kjøringen pent, og det opprettes en Issue."
 }

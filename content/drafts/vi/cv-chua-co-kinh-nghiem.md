@@ -11,7 +11,7 @@ cta_mid_button: "Kiểm tra mức phù hợp"
 cta_end_title: "Viết CV đầu tiên cho đúng công việc bạn muốn"
 cta_end_text: "Dán tin tuyển dụng vào ReadyCV để nhận CV và thư xin việc viết riêng cho công việc đó. Bạn có thể bắt đầu miễn phí, không cần tạo tài khoản."
 cta_end_button: "Bắt đầu miễn phí"
-approved: false
+approved: true
 generated_at: "2026-10-17T10:35:13.470Z"
 model: "claude-opus-5-5"
 words: 1672

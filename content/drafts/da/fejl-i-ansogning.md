@@ -11,7 +11,7 @@ cta_mid_button: "Tjek dit match"
 cta_end_title: "Skriv en ansøgning, der passer til jobbet"
 cta_end_text: "Upload dit CV, indsæt annoncen, og få et CV og en ansøgning målrettet netop det job. Du kan starte gratis uden konto."
 cta_end_button: "Prøv ReadyCV gratis"
-approved: false
+approved: true
 generated_at: "2026-10-17T10:30:39.445Z"
 model: "claude-opus-5-5"
 words: 1290

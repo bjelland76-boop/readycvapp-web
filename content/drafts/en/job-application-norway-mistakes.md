@@ -11,7 +11,7 @@ cta_mid_button: "Check your fit"
 cta_end_title: "Write fewer, better applications"
 cta_end_text: "Paste a job ad into ReadyCV for an honest match assessment, then get a CV and application tailored to that job. Start for free without an account."
 cta_end_button: "Try ReadyCV for free"
-approved: false
+approved: true
 generated_at: "2026-10-17T10:24:15.794Z"
 model: "claude-opus-5-5"
 words: 1321

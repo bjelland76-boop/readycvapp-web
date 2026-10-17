@@ -13,7 +13,7 @@
 // which is never part of the public site (_config.yml excludes content/).
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join, relative } from 'node:path';
-import { complete, extractJson } from './lib/anthropic.mjs';
+import { BudgetError, callsUsed, complete, extractJson, setCallBudget } from './lib/anthropic.mjs';
 import { DRAFTS, PUBLISHED, ROOT, activeLanguages, articlePath, loadLanguages, loadSite, loadTopics, saveTopics } from './lib/config.mjs';
 import { serializeDoc } from './lib/frontmatter.mjs';
 import { FAQ_MARKER, parseBlocks, splitFaq, toPlainText } from './lib/markdown.mjs';
@@ -21,6 +21,12 @@ import { CTA_FIELDS, TITLE_MAX, DESCRIPTION_MAX, runChecks } from './lib/quality
 import { appLink, insertCtaMarker, withAppUtm } from './lib/links.mjs';
 import { checkUrls, linkCheckEnabled } from './lib/linkcheck.mjs';
 import { linksIn } from './lib/markdown.mjs';
+
+// A draft is approved automatically only when the link check really ran
+// (CONTENT_LINKCHECK_ASSUME_OK is for the tests, which have no network).
+export function autoApprovable() {
+  return linkCheckEnabled() || ['1', 'true'].includes(String(process.env.CONTENT_LINKCHECK_ASSUME_OK || '').toLowerCase());
+}
 
 // Every absolute link in the article plus the URL of the two app boxes.
 export function externalUrls(body, site, slug) {
@@ -32,7 +38,7 @@ const WEEK_MS = 7 * 24 * 3600 * 1000;
 const MAX_REVISIONS = 1;
 
 function parseArgs(argv) {
-  const a = { lang: null, count: null, includeDisabled: false, dryRun: false, topic: null, report: null };
+  const a = { lang: null, count: null, includeDisabled: false, dryRun: false, topic: null, report: null, summary: null };
   for (let i = 0; i < argv.length; i += 1) {
     const k = argv[i];
     if (k === '--lang') a.lang = argv[++i].split(',').map((s) => s.trim()).filter(Boolean);
@@ -41,6 +47,7 @@ function parseArgs(argv) {
     else if (k === '--dry-run') a.dryRun = true;
     else if (k === '--topic') a.topic = argv[++i];
     else if (k === '--report') a.report = argv[++i];
+    else if (k === '--summary') a.summary = argv[++i];
     else throw new Error(`ukjent argument: ${k}`);
   }
   return a;
@@ -291,8 +298,9 @@ export async function main(argv = process.argv.slice(2), log = console.log) {
     langs = activeLanguages(languages, site);
   }
 
-  const report = { created: [], rejected: [], skipped: [] };
-  for (const lang of langs) {
+  setCallBudget(site.maxApiCallsPerRun);
+  const report = { created: [], rejected: [], skipped: [], stuck: [], budgetStop: null };
+  outer: for (const lang of langs) {
     const used = draftedThisWeek(topics, lang.code);
     const room = Math.max(0, site.maxArticlesPerLanguagePerWeek - used);
     const want = args.count ?? site.maxArticlesPerRun;
@@ -319,6 +327,12 @@ export async function main(argv = process.argv.slice(2), log = console.log) {
       try {
         res = await writeOne(topic, lang, site, ctx, log);
       } catch (e) {
+        if (e instanceof BudgetError) {
+          // Cost guard: stop here, keep everything written so far. The topic
+          // is NOT counted as an attempt (nothing was wrong with it).
+          report.budgetStop = `${e.message}; stoppet før ${lang.code}/${topic.slug}`;
+          break outer;
+        }
         res = { ok: false, problems: [`feil: ${e.message}`] };
         if (e.status === 0 || e.status === 401 || e.status === 403) {
           // Missing/invalid key: no point trying the other topics.
@@ -340,7 +354,9 @@ export async function main(argv = process.argv.slice(2), log = console.log) {
           description: res.meta.description,
           h1: res.meta.h1,
           ...ctaMeta(res.meta),
-          approved: false,
+          // Auto-approval: every check passed, including the link check
+          // (which must actually have run).
+          approved: autoApprovable(),
           generated_at: now,
           model: site.model,
           words: res.words,
@@ -349,12 +365,15 @@ export async function main(argv = process.argv.slice(2), log = console.log) {
         };
         writeFileSync(file, serializeDoc(meta, res.body));
         Object.assign(topic, { status: 'draft', drafted_at: now, draft: relative(ROOT, file), last_error: undefined });
-        report.created.push({ lang: lang.code, slug: topic.slug, title: res.meta.title, words: res.words, file: relative(ROOT, file) });
+        report.created.push({ lang: lang.code, slug: topic.slug, title: res.meta.title, words: res.words, file: relative(ROOT, file), approved: meta.approved });
       } else {
         topic.attempts = (topic.attempts || 0) + 1;
         topic.last_error = res.problems.slice(0, 8).join(' | ').slice(0, 1000);
         topic.last_attempt_at = now;
         report.rejected.push({ lang: lang.code, slug: topic.slug, problems: res.problems });
+        if (topic.attempts >= site.maxAttemptsPerTopic) {
+          report.stuck.push({ lang: lang.code, slug: topic.slug, attempts: topic.attempts, problems: res.problems });
+        }
       }
       saveTopics(topicsData);
     }
@@ -374,8 +393,11 @@ function finish(topicsData, report, args, log) {
     for (const r of report.rejected) lines.push(`- **${r.lang}/${r.slug}**: ${r.problems.slice(0, 5).join('; ')}`);
   }
   if (report.skipped.length) lines.push('', '## Hoppet over', '', ...report.skipped.map((s) => `- ${s}`));
+  if (report.budgetStop) lines.push('', '## Kostnadsgrense', '', `- ${report.budgetStop}`);
+  lines.push('', `API-kall i denne kjøringen: ${callsUsed()}`);
   const md = lines.join('\n') + '\n';
   if (args.report) writeFileSync(args.report, md);
+  if (args.summary) writeFileSync(args.summary, JSON.stringify({ ...report, apiCalls: callsUsed() }, null, 2));
   log(`\n${md}`);
 }
 

@@ -11,7 +11,7 @@ cta_mid_button: "Check how well you fit"
 cta_end_title: "Make your first CV fit the job you want"
 cta_end_text: "Start for free without an account: paste the job ad and get a CV and job application tailored to that job."
 cta_end_button: "Start for free"
-approved: false
+approved: true
 generated_at: "2026-10-17T10:23:24.868Z"
 model: "claude-opus-5-5"
 words: 1492

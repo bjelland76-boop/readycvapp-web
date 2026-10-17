@@ -7,7 +7,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { relative } from 'node:path';
 import { complete, extractJson } from './lib/anthropic.mjs';
-import { DRAFTS, ROOT, loadLanguages, loadSite } from './lib/config.mjs';
+import { DRAFTS, ROOT, loadLanguages, loadSite, loadTopics, saveTopics } from './lib/config.mjs';
 import { normalize, offlineCheck } from './lib/drafts.mjs';
 import { parseDoc, serializeDoc } from './lib/frontmatter.mjs';
 import { checkUrls, linkCheckEnabled } from './lib/linkcheck.mjs';
@@ -19,6 +19,7 @@ const wanted = process.argv.slice(2).filter((a) => !a.startsWith('--'));
 const site = loadSite();
 const byCode = Object.fromEntries(loadLanguages().map((l) => [l.code, l]));
 const drafts = readArticles(DRAFTS);
+const topicsData = loadTopics();
 let failed = 0;
 for (const d of drafts.filter((x) => !wanted.length || wanted.includes(`${x.lang}/${x.slug}`))) {
   const lang = byCode[d.lang];
@@ -31,9 +32,13 @@ for (const d of drafts.filter((x) => !wanted.length || wanted.includes(`${x.lang
   try { review = extractJson(text); } catch { /* counted below */ }
   problems.push(...checkReview(review).map((x) => `kontroll: ${x}`));
   const { meta } = parseDoc(readFileSync(d.path, 'utf8'));
-  writeFileSync(d.path, serializeDoc({ ...meta, review_local_fit: review?.local_market_fit ?? null,
+  const approved = problems.length === 0 && linkCheckEnabled();
+  writeFileSync(d.path, serializeDoc({ ...meta, approved, review_local_fit: review?.local_market_fit ?? null,
     review_notes: String(review?.notes || '').slice(0, 300), reviewed_at: new Date().toISOString() }, body));
   console.log(`${problems.length ? 'FEIL' : 'OK  '} ${relative(ROOT, d.path)} (lokal tilpasning ${review?.local_market_fit ?? '?'}/5)${problems.length ? `\n  - ${problems.join('\n  - ')}` : ''}`);
   if (problems.length) failed += 1;
+  const topic = topicsData.topics.find((t) => t.lang === d.lang && t.slug === d.slug);
+  if (topic) topic.last_error = problems.length ? problems.slice(0, 8).join(' | ').slice(0, 1000) : undefined;
 }
+saveTopics(topicsData);
 process.exit(failed ? 1 : 0);

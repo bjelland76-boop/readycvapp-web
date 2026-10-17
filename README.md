@@ -2,35 +2,31 @@
 
 Landingssiden til ReadyCV, publisert med GitHub Pages fra `main`. De eksisterende sidene (`index.html`, `privacy-policy.html`, `slett-konto.html`) er vanlig HTML og endres ikke av innholdsrutinen.
 
-## Innholdsrutinen – kort fortalt
+## Innholdsrutinen – kort fortalt (helautomatisk)
 
-1. To ganger i uka (mandag og torsdag morgen) skriver GitHub Actions nye artikler for hvert **aktivt** språk.
-2. Hver artikkel må bestå kvalitetssjekken (se under). Artikler som stoppes, lagres ikke.
-3. Godkjente artikler lagres som **utkast** i `content/drafts/<språk>/` og samles i **én pull request**: «Artikkelutkast til gjennomgang».
-4. Du leser, godkjenner og merger. Ingenting vises på readycvapp.no før du publiserer.
+1. To ganger i uka (mandag og torsdag kl. 05 UTC) skriver workflowen **Artikler** nye artikler for hvert **aktivt** språk (`no` og `en`).
+2. Hver artikkel må bestå **alle** kvalitetssjekker (se under), også lenkesjekken og kontrollmodellen med lokal tilpasning på minst 4 av 5. Da settes `approved: true` automatisk. Artikler som ikke består, lagres ikke, eller blir stående som `approved: false`. Grunnen står i `last_error` i `content/topics.json`.
+3. Godkjente artikler publiseres i samme kjøring:
+   - sider og `sitemap.xml` oppdateres
+   - endringene committes og pushes til `main`
+   - workflowen starter GitHub Pages-bygget
+4. Feiler en kjøring, nås kostnadsgrensen, eller stoppes et tema 3 ganger, oppretter workflowen en **GitHub Issue** merket `innholdsrutine`. Er det allerede en åpen Issue med samme tittel, lages det ingen ny.
 
-Utkastene ligger i repoet, men aldri på nettsiden: `_config.yml` holder `content/` og `scripts/` utenfor GitHub Pages. Repoet er offentlig, så utkast kan leses på GitHub.
+Du trenger ikke godkjenne enkeltartikler. **Stopp publiseringen med én endring:** sett repo-variabelen `AUTO_PUBLISH` til `false` (se under). Da lager workflowen bare utkast i én pull request, slik som før.
 
-## Godkjenne og publisere utkast
+`content/drafts/` og `content/published/` vises aldri som sider. `_config.yml` holder `content/` og `scripts/` utenfor GitHub Pages. Repoet er offentlig, så filene kan leses på GitHub.
 
-1. Åpne pull requesten **Artikkelutkast til gjennomgang** → *Files changed*.
-2. For hver artikkel du vil ha:
-   - Les teksten, og rett gjerne direkte i filen (… → *Edit file*).
-   - Endre `approved: false` til `approved: true`.
-3. Artikler du ikke vil ha: slett filen i PR-en. Temaet står da som `draft` i `content/topics.json`. Sett det tilbake til `queued` hvis du vil ha et nytt forsøk.
-4. Merge pull requesten.
-5. Publiser: **Actions → Publiser godkjente utkast → Run workflow**.
-   - Lokalt kan du i stedet kjøre `npm run publish-drafts` og deretter pushe.
-   - Bestemte artikler: `npm run publish-drafts -- no/cv-uten-erfaring`.
+## Publiseringen
 
-Publiseringen:
-- flytter utkastet til `content/published/`
-- lager siden `/<språk>/<slug>/` og språkforsiden `/<språk>/`
-- legger inn hreflang mellom språkversjoner av samme tema
-- oppdaterer `sitemap.xml`
-- sjekker på nytt lenker, UTM, app-bokser og priser. Et utkast som ikke består, blir ikke publisert, og grunnen vises i loggen.
+Publiseringen (`npm run publish-drafts -- --auto` i workflowen):
+- tar bare godkjente utkast i **aktive** språk (`enabled: true`, høyst `maxActiveLanguages`). Utkast i `da`, `sv` og `vi` forblir utkast.
+- publiserer høyst `maxArticlesPerLanguagePerWeek` (3) per språk siste 7 dager. Er ukegrensen nådd, venter utkastet til uka etter.
+- sjekker lenker, UTM, app-bokser og priser på nytt rett før publisering. Et utkast som ikke består, får `approved: false` og grunnen i `topics.json`.
+- flytter utkastet til `content/published/`, og lager `/<språk>/<slug>/`, språkforsiden `/<språk>/`, hreflang og `sitemap.xml`.
 
-Rett en publisert artikkel: rediger `content/published/<språk>/<slug>.md` og kjør `npm run build-site`.
+**Uten automatisk publisering** (`AUTO_PUBLISH=false`): åpne pull requesten **Artikkelutkast til gjennomgang**, rett eller slett filer, merge, og kjør **Actions → Publiser godkjente utkast → Run workflow**. Lokalt fungerer `npm run publish-drafts` (alle godkjente) eller `npm run publish-drafts -- no/cv-uten-erfaring`.
+
+**Rett en publisert artikkel:** rediger `content/published/<språk>/<slug>.md` og kjør `npm run build-site`. **Stoppe én artikkel før publisering:** sett `approved: false` i utkastet.
 
 ## Slå språk av og på
 
@@ -62,20 +58,20 @@ Hvert tema har:
 - `status`: `queued`, `draft` eller `published`
 - `translations`: samme tema på andre språk, til hreflang
 
-Temaene er skrevet per marked, ikke oversatt. Etter et forsøk som ble stoppet, viser `last_error` hvorfor. Etter 2 forsøk hoppes temaet over.
+Temaene er skrevet per marked, ikke oversatt. Etter et forsøk som ble stoppet, viser `last_error` hvorfor. Etter 3 forsøk hoppes temaet over, og det opprettes en Issue. Sett `attempts` til 0, eller endre temaet, for å prøve igjen.
 
-## Automatisk publisering
+## Variabler (av/på og grenser)
 
-Standard er **av**. Slå på: GitHub → *Settings → Secrets and variables → Actions → Variables* → `AUTO_PUBLISH` = `true`. Da publiserer workflowen nye artikler som består kvalitetssjekken rett på `main`, uten pull request. Sett den tilbake til `false` (eller slett variabelen) for å få pull requests igjen.
-
-Andre variabler på samme sted, alle valgfrie:
+GitHub → *Settings → Secrets and variables → Actions → Variables*. Alle er valgfrie:
 
 | Variabel | Standard | Hva |
 |---|---|---|
-| `CONTENT_ENABLED` | `true` | `false` stopper hele rutinen |
-| `MAX_ARTICLES_PER_LANGUAGE_PER_WEEK` | 3 | Maks nye artikler per språk siste 7 dager |
+| `AUTO_PUBLISH` | `true` | `false` stopper publiseringen; da lages bare utkast i en pull request |
+| `CONTENT_ENABLED` | `true` | `false` stopper hele rutinen (ingen API-kall) |
+| `MAX_ARTICLES_PER_LANGUAGE_PER_WEEK` | 3 | Maks nye og maks publiserte artikler per språk siste 7 dager |
 | `MAX_ARTICLES_PER_RUN` | 2 | Per språk per kjøring (to kjøringer i uka gir 2 + 1) |
 | `MAX_ACTIVE_LANGUAGES` | 2 | Maks aktive språk samtidig |
+| `MAX_API_CALLS_PER_RUN` | 24 | **Kostnadsgrense:** maks kall til Anthropic per kjøring. En artikkel bruker 2–4. Når grensen nås, stopper kjøringen pent, og det opprettes en Issue. |
 | `CONTENT_MODEL` | `claude-opus-5-5` | Modell for skriving og kontroll |
 
 Standardverdiene står i `content/site.json`.

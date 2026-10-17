@@ -11,7 +11,7 @@ cta_mid_button: "Testa mot en annons"
 cta_end_title: "Gör ditt första CV för rätt jobb"
 cta_end_text: "Klistra in annonsen och få ett CV och ett personligt brev anpassade till jobbet. Du kan börja gratis, utan konto."
 cta_end_button: "Börja gratis"
-approved: false
+approved: true
 generated_at: "2026-10-17T10:39:01.966Z"
 model: "claude-opus-5-5"
 words: 1136

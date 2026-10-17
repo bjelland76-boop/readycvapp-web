@@ -1,16 +1,21 @@
-# Skriver nye artikkelutkast to ganger i uka og samler dem i ÉN pull request
-# (grenen content/drafts) som du går gjennom selv. Ingenting publiseres,
-# med mindre repo-variabelen AUTO_PUBLISH er satt til true.
+# Skriver nye artikler to ganger i uka. Med AUTO_PUBLISH=true (standard)
+# godkjennes utkast som består ALLE kvalitetssjekker automatisk, publiseres i
+# samme kjøring og pushes til main. Med AUTO_PUBLISH=false lages bare utkast i
+# én pull request (grenen content/drafts), og ingenting publiseres.
 #
 # Variabler (Settings → Secrets and variables → Actions → Variables), alle valgfrie:
-#   AUTO_PUBLISH                         false (standard) | true
-#   CONTENT_ENABLED                      true (standard) | false = rutinen står stille
+#   AUTO_PUBLISH                         true (standard) | false = stopp publiseringen
+#   CONTENT_ENABLED                      true (standard) | false = hele rutinen står stille
 #   MAX_ARTICLES_PER_LANGUAGE_PER_WEEK   standard fra content/site.json (3)
 #   MAX_ARTICLES_PER_RUN                 standard fra content/site.json (2)
 #   MAX_ACTIVE_LANGUAGES                 standard fra content/site.json (2)
+#   MAX_API_CALLS_PER_RUN                kostnadsgrense, standard fra content/site.json (24)
 #   CONTENT_MODEL                        standard fra content/site.json
 # Hemmelighet (Secrets): ANTHROPIC_API_KEY
-name: Artikkelutkast
+#
+# Feil i kjøringen, nådd kostnadsgrense og temaer som er stoppet 3 ganger
+# blir til en GitHub Issue (merket "innholdsrutine").
+name: Artikler
 
 on:
   schedule:
@@ -29,6 +34,8 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  issues: write
+  pages: write
 
 concurrency:
   group: content-drafts
@@ -36,17 +43,18 @@ concurrency:
 
 env:
   DRAFT_BRANCH: content/drafts
-  AUTO_PUBLISH: ${{ vars.AUTO_PUBLISH || 'false' }}
+  AUTO_PUBLISH: ${{ vars.AUTO_PUBLISH || 'true' }}
   MAX_ARTICLES_PER_LANGUAGE_PER_WEEK: ${{ vars.MAX_ARTICLES_PER_LANGUAGE_PER_WEEK }}
   MAX_ARTICLES_PER_RUN: ${{ vars.MAX_ARTICLES_PER_RUN }}
   MAX_ACTIVE_LANGUAGES: ${{ vars.MAX_ACTIVE_LANGUAGES }}
+  MAX_API_CALLS_PER_RUN: ${{ vars.MAX_API_CALLS_PER_RUN }}
   CONTENT_MODEL: ${{ vars.CONTENT_MODEL }}
 
 jobs:
-  drafts:
+  articles:
     if: ${{ vars.CONTENT_ENABLED != 'false' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
         with:
@@ -61,7 +69,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Fortsett i åpen utkast-PR, eller start en ny fra main
+      - name: Uten automatisk publisering - fortsett i åpen utkast-PR, eller start fra main
         if: ${{ env.AUTO_PUBLISH != 'true' }}
         env:
           GH_TOKEN: ${{ github.token }}
@@ -78,27 +86,42 @@ jobs:
       - name: Tester
         run: npm test
 
-      - name: Skriv utkast
+      - name: Skriv artikler (kvalitetssjekk, linksjekk, automatisk godkjenning)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           IN_LANGUAGES: ${{ inputs.languages }}
           IN_COUNT: ${{ inputs.count }}
         run: |
-          args=(--report "$RUNNER_TEMP/report.md")
+          args=(--report "$RUNNER_TEMP/report.md" --summary "$RUNNER_TEMP/summary.json")
           [ -n "$IN_LANGUAGES" ] && args+=(--lang "$IN_LANGUAGES")
           [ -n "$IN_COUNT" ] && args+=(--count "$IN_COUNT")
           node scripts/generate.mjs "${args[@]}"
 
-      - name: Publiser automatisk (bare når AUTO_PUBLISH=true)
+      - name: Publiser godkjente artikler (bare aktive språk, innenfor ukegrensen)
         if: ${{ env.AUTO_PUBLISH == 'true' }}
         run: |
-          node scripts/publish-drafts.mjs --all || echo "::warning::Noen utkast ble ikke publisert (se loggen)"
-          git add -A
-          if git diff --cached --quiet; then echo "Ingenting nytt."; exit 0; fi
-          git commit -m "Artikler publisert automatisk ($(date -u +%F))"
-          git push origin HEAD:main
+          node scripts/publish-drafts.mjs --auto | tee "$RUNNER_TEMP/publish.log" || echo "::warning::Noen godkjente utkast ble ikke publisert (se «IKKE publisert» i loggen)"
 
-      - name: Commit utkast og åpne/oppdater pull request
+      - name: Commit og push til main
+        if: ${{ env.AUTO_PUBLISH == 'true' }}
+        id: push
+        run: |
+          git add -A
+          if git diff --cached --quiet; then echo "Ingenting nytt."; echo "pushed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          git commit -m "Artikler $(date -u +%F) (automatisk)"
+          git push origin HEAD:main
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Bygg GitHub Pages på nytt
+        if: ${{ steps.push.outputs.pushed == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Push med GITHUB_TOKEN starter ikke alltid Pages-bygget av seg selv; be om det eksplisitt.
+          gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds" >/dev/null && echo "Pages-bygg startet" \
+            || echo "::warning::Klarte ikke å starte Pages-bygget; det starter ved neste push."
+
+      - name: Uten automatisk publisering - commit utkast og åpne/oppdater pull request
         if: ${{ env.AUTO_PUBLISH != 'true' }}
         env:
           GH_TOKEN: ${{ github.token }}
@@ -109,9 +132,7 @@ jobs:
           git push origin "HEAD:$DRAFT_BRANCH"
           open=$(gh pr list --head "$DRAFT_BRANCH" --state open --json number --jq '.[0].number // empty')
           {
-            echo "Nye artikkelutkast fra innholdsrutinen. **Ingenting er publisert.**"
-            echo
-            echo "Slik godkjenner du: åpne utkastet under *Files changed*, endre \`approved: false\` til \`approved: true\` (eller slett filen hvis du ikke vil ha den), og merge. Kjør så workflowen **Publiser godkjente utkast** (eller \`npm run publish-drafts\` lokalt)."
+            echo "Nye artikkelutkast. **AUTO_PUBLISH er av, så ingenting er publisert.**"
             echo
             cat "$RUNNER_TEMP/report.md"
           } > "$RUNNER_TEMP/body.md"
@@ -120,3 +141,50 @@ jobs:
           else
             gh pr comment "$open" --body-file "$RUNNER_TEMP/body.md"
           fi
+
+      - name: Issue for temaer som er stoppet 3 ganger og for nådd kostnadsgrense
+        if: ${{ always() }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          [ -f "$RUNNER_TEMP/summary.json" ] || exit 0
+          gh label create innholdsrutine --color E8501A --description "Feil fra artikkelrutinen" 2>/dev/null || true
+          node -e '
+            const s = require(process.env.RUNNER_TEMP + "/summary.json");
+            const out = [];
+            for (const t of s.stuck || []) out.push({
+              title: `Innholdsrutine: temaet ${t.lang}/${t.slug} er stoppet ${t.attempts} ganger`,
+              body: `Temaet hoppes over til det rettes i content/topics.json (sett attempts til 0, eller endre tittel/formål).\n\nSiste grunn:\n${t.problems.slice(0, 8).map((p) => "- " + p).join("\n")}\n\nKjøring: ${process.env.RUN_URL}` });
+            if (s.budgetStop) out.push({
+              title: "Innholdsrutine: kostnadsgrensen for API-kall ble nådd",
+              body: `${s.budgetStop}\n\nAPI-kall i kjøringen: ${s.apiCalls}. Hev MAX_API_CALLS_PER_RUN hvis det er forventet.\n\nKjøring: ${process.env.RUN_URL}` });
+            require("fs").writeFileSync(process.env.RUNNER_TEMP + "/issues.json", JSON.stringify(out));
+          '
+          node -e 'for (const i of require(process.env.RUNNER_TEMP + "/issues.json")) console.log(Buffer.from(JSON.stringify(i)).toString("base64"))' | while read -r line; do
+            title=$(echo "$line" | base64 -d | node -e 'let d="";process.stdin.on("data",c=>d+=c).on("end",()=>console.log(JSON.parse(d).title))')
+            echo "$line" | base64 -d | node -e 'let d="";process.stdin.on("data",c=>d+=c).on("end",()=>process.stdout.write(JSON.parse(d).body))' > "$RUNNER_TEMP/issue.md"
+            if gh issue list --state open --label innholdsrutine --search "in:title \"$title\"" --json title --jq '.[].title' | grep -Fxq "$title"; then
+              echo "Finnes allerede: $title"
+            else
+              gh issue create --title "$title" --body-file "$RUNNER_TEMP/issue.md" --label innholdsrutine
+            fi
+          done
+
+      - name: Issue når kjøringen feiler
+        if: ${{ failure() }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          gh label create innholdsrutine --color E8501A --description "Feil fra artikkelrutinen" 2>/dev/null || true
+          title="Innholdsrutine: kjøringen feilet ($(date -u +%F))"
+          {
+            echo "Kjøringen av workflowen **Artikler** feilet. Se loggen for hvilket steg som stoppet, og om noe ble publisert før feilen."
+            echo
+            echo "Se loggen: $RUN_URL"
+            echo
+            echo "Vanlige årsaker: ugyldig eller manglende ANTHROPIC_API_KEY, testene feilet, eller push til main ble avvist."
+            [ -f "$RUNNER_TEMP/report.md" ] && { echo; cat "$RUNNER_TEMP/report.md"; }
+          } > "$RUNNER_TEMP/fail.md"
+          gh issue create --title "$title" --body-file "$RUNNER_TEMP/fail.md" --label innholdsrutine

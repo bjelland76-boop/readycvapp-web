@@ -11,7 +11,7 @@ cta_mid_button: "Sjekk hvor godt du passer"
 cta_end_title: "Lag din første CV til en konkret jobb"
 cta_end_text: "Lim inn annonsen i ReadyCV og få en CV og en søknad tilpasset akkurat den stillingen. Gratis å starte, uten konto."
 cta_end_button: "Prøv ReadyCV gratis"
-approved: false
+approved: true
 generated_at: "2026-10-17T10:25:28.647Z"
 model: "claude-opus-5-5"
 words: 1147

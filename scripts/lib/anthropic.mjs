@@ -11,6 +11,15 @@ export class ApiError extends Error {
   }
 }
 
+// Cost guard: at most MAX_API_CALLS_PER_RUN calls per process (set by
+// generate.mjs from content/site.json or the environment). Retries of the
+// same call are not counted twice.
+let callsMade = 0;
+let callBudget = Infinity;
+export function setCallBudget(n) { callBudget = n; }
+export function callsUsed() { return callsMade; }
+export class BudgetError extends Error {}
+
 function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
 }
@@ -18,6 +27,8 @@ function sleep(ms) {
 export async function complete({ model, system, user, maxTokens = 8000, retries = 4 }) {
   const key = (process.env.ANTHROPIC_API_KEY || '').trim();
   if (!key) throw new ApiError('ANTHROPIC_API_KEY er ikke satt', 0);
+  if (callsMade >= callBudget) throw new BudgetError(`kostnadsgrensen er nådd (${callBudget} API-kall per kjøring)`);
+  callsMade += 1;
   const base = (process.env.ANTHROPIC_BASE_URL || 'https://api.anthropic.com').replace(/\/+$/, '');
   const body = JSON.stringify({
     model,

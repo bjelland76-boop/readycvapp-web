@@ -99,9 +99,12 @@ function workspace() {
 }
 
 // Async: the fake API runs in this process and must keep answering.
-async function run(dir, script, args) {
+async function run(dir, script, args, extraEnv = {}) {
   const { stdout } = await promisify(execFile)(process.execPath, [join(REPO, 'scripts', script), ...args], {
-    env: { ...process.env, CONTENT_SKIP_LINKCHECK: '1', MAX_ARTICLES_PER_LANGUAGE_PER_WEEK: '', MAX_ARTICLES_PER_RUN: '', MAX_ACTIVE_LANGUAGES: '', CONTENT_ROOT: dir, ANTHROPIC_API_KEY: 'test-key', ANTHROPIC_BASE_URL: base },
+    // No network in tests: links are not opened, but treated as working so
+    // auto-approval can be tested (CONTENT_LINKCHECK_ASSUME_OK).
+    env: { ...process.env, CONTENT_SKIP_LINKCHECK: '1', CONTENT_LINKCHECK_ASSUME_OK: '1', MAX_ARTICLES_PER_LANGUAGE_PER_WEEK: '', MAX_ARTICLES_PER_RUN: '',
+      MAX_ACTIVE_LANGUAGES: '', MAX_API_CALLS_PER_RUN: '', MAX_ATTEMPTS_PER_TOPIC: '', CONTENT_ROOT: dir, ANTHROPIC_API_KEY: 'test-key', ANTHROPIC_BASE_URL: base, ...extraEnv },
     encoding: 'utf8',
     timeout: 60_000,
   });
@@ -114,7 +117,7 @@ test('generate -> draft with app boxes and UTM; nothing public yet', async () =>
   const sitemapBefore = readFileSync(join(dir, 'sitemap.xml'), 'utf8');
   await run(dir, 'generate.mjs', ['--lang', 'no,en', '--count', '1']);
   const draft = readFileSync(join(dir, 'content', 'drafts', 'no', 'cv-uten-erfaring.md'), 'utf8');
-  assert.match(draft, /approved: false/);
+  assert.match(draft, /approved: true/, 'passed every check -> approved automatically');
   assert.match(draft, /cta_mid_button: "Lag CV-en gratis"/);
   assert.match(draft, /<!-- cta -->/);
   assert.match(draft, /https:\/\/app\.aerlig\.no\/\?utm_source=readycvapp&utm_medium=artikkel&utm_campaign=cv-uten-erfaring/);
@@ -126,12 +129,8 @@ test('generate -> draft with app boxes and UTM; nothing public yet', async () =>
   assert.equal(readFileSync(join(dir, 'sitemap.xml'), 'utf8'), sitemapBefore);
   assert.ok(!existsSync(join(dir, 'no')));
 
-  // Approve both, publish.
-  for (const f of ['no/cv-uten-erfaring.md', 'en/cv-norway-no-experience.md']) {
-    const p = join(dir, 'content', 'drafts', f);
-    writeFileSync(p, readFileSync(p, 'utf8').replace('approved: false', 'approved: true'));
-  }
-  await run(dir, 'publish-drafts.mjs', []);
+  // The workflow's publish step.
+  await run(dir, 'publish-drafts.mjs', ['--auto']);
   const html = readFileSync(join(dir, 'no', 'cv-uten-erfaring', 'index.html'), 'utf8');
   assert.match(html, /<html lang="nb">/);
   assert.match(html, /<meta charset="UTF-8">/);
@@ -186,4 +185,64 @@ test('weekly limit and disabled languages', async () => {
   writeFileSync(join(dir, 'content', 'topics.json'), JSON.stringify(t));
   assert.match(await run(dir, 'generate.mjs', ['--dry-run']), /no: ukegrensen er nådd \(3\/3/);
   await assert.rejects(run(dir, 'generate.mjs', ['--lang', 'da', '--dry-run']), /enabled=false/);
+});
+
+test('auto publish: only active languages, never past the weekly limit', async () => {
+  const dir = workspace();
+  await run(dir, 'generate.mjs', ['--lang', 'no', '--count', '1']);
+  // An approved draft in a disabled language must stay a draft.
+  const daDraft = readFileSync(join(dir, 'content', 'drafts', 'no', 'cv-uten-erfaring.md'), 'utf8').replace('lang: "no"', 'lang: "da"').replace('"cv-uten-erfaring"', '"cv-uden-erfaring"');
+  cpSync(join(dir, 'content', 'drafts', 'no'), join(dir, 'content', 'drafts', 'da'), { recursive: true });
+  rmSync(join(dir, 'content', 'drafts', 'da', 'cv-uten-erfaring.md'));
+  writeFileSync(join(dir, 'content', 'drafts', 'da', 'cv-uden-erfaring.md'), daDraft);
+  // Three Norwegian articles were already published this week.
+  const t = JSON.parse(readFileSync(join(dir, 'content', 'topics.json'), 'utf8'));
+  const now = new Date().toISOString();
+  for (const x of t.topics.filter((y) => y.lang === 'no' && y.status === 'queued').slice(0, 3)) Object.assign(x, { status: 'published', published_at: now });
+  writeFileSync(join(dir, 'content', 'topics.json'), JSON.stringify(t));
+  const out = await run(dir, 'publish-drafts.mjs', ['--auto']);
+  assert.match(out, /da\/cv-uden-erfaring: språket er ikke aktivt/);
+  assert.match(out, /no\/cv-uten-erfaring: ukegrensen for publisering er nådd/);
+  assert.match(out, /publisert: 0/);
+  assert.ok(existsSync(join(dir, 'content', 'drafts', 'no', 'cv-uten-erfaring.md')));
+  assert.ok(!existsSync(join(dir, 'no')));
+  // A week later the draft goes out.
+  const t2 = JSON.parse(readFileSync(join(dir, 'content', 'topics.json'), 'utf8'));
+  for (const x of t2.topics) if (x.published_at) x.published_at = new Date(Date.now() - 8 * 864e5).toISOString();
+  writeFileSync(join(dir, 'content', 'topics.json'), JSON.stringify(t2));
+  assert.match(await run(dir, 'publish-drafts.mjs', ['--auto']), /publisert: 1/);
+  assert.ok(existsSync(join(dir, 'no', 'cv-uten-erfaring', 'index.html')));
+  assert.ok(!existsSync(join(dir, 'da')));
+});
+
+test('a topic stopped 3 times is reported (for the issue); the cost limit stops the run cleanly', async () => {
+  const dir = workspace();
+  const sum = join(dir, 'summary.json');
+  state.price = true;
+  try {
+    for (let i = 1; i <= 3; i += 1) {
+      await run(dir, 'generate.mjs', ['--lang', 'en', '--count', '1', '--topic', 'cv-norway-no-experience', '--summary', sum]);
+      const s = JSON.parse(readFileSync(sum, 'utf8'));
+      assert.equal(s.stuck.length, i === 3 ? 1 : 0, `run ${i}`);
+    }
+  } finally {
+    state.price = false;
+  }
+  const t = JSON.parse(readFileSync(join(dir, 'content', 'topics.json'), 'utf8')).topics.find((x) => x.lang === 'en' && x.slug === 'cv-norway-no-experience');
+  assert.equal(t.attempts, 3);
+  assert.match(t.last_error, /priser/);
+  // Skipped from now on.
+  assert.doesNotMatch(await run(dir, 'generate.mjs', ['--lang', 'en', '--count', '1', '--dry-run']), /cv-norway-no-experience/);
+
+  // Cost limit: 3 calls allowed, an article needs 2 per round.
+  const dir2 = workspace();
+  const sum2 = join(dir2, 'summary.json');
+  const before = state.calls;
+  await run(dir2, 'generate.mjs', ['--lang', 'no,en', '--count', '2', '--summary', sum2], { MAX_API_CALLS_PER_RUN: '3' });
+  assert.ok(state.calls - before <= 3, 'never more than the limit');
+  const s2 = JSON.parse(readFileSync(sum2, 'utf8'));
+  assert.match(s2.budgetStop, /kostnadsgrensen er nådd \(3 API-kall/);
+  assert.equal(s2.created.length, 1);
+  const stopped = JSON.parse(readFileSync(join(dir2, 'content', 'topics.json'), 'utf8')).topics.filter((x) => x.attempts);
+  assert.equal(stopped.length, 0, 'the cost stop is not counted as an attempt');
 });

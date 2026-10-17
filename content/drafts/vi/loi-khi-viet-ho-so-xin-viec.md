@@ -11,7 +11,7 @@ cta_mid_button: "Kiểm tra mức độ phù hợp"
 cta_end_title: "Sửa lỗi trước khi bấm nộp hồ sơ"
 cta_end_text: "Tải CV hiện có lên để được phân tích, rồi nhận CV và thư xin việc viết riêng cho vị trí bạn nhắm tới. Bắt đầu miễn phí, không cần tài khoản."
 cta_end_button: "Dùng thử miễn phí"
-approved: false
+approved: true
 generated_at: "2026-10-17T10:37:37.631Z"
 model: "claude-opus-5-5"
 words: 1847

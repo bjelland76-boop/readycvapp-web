@@ -11,7 +11,7 @@ cta_mid_button: "Testa din matchning"
 cta_end_title: "Gör nästa ansökan träffsäker"
 cta_end_text: "Ladda upp ditt CV och klistra in en jobbannons. Du får ett CV och ett personligt brev anpassade till just det jobbet."
 cta_end_button: "Börja gratis nu"
-approved: false
+approved: true
 generated_at: "2026-10-17T10:33:58.010Z"
 model: "claude-opus-5-5"
 words: 1234

@@ -62,6 +62,7 @@ export function loadSite() {
     maxArticlesPerRun: envInt('MAX_ARTICLES_PER_RUN', s.maxArticlesPerRun),
     maxActiveLanguages: envInt('MAX_ACTIVE_LANGUAGES', s.maxActiveLanguages),
     maxAttemptsPerTopic: envInt('MAX_ATTEMPTS_PER_TOPIC', s.maxAttemptsPerTopic),
+    maxApiCallsPerRun: envInt('MAX_API_CALLS_PER_RUN', s.maxApiCallsPerRun ?? 24),
     model: process.env.CONTENT_MODEL || s.model,
     reviewModel: process.env.CONTENT_REVIEW_MODEL || s.reviewModel || s.model,
   };

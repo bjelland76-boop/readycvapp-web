@@ -1,5 +1,6 @@
-# Publiserer godkjente utkast (approved: true) som ligger på main, bygger
-# artikkelsidene og sitemap.xml, og pusher til main. Startes bare manuelt:
+# Manuell publisering (trengs bare når AUTO_PUBLISH=false): publiserer
+# godkjente utkast (approved: true) i aktive språk som ligger på main, bygger
+# artikkelsidene og sitemap.xml, og pusher til main. Startes manuelt:
 # Actions → Publiser godkjente utkast → Run workflow.
 name: Publiser godkjente utkast
 
@@ -13,6 +14,7 @@ on:
 
 permissions:
   contents: write
+  pages: write
 
 concurrency:
   group: content-publish
@@ -48,3 +50,5 @@ jobs:
           if git diff --cached --quiet; then echo "Ingenting å publisere."; exit 0; fi
           git commit -m "Publiser godkjente artikler ($(date -u +%F))"
           git push origin HEAD:main
+          GH_TOKEN="${{ github.token }}" gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds" >/dev/null || echo "::warning::Klarte ikke å starte Pages-bygget"
+

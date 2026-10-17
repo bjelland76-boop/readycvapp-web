@@ -11,7 +11,7 @@ cta_mid_button: "Prøv det gratis"
 cta_end_title: "Se, hvor godt du passer til jobbet"
 cta_end_text: "Indsæt jobopslaget, og få en ærlig vurdering af dine styrker og af det, der mangler. Du kan starte gratis uden at oprette en konto."
 cta_end_button: "Indsæt et jobopslag"
-approved: false
+approved: true
 generated_at: "2026-10-17T10:28:34.614Z"
 model: "claude-opus-5-5"
 words: 1170
