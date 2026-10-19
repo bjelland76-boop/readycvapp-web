@@ -395,6 +395,10 @@ function finish(topicsData, report, args, log) {
   if (report.skipped.length) lines.push('', '## Hoppet over', '', ...report.skipped.map((s) => `- ${s}`));
   if (report.budgetStop) lines.push('', '## Kostnadsgrense', '', `- ${report.budgetStop}`);
   lines.push('', `API-kall i denne kjøringen: ${callsUsed()}`);
+  if (!report.created.length && !report.rejected.length && !report.budgetStop) {
+    // Not an error: the weekly limit is reached or the queue is empty.
+    lines.push('', 'Ingenting å gjøre i denne kjøringen (se «Hoppet over»). Avslutter uten feil.');
+  }
   const md = lines.join('\n') + '\n';
   if (args.report) writeFileSync(args.report, md);
   if (args.summary) writeFileSync(args.summary, JSON.stringify({ ...report, apiCalls: callsUsed() }, null, 2));

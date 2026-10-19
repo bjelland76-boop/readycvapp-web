@@ -84,7 +84,18 @@ jobs:
           fi
 
       - name: Tester
-        run: npm test
+        run: |
+          echo "Tester (npm test)" > "$RUNNER_TEMP/stage"
+          set +e
+          node --test --test-reporter=spec scripts/test/*.test.mjs 2>&1 | tee "$RUNNER_TEMP/step.log"
+          status=${PIPESTATUS[0]}
+          if [ "$status" -ne 0 ]; then
+            failed=$(grep -E '^\s*✖' "$RUNNER_TEMP/step.log" | sed 's/^\s*//' | sort -u | head -5 | paste -sd ';' -)
+            echo "::error title=Testene feilet::${failed:-se loggen}"
+            # The failing tests with their assertion, for the issue.
+            awk '/✖ failing tests:/{f=1} f' "$RUNNER_TEMP/step.log" | grep -vE '^\s+at ' | head -n 60 > "$RUNNER_TEMP/step-error.log"
+          fi
+          exit "$status"
 
       - name: Skriv artikler (kvalitetssjekk, linksjekk, automatisk godkjenning)
         env:
@@ -92,20 +103,29 @@ jobs:
           IN_LANGUAGES: ${{ inputs.languages }}
           IN_COUNT: ${{ inputs.count }}
         run: |
+          echo "Skriv artikler (scripts/generate.mjs)" > "$RUNNER_TEMP/stage"
           args=(--report "$RUNNER_TEMP/report.md" --summary "$RUNNER_TEMP/summary.json")
           [ -n "$IN_LANGUAGES" ] && args+=(--lang "$IN_LANGUAGES")
           [ -n "$IN_COUNT" ] && args+=(--count "$IN_COUNT")
-          node scripts/generate.mjs "${args[@]}"
+          set -o pipefail
+          node scripts/generate.mjs "${args[@]}" 2>&1 | tee "$RUNNER_TEMP/step.log"
 
       - name: Publiser godkjente artikler (bare aktive språk, innenfor ukegrensen)
         if: ${{ env.AUTO_PUBLISH == 'true' }}
         run: |
-          node scripts/publish-drafts.mjs --auto | tee "$RUNNER_TEMP/publish.log" || echo "::warning::Noen godkjente utkast ble ikke publisert (se «IKKE publisert» i loggen)"
+          echo "Publiser (scripts/publish-drafts.mjs --auto)" > "$RUNNER_TEMP/stage"
+          set +e
+          node scripts/publish-drafts.mjs --auto 2>&1 | tee "$RUNNER_TEMP/step.log"
+          status=${PIPESTATUS[0]}
+          # 2 = some approved drafts were refused (reason in the log and in topics.json); not a failure.
+          if [ "$status" -eq 2 ]; then echo "::warning::Noen godkjente utkast ble ikke publisert (se «IKKE publisert» i loggen)"; exit 0; fi
+          exit "$status"
 
       - name: Commit og push til main
         if: ${{ env.AUTO_PUBLISH == 'true' }}
         id: push
         run: |
+          echo "Commit og push til main" > "$RUNNER_TEMP/stage"
           git add -A
           if git diff --cached --quiet; then echo "Ingenting nytt."; echo "pushed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
           git commit -m "Artikler $(date -u +%F) (automatisk)"
@@ -141,6 +161,11 @@ jobs:
           else
             gh pr comment "$open" --body-file "$RUNNER_TEMP/body.md"
           fi
+
+      - name: Oppsummering i kjøringen
+        if: ${{ always() }}
+        run: |
+          [ -f "$RUNNER_TEMP/report.md" ] && cat "$RUNNER_TEMP/report.md" >> "$GITHUB_STEP_SUMMARY" || echo "Ingen rapport (kjøringen stoppet før artikkelsteget)." >> "$GITHUB_STEP_SUMMARY"
 
       - name: Issue for temaer som er stoppet 3 ganger og for nådd kostnadsgrense
         if: ${{ always() }}
@@ -179,12 +204,30 @@ jobs:
         run: |
           gh label create innholdsrutine --color E8501A --description "Feil fra artikkelrutinen" 2>/dev/null || true
           title="Innholdsrutine: kjøringen feilet ($(date -u +%F))"
+          stage=$(cat "$RUNNER_TEMP/stage" 2>/dev/null || echo "før testene (oppsett av jobben)")
           {
-            echo "Kjøringen av workflowen **Artikler** feilet. Se loggen for hvilket steg som stoppet, og om noe ble publisert før feilen."
+            echo "Kjøringen av workflowen **Artikler** feilet."
             echo
-            echo "Se loggen: $RUN_URL"
+            echo "**Steg som feilet:** $stage"
             echo
-            echo "Vanlige årsaker: ugyldig eller manglende ANTHROPIC_API_KEY, testene feilet, eller push til main ble avvist."
+            echo "Logg: $RUN_URL"
+            if [ -s "$RUNNER_TEMP/step-error.log" ]; then
+              echo
+              echo "Feilende tester:"
+              echo
+              echo '```'
+              cat "$RUNNER_TEMP/step-error.log"
+              echo '```'
+            elif [ -f "$RUNNER_TEMP/step.log" ]; then
+              echo
+              echo "Siste linjer fra steget:"
+              echo
+              echo '```'
+              tail -n 40 "$RUNNER_TEMP/step.log"
+              echo '```'
+            fi
+            echo
+            echo "Vanlige årsaker: testene feilet, ugyldig eller manglende ANTHROPIC_API_KEY, eller push til main ble avvist."
             [ -f "$RUNNER_TEMP/report.md" ] && { echo; cat "$RUNNER_TEMP/report.md"; }
           } > "$RUNNER_TEMP/fail.md"
           gh issue create --title "$title" --body-file "$RUNNER_TEMP/fail.md" --label innholdsrutine

@@ -60,6 +60,12 @@ Hvert tema har:
 
 Temaene er skrevet per marked, ikke oversatt. Etter et forsøk som ble stoppet, viser `last_error` hvorfor. Etter 3 forsøk hoppes temaet over, og det opprettes en Issue. Sett `attempts` til 0, eller endre temaet, for å prøve igjen.
 
+## Når en kjøring feiler
+
+Workflowen oppretter en Issue merket `innholdsrutine`. Der står hvilket steg som feilet. Feilet testene, står de feilende testene med feilmelding i Issuen, og det samme vises som en feilmelding øverst i kjøringen på GitHub. Rapporten fra artikkelsteget vises under *Summary* i kjøringen.
+
+En kjøring der det ikke er noe å gjøre (ukegrensen er nådd, eller køen er tom), er **ikke** en feil. Den avslutter med «Ingenting å gjøre i denne kjøringen» og exit 0.
+
 ## Variabler (av/på og grenser)
 
 GitHub → *Settings → Secrets and variables → Actions → Variables*. Alle er valgfrie:

@@ -95,7 +95,20 @@ function workspace() {
   const s = JSON.parse(readFileSync(join(REPO, 'content', 'site.json'), 'utf8'));
   Object.assign(s, { maxArticlesPerLanguagePerWeek: 3, maxArticlesPerRun: 2, maxActiveLanguages: 2 });
   writeFileSync(join(dir, 'content', 'site.json'), JSON.stringify(s));
+  // The real sitemap.xml also lists the articles already published in the
+  // repo. The workspace has none of them, so keep only the static pages:
+  // otherwise the test depends on what the routine has published (this made
+  // the scheduled run of 2026-10-19 fail).
+  writeFileSync(join(dir, 'sitemap.xml'), staticSitemap(readFileSync(join(REPO, 'sitemap.xml'), 'utf8')));
   return dir;
+}
+
+const LANG_CODES = JSON.parse(readFileSync(join(REPO, 'content', 'languages.json'), 'utf8')).languages.map((l) => l.code);
+export function staticSitemap(xml) {
+  return xml.replace(/[ \t]*<url>[\s\S]*?<\/url>\n?/g, (block) => {
+    const path = (/<loc>https?:\/\/[^/<]+([^<]*)<\/loc>/.exec(block) || [])[1] || '/';
+    return LANG_CODES.some((c) => path === `/${c}/` || path.startsWith(`/${c}/`)) ? '' : block;
+  });
 }
 
 // Async: the fake API runs in this process and must keep answering.
@@ -245,4 +258,35 @@ test('a topic stopped 3 times is reported (for the issue); the cost limit stops 
   assert.equal(s2.created.length, 1);
   const stopped = JSON.parse(readFileSync(join(dir2, 'content', 'topics.json'), 'utf8')).topics.filter((x) => x.attempts);
   assert.equal(stopped.length, 0, 'the cost stop is not counted as an attempt');
+});
+
+test('the tests do not depend on what is already published in the repo (regression 2026-10-19)', async () => {
+  // A repo sitemap with published articles, like main after the first run.
+  const xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    + '  <url>\n    <loc>https://readycvapp.no/</loc>\n  </url>\n'
+    + '  <url>\n    <loc>https://readycvapp.no/no/</loc>\n  </url>\n'
+    + '  <url>\n    <loc>https://readycvapp.no/en/cv-x/</loc>\n  </url>\n'
+    + '  <url>\n    <loc>https://readycvapp.no/slett-konto.html</loc>\n  </url>\n</urlset>\n';
+  const out = staticSitemap(xml);
+  assert.match(out, /<loc>https:\/\/readycvapp\.no\/<\/loc>/);
+  assert.match(out, /slett-konto\.html/);
+  assert.doesNotMatch(out, /\/no\/|\/en\//);
+});
+
+test('nothing to do (weekly limit reached, or empty queue) ends calmly with exit 0', async () => {
+  const dir = workspace();
+  const t = JSON.parse(readFileSync(join(dir, 'content', 'topics.json'), 'utf8'));
+  const now = new Date().toISOString();
+  for (const l of ['no', 'en']) for (const x of t.topics.filter((y) => y.lang === l).slice(0, 3)) Object.assign(x, { status: 'published', drafted_at: now, published_at: now });
+  writeFileSync(join(dir, 'content', 'topics.json'), JSON.stringify(t));
+  const before = state.calls;
+  const out = await run(dir, 'generate.mjs', ['--summary', join(dir, 's.json')]); // rejects on a non-zero exit
+  assert.match(out, /Ingenting å gjøre i denne kjøringen/);
+  assert.match(out, /no: ukegrensen er nådd/);
+  assert.equal(state.calls, before, 'no API calls');
+  assert.match(await run(dir, 'publish-drafts.mjs', ['--auto']), /publisert: 0/);
+  // Empty queue.
+  for (const x of t.topics) Object.assign(x, { status: 'published', drafted_at: undefined, published_at: undefined });
+  writeFileSync(join(dir, 'content', 'topics.json'), JSON.stringify(t));
+  assert.match(await run(dir, 'generate.mjs', []), /ingen temaer i køen/);
 });
