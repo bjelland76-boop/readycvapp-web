@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://readycvapp.no/</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://readycvapp.no/privacy-policy.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://readycvapp.no/slett-konto.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://readycvapp.no/no/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/"/>
     <changefreq>monthly</changefreq>
@@ -59,6 +59,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://readycvapp.no/no/cv-generator/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://readycvapp.no/no/cv-mal/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://readycvapp.no/no/cv-uten-erfaring/</loc>
     <lastmod>2026-10-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/cv-norway-no-experience/"/>
@@ -79,6 +91,24 @@
     <lastmod>2026-10-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/job-interview-norway-questions/"/>
     <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/intervjusporsmal/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://readycvapp.no/no/intervjutrening/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://readycvapp.no/no/jobbsoknad-eksempel/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://readycvapp.no/no/soknadsbrev/</loc>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

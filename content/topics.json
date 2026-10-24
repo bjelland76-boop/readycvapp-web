@@ -547,18 +547,21 @@
       "group": "cv-structure",
       "lang": "no",
       "slug": "cv-mal",
-      "title": "CV-mal: slik bygger du opp en god CV",
+      "title": "Gratis CV-mal på norsk",
       "keyword": "cv mal",
       "purpose": "Gi en tydelig mal for oppbygging og rekkefølge i CV-en.",
       "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 7,
-      "status": "queued",
+      "status": "published",
       "translations": {
         "en": "norwegian-cv-format",
         "da": "cv-skabelon",
         "sv": "cv-mall",
         "vi": "mau-cv-xin-viec"
-      }
+      },
+      "drafted_at": "2026-10-24T08:00:00.000Z",
+      "published_at": "2026-10-24T08:00:00.000Z",
+      "url": "/no/cv-mal/"
     },
     {
       "group": "cv-structure",
@@ -3952,6 +3955,66 @@
       "priority": 46,
       "status": "queued",
       "translations": {}
+    },
+    {
+      "group": "application-examples",
+      "lang": "no",
+      "slug": "jobbsoknad-eksempel",
+      "title": "Jobbsøknad eksempel for ulike yrker",
+      "keyword": "jobbsøknad eksempel",
+      "purpose": "Vise ferdige eksempler på korte, konkrete jobbsøknader for vanlige yrker.",
+      "appAngle": "Written by hand as a keyword landing page.",
+      "priority": 47,
+      "status": "published",
+      "translations": {},
+      "drafted_at": "2026-10-24T08:00:00.000Z",
+      "published_at": "2026-10-24T08:00:00.000Z",
+      "url": "/no/jobbsoknad-eksempel/"
+    },
+    {
+      "group": "cover-letter-template",
+      "lang": "no",
+      "slug": "soknadsbrev",
+      "title": "Søknadsbrev: mal og oppbygging",
+      "keyword": "søknadsbrev",
+      "purpose": "Gi en tom mal for søknadsbrev og forklare hva hvert avsnitt skal inneholde.",
+      "appAngle": "Written by hand as a keyword landing page.",
+      "priority": 47,
+      "status": "published",
+      "translations": {},
+      "drafted_at": "2026-10-24T08:00:00.000Z",
+      "published_at": "2026-10-24T08:00:00.000Z",
+      "url": "/no/soknadsbrev/"
+    },
+    {
+      "group": "cv-generator",
+      "lang": "no",
+      "slug": "cv-generator",
+      "title": "CV-generator med AI",
+      "keyword": "cv generator",
+      "purpose": "Forklare hvordan en CV-generator med AI lager CV på norsk og tilpasset søknad, og hvordan den brukes ærlig.",
+      "appAngle": "Written by hand as a keyword landing page.",
+      "priority": 47,
+      "status": "published",
+      "translations": {},
+      "drafted_at": "2026-10-24T08:00:00.000Z",
+      "published_at": "2026-10-24T08:00:00.000Z",
+      "url": "/no/cv-generator/"
+    },
+    {
+      "group": "interview-practice",
+      "lang": "no",
+      "slug": "intervjutrening",
+      "title": "Intervjutrening",
+      "keyword": "intervjutrening",
+      "purpose": "Gi en øvingsplan for jobbintervju med spørsmål fra lette til krevende.",
+      "appAngle": "Written by hand as a keyword landing page.",
+      "priority": 47,
+      "status": "published",
+      "translations": {},
+      "drafted_at": "2026-10-24T08:00:00.000Z",
+      "published_at": "2026-10-24T08:00:00.000Z",
+      "url": "/no/intervjutrening/"
     }
   ]
 }

@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Personvernerklæring – ReadyCV</title>
+  <meta name="description" content="Slik behandler ReadyCV personopplysningene dine: hvilke data vi lagrer, hvilke leverandører vi bruker, hvor lenge vi lagrer og hvordan du sletter kontoen.">
+  <link rel="canonical" href="https://readycvapp.no/privacy-policy.html">
+  <link rel="icon" href="/favicon.ico" sizes="any">
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -119,6 +122,7 @@
 
     <p><strong>Render (drift og lagring)</strong> — ReadyCVs server og database driftes hos Render Services, Inc. i <strong>USA (datasenter i Oregon)</strong>. Her lagres kontoen din, profilen, CV-innholdet, opplastede dokumenter, jobbanalyser, genererte søknader og PDF-er. Les mer på <a href="https://render.com/privacy" target="_blank">render.com/privacy</a>.</p>
 
+    <p><strong>Cloudflare R2 (krypterte sikkerhetskopier)</strong> — hver natt tas det en kryptert sikkerhetskopi av databasen, som lagres hos Cloudflare, Inc. (Cloudflare R2). Sikkerhetskopiene inneholder de samme dataene som databasen hos Render, og brukes bare til å gjenopprette tjenesten etter feil eller datatap. De lagres i opptil ca. 10 uker (daglige kopier i 14 dager og ukentlige kopier i 8 uker) og slettes deretter automatisk. Les mer på <a href="https://www.cloudflare.com/privacypolicy/" target="_blank">cloudflare.com/privacypolicy</a>.</p>
     <p><strong>Anthropic Claude API</strong> — AI-modellen (Claude) som analyserer jobbsøknader, gir tilbakemelding og driver intervjutreningen. Følgende innhold sendes til Claude API hos Anthropic for å generere svar: <strong>CV-innholdet ditt</strong>, <strong>tekst fra jobbannonser</strong> du legger inn, og <strong>intervjusvarene</strong> dine. Anthropic holder til i USA og behandler disse dataene på våre vegne for å levere AI-analysen, og lagrer ikke innholdet for trening av egne modeller. Les mer på <a href="https://www.anthropic.com/privacy" target="_blank">anthropic.com/privacy</a>.</p>
 
     <p><strong>Betalingsbehandling:</strong> Vi bruker Stripe (stripe.com) for sikker betalingsbehandling. Ved kjøp deles betalingsinformasjon (kortnummer, navn, e-post) med Stripe. Vi lagrer ikke kortinformasjon selv. Stripes personvernerklæring finnes på <a href="https://stripe.com/privacy" target="_blank">stripe.com/privacy</a>.</p>
@@ -135,7 +139,7 @@
 
     <p id="analyse"><strong>Google Analytics og informasjonskapsler (kun nettsiden readycvapp.no)</strong> — hvis du godtar det i samtykkebanneret, bruker nettsiden Google Analytics 4 for å se hvordan den brukes: hvilke sider som besøkes, omtrent hvor lenge, hvilken nettleser og enhetstype, og omtrentlig land/region. Google Analytics setter da informasjonskapslene <code>_ga</code> og <code>_ga_6QXCPDB0BK</code>, som ligger i nettleseren din i opptil 2 år. Google Analytics lagrer ikke IP-adressen din. Statistikken er kun til eget bruk for å forbedre nettsiden, og brukes ikke til annonsering eller personlig tilpasset reklame. Leverandør er Google Ireland Limited; data kan bli overført til USA (se «Overføring til land utenfor EU/EØS» nedenfor). Selve statistikkdataene oppbevares i Google Analytics i inntil 14 måneder. <strong>Uten samtykke lastes ikke Google Analytics, og ingen informasjonskapsler settes.</strong> Du kan når som helst endre eller trekke tilbake samtykket via «Cookie-innstillinger» nederst på nettsiden – trekker du det tilbake, slettes informasjonskapslene. Selve ReadyCV-appen bruker ikke Google Analytics. Les mer på <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>.</p>
 
-    <p><strong>Overføring til land utenfor EU/EØS</strong> — Render, Anthropic, Stripe, Google, OpenAI, Microsoft og Resend er amerikanske selskaper, og data kan bli behandlet i USA. Overføring skjer på grunnlag av EUs standardavtaler (SCC) og/eller EU-US Data Privacy Framework, avhengig av leverandør.</p>
+    <p><strong>Overføring til land utenfor EU/EØS</strong> — Render, Cloudflare, Anthropic, Stripe, Google, OpenAI, Microsoft og Resend er amerikanske selskaper, og data kan bli behandlet i USA. Overføring skjer på grunnlag av EUs standardavtaler (SCC) og/eller EU-US Data Privacy Framework, avhengig av leverandør.</p>
 
     <div class="highlight">
       Ved å bruke AI-funksjonene i appen (f.eks. søknadsanalyse eller intervjutrening) samtykker du til at det aktuelle innholdet (CV, jobbannonsetekst og/eller intervjusvar) sendes til og behandles av Anthropic Claude API som beskrevet over.
@@ -150,7 +154,8 @@
       Dataene dine lagres så lenge kontoen din er aktiv. Når du sletter kontoen i appen,
       slettes profilen, CV-innholdet, opplastede dokumenter, jobbanalyser, genererte søknader
       og PDF-er umiddelbart. Kopier i sikkerhetskopier hos Render forsvinner i løpet av inntil
-      7 dager. Kvitteringer og kjøpsreferanser beholdes så lenge bokføringsloven krever det,
+      7 dager, og kopier i de krypterte sikkerhetskopiene hos Cloudflare R2 slettes automatisk innen
+      ca. 10 uker. Kvitteringer og kjøpsreferanser beholdes så lenge bokføringsloven krever det,
       uten CV-innhold. Les mer på <a href="/slett-konto.html">readycvapp.no/slett-konto.html</a>.
     </p>
 
@@ -184,7 +189,7 @@
 
     <h2>7. Sikkerhet</h2>
     <p>
-      Vi bruker kryptert kommunikasjon (HTTPS) for all dataoverføring. Innlogging skjer
+      Vi bruker kryptert kommunikasjon (HTTPS) for all dataoverføring, og sikkerhetskopiene av databasen lagres kryptert. Innlogging skjer
       via engangskoder på e-post eller Google — ingen passord lagres. Anonyme profiler kan bare
       åpnes med nøkkelen som ligger på enheten din. Tilgang til databasen er begrenset.
     </p>
