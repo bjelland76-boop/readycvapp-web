@@ -314,13 +314,16 @@
       "purpose": "Forklare hva en søknad skal inneholde, avsnitt for avsnitt.",
       "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 4,
-      "status": "queued",
+      "status": "published",
       "translations": {
         "no": "hva-skal-sta-i-en-soknad",
         "da": "hvad-skal-der-sta-i-en-ansogning",
         "sv": "vad-ska-ett-personligt-brev-innehalla",
         "vi": "thu-xin-viec-gom-nhung-gi"
-      }
+      },
+      "drafted_at": "2026-10-26T10:52:05.806Z",
+      "published_at": "2026-10-26T10:53:41.739Z",
+      "url": "/en/norwegian-cover-letter/"
     },
     {
       "group": "what-to-include-in-cover-letter",
@@ -399,13 +402,16 @@
       "purpose": "Lære leseren å tilpasse CV-en til hver stilling uten å pynte på sannheten.",
       "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 5,
-      "status": "queued",
+      "status": "published",
       "translations": {
         "no": "tilpasse-cv-til-stilling",
         "da": "malrettet-cv",
         "sv": "anpassa-cv-efter-jobbet",
         "vi": "dieu-chinh-cv-theo-cong-viec"
-      }
+      },
+      "drafted_at": "2026-10-26T10:53:41.091Z",
+      "published_at": "2026-10-26T10:53:41.772Z",
+      "url": "/en/tailor-cv-norwegian-job-ad/"
     },
     {
       "group": "tailor-cv-to-job",

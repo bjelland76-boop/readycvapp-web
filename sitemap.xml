@@ -28,7 +28,7 @@
   </url>
   <url>
     <loc>https://readycvapp.no/en/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/"/>
     <changefreq>monthly</changefreq>
@@ -55,6 +55,18 @@
     <lastmod>2026-10-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/job-interview-norway-questions/"/>
     <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/intervjusporsmal/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://readycvapp.no/en/norwegian-cover-letter/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://readycvapp.no/en/tailor-cv-norwegian-job-ad/</loc>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
