@@ -33,7 +33,7 @@ Du trenger ikke mye tid. Tre økter på tjue minutter de siste dagene før inter
 
 ### 1. Les annonsen og lag en liste med krav
 
-Skriv ned de tre til fem viktigste kravene i stillingsannonsen. Det er dem intervjueren vil sjekke. Les mer om [vanlige intervjuspørsmål og hvordan du svarer](/no/intervjusporsmal/).
+Skriv ned de tre til fem viktigste kravene i stillingsannonsen. Det er dem intervjueren vil sjekke. Se [25 vanlige intervjuspørsmål med eksempler på svar](/no/intervjusporsmal/), og bruk intervjumalen der til å forberede deg.
 
 ### 2. Finn ett eksempel per krav
 
