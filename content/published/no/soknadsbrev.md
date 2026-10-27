@@ -89,7 +89,7 @@ Si at du gjerne kommer på intervju, og hvordan du kan nås. Unngå «Jeg håper
 
 - «Til den det måtte angå.» Skriv heller «Hei».
 - «Jeg er en blid og positiv person som liker å jobbe både selvstendig og i team.» Den står i tusenvis av søknader.
-- «Jeg har ikke så mye erfaring, men…» Begynn med det du har, ikke det du mangler.
+- «Jeg har ikke så mye erfaring, men…» Begynn med det du har, ikke det du mangler. Les mer i [CV uten erfaring](/no/cv-uten-erfaring/).
 - «Som det fremgår av vedlagte CV…» Arbeidsgiveren vet at CV-en ligger ved.
 
 Se flere tabber og hvordan du retter dem i [vanlige feil i jobbsøknaden](/no/feil-i-jobbsoknad/).
