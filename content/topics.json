@@ -490,13 +490,16 @@
       "purpose": "Hjelpe dem som søker jobb etter sykdom, foreldrepermisjon, omsorg eller ledighet.",
       "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 6,
-      "status": "queued",
+      "status": "published",
       "translations": {
         "no": "soknad-etter-lang-pause",
         "da": "ansogning-efter-pause",
         "sv": "soka-jobb-efter-uppehall",
         "vi": "xin-viec-sau-thoi-gian-nghi"
-      }
+      },
+      "drafted_at": "2026-10-29T11:22:55.701Z",
+      "published_at": "2026-10-29T11:22:57.335Z",
+      "url": "/en/career-break-job-norway/"
     },
     {
       "group": "application-after-long-break",
