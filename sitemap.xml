@@ -20,7 +20,7 @@
   </url>
   <url>
     <loc>https://readycvapp.no/no/</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/"/>
     <changefreq>monthly</changefreq>
@@ -28,7 +28,7 @@
   </url>
   <url>
     <loc>https://readycvapp.no/en/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/"/>
     <changefreq>monthly</changefreq>
@@ -37,6 +37,12 @@
   <url>
     <loc>https://readycvapp.no/en/career-break-job-norway/</loc>
     <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://readycvapp.no/en/cv-gaps-norway/</loc>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -67,6 +73,8 @@
   <url>
     <loc>https://readycvapp.no/en/norwegian-cover-letter/</loc>
     <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/norwegian-cover-letter/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/hva-skal-sta-i-en-soknad/"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -101,6 +109,14 @@
     <lastmod>2026-10-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/job-application-norway-mistakes/"/>
     <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/feil-i-jobbsoknad/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://readycvapp.no/no/hva-skal-sta-i-en-soknad/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/norwegian-cover-letter/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/hva-skal-sta-i-en-soknad/"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

@@ -297,13 +297,16 @@
       "purpose": "Forklare hva en søknad skal inneholde, avsnitt for avsnitt.",
       "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 4,
-      "status": "queued",
+      "status": "published",
       "translations": {
         "en": "norwegian-cover-letter",
         "da": "hvad-skal-der-sta-i-en-ansogning",
         "sv": "vad-ska-ett-personligt-brev-innehalla",
         "vi": "thu-xin-viec-gom-nhung-gi"
-      }
+      },
+      "drafted_at": "2026-11-02T13:18:41.616Z",
+      "published_at": "2026-11-02T13:21:39.488Z",
+      "url": "/no/hva-skal-sta-i-en-soknad/"
     },
     {
       "group": "what-to-include-in-cover-letter",
@@ -587,7 +590,10 @@
         "da": "cv-skabelon",
         "sv": "cv-mall",
         "vi": "mau-cv-xin-viec"
-      }
+      },
+      "attempts": 1,
+      "last_error": "tall: tall med henvisning til studie/statistikk uten kilde: «2016–2019 | Bachelor's degree in Business Administration, Z University, Kenya Main subjects: accounting and marketing If you went to upper s»",
+      "last_attempt_at": "2026-11-02T13:20:09.844Z"
     },
     {
       "group": "cv-structure",
@@ -666,13 +672,16 @@
       "purpose": "Vise hvordan hull i CV-en kan forklares kort og ærlig.",
       "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 8,
-      "status": "queued",
+      "status": "published",
       "translations": {
         "no": "hull-i-cv",
         "da": "huller-i-cv",
         "sv": "luckor-i-cv",
         "vi": "khoang-trong-trong-cv"
-      }
+      },
+      "drafted_at": "2026-11-02T13:21:39.279Z",
+      "published_at": "2026-11-02T13:21:39.563Z",
+      "url": "/en/cv-gaps-norway/"
     },
     {
       "group": "gaps-in-cv",
@@ -3795,7 +3804,10 @@
       "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 4,
       "status": "queued",
-      "translations": {}
+      "translations": {},
+      "attempts": 1,
+      "last_error": "kontroll: språkfeil: «mens andre bare er lagt ut ett av stedene -> mens andre bare er lagt ut på ett av stedene»",
+      "last_attempt_at": "2026-11-02T13:16:34.745Z"
     },
     {
       "group": "finn-jobb",
