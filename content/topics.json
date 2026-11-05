@@ -388,13 +388,16 @@
       "purpose": "Lære leseren å tilpasse CV-en til hver stilling uten å pynte på sannheten.",
       "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 5,
-      "status": "queued",
+      "status": "published",
       "translations": {
         "en": "tailor-cv-norwegian-job-ad",
         "da": "malrettet-cv",
         "sv": "anpassa-cv-efter-jobbet",
         "vi": "dieu-chinh-cv-theo-cong-viec"
-      }
+      },
+      "drafted_at": "2026-11-05T13:01:37.829Z",
+      "published_at": "2026-11-05T13:04:03.548Z",
+      "url": "/no/tilpasse-cv-til-stilling/"
     },
     {
       "group": "tailor-cv-to-job",
@@ -591,9 +594,9 @@
         "sv": "cv-mall",
         "vi": "mau-cv-xin-viec"
       },
-      "attempts": 1,
-      "last_error": "tall: tall med henvisning til studie/statistikk uten kilde: «2016–2019 | Bachelor's degree in Business Administration, Z University, Kenya Main subjects: accounting and marketing If you went to upper s»",
-      "last_attempt_at": "2026-11-02T13:20:09.844Z"
+      "attempts": 2,
+      "last_error": "kontroll: språkfeil: «Trained three new colleagues in safety routines -> Trained three new colleagues in safety procedures»",
+      "last_attempt_at": "2026-11-05T13:03:10.720Z"
     },
     {
       "group": "cv-structure",
@@ -760,13 +763,16 @@
       "purpose": "Gi gode og ærlige svar på spørsmålet om styrker og svakheter.",
       "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 9,
-      "status": "queued",
+      "status": "published",
       "translations": {
         "no": "styrker-og-svakheter-intervju",
         "da": "styrker-og-svagheder-jobsamtale",
         "sv": "styrkor-och-svagheter-intervju",
         "vi": "diem-manh-diem-yeu-khi-phong-van"
-      }
+      },
+      "drafted_at": "2026-11-05T13:04:03.318Z",
+      "published_at": "2026-11-05T13:04:03.644Z",
+      "url": "/en/strengths-weaknesses-interview-norway/"
     },
     {
       "group": "strengths-and-weaknesses",
@@ -3805,9 +3811,9 @@
       "priority": 4,
       "status": "queued",
       "translations": {},
-      "attempts": 1,
-      "last_error": "kontroll: språkfeil: «mens andre bare er lagt ut ett av stedene -> mens andre bare er lagt ut på ett av stedene»",
-      "last_attempt_at": "2026-11-02T13:16:34.745Z"
+      "attempts": 2,
+      "last_error": "kontroll: påstand som ikke kan bekreftes: «Den vanligste feilen er å søke på ett ord og gi opp når det kommer få treff.»",
+      "last_attempt_at": "2026-11-05T13:00:12.696Z"
     },
     {
       "group": "finn-jobb",

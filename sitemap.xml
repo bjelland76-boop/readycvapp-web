@@ -20,7 +20,7 @@
   </url>
   <url>
     <loc>https://readycvapp.no/no/</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/"/>
     <changefreq>monthly</changefreq>
@@ -28,7 +28,7 @@
   </url>
   <url>
     <loc>https://readycvapp.no/en/</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/"/>
     <changefreq>monthly</changefreq>
@@ -79,8 +79,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://readycvapp.no/en/strengths-weaknesses-interview-norway/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://readycvapp.no/en/tailor-cv-norwegian-job-ad/</loc>
     <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/tailor-cv-norwegian-job-ad/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/tilpasse-cv-til-stilling/"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -143,6 +151,14 @@
   <url>
     <loc>https://readycvapp.no/no/soknadsbrev/</loc>
     <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://readycvapp.no/no/tilpasse-cv-til-stilling/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/tailor-cv-norwegian-job-ad/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/tilpasse-cv-til-stilling/"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
