@@ -20,7 +20,7 @@
   </url>
   <url>
     <loc>https://readycvapp.no/no/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/"/>
     <changefreq>monthly</changefreq>
@@ -28,7 +28,7 @@
   </url>
   <url>
     <loc>https://readycvapp.no/en/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/"/>
     <changefreq>monthly</changefreq>
@@ -37,6 +37,8 @@
   <url>
     <loc>https://readycvapp.no/en/career-break-job-norway/</loc>
     <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/career-break-job-norway/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/soknad-etter-lang-pause/"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -79,6 +81,14 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://readycvapp.no/en/norwegian-cv-format/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/norwegian-cv-format/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/cv-mal/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://readycvapp.no/en/strengths-weaknesses-interview-norway/</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
@@ -93,6 +103,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://readycvapp.no/en/tell-me-about-yourself-interview-norway/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://readycvapp.no/no/arbeidsplassen-no/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://readycvapp.no/no/cv-generator/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
@@ -101,6 +123,8 @@
   <url>
     <loc>https://readycvapp.no/no/cv-mal/</loc>
     <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/norwegian-cv-format/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/cv-mal/"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -145,6 +169,14 @@
   <url>
     <loc>https://readycvapp.no/no/jobbsoknad-eksempel/</loc>
     <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://readycvapp.no/no/soknad-etter-lang-pause/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/career-break-job-norway/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/soknad-etter-lang-pause/"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

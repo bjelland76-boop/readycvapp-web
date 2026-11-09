@@ -479,13 +479,16 @@
       "purpose": "Hjelpe dem som søker jobb etter sykdom, foreldrepermisjon, omsorg eller ledighet.",
       "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 6,
-      "status": "queued",
+      "status": "published",
       "translations": {
         "en": "career-break-job-norway",
         "da": "ansogning-efter-pause",
         "sv": "soka-jobb-efter-uppehall",
         "vi": "xin-viec-sau-thoi-gian-nghi"
-      }
+      },
+      "drafted_at": "2026-11-09T13:45:06.131Z",
+      "published_at": "2026-11-09T13:48:17.857Z",
+      "url": "/no/soknad-etter-lang-pause/"
     },
     {
       "group": "application-after-long-break",
@@ -587,7 +590,7 @@
       "purpose": "Gi en tydelig mal for oppbygging og rekkefølge i CV-en.",
       "appAngle": "Upload your existing CV to ReadyCV and get it analysed, then paste a job ad to see how well you fit.",
       "priority": 7,
-      "status": "queued",
+      "status": "published",
       "translations": {
         "no": "cv-mal",
         "da": "cv-skabelon",
@@ -595,8 +598,10 @@
         "vi": "mau-cv-xin-viec"
       },
       "attempts": 2,
-      "last_error": "kontroll: språkfeil: «Trained three new colleagues in safety routines -> Trained three new colleagues in safety procedures»",
-      "last_attempt_at": "2026-11-05T13:03:10.720Z"
+      "last_attempt_at": "2026-11-05T13:03:10.720Z",
+      "drafted_at": "2026-11-09T13:46:52.406Z",
+      "published_at": "2026-11-09T13:48:17.898Z",
+      "url": "/en/norwegian-cv-format/"
     },
     {
       "group": "cv-structure",
@@ -851,13 +856,16 @@
       "purpose": "Lage en enkel oppskrift på svaret på «fortell litt om deg selv».",
       "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 10,
-      "status": "queued",
+      "status": "published",
       "translations": {
         "no": "fortell-om-deg-selv-intervju",
         "da": "fortael-om-dig-selv-jobsamtale",
         "sv": "beratta-om-dig-sjalv-intervju",
         "vi": "gioi-thieu-ban-than-khi-phong-van"
-      }
+      },
+      "drafted_at": "2026-11-09T13:48:17.038Z",
+      "published_at": "2026-11-09T13:48:17.937Z",
+      "url": "/en/tell-me-about-yourself-interview-norway/"
     },
     {
       "group": "tell-me-about-yourself",
@@ -3809,11 +3817,13 @@
       "purpose": "Bruke arbeidsplassen.no og NAV-tjenestene i jobbsøket uten å påstå regler.",
       "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 4,
-      "status": "queued",
+      "status": "published",
       "translations": {},
       "attempts": 2,
-      "last_error": "kontroll: påstand som ikke kan bekreftes: «Den vanligste feilen er å søke på ett ord og gi opp når det kommer få treff.»",
-      "last_attempt_at": "2026-11-05T13:00:12.696Z"
+      "last_attempt_at": "2026-11-05T13:00:12.696Z",
+      "drafted_at": "2026-11-09T13:42:59.503Z",
+      "published_at": "2026-11-09T13:48:17.826Z",
+      "url": "/no/arbeidsplassen-no/"
     },
     {
       "group": "finn-jobb",
