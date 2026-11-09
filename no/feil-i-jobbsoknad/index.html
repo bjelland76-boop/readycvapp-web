@@ -74,16 +74,16 @@ footer a{color:var(--accent-dark);font-weight:600}
 <script>
 window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
 gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
-gtag('js',new Date());gtag('config','G-6QXCPDB0BK');
+gtag('js',new Date());gtag('config','G-6QXCPDB0BK');gtag('config','AW-18391123833');
 (function(){var KEY='readycv_cookie_consent',MAX=365*864e5;
 function read(){try{var c=JSON.parse(localStorage.getItem(KEY)||'null');if(c&&(c.v==='granted'||c.v==='denied')&&Date.now()-c.t<MAX)return c.v}catch(e){}return null}
 function save(v){try{localStorage.setItem(KEY,JSON.stringify({v:v,t:Date.now()}))}catch(e){}}
 function load(){if(window.__readycvGaLoaded)return;window.__readycvGaLoaded=true;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-6QXCPDB0BK';document.head.appendChild(s)}
-function del(){document.cookie.split(';').forEach(function(c){var n=c.split('=')[0].trim();if(n.indexOf('_ga')!==0)return;['','; domain='+location.hostname,'; domain=.'+location.hostname.replace(/^www\./,'')].forEach(function(d){document.cookie=n+'=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/'+d})})}
+function del(){document.cookie.split(';').forEach(function(c){var n=c.split('=')[0].trim();if(n.indexOf('_ga')!==0&&n.indexOf('_gcl')!==0)return;['','; domain='+location.hostname,'; domain=.'+location.hostname.replace(/^www\./,'')].forEach(function(d){document.cookie=n+'=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/'+d})})}
 function b(){return document.getElementById('cookie-banner')}
-window.readycvConsent={accept:function(){save('granted');gtag('consent','update',{analytics_storage:'granted'});load();b().hidden=true},
-reject:function(){save('denied');gtag('consent','update',{analytics_storage:'denied'});del();b().hidden=true},open:function(){b().hidden=false}};
-var c=read();if(c==='granted'){gtag('consent','update',{analytics_storage:'granted'});load()}else{del();if(c===null)document.addEventListener('DOMContentLoaded',window.readycvConsent.open)}})();
+window.readycvConsent={accept:function(){save('granted');gtag('consent','update',{analytics_storage:'granted',ad_storage:'granted',ad_user_data:'granted'});load();b().hidden=true},
+reject:function(){save('denied');gtag('consent','update',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied'});del();b().hidden=true},open:function(){b().hidden=false}};
+var c=read();if(c==='granted'){gtag('consent','update',{analytics_storage:'granted',ad_storage:'granted',ad_user_data:'granted'});load()}else{del();if(c===null)document.addEventListener('DOMContentLoaded',window.readycvConsent.open)}})();
 </script>
 </head>
 <body>
@@ -167,7 +167,7 @@ gtag('event','article_cta_click',{article_slug:"feil-i-jobbsoknad",article_lang:
   </div>
 </footer>
 <div id="cookie-banner" class="cookie-banner" role="dialog" aria-live="polite" aria-label="Samtykke til informasjonskapsler" hidden>
-  <p>Vi vil gjerne bruke Google Analytics-informasjonskapsler for å se hvordan nettsiden brukes. Ingenting lagres eller sendes før du godtar. <a href="/privacy-policy.html#analyse">Les mer</a>.</p>
+  <p>Vi vil gjerne bruke informasjonskapsler fra Google Analytics og Google Ads for å se hvordan nettsiden brukes og måle effekten av annonsene våre. Ingenting lagres eller sendes før du godtar. <a href="/privacy-policy.html#analyse">Les mer</a>.</p>
   <div class="cookie-actions">
     <button type="button" class="cookie-btn" onclick="readycvConsent.reject()">Avvis</button>
     <button type="button" class="cookie-btn" onclick="readycvConsent.accept()">Godta</button>

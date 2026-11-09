@@ -595,9 +595,10 @@
   }
 </style>
 <script>
-  // Google Analytics with Consent Mode ("basic"): everything defaults to
-  // denied, and gtag.js is only loaded after the visitor accepts in the
-  // banner -- no cookies are set and nothing is sent to Google before that.
+  // Google Analytics + Google Ads tag (AW-18391123833) with Consent Mode
+  // ("basic"): everything defaults to denied, and gtag.js is only loaded after
+  // the visitor accepts in the banner -- no cookies are set and nothing is
+  // sent to Google before that.
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('consent', 'default', {
@@ -608,6 +609,7 @@
   });
   gtag('js', new Date());
   gtag('config', 'G-6QXCPDB0BK');
+  gtag('config', 'AW-18391123833');
 
   (function () {
     var KEY = 'readycv_cookie_consent';
@@ -634,7 +636,7 @@
     function deleteGaCookies() {
       document.cookie.split(';').forEach(function (c) {
         var name = c.split('=')[0].trim();
-        if (name.indexOf('_ga') !== 0) return;
+        if (name.indexOf('_ga') !== 0 && name.indexOf('_gcl') !== 0) return;
         ['', '; domain=' + location.hostname, '; domain=.' + location.hostname.replace(/^www\./, '')].forEach(function (d) {
           document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/' + d;
         });
@@ -646,13 +648,13 @@
     window.readycvConsent = {
       accept: function () {
         saveChoice('granted');
-        gtag('consent', 'update', { analytics_storage: 'granted' });
+        gtag('consent', 'update', { analytics_storage: 'granted', ad_storage: 'granted', ad_user_data: 'granted' });
         loadGa();
         hideBanner();
       },
       reject: function () {
         saveChoice('denied');
-        gtag('consent', 'update', { analytics_storage: 'denied' });
+        gtag('consent', 'update', { analytics_storage: 'denied', ad_storage: 'denied', ad_user_data: 'denied' });
         deleteGaCookies();
         hideBanner();
       },
@@ -661,7 +663,7 @@
 
     var choice = readChoice();
     if (choice === 'granted') {
-      gtag('consent', 'update', { analytics_storage: 'granted' });
+      gtag('consent', 'update', { analytics_storage: 'granted', ad_storage: 'granted', ad_user_data: 'granted' });
       loadGa();
     } else {
       // No (valid) consent: remove any _ga cookies left over from before the
@@ -855,7 +857,7 @@
 </footer>
 
 <div id="cookie-banner" class="cookie-banner" role="dialog" aria-live="polite" aria-label="Samtykke til informasjonskapsler" hidden>
-  <p>Vi vil gjerne bruke Google Analytics-informasjonskapsler for å se hvordan nettsiden brukes. Ingenting lagres eller sendes før du godtar. <a href="/privacy-policy.html#analyse">Les mer</a>.</p>
+  <p>Vi vil gjerne bruke informasjonskapsler fra Google Analytics og Google Ads for å se hvordan nettsiden brukes og måle effekten av annonsene våre. Ingenting lagres eller sendes før du godtar. <a href="/privacy-policy.html#analyse">Les mer</a>.</p>
   <div class="cookie-actions">
     <button type="button" class="cookie-btn" onclick="readycvConsent.reject()">Avvis</button>
     <button type="button" class="cookie-btn" onclick="readycvConsent.accept()">Godta</button>
