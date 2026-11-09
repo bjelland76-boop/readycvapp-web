@@ -84,6 +84,10 @@ function b(){return document.getElementById('cookie-banner')}
 window.readycvConsent={accept:function(){save('granted');gtag('consent','update',{analytics_storage:'granted',ad_storage:'granted',ad_user_data:'granted'});load();b().hidden=true},
 reject:function(){save('denied');gtag('consent','update',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied'});del();b().hidden=true},open:function(){b().hidden=false}};
 var c=read();if(c==='granted'){gtag('consent','update',{analytics_storage:'granted',ad_storage:'granted',ad_user_data:'granted'});load()}else{del();if(c===null)document.addEventListener('DOMContentLoaded',window.readycvConsent.open)}})();
+function gtag_report_conversion(url){var done=false,cb=function(){if(done)return;done=true;if(typeof url!='undefined')window.location=url};
+gtag('event','conversion',{send_to:'AW-18391123833/kjsRCIH5r7QdEPmOycFE',value:1.0,currency:'NOK',transport_type:'beacon',event_callback:cb});setTimeout(cb,1000);return false}
+document.addEventListener('click',function(ev){var a=ev.target.closest&&ev.target.closest('a[href]');if(!a)return;var h=a.href||'';
+if(h.indexOf('app.aerlig.no')!==-1||h.indexOf('play.google.com/store/apps/details?id=com.aerlig.app')!==-1)gtag_report_conversion()});
 </script>
 </head>
 <body>

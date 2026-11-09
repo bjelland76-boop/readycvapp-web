@@ -61,9 +61,17 @@ footer a{color:var(--accent-dark);font-weight:600}
 // Same consent logic as index.html (Google Consent Mode, GA and the Google
 // Ads tag only after "accept"; the choice is shared with the landing page via
 // localStorage).
-function consentScript(gaId, adsId) {
+function consentScript(gaId, adsId, adsClickLabel, appHost) {
   if (!gaId) return '';
   const adsConfig = adsId ? `gtag('config','${adsId}');` : '';
+  // Google Ads conversion "Sidevisning" (label from site.json), sent when a
+  // visitor clicks a link to the web app or Google Play. Only reaches Google
+  // after consent, since gtag.js is not loaded before that.
+  const adsConversion = adsId && adsClickLabel ? `
+function gtag_report_conversion(url){var done=false,cb=function(){if(done)return;done=true;if(typeof url!='undefined')window.location=url};
+gtag('event','conversion',{send_to:'${adsId}/${adsClickLabel}',value:1.0,currency:'NOK',transport_type:'beacon',event_callback:cb});setTimeout(cb,1000);return false}
+document.addEventListener('click',function(ev){var a=ev.target.closest&&ev.target.closest('a[href]');if(!a)return;var h=a.href||'';
+if(h.indexOf('${appHost}')!==-1||h.indexOf('play.google.com/store/apps/details?id=com.aerlig.app')!==-1)gtag_report_conversion()});` : '';
   return `<script>
 window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
 gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
@@ -76,7 +84,7 @@ function del(){document.cookie.split(';').forEach(function(c){var n=c.split('=')
 function b(){return document.getElementById('cookie-banner')}
 window.readycvConsent={accept:function(){save('granted');gtag('consent','update',{analytics_storage:'granted',ad_storage:'granted',ad_user_data:'granted'});load();b().hidden=true},
 reject:function(){save('denied');gtag('consent','update',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied'});del();b().hidden=true},open:function(){b().hidden=false}};
-var c=read();if(c==='granted'){gtag('consent','update',{analytics_storage:'granted',ad_storage:'granted',ad_user_data:'granted'});load()}else{del();if(c===null)document.addEventListener('DOMContentLoaded',window.readycvConsent.open)}})();
+var c=read();if(c==='granted'){gtag('consent','update',{analytics_storage:'granted',ad_storage:'granted',ad_user_data:'granted'});load()}else{del();if(c===null)document.addEventListener('DOMContentLoaded',window.readycvConsent.open)}})();${adsConversion}
 </script>`;
 }
 
@@ -119,7 +127,7 @@ ${hreflangTags(self, alternates, site)}
 <meta name="twitter:card" content="summary_large_image">
 ${jsonLd.map((j) => `<script type="application/ld+json">${JSON.stringify(j).replace(/</g, '\\u003c')}</script>`).join('\n')}
 <style>${CSS}</style>
-${consentScript(site.gaMeasurementId, site.googleAdsId)}
+${consentScript(site.gaMeasurementId, site.googleAdsId, site.googleAdsClickLabel, new URL(site.appUrl).host)}
 </head>`;
 }
 
