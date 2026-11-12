@@ -944,13 +944,16 @@
       "purpose": "Gi leseren gode spørsmål å stille arbeidsgiver i intervjuet.",
       "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 11,
-      "status": "queued",
+      "status": "published",
       "translations": {
         "no": "sporsmal-til-arbeidsgiver-intervju",
         "da": "sporgsmal-til-arbejdsgiver",
         "sv": "fragor-att-stalla-pa-intervju",
         "vi": "cau-hoi-cho-nha-tuyen-dung"
-      }
+      },
+      "drafted_at": "2026-11-12T13:39:41.813Z",
+      "published_at": "2026-11-12T13:39:42.052Z",
+      "url": "/en/questions-to-ask-employer-norway/"
     },
     {
       "group": "questions-to-ask-employer",
@@ -3835,7 +3838,10 @@
       "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 7,
       "status": "queued",
-      "translations": {}
+      "translations": {},
+      "attempts": 1,
+      "last_error": "kontroll: språkfeil: «Les mer om dette i [hvordan du tilpasser CV-en til stillingen] -> Les mer om [hvordan du tilpasser CV-en til stillingen]»",
+      "last_attempt_at": "2026-11-12T13:38:16.992Z"
     },
     {
       "group": "norwegian-application-style",
