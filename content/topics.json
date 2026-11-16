@@ -3839,9 +3839,9 @@
       "priority": 7,
       "status": "queued",
       "translations": {},
-      "attempts": 1,
-      "last_error": "kontroll: språkfeil: «Les mer om dette i [hvordan du tilpasser CV-en til stillingen] -> Les mer om [hvordan du tilpasser CV-en til stillingen]»",
-      "last_attempt_at": "2026-11-12T13:38:16.992Z"
+      "attempts": 2,
+      "last_error": "kontroll: språkfeil: «Står det samme fremgangsmåte i begge annonsene, er det samme søknad. -> Står det den samme fremgangsmåten i begge annonsene, havner søknaden samme sted.» | kontroll: språkfeil: «Sjekk også at CV-en du sender er oppdatert -> Sjekk også at CV-en du sender, er oppdatert» | kontroll: motsigelse i rådene: «Tjenesten omtales vekselvis som «Finn jobb» og «FINN». Navnet bør skrives likt gjennom hele artikkelen (FINN jobb).»",
+      "last_attempt_at": "2026-11-16T13:27:42.984Z"
     },
     {
       "group": "norwegian-application-style",
