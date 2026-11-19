@@ -663,13 +663,16 @@
       "purpose": "Vise hvordan hull i CV-en kan forklares kort og ærlig.",
       "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 8,
-      "status": "queued",
+      "status": "published",
       "translations": {
         "en": "cv-gaps-norway",
         "da": "huller-i-cv",
         "sv": "luckor-i-cv",
         "vi": "khoang-trong-trong-cv"
-      }
+      },
+      "drafted_at": "2026-11-19T14:15:52.832Z",
+      "published_at": "2026-11-19T14:18:25.280Z",
+      "url": "/no/hull-i-cv/"
     },
     {
       "group": "gaps-in-cv",
@@ -1032,13 +1035,16 @@
       "purpose": "Lære leseren å tolke en stillingsannonse: krav, ønsker og det som står mellom linjene.",
       "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 12,
-      "status": "queued",
+      "status": "published",
       "translations": {
         "no": "stillingsannonse-krav",
         "da": "jobopslag-krav",
         "sv": "platsannons-krav",
         "vi": "doc-tin-tuyen-dung"
-      }
+      },
+      "drafted_at": "2026-11-19T14:16:54.457Z",
+      "published_at": "2026-11-19T14:18:25.533Z",
+      "url": "/en/norwegian-job-ad/"
     },
     {
       "group": "read-job-ad",
@@ -1123,7 +1129,10 @@
         "da": "soge-job-uden-alle-kvalifikationer",
         "sv": "soka-jobb-utan-alla-krav",
         "vi": "ung-tuyen-khi-chua-du-yeu-cau"
-      }
+      },
+      "attempts": 1,
+      "last_error": "kontroll: språkfeil: «experience from warehouse work -> experience in warehouse work»",
+      "last_attempt_at": "2026-11-19T14:18:24.781Z"
     },
     {
       "group": "apply-without-all-requirements",
@@ -3837,11 +3846,13 @@
       "purpose": "Søke smart på FINN jobb: søk, varsler, og hurtigsøknader.",
       "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 7,
-      "status": "queued",
+      "status": "published",
       "translations": {},
       "attempts": 2,
-      "last_error": "kontroll: språkfeil: «Står det samme fremgangsmåte i begge annonsene, er det samme søknad. -> Står det den samme fremgangsmåten i begge annonsene, havner søknaden samme sted.» | kontroll: språkfeil: «Sjekk også at CV-en du sender er oppdatert -> Sjekk også at CV-en du sender, er oppdatert» | kontroll: motsigelse i rådene: «Tjenesten omtales vekselvis som «Finn jobb» og «FINN». Navnet bør skrives likt gjennom hele artikkelen (FINN jobb).»",
-      "last_attempt_at": "2026-11-16T13:27:42.984Z"
+      "last_attempt_at": "2026-11-16T13:27:42.984Z",
+      "drafted_at": "2026-11-19T14:14:03.694Z",
+      "published_at": "2026-11-19T14:18:25.236Z",
+      "url": "/no/finn-jobb/"
     },
     {
       "group": "norwegian-application-style",
