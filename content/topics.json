@@ -754,13 +754,16 @@
       "purpose": "Gi gode og ærlige svar på spørsmålet om styrker og svakheter.",
       "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 9,
-      "status": "queued",
+      "status": "published",
       "translations": {
         "en": "strengths-weaknesses-interview-norway",
         "da": "styrker-og-svagheder-jobsamtale",
         "sv": "styrkor-och-svagheter-intervju",
         "vi": "diem-manh-diem-yeu-khi-phong-van"
-      }
+      },
+      "drafted_at": "2026-11-23T15:47:23.182Z",
+      "published_at": "2026-11-23T15:50:42.012Z",
+      "url": "/no/styrker-og-svakheter-intervju/"
     },
     {
       "group": "strengths-and-weaknesses",
@@ -1123,7 +1126,7 @@
       "purpose": "Hjelpe leseren å vurdere om de skal søke når de ikke oppfyller alle krav.",
       "appAngle": "Paste the job ad into ReadyCV for an honest assessment of how well you fit.",
       "priority": 13,
-      "status": "queued",
+      "status": "published",
       "translations": {
         "no": "soke-jobb-uten-alle-kvalifikasjoner",
         "da": "soge-job-uden-alle-kvalifikationer",
@@ -1131,8 +1134,10 @@
         "vi": "ung-tuyen-khi-chua-du-yeu-cau"
       },
       "attempts": 1,
-      "last_error": "kontroll: språkfeil: «experience from warehouse work -> experience in warehouse work»",
-      "last_attempt_at": "2026-11-19T14:18:24.781Z"
+      "last_attempt_at": "2026-11-19T14:18:24.781Z",
+      "drafted_at": "2026-11-23T15:49:06.042Z",
+      "published_at": "2026-11-23T15:50:42.132Z",
+      "url": "/en/apply-job-norway-requirements/"
     },
     {
       "group": "apply-without-all-requirements",
@@ -1217,7 +1222,10 @@
         "da": "referencer-cv",
         "sv": "referenser-cv",
         "vi": "nguoi-tham-chieu-trong-cv"
-      }
+      },
+      "attempts": 1,
+      "last_error": "kontroll: språkfeil: «Listed from most to least useful, that is often: -> In rough order of usefulness, good references are often:»",
+      "last_attempt_at": "2026-11-23T15:50:41.800Z"
     },
     {
       "group": "references",

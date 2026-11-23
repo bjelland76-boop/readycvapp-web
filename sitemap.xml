@@ -20,7 +20,7 @@
   </url>
   <url>
     <loc>https://readycvapp.no/no/</loc>
-    <lastmod>2026-11-19</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/"/>
     <changefreq>monthly</changefreq>
@@ -28,11 +28,17 @@
   </url>
   <url>
     <loc>https://readycvapp.no/en/</loc>
-    <lastmod>2026-11-19</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://readycvapp.no/en/apply-job-norway-requirements/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://readycvapp.no/en/career-break-job-norway/</loc>
@@ -105,6 +111,8 @@
   <url>
     <loc>https://readycvapp.no/en/strengths-weaknesses-interview-norway/</loc>
     <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/strengths-weaknesses-interview-norway/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/styrker-og-svakheter-intervju/"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -211,6 +219,14 @@
   <url>
     <loc>https://readycvapp.no/no/soknadsbrev/</loc>
     <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://readycvapp.no/no/styrker-og-svakheter-intervju/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://readycvapp.no/en/strengths-weaknesses-interview-norway/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://readycvapp.no/no/styrker-og-svakheter-intervju/"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
