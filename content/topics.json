@@ -851,7 +851,10 @@
         "da": "fortael-om-dig-selv-jobsamtale",
         "sv": "beratta-om-dig-sjalv-intervju",
         "vi": "gioi-thieu-ban-than-khi-phong-van"
-      }
+      },
+      "attempts": 1,
+      "last_error": "kontroll: språkfeil: «Hvor du vokste opp og hva du gjorde på ungdomsskolen er sjelden relevant -> Hvor du vokste opp og hva du gjorde på ungdomsskolen, er sjelden relevant» | kontroll: språkfeil: «Familie, helse og andre personlige forhold er opp til deg om du vil ta opp, og som regel hører det ikke hjemme her -> Om du vil ta opp familie, helse og andre p»",
+      "last_attempt_at": "2026-11-26T14:51:14.629Z"
     },
     {
       "group": "tell-me-about-yourself",
@@ -1223,9 +1226,9 @@
         "sv": "referenser-cv",
         "vi": "nguoi-tham-chieu-trong-cv"
       },
-      "attempts": 1,
-      "last_error": "kontroll: språkfeil: «Listed from most to least useful, that is often: -> In rough order of usefulness, good references are often:»",
-      "last_attempt_at": "2026-11-23T15:50:41.800Z"
+      "attempts": 2,
+      "last_error": "lenker: lenken svarer ikke (ENOTFOUND): https://app.aerlig.no/?utm_source=readycvapp&utm_medium=artikkel&utm_campaign=references-norwegian-cv",
+      "last_attempt_at": "2026-11-26T14:54:43.823Z"
     },
     {
       "group": "references",
@@ -1310,7 +1313,10 @@
         "da": "uopfordret-ansogning",
         "sv": "spontanansokan",
         "vi": "thu-xin-viec-tu-ung-tuyen"
-      }
+      },
+      "attempts": 1,
+      "last_error": "lenker: lenken svarer ikke (ENOTFOUND): https://app.aerlig.no/?utm_source=readycvapp&utm_medium=artikkel&utm_campaign=open-application-norway",
+      "last_attempt_at": "2026-11-26T14:56:22.419Z"
     },
     {
       "group": "unsolicited-application",
@@ -3872,7 +3878,10 @@
       "appAngle": "Paste the job ad into ReadyCV and get a CV and application tailored to that job.",
       "priority": 10,
       "status": "queued",
-      "translations": {}
+      "translations": {},
+      "attempts": 1,
+      "last_error": "lenker: lenken svarer ikke (ENOTFOUND): https://app.aerlig.no/?utm_source=readycvapp&utm_medium=artikkel&utm_campaign=hvordan-skrive-soknad",
+      "last_attempt_at": "2026-11-26T14:53:10.099Z"
     },
     {
       "group": "jobindex",
